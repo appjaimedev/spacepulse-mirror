@@ -1,43 +1,33 @@
-# SpacePulse data mirror
+# SpacePulse — data cache
 
-Static JSON mirror of [The Space Devs Launch Library 2](https://thespacedevs.com)
-for the **SpacePulse: Mission Control** app, served over the GitHub Pages CDN.
+A small, **respectful** read-only cache of selected public spaceflight data,
+served as static JSON over GitHub Pages.
 
-## Why
+## Purpose
 
-The LL2 public API allows **15 requests/hour per IP** anonymously. Instead of
-every app user hitting LL2 directly, a scheduled GitHub Action pulls the data a
-few times a day (within that budget) and writes static JSON here. The app reads
-those files from the CDN — effectively **unlimited reads for users**, with the
-15 req/h spent only by this one cron.
+This cache exists to be a **good API citizen**. Rather than have many app
+clients each call the upstream public APIs, a single scheduled job fetches the
+data a few times a day — **well within the public rate limits** — and stores it
+as static files. End users then read from this CDN. The result is **less load on
+the upstream services**, not more.
 
-This repo contains **no app source code** — only the data generator and the
-mirrored public data.
+Nothing here is private or proprietary: it mirrors already-public data, with
+full attribution below.
 
-## Endpoints
+## Update cadence
 
-Base: `https://appjaimedev.github.io/spacepulse-mirror/api/`
+Deliberately light. Historical data is immutable, so it is fetched **once** and
+never re-requested; only the present (upcoming items and the current period) is
+refreshed, on a conservative schedule. A request token can be configured to use
+the higher authenticated quota, but is not required.
 
-| File | Contents |
-|------|----------|
-| `upcoming.json` | Next launches (detailed) |
-| `historical/<decade>s.json` | Past launches per decade (1950s → now) |
-| `astronauts.json` | People currently in space |
-| `events.json` | Upcoming space events (EVAs, dockings…) |
-| `mars-photos.json` | Latest Mars rover photo URLs |
-| `index.json` | Manifest (counts, generation time) |
+## Attribution & thanks
 
-## Build modes
+- Launch, agency, astronaut and event data: **[The Space Devs](https://thespacedevs.com)**
+  — Launch Library 2. Huge thanks for the fantastic open API. Please consider
+  [supporting them on Patreon](https://www.patreon.com/TheSpaceDevs).
+- Planetary imagery: **NASA** open APIs.
 
-```bash
-npm run upcoming   # only upcoming.json (cheap, frequent)
-npm run backfill   # builds the oldest missing decade (one per run)
-npm run build      # current decade + astronauts + events + Mars
-npm run full       # all decades at once (needs LL2_TOKEN to be quick)
-```
-
-The Action runs `upcoming` every 20 min, `backfill` hourly (until 1957→now is
-complete), and the full `build` daily. Set an optional `LL2_TOKEN` repo secret
-to raise the cron to 1000 req/h.
-
-Data © The Space Devs, NASA. Mirrored for performance.
+All data remains © its respective providers and is cached here solely for
+performance and offline resilience in a hobby app. If you maintain one of these
+services and have any concern, please open an issue and we'll adjust immediately.

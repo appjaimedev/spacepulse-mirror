@@ -1,19 +1,21 @@
 name: LL2 Mirror Sync
 
-# Presupuesto: tramo ANÓNIMO de The Space Devs (15 req/h por IP, sin token).
-#   - cada 20 min  → --upcoming  (solo upcoming.json, 1 req) ≈ 3 req/h
-#   - cada hora    → --backfill  (1 década histórica que falte; no-op al acabar)
-#   - diario 03:00 → default     (década actual + astronautas + eventos + Mars)
-#   - manual       → cualquiera de los modos (incl. --full si algún día hay token)
+# Cadencia conservadora dentro del tramo anónimo (15 req/h por IP). El pasado es
+# inmutable: una vez espejado, NO se vuelve a pedir (el backfill solo construye
+# décadas que falten y es no-op al acabar; el refresco diario solo toca la década
+# actual). Así nos centramos en el presente sin abusar de la API.
+#   - cada 30 min   → --upcoming  (solo upcoming.json, 1 req) ≈ 2 req/h
+#   - cada 2 horas  → --backfill  (1 década que falte; no-op cuando ya están todas)
+#   - diario 04:00  → default     (SOLO década actual + astronautas + eventos + Mars)
+#   - manual        → cualquiera de los modos
 #
-# Un LL2_TOKEN (opcional, secreto del repo) sube a 1000 req/h y acelera todo;
-# sin él funciona igual, solo más lento.
+# Un LL2_TOKEN (opcional, secreto del repo) sube a 1000 req/h; sin él va igual.
 
 on:
   schedule:
-    - cron: '*/20 * * * *'   # frecuente: upcoming
-    - cron: '0 * * * *'      # horario: backfill de una década
-    - cron: '0 3 * * *'      # diario: década actual + astronautas + eventos + Mars
+    - cron: '*/30 * * * *'   # frecuente: upcoming
+    - cron: '0 */2 * * *'    # cada 2 h: backfill de una década (hasta completar)
+    - cron: '0 4 * * *'      # diario: SOLO década actual + astronautas + eventos + Mars
   workflow_dispatch:
     inputs:
       mode:
@@ -52,9 +54,9 @@ jobs:
               backfill) node scripts/build-mirror.js --backfill ;;
               full)     node scripts/build-mirror.js --full ;;
             esac
-          elif [ "${{ github.event.schedule }}" = "0 3 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "0 4 * * *" ]; then
             node scripts/build-mirror.js
-          elif [ "${{ github.event.schedule }}" = "0 * * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "0 */2 * * *" ]; then
             node scripts/build-mirror.js --backfill
           else
             node scripts/build-mirror.js --upcoming
