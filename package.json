@@ -1,0 +1,13 @@
+{
+  "name": "spacepulse-mirror",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static mirror of The Space Devs Launch Library 2 for the SpacePulse app (served via GitHub Pages CDN).",
+  "scripts": {
+    "build": "node scripts/build-mirror.js",
+    "upcoming": "node scripts/build-mirror.js --upcoming",
+    "backfill": "node scripts/build-mirror.js --backfill",
+    "full": "node scripts/build-mirror.js --full"
+  },
+  "license": "MIT"
+}

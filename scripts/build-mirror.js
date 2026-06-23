@@ -1,0 +1,366 @@
+#!/usr/bin/env node
+
+/**
+ * scripts/build-mirror.js
+ *
+ * Mirrors LL2 (Launch Library 2.3.0) data into static JSON files under docs/api/
+ * for GitHub Pages. The app reads from this CDN instead of hitting LL2 directly,
+ * so the 15 req/h anonymous limit is shared by only this cron (not per-user).
+ *
+ * Usage:
+ *   node scripts/build-mirror.js              # default: current decade + upcoming + astronauts
+ *   node scripts/build-mirror.js --full       # one-time: all decades 1950s→now (needs LL2_TOKEN)
+ *   LL2_TOKEN=xxx node scripts/build-mirror.js --full
+ *
+ * Output: docs/api/{upcoming.json, historical/<decade>.json, astronauts.json, index.json}
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const API_BASE = process.env.LL2_BASE || 'https://ll.thespacedevs.com/2.3.0';
+const TOKEN = process.env.LL2_TOKEN;
+const THROTTLE_MS = 2000;
+const MAX_RETRIES = 3;
+const OUT_DIR = path.join(__dirname, '..', 'docs', 'api');
+const HIST_DIR = path.join(OUT_DIR, 'historical');
+
+const CURRENT_YEAR = new Date().getFullYear();
+const CURRENT_DECADE = Math.floor(CURRENT_YEAR / 10) * 10;
+const ALL_DECADES = [];
+for (let d = CURRENT_DECADE; d >= 1950; d -= 10) ALL_DECADES.push(d);
+
+const args = process.argv.slice(2);
+const FULL_MODE = args.includes('--full');
+const LIGHT_MODE = args.includes('--upcoming'); // solo upcoming.json (cron frecuente, 1 req)
+const BACKFILL_MODE = args.includes('--backfill'); // 1 década inmutable que falte (anónimo 15/h, sin token)
+
+function headers() {
+  const h = { 'User-Agent': 'SpacePulse/1.0 (Mission Control · mirror-build)' };
+  if (TOKEN) h.Authorization = `Token ${TOKEN}`;
+  return h;
+}
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+async function fetchJson(url) {
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const resp = await fetch(url, { headers: headers() });
+      if (resp.status === 429) {
+        const retry = resp.headers.get('Retry-After');
+        const wait = retry ? parseInt(retry, 10) * 1000 : 60000;
+        console.warn(`  429 rate-limited, waiting ${Math.round(wait / 1000)}s…`);
+        await sleep(wait);
+        continue;
+      }
+      if (!resp.ok) throw new Error(`HTTP ${resp.status} ${resp.statusText}`);
+      return await resp.json();
+    } catch (err) {
+      if (attempt < MAX_RETRIES) {
+        console.warn(`  attempt ${attempt} failed: ${err.message}, retrying…`);
+        await sleep(THROTTLE_MS * attempt);
+      } else {
+        throw err;
+      }
+    }
+  }
+}
+
+function trimUpcoming(launch) {
+  return {
+    id: launch.id,
+    name: launch.name,
+    net: launch.net,
+    status: launch.status ? { id: launch.status.id, name: launch.status.name, abbrev: launch.status.abbrev } : null,
+    launch_service_provider: launch.launch_service_provider ? {
+      id: launch.launch_service_provider.id,
+      name: launch.launch_service_provider.name,
+      abbrev: launch.launch_service_provider.abbrev,
+      country: launch.launch_service_provider.country || null,
+    } : null,
+    rocket: launch.rocket ? {
+      configuration: {
+        name: launch.rocket.configuration?.name,
+        full_name: launch.rocket.configuration?.full_name,
+        reusable: launch.rocket.configuration?.reusable ?? null,
+      },
+    } : null,
+    mission: launch.mission ? {
+      name: launch.mission.name,
+      type: launch.mission.type,
+      orbit: launch.mission.orbit ? { abbrev: launch.mission.orbit.abbrev, name: launch.mission.orbit.name } : null,
+    } : null,
+    pad: launch.pad ? {
+      name: launch.pad.name,
+      latitude: launch.pad.latitude ?? null,
+      longitude: launch.pad.longitude ?? null,
+      location: launch.pad.location ? { name: launch.pad.location.name, country: launch.pad.location.country || null } : null,
+    } : null,
+    image: launch.image ? { image_url: launch.image.image_url, thumbnail_url: launch.image.thumbnail_url ?? null } : null,
+    webcast_live: launch.webcast_live,
+    vid_urls: launch.vid_urls || [],
+    mission_patches: launch.mission_patches || [],
+  };
+}
+
+function trimHistorical(launch) {
+  return {
+    id: launch.id,
+    name: launch.name,
+    net: launch.net,
+    status: launch.status ? { id: launch.status.id, name: launch.status.name, abbrev: launch.status.abbrev } : null,
+    launch_service_provider: launch.launch_service_provider ? {
+      id: launch.launch_service_provider.id,
+      name: launch.launch_service_provider.name,
+      country_code: launch.launch_service_provider.country?.alpha_3_code || null,
+    } : null,
+    rocket: launch.rocket ? { configuration: { name: launch.rocket.configuration?.name } } : null,
+    pad: launch.pad ? {
+      name: launch.pad.name,
+      location: launch.pad.location ? { name: launch.pad.location.name } : null,
+    } : null,
+    image: launch.image ? { image_url: launch.image.image_url } : null,
+  };
+}
+
+async function fetchUpcoming() {
+  console.log('📡 Fetching upcoming launches…');
+  const url = `${API_BASE}/launches/upcoming/?limit=50&mode=detailed&ordering=net&hide_recent_previous=true`;
+  const data = await fetchJson(url);
+  const results = (data.results || []).map(trimUpcoming);
+  console.log(`  ✓ ${results.length} upcoming launches`);
+  return results;
+}
+
+async function fetchDecade(decade) {
+  const startYear = decade;
+  const endYear = decade + 9;
+  const gte = `${startYear}-01-01T00:00:00Z`;
+  const lte = `${endYear}-12-31T23:59:59Z`;
+  console.log(`📡 Fetching historical ${decade}s (${startYear}-${endYear})…`);
+
+  let offset = 0;
+  const limit = 100;
+  let all = [];
+  let hasMore = true;
+
+  while (hasMore) {
+    const url = `${API_BASE}/launches/previous/?limit=${limit}&offset=${offset}&ordering=-net&net__gte=${gte}&net__lte=${lte}`;
+    const data = await fetchJson(url);
+    const results = (data.results || []).map(trimHistorical);
+    all = all.concat(results);
+    hasMore = data.next !== null;
+    offset += limit;
+    if (hasMore) await sleep(THROTTLE_MS);
+  }
+
+  console.log(`  ✓ ${all.length} launches in ${decade}s`);
+  return all;
+}
+
+const NASA_API_KEY = process.env.NASA_API_KEY || 'DEMO_KEY';
+const MARS_ROVERS = ['perseverance', 'curiosity'];
+
+function trimEvent(event) {
+  return {
+    id:            event.id,
+    name:          event.name,
+    type:          event.type ? { id: event.type.id, name: event.type.name } : null,
+    date:          event.date || null,
+    description:   event.description || null,
+    video_url:     event.video_url || null,
+    launch:        event.launch ? { id: event.launch.id, name: event.launch.name || null } : null,
+    feature_image: event.feature_image ? { image_url: event.feature_image.image_url } : null,
+  };
+}
+
+async function fetchEvents() {
+  console.log('📡 Fetching upcoming events…');
+  const url = `${API_BASE}/event/upcoming/?limit=30&ordering=date`;
+  const data = await fetchJson(url);
+  const results = (data.results || []).map(trimEvent);
+  console.log(`  ✓ ${results.length} upcoming events`);
+  return results;
+}
+
+function trimMarsPhoto(p) {
+  return {
+    id:        p.id,
+    sol:       p.sol ?? null,
+    camera:    p.camera ? { name: p.camera.name, full_name: p.camera.full_name } : null,
+    img_src:   p.img_src || null,
+    earth_date: p.earth_date || null,
+    rover:     p.rover ? { name: p.rover.name, status: p.rover.status } : null,
+  };
+}
+
+async function fetchMarsPhotos() {
+  console.log('📡 Fetching latest Mars rover photos (NASA)...');
+  const out = {};
+  for (const rover of MARS_ROVERS) {
+    try {
+      const url = `https://api.nasa.gov/mars-photos/api/v1/rovers/${rover}/latest_photos?api_key=${NASA_API_KEY}`;
+      const data = await fetchJson(url);
+      const photos = (data.latest_photos || []).slice(0, 6).map(trimMarsPhoto);
+      out[rover] = photos;
+      console.log(`  ✓ ${rover}: ${photos.length} photos`);
+      if (MARS_ROVERS.indexOf(rover) < MARS_ROVERS.length - 1) await sleep(THROTTLE_MS);
+    } catch (err) {
+      console.warn(`  ✗ ${rover}: ${err.message}`);
+      out[rover] = [];
+    }
+  }
+  return out;
+}
+
+async function fetchAstronauts() {
+  console.log('📡 Fetching astronauts in space…');
+  const listUrl = `${API_BASE}/astronauts/?in_space=true&limit=50`;
+  const listData = await fetchJson(listUrl);
+  const list = (listData.results || []).filter(a =>
+    a.name !== 'Starman' && a.type?.name !== 'Dummy' && a.type?.name !== 'Non-Human'
+  );
+
+  console.log(`  ✓ ${list.length} astronauts in space, fetching details…`);
+  const enriched = [];
+  for (const a of list) {
+    await sleep(THROTTLE_MS);
+    try {
+      const detailUrl = `${API_BASE}/astronauts/${a.id}/`;
+      const detail = await fetchJson(detailUrl);
+      enriched.push({
+        id: a.id,
+        name: a.name,
+        type: a.type ? { id: a.type.id, name: a.type.name } : null,
+        nationality: a.nationality || [],
+        agency: a.agency || null,
+        last_flight: a.last_flight || null,
+        bio: detail.bio || null,
+        profile_image: detail.image?.thumbnail_url || detail.image?.image_url || null,
+        flights: (detail.flights || []).map(f => ({ id: f.id, name: f.name })),
+        date_of_birth: detail.date_of_birth || null,
+        date_of_death: detail.date_of_death || null,
+      });
+      console.log(`    ✓ ${a.name}`);
+    } catch (err) {
+      console.warn(`    ✗ ${a.name}: ${err.message}`);
+      enriched.push({
+        id: a.id, name: a.name,
+        type: a.type ? { id: a.type.id, name: a.type.name } : null,
+        nationality: a.nationality || [],
+        agency: a.agency || null,
+        last_flight: a.last_flight || null,
+      });
+    }
+  }
+  return enriched;
+}
+
+function writeJson(filePath, data) {
+  const dir = path.dirname(filePath);
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+  const size = fs.statSync(filePath).size;
+  console.log(`  💾 ${path.relative(path.join(__dirname, '..'), filePath)} (${(size / 1024).toFixed(0)} KB)`);
+}
+
+// Backfill: construye la década inmutable más antigua que aún falte (una por
+// ejecución). Pensado para el tramo anónimo de 15 req/h: cada ejecución gasta
+// pocas peticiones y un cron horario va completando 1957→hoy sin tocar el tope
+// de 6 h de GitHub Actions. Cuando ya están todas, es un no-op.
+async function backfillOneDecade() {
+  fs.mkdirSync(HIST_DIR, { recursive: true });
+  const missing = [...ALL_DECADES].reverse().find(
+    d => d < CURRENT_DECADE && !fs.existsSync(path.join(HIST_DIR, `${d}s.json`)),
+  );
+  if (missing == null) {
+    console.log('✅ Backfill complete — all past decades already mirrored.');
+    return;
+  }
+  console.log(`⛏  Backfilling ${missing}s …`);
+  const launches = await fetchDecade(missing);
+  writeJson(path.join(HIST_DIR, `${missing}s.json`), launches);
+
+  let index = {};
+  try { index = JSON.parse(fs.readFileSync(path.join(OUT_DIR, 'index.json'), 'utf8')); } catch { /* sin index */ }
+  if (!index.decades) index.decades = {};
+  index.decades[`${missing}s`] = launches.length;
+  index.generatedAt = new Date().toISOString();
+  writeJson(path.join(OUT_DIR, 'index.json'), index);
+  console.log(`✅ ${missing}s done (${launches.length}). El resto de décadas se construirá en las siguientes ejecuciones horarias.`);
+}
+
+async function main() {
+  console.log(`🚀 SpacePulse mirror builder — ${FULL_MODE ? 'FULL' : BACKFILL_MODE ? 'backfill' : LIGHT_MODE ? 'upcoming-only' : 'default'} mode`);
+  console.log(`   API: ${API_BASE}  Token: ${TOKEN ? 'yes' : 'no'}`);
+  console.log('');
+
+  if (BACKFILL_MODE) { await backfillOneDecade(); return; }
+
+  fs.mkdirSync(HIST_DIR, { recursive: true });
+
+  const index = { generatedAt: new Date().toISOString(), decades: {}, upcomingCount: 0, astronautCount: 0, eventCount: 0, marsPhotos: false };
+
+  const upcoming = await fetchUpcoming();
+  writeJson(path.join(OUT_DIR, 'upcoming.json'), upcoming);
+  index.upcomingCount = upcoming.length;
+
+  if (LIGHT_MODE) {
+    // Cron frecuente: solo upcoming.json (1 req). Fusiona en el index existente
+    // sin re-paginar décadas ni astronautas (eso lo hace el cron diario).
+    let prev = {};
+    try { prev = JSON.parse(fs.readFileSync(path.join(OUT_DIR, 'index.json'), 'utf8')); } catch { /* sin index previo */ }
+    writeJson(path.join(OUT_DIR, 'index.json'), { ...prev, generatedAt: index.generatedAt, upcomingCount: upcoming.length });
+    console.log('✅ Mirror upcoming-only sync complete!');
+    return;
+  }
+
+  await sleep(THROTTLE_MS);
+
+  const decades = FULL_MODE ? ALL_DECADES : [CURRENT_DECADE];
+  for (const decade of decades) {
+    if (!FULL_MODE) {
+      const decadeFile = path.join(HIST_DIR, `${decade}s.json`);
+      if (fs.existsSync(decadeFile) && decade < CURRENT_DECADE) {
+        console.log(`⏭  Skipping ${decade}s (immutable, already mirrored)`);
+        index.decades[`${decade}s`] = JSON.parse(fs.readFileSync(decadeFile, 'utf8')).length;
+        continue;
+      }
+    }
+    const launches = await fetchDecade(decade);
+    writeJson(path.join(HIST_DIR, `${decade}s.json`), launches);
+    index.decades[`${decade}s`] = launches.length;
+    if (decades.indexOf(decade) < decades.length - 1) await sleep(THROTTLE_MS);
+  }
+
+  await sleep(THROTTLE_MS);
+
+  const astronauts = await fetchAstronauts();
+  writeJson(path.join(OUT_DIR, 'astronauts.json'), astronauts);
+  index.astronautCount = astronauts.length;
+
+  await sleep(THROTTLE_MS);
+
+  const events = await fetchEvents();
+  writeJson(path.join(OUT_DIR, 'events.json'), events);
+  index.eventCount = events.length;
+
+  await sleep(THROTTLE_MS);
+
+  const marsPhotos = await fetchMarsPhotos();
+  writeJson(path.join(OUT_DIR, 'mars-photos.json'), marsPhotos);
+  index.marsPhotos = true;
+
+  writeJson(path.join(OUT_DIR, 'index.json'), index);
+
+  console.log('');
+  console.log('✅ Mirror build complete!');
+  console.log(`   Upcoming: ${index.upcomingCount}  Astronauts: ${index.astronautCount}  Events: ${index.eventCount}  Mars photos: ${index.marsPhotos ? 'yes' : 'no'}`);
+  console.log(`   Decades: ${Object.entries(index.decades).map(([d, c]) => `${d}=${c}`).join(', ')}`);
+}
+
+main().catch(err => {
+  console.error('❌ Mirror build failed:', err);
+  process.exit(1);
+});

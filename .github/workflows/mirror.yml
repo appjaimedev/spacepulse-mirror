@@ -1,0 +1,73 @@
+name: LL2 Mirror Sync
+
+# Presupuesto: tramo ANÓNIMO de The Space Devs (15 req/h por IP, sin token).
+#   - cada 20 min  → --upcoming  (solo upcoming.json, 1 req) ≈ 3 req/h
+#   - cada hora    → --backfill  (1 década histórica que falte; no-op al acabar)
+#   - diario 03:00 → default     (década actual + astronautas + eventos + Mars)
+#   - manual       → cualquiera de los modos (incl. --full si algún día hay token)
+#
+# Un LL2_TOKEN (opcional, secreto del repo) sube a 1000 req/h y acelera todo;
+# sin él funciona igual, solo más lento.
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'   # frecuente: upcoming
+    - cron: '0 * * * *'      # horario: backfill de una década
+    - cron: '0 3 * * *'      # diario: década actual + astronautas + eventos + Mars
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Build mode'
+        required: true
+        default: 'backfill'
+        type: choice
+        options: [default, upcoming, backfill, full]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mirror-sync
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build mirror
+        env:
+          LL2_TOKEN: ${{ secrets.LL2_TOKEN }}
+          LL2_BASE: https://ll.thespacedevs.com/2.3.0
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            case "${{ inputs.mode }}" in
+              default)  node scripts/build-mirror.js ;;
+              upcoming) node scripts/build-mirror.js --upcoming ;;
+              backfill) node scripts/build-mirror.js --backfill ;;
+              full)     node scripts/build-mirror.js --full ;;
+            esac
+          elif [ "${{ github.event.schedule }}" = "0 3 * * *" ]; then
+            node scripts/build-mirror.js
+          elif [ "${{ github.event.schedule }}" = "0 * * * *" ]; then
+            node scripts/build-mirror.js --backfill
+          else
+            node scripts/build-mirror.js --upcoming
+          fi
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/api/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(mirror): sync LL2 data [skip ci]"
+            git push
+          fi
