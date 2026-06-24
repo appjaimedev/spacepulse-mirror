@@ -2,7 +2,7 @@
   {
     "id": "a4fb0d1a-2655-4552-b950-f2f6340ef85a",
     "name": "Falcon 9 Block 5 | Starlink Group 17-45",
-    "net": "2026-06-25T02:48:00Z",
+    "net": "2026-06-25T03:19:21Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -803,14 +803,6 @@
           "nationality_name_composed": "Swedo"
         },
         {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
-        },
-        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -913,6 +905,14 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
+        },
+        {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
