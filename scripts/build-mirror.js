@@ -22,6 +22,10 @@ const API_BASE = process.env.LL2_BASE || 'https://ll.thespacedevs.com/2.3.0';
 const TOKEN = process.env.LL2_TOKEN;
 const THROTTLE_MS = 2000;
 const MAX_RETRIES = 3;
+// Años NUEVOS de la década actual que se bajan por ejecución (más el año en
+// curso, que se refresca siempre). Mantiene cada run dentro del tope anónimo de
+// 15 req/h; la década se completa a lo largo de varias ejecuciones.
+const MAX_BACKFILL_YEARS_PER_RUN = 2;
 const OUT_DIR = path.join(__dirname, '..', 'docs', 'api');
 const HIST_DIR = path.join(OUT_DIR, 'historical');
 
@@ -159,6 +163,70 @@ async function fetchDecade(decade) {
   return all;
 }
 
+// Un único año (acotado: 1-3 páginas). Base de la construcción incremental de
+// la década actual.
+async function fetchYear(year) {
+  const gte = `${year}-01-01T00:00:00Z`;
+  const lte = `${year}-12-31T23:59:59Z`;
+  let offset = 0;
+  const limit = 100;
+  let all = [];
+  let hasMore = true;
+  while (hasMore) {
+    const url = `${API_BASE}/launches/previous/?limit=${limit}&offset=${offset}&ordering=-net&net__gte=${gte}&net__lte=${lte}`;
+    const data = await fetchJson(url);
+    all = all.concat((data.results || []).map(trimHistorical));
+    hasMore = data.next !== null;
+    offset += limit;
+    if (hasMore) await sleep(THROTTLE_MS);
+  }
+  return all;
+}
+
+// Construye la década ACTUAL año a año, con escritura incremental y reanudable.
+//   - El año en curso se re-baja SIEMPRE (los estados cambian).
+//   - Los años pasados de la década son inmutables: se bajan una sola vez.
+//   - Cap de años nuevos por ejecución → la década se completa en varias pasadas
+//     sin reventar el tope de 15 req/h ni el límite de 6 h de Actions, y cada año
+//     completado se persiste al instante (un run cortado no pierde lo ya bajado).
+async function buildCurrentDecade() {
+  fs.mkdirSync(HIST_DIR, { recursive: true });
+  const file = path.join(HIST_DIR, `${CURRENT_DECADE}s.json`);
+  let existing = [];
+  try { existing = JSON.parse(fs.readFileSync(file, 'utf8')); } catch { /* aún no existe */ }
+
+  const yearOf = (l) => new Date(l.net).getUTCFullYear();
+  const byYear = new Map();
+  for (const l of existing) {
+    const y = yearOf(l);
+    if (!byYear.has(y)) byYear.set(y, []);
+    byYear.get(y).push(l);
+  }
+
+  const writeMerged = () => {
+    const merged = [...byYear.values()].flat().sort((a, b) => (a.net < b.net ? 1 : -1));
+    writeJson(file, merged);
+    return merged.length;
+  };
+
+  let total = existing.length;
+  let newYears = 0;
+  for (let year = CURRENT_DECADE; year <= CURRENT_YEAR; year++) {
+    const isCurrent = year === CURRENT_YEAR;
+    if (byYear.has(year) && !isCurrent) continue;                          // pasado ya bajado
+    if (!isCurrent && newYears >= MAX_BACKFILL_YEARS_PER_RUN) continue;    // cap de este run
+    console.log(`⛏  ${CURRENT_DECADE}s — fetching year ${year}…`);
+    byYear.set(year, await fetchYear(year));
+    total = writeMerged();                                                 // progreso persistido
+    if (!isCurrent) newYears++;
+    await sleep(THROTTLE_MS);
+  }
+
+  const done = byYear.size >= (CURRENT_YEAR - CURRENT_DECADE + 1);
+  console.log(`  ✓ ${CURRENT_DECADE}s: ${total} launches (${byYear.size}/${CURRENT_YEAR - CURRENT_DECADE + 1} años${done ? ', completa' : ', sigue en próximas pasadas'})`);
+  return total;
+}
+
 const NASA_API_KEY = process.env.NASA_API_KEY || 'DEMO_KEY';
 const MARS_ROVERS = ['perseverance', 'curiosity'];
 
@@ -271,24 +339,33 @@ function writeJson(filePath, data) {
 // de 6 h de GitHub Actions. Cuando ya están todas, es un no-op.
 async function backfillOneDecade() {
   fs.mkdirSync(HIST_DIR, { recursive: true });
-  const missing = [...ALL_DECADES].reverse().find(
-    d => d < CURRENT_DECADE && !fs.existsSync(path.join(HIST_DIR, `${d}s.json`)),
-  );
-  if (missing == null) {
-    console.log('✅ Backfill complete — all past decades already mirrored.');
-    return;
-  }
-  console.log(`⛏  Backfilling ${missing}s …`);
-  const launches = await fetchDecade(missing);
-  writeJson(path.join(HIST_DIR, `${missing}s.json`), launches);
-
   let index = {};
   try { index = JSON.parse(fs.readFileSync(path.join(OUT_DIR, 'index.json'), 'utf8')); } catch { /* sin index */ }
   if (!index.decades) index.decades = {};
-  index.decades[`${missing}s`] = launches.length;
+
+  const missing = [...ALL_DECADES].reverse().find(
+    d => d < CURRENT_DECADE && !fs.existsSync(path.join(HIST_DIR, `${d}s.json`)),
+  );
+
+  if (missing != null) {
+    console.log(`⛏  Backfilling ${missing}s …`);
+    const launches = await fetchDecade(missing);
+    writeJson(path.join(HIST_DIR, `${missing}s.json`), launches);
+    index.decades[`${missing}s`] = launches.length;
+    console.log(`✅ ${missing}s done (${launches.length}).`);
+  } else {
+    // Décadas pasadas completas → avanzar la década ACTUAL año a año (cada cron
+    // de 2 h baja un par de años hasta completarla; el año en curso se refresca).
+    console.log('✅ Past decades complete — advancing the current decade…');
+    try {
+      index.decades[`${CURRENT_DECADE}s`] = await buildCurrentDecade();
+    } catch (e) {
+      console.warn(`⚠ current decade backfill failed: ${e.message} (se reintenta)`);
+    }
+  }
+
   index.generatedAt = new Date().toISOString();
   writeJson(path.join(OUT_DIR, 'index.json'), index);
-  console.log(`✅ ${missing}s done (${launches.length}). El resto de décadas se construirá en las siguientes ejecuciones horarias.`);
 }
 
 async function main() {
@@ -320,18 +397,28 @@ async function main() {
 
   const decades = FULL_MODE ? ALL_DECADES : [CURRENT_DECADE];
   for (const decade of decades) {
-    if (!FULL_MODE) {
-      const decadeFile = path.join(HIST_DIR, `${decade}s.json`);
-      if (fs.existsSync(decadeFile) && decade < CURRENT_DECADE) {
-        console.log(`⏭  Skipping ${decade}s (immutable, already mirrored)`);
-        index.decades[`${decade}s`] = JSON.parse(fs.readFileSync(decadeFile, 'utf8')).length;
-        continue;
+    try {
+      if (decade < CURRENT_DECADE) {
+        const decadeFile = path.join(HIST_DIR, `${decade}s.json`);
+        if (fs.existsSync(decadeFile)) {
+          console.log(`⏭  Skipping ${decade}s (immutable, already mirrored)`);
+          index.decades[`${decade}s`] = JSON.parse(fs.readFileSync(decadeFile, 'utf8')).length;
+        } else {
+          const launches = await fetchDecade(decade);
+          writeJson(path.join(HIST_DIR, `${decade}s.json`), launches);
+          index.decades[`${decade}s`] = launches.length;
+        }
+      } else {
+        // Década actual: construcción incremental año a año (un fallo no tumba
+        // el resto del build — astronautas/eventos/Mars siguen ejecutándose).
+        index.decades[`${decade}s`] = await buildCurrentDecade();
       }
+    } catch (e) {
+      console.warn(`⚠ ${decade}s falló en este run: ${e.message} (se reintenta en la próxima)`);
+      const decadeFile = path.join(HIST_DIR, `${decade}s.json`);
+      if (fs.existsSync(decadeFile)) index.decades[`${decade}s`] = JSON.parse(fs.readFileSync(decadeFile, 'utf8')).length;
     }
-    const launches = await fetchDecade(decade);
-    writeJson(path.join(HIST_DIR, `${decade}s.json`), launches);
-    index.decades[`${decade}s`] = launches.length;
-    if (decades.indexOf(decade) < decades.length - 1) await sleep(THROTTLE_MS);
+    await sleep(THROTTLE_MS);
   }
 
   await sleep(THROTTLE_MS);
