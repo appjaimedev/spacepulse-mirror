@@ -1,0 +1,891 @@
+{
+  "89a42fc2-2d31-4c82-857a-c110a438d429": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "Sub",
+        "name": "Suborbital"
+      },
+      "description": "The Little Joe 2 was a suborbital test flight of the Mercury space capsule, carrying the rhesus monkey Sam close to the edge of space. He was sent to test the space equipment and the adverse effects of space on humans."
+    },
+    "rocket_full_name": "Little Joe",
+    "pad_lat": 37.938611,
+    "pad_lon": -75.457222,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "f889bd5e-6cf9-4189-9912-d978a6f7b0fe": {
+    "mission": {
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "LO",
+        "name": "Lunar Orbit"
+      },
+      "description": "The Pioneer P-1, -3, -30 and -31 series was intended to be a lunar orbiter probe, but the mission failed shortly after launch. The objectives were to place a highly instrumented probe in lunar orbit, to investigate the environment between the Earth and Moon, and to develop technology for controllin…"
+    },
+    "rocket_full_name": "Atlas-Able",
+    "pad_lat": 28.49103,
+    "pad_lon": -80.54687,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "ba311200-30df-44dd-879e-c4fecbc2dcb1": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "The KH-1 (Keyhole-1) was the first attempt in the Corona-program to build an optical reconnaissance satellite. These satellites were all launched under the name Discoverer."
+    },
+    "rocket_full_name": "Thor Agena A",
+    "pad_lat": 34.756,
+    "pad_lon": -120.6263,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "4ffd5945-132b-4ec4-8a9f-f37bdc428f9b": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "The KH-1 (Keyhole-1) was the first attempt in the Corona-program to build an optical reconnaissance satellite. These satellites were all launched under the name Discoverer."
+    },
+    "rocket_full_name": "Thor Agena A",
+    "pad_lat": 34.7572,
+    "pad_lon": -120.6303,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "3827a2c8-f89b-4e28-9671-ef5b39d9222a": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "Sub",
+        "name": "Suborbital"
+      },
+      "description": "Little Joe 1A (LJ-1A) was an unmanned rocket launched as part of NASA's Mercury program on November 4, 1959. This flight, a repeat of the Little Joe 1 (LJ-1) launch, was to test a launch abort under high aerodynamic load conditions. Due to a delayed in the escape motor startup, the abort maneuver w…"
+    },
+    "rocket_full_name": "Little Joe",
+    "pad_lat": 37.938611,
+    "pad_lon": -75.457222,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "e501cff3-10ec-485e-9d3c-a48315195bed": {
+    "mission": {
+      "type": "Astrophysics",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Explorer 7 was designed to measure solar x-ray and Lyman-alpha flux, trapped energetic particles, and heavy primary cosmic rays. Secondary objectives included collecting data on micrometeoroid penetration, molecular sputtering and studying the Earth-atmosphere heat balance."
+    },
+    "rocket_full_name": "Juno II",
+    "pad_lat": 28.43942,
+    "pad_lon": -80.573301,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "17e710c6-da47-43fb-b994-b02521787fd8": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "Sub",
+        "name": "Suborbital"
+      },
+      "description": "The Little Joe 6 was a launch escape system test of the Mercury spacecraft, conducted as part of the U.S. Mercury program."
+    },
+    "rocket_full_name": "Little Joe",
+    "pad_lat": 37.938611,
+    "pad_lon": -75.457222,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "3016d082-58d4-436e-aa6a-379865565edf": {
+    "mission": {
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "Lunar flyby",
+        "name": "Lunar flyby"
+      },
+      "description": "Luna 3 was a Soviet spacecraft and was the first ever mission to photograph the far side of the moon."
+    },
+    "rocket_full_name": "Vostok-L 8K72",
+    "pad_lat": 45.92,
+    "pad_lon": 63.342,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "614d577a-ac7c-4659-8fed-4b6a734469cd": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "MEO",
+        "name": "Medium Earth Orbit"
+      },
+      "description": "Vanguard 3 is a scientific satellite to measure the Earth's magnetic field, solar X-ray radiation and its effects on the Earth's atmosphere and the near-Earth micrometeoroid environment."
+    },
+    "rocket_full_name": "Vanguard",
+    "pad_lat": 28.4493,
+    "pad_lon": -80.564494,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "3587bc21-73f7-4668-b388-5f0840c6064f": {
+    "mission": {
+      "type": "Navigation",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "The Transit satellite system was the first satellite navigation system to be used operationally. The system was used to provide accurate location for the US Navy ships. Transit 1A failed to make orbit."
+    },
+    "rocket_full_name": "Thor Able II",
+    "pad_lat": 28.4472,
+    "pad_lon": -80.565,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "af1b241a-f46e-4d11-a504-e03965d94c01": {
+    "mission": {
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "Lunar Impactor",
+        "name": "Lunar Impactor"
+      },
+      "description": "Luna 2 successfully impacted the Moon's surface making it the first spacecraft to reach the surface of the Moon and the first human-made object to make contact with another celestial body."
+    },
+    "rocket_full_name": "Vostok-L 8K72",
+    "pad_lat": 45.92,
+    "pad_lon": 63.342,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "0640dd85-11c7-4a10-9947-9467f33cbaf2": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "Sub",
+        "name": "Suborbital"
+      },
+      "description": "Suborbital flight with the objective of testing the Mercury spacecraft ablative heat shield. The Atlas booster section failed to jettison, leading to a lower apogee. It was nonetheless sufficient to satisfy the Mercury spacecraft team."
+    },
+    "rocket_full_name": "Atlas LV-3B",
+    "pad_lat": 28.49103,
+    "pad_lon": -80.54687,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "fdb56feb-e46f-41ba-80c8-c84be17c1888": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "Sub",
+        "name": "Suborbital"
+      },
+      "description": "Little Joe 1 (LJ-1) was a failed launch of a Little Joe by NASA, a solid fuel rocket that was designed for a Max Q abort and Launch Escape System test for Mercury capsule. The objective was to determine how well the escape rocket would function under the most severe dynamic loading conditions antic…"
+    },
+    "rocket_full_name": "Little Joe",
+    "pad_lat": 37.938611,
+    "pad_lon": -75.457222,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "1e564ecb-b4cf-40f3-905a-8555abc47810": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      },
+      "description": "Discoverer 6 was the sixth in a series of reconnaissance satellites, however, it failed to return its capsule when the retrorocket failed to deorbit the capsule."
+    },
+    "rocket_full_name": "Thor Agena A",
+    "pad_lat": 34.756,
+    "pad_lon": -120.6263,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "13e39d5c-50db-4ebd-8aaa-30318fcb49fe": {
+    "mission": {
+      "type": "Test Target",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Beacon 2 was launched an a three stage Juno 2 rocket. The vehicle ran into trouble three minutes into flight and an array of failures caused the GNC system to fail causing the satellite to fall short of orbit."
+    },
+    "rocket_full_name": "Juno II",
+    "pad_lat": 28.4433,
+    "pad_lon": -80.5712,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "a87cf2ee-4169-4cdc-9fc4-8ff7ce8ebfea": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      },
+      "description": "Discoverer 5 was the fifth in a series of reconnaissance satellites, however, it failed to return its capsule when it was accidentally sent into a higher orbit."
+    },
+    "rocket_full_name": "Thor Agena A",
+    "pad_lat": 34.7572,
+    "pad_lon": -120.6303,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "7ab310ea-28d5-4c58-9bfd-ae9aefc40c20": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "Elliptical",
+        "name": "Elliptical Orbit"
+      },
+      "description": "Explorer 6 was an American satellite designed to study trapped radiation of various energies, galactic cosmic rays, geomagnetism, radio propagation and the flux of micrometeorites. It also tested a scanning device designed for photographing the Earth's cloud cover, and transmitted the first picture…"
+    },
+    "rocket_full_name": "Thor Able III",
+    "pad_lat": 28.4472,
+    "pad_lon": -80.565,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "7e01bff4-1cb9-409e-838b-4433ded92b94": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "Elliptical",
+        "name": "Elliptical Orbit"
+      },
+      "description": "The S-1 satellite was a geoscience satellite equipped with a suite of scientific instruments to study the environment around the Earth. It was destroyed 5 seconds into launch when the launch vehicle exploded due to an issue with the launch vehicles power supply."
+    },
+    "rocket_full_name": "Juno II",
+    "pad_lat": 28.43942,
+    "pad_lon": -80.573301,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "dbe9a4b7-8cf0-4c7f-a42f-a5f70d2702a6": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      },
+      "description": "Discoverer 4 was the fourth in a series of reconnaissance satellites, however, it failed to reach orbit when the Agena engine underperformed and failed to place the capsule into orbit."
+    },
+    "rocket_full_name": "Thor Agena A",
+    "pad_lat": 34.756,
+    "pad_lon": -120.6263,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "d00485ff-f5c5-4e6b-9aa5-a2928c079f41": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Vanguard is a scientific satellite to measure the Earth's magnetic field, solar X-ray radiation and its effects on the Earth's atmosphere and the near-Earth micrometeoroid environment."
+    },
+    "rocket_full_name": "Vanguard",
+    "pad_lat": 28.4493,
+    "pad_lon": -80.564494,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "c5b416c9-5e12-42b1-85db-e3f807906166": {
+    "mission": {
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "Lunar Impactor",
+        "name": "Lunar Impactor"
+      },
+      "description": "Luna E-1 number 5 was a Soviet spacecraft intended to impact the moon but was lost in a launch failure."
+    },
+    "rocket_full_name": "Vostok-L 8K72",
+    "pad_lat": 45.92,
+    "pad_lon": 63.342,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "c4ef4614-99bb-4da4-ab0c-180ec2faf6cc": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      },
+      "description": "The Discoverer 3 reconnaissance satellite failed to reach orbit due to a failure of the Agena A upper stage."
+    },
+    "rocket_full_name": "Thor Agena A",
+    "pad_lat": 34.7572,
+    "pad_lon": -120.6303,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "c3d28943-4905-47b6-89c7-13b8dce45eef": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "The Vanguard satellite was a 13 inch spherical satellite which contained a precise magnetometer to map the Earth's magnetic field. The satellite was lost together with the Vanguard Balloon when the Vanguard launch vehicle second stage was damaged during staging."
+    },
+    "rocket_full_name": "Vanguard",
+    "pad_lat": 28.4493,
+    "pad_lon": -80.564494,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "e10a11fb-e3b9-4def-b281-c5602653b2dc": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      },
+      "description": "Discoverer II successfully reached orbit and took photos of Earth. However, when the capsule with the data was ejected in order to re-enter the atmosphere there was a timer malfunction meaning it seperated too early and landed over the North Pole rather than the intended target of Hawaii. The capsu…"
+    },
+    "rocket_full_name": "Thor Agena A",
+    "pad_lat": 34.7572,
+    "pad_lon": -120.6303,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "5de0c176-20e0-4bb6-a576-2e093b79fd51": {
+    "mission": {
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "Lunar flyby",
+        "name": "Lunar flyby"
+      },
+      "description": "Pioneer 4 was a spin-stabilized spacecraft intended as a lunar probe and successfully performed a fly by of the moon at a height of 58983km. Unfortunately it didn't come close enough to trigger its photoelectric sensor."
+    },
+    "rocket_full_name": "Juno II",
+    "pad_lat": 28.43942,
+    "pad_lon": -80.573301,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "2e03da7f-8604-416c-9313-8c456d893a6f": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      },
+      "description": "Discoverer I was the first of a series of satellites part of the CORONA reconnaissance program. This satellite didn't take a camera or film system as it was intended as a test. There were issues communicating with the satellite during flight with only intermittent signals being read."
+    },
+    "rocket_full_name": "Thor Agena A",
+    "pad_lat": 34.7572,
+    "pad_lon": -120.6303,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "597540d3-b6b1-44d8-b6e6-3b799dc6b1e4": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "MEO",
+        "name": "Medium Earth Orbit"
+      },
+      "description": "Vanguard II is an Earth orbiting satellite and the first weather satellite. It was designed to measure cloud-cover distribution over the daylight portion of its orbit for a period of 19 days and to provide information on the density of the atmosphere."
+    },
+    "rocket_full_name": "Vanguard",
+    "pad_lat": 28.4493,
+    "pad_lon": -80.564494,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "574ba4a9-76fb-4207-a587-dbc39fc1a6e4": {
+    "mission": {
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "Lunar Impactor",
+        "name": "Lunar Impactor"
+      },
+      "description": "Luna 1 was the first spacecraft to reach the vicinity of the Earth's Moon. Intended to be an impactor it was launched as part of the Soviet Luna programme. Due to an incorrectly timed upper stage burn during launch it missed the Moon."
+    },
+    "rocket_full_name": "Vostok-L 8K72",
+    "pad_lat": 45.92,
+    "pad_lon": 63.342,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "80c8e883-8456-45e7-9ed7-abb1a587c5d9": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "SCORE or Signal Communications by Orbiting RElay was the world first purpose built communications satellite. It provided a second test of a communications relay system after the first being provided by Pioneer 1."
+    },
+    "rocket_full_name": "SM-65B Atlas",
+    "pad_lat": 28.4755556,
+    "pad_lon": -80.5427496,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "e83eac3f-29eb-4fac-b826-247261bd170d": {
+    "mission": {
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "Lunar flyby",
+        "name": "Lunar flyby"
+      },
+      "description": "Pioneer 3 was a spin-stabilized spacecraft intended as a lunar probe but failed to perform a lunar flyby as planned. Its mission was revised to measure radiation in the outer Van Allen radiation belts."
+    },
+    "rocket_full_name": "Juno II",
+    "pad_lat": 28.43942,
+    "pad_lon": -80.573301,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "3fabc98a-84bf-4b91-bec8-31f30eee9dc3": {
+    "mission": {
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "Lunar Impactor",
+        "name": "Lunar Impactor"
+      },
+      "description": "Luna E-1 number 3 was a Soviet spacecraft intended to impact the moon but was lost in a launch failure."
+    },
+    "rocket_full_name": "Vostok-L 8K72",
+    "pad_lat": 45.92,
+    "pad_lon": 63.342,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "64ecf17b-09e4-42ab-aa54-8d87b989e365": {
+    "mission": {
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "LO",
+        "name": "Lunar Orbit"
+      },
+      "description": "The third pioneer orbiter, pioneer 2 intended to enter lunar orbit but failed to make orbit when the third stage failed to ignite."
+    },
+    "rocket_full_name": "Thor Able I",
+    "pad_lat": 28.4472,
+    "pad_lon": -80.565,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "96c31f2e-670c-46d5-8c5c-bc0e47dce16e": {
+    "mission": {
+      "type": "Test Target",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Beacon 1 was a large inflatable satellite of micro-thin plastic covered with aluminium foil. It was designed to be large so that it was easily visible from Earth."
+    },
+    "rocket_full_name": "Juno-I",
+    "pad_lat": 28.43942,
+    "pad_lon": -80.573301,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "b9dfc9fc-7c79-4c85-833e-037b3ee311aa": {
+    "mission": {
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "Lunar Impactor",
+        "name": "Lunar Impactor"
+      },
+      "description": "Luna E-1 number 2 was a Soviet spacecraft intended to impact the moon, however, was lost in a launch failure."
+    },
+    "rocket_full_name": "Vostok-L 8K72",
+    "pad_lat": 45.92,
+    "pad_lon": 63.342,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "a58b6abf-6b0e-492c-8bf3-1fa586f8d4da": {
+    "mission": {
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "LO",
+        "name": "Lunar Orbit"
+      },
+      "description": "The second pioneer orbiter, pioneer 1 intended to enter lunar orbit but missed the Moon after a third stage partial failure."
+    },
+    "rocket_full_name": "Thor Able I",
+    "pad_lat": 28.4472,
+    "pad_lon": -80.565,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "3aec8a7e-0884-4709-bdf6-c5f6444314a4": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "MEO",
+        "name": "Medium Earth Orbit"
+      },
+      "description": "Vanguard was an American satellite and the fourth artificial Earth orbital satellite to be launched. It was the first satellite to have solar electric power."
+    },
+    "rocket_full_name": "Vanguard",
+    "pad_lat": 28.4493,
+    "pad_lon": -80.564494,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "b6141255-54e9-4edc-839d-1dc81b61f19f": {
+    "mission": {
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "Lunar Impactor",
+        "name": "Lunar Impactor"
+      },
+      "description": "Luna E-1 number 1 was a Soviet spacecraft intended to impact the moon, however, was lost in a launch failure."
+    },
+    "rocket_full_name": "Vostok-L 8K72",
+    "pad_lat": 45.92,
+    "pad_lon": 63.342,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "ba8f759d-5c34-4e63-bd32-29cb8e9905e6": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "The project pilot payloads were small cylindrical satellites. These missions intended to be the first to launch a satellite from an aircraft. They had only a single instrument, a very primitive infrared line scanning device to make IR images of the ground."
+    },
+    "rocket_full_name": "Project Pilot",
+    "pad_lat": 35.6855556,
+    "pad_lon": -117.6941384,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "46580acb-1299-4a54-bdf0-884029a83a84": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "The project pilot payloads were small cylindrical satellites. These missions intended to be the first to launch a satellite from an aircraft. They had only a single instrument, a very primitive infrared line scanning device to make IR images of the ground."
+    },
+    "rocket_full_name": "Project Pilot",
+    "pad_lat": 35.6855556,
+    "pad_lon": -117.6941384,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "31bcb852-0c9f-4f1f-a201-a108c88e77f8": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "The project pilot payloads were small cylindrical satellites. These missions intended to be the first to launch a satellite from an aircraft. They had only a single instrument, a very primitive infrared line scanning device to make IR images of the ground."
+    },
+    "rocket_full_name": "Project Pilot",
+    "pad_lat": 35.6855556,
+    "pad_lon": -117.6941384,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "a17719ee-5a39-452d-afc6-770d3c6deb1b": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "MEO",
+        "name": "Medium Earth Orbit"
+      },
+      "description": "Explorer 5 was a US satellite designed to study the van allen radiation belts, however, the launch failed after the first stage collided with the second stage."
+    },
+    "rocket_full_name": "Juno-I",
+    "pad_lat": 28.43942,
+    "pad_lon": -80.573301,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "ee6958bf-155d-4400-9d9a-9d3e27c56d6d": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "The project pilot payloads were small cylindrical satellites. These missions intended to be the first to launch a satellite from an aircraft. They had only a single instrument, a very primitive infrared line scanning device to make IR images of the ground."
+    },
+    "rocket_full_name": "Project Pilot",
+    "pad_lat": 35.6855556,
+    "pad_lon": -117.6941384,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "5408eda7-a3cc-48d2-9a62-e77a3cf86bc1": {
+    "mission": {
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "LO",
+        "name": "Lunar Orbit"
+      },
+      "description": "The first pioneer orbiter, pioneer 0 was a lunar orbiter intended to enter a lunar orbit for observation. However, the mission failed 77 seconds into launch."
+    },
+    "rocket_full_name": "Thor Able I",
+    "pad_lat": 28.4472,
+    "pad_lon": -80.565,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "ac4c0c44-1925-4636-99b5-8c3b33d6c62a": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "The project pilot payloads were small cylindrical satellites. These missions intended to be the first to launch a satellite from an aircraft. They had only a single instrument, a very primitive infrared line scanning device to make IR images of the ground."
+    },
+    "rocket_full_name": "Project Pilot",
+    "pad_lat": 35.6855556,
+    "pad_lon": -117.6941384,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "e0975cef-e8c6-4f35-bbf7-1b55963e06a5": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "MEO",
+        "name": "Medium Earth Orbit"
+      },
+      "description": "An American satellite in order to study the Van Allen radiation belts and the effects of nuclear explosions upon these belts."
+    },
+    "rocket_full_name": "Juno-I",
+    "pad_lat": 28.43942,
+    "pad_lon": -80.573301,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "64da1836-0c00-4074-ab0a-f9d0ee6b1221": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "The project pilot payloads were small cylindrical satellites. These missions intended to be the first to launch a satellite from an aircraft. They had only a single instrument, a very primitive infrared line scanning device to make IR images of the ground."
+    },
+    "rocket_full_name": "Project Pilot",
+    "pad_lat": 35.6855556,
+    "pad_lon": -117.6941384,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "57e64adf-5c20-4c81-b17a-587b44d574b0": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Small satellite used to test the Vanguard three-stage launch vehicle."
+    },
+    "rocket_full_name": "Vanguard",
+    "pad_lat": 28.4493,
+    "pad_lon": -80.564494,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "a861fb4d-8988-468b-abd1-a6e8abe5f2c7": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Small satellite used to test the Vanguard three-stage launch vehicle."
+    },
+    "rocket_full_name": "Vanguard",
+    "pad_lat": 28.4493,
+    "pad_lon": -80.564494,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "6a7f56f9-2565-4b6c-b0c5-23e9c74a2368": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "First complex scientific satellite to reach orbit."
+    },
+    "rocket_full_name": "Sputnik 8A91",
+    "pad_lat": 45.92,
+    "pad_lon": 63.342,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "de282e74-e03b-411e-9633-2d1497629893": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Small satellite used to test the Vanguard three-stage launch vehicle."
+    },
+    "rocket_full_name": "Vanguard",
+    "pad_lat": 28.4493,
+    "pad_lon": -80.564494,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "59d2de37-4c22-495f-8718-4b22f5f34ab7": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "First complex scientific satellite with 12 experiments and a total mass of1327 kg. It failed to reach orbit due to a launch vehicle failure."
+    },
+    "rocket_full_name": "Sputnik 8A91",
+    "pad_lat": 45.92,
+    "pad_lon": 63.342,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "b4e501ff-083c-47d6-9ff0-63ec1bf035c3": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "Elliptical",
+        "name": "Elliptical Orbit"
+      },
+      "description": "Small satellite launched into an eccentric orbit with a cosmic ray counter and a micrometeorite detector."
+    },
+    "rocket_full_name": "Juno-I",
+    "pad_lat": 28.4433,
+    "pad_lon": -80.5712,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "74d39bb8-34a6-4a8b-8554-d2d3ec22aee6": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Small satellite used to test the Vanguard three-stage launch vehicle."
+    },
+    "rocket_full_name": "Vanguard",
+    "pad_lat": 28.4493,
+    "pad_lon": -80.564494,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "896e8af6-d256-4a5b-ab15-2f25c84e90e3": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Small satellite similar to Explorer 1. It failed to reach orbit due to a fourth stage failure."
+    },
+    "rocket_full_name": "Juno-I",
+    "pad_lat": 28.4433,
+    "pad_lon": -80.5712,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "48bc7deb-b2e1-46c2-ab63-0ce00fbd192b": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Small satellite used to test the Vanguard three-stage launch vehicle."
+    },
+    "rocket_full_name": "Vanguard",
+    "pad_lat": 28.4493,
+    "pad_lon": -80.564494,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "1b9e28d0-c531-44b0-9b37-244e62a6d3f4": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "First successfully launched American satellite. It was the first spacecraft to detect the Van Allen Radiation Belt."
+    },
+    "rocket_full_name": "Juno-I",
+    "pad_lat": 28.4433,
+    "pad_lon": -80.5712,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "535c1a09-97c8-4f96-bb64-6336d4bcb1fb": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Small satellite used to test the Vanguard three-stage launch vehicle."
+    },
+    "rocket_full_name": "Vanguard",
+    "pad_lat": 28.4493,
+    "pad_lon": -80.564494,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "f8c9f344-a6df-4f30-873a-90fe3a7840b3": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Second artificial satellite and first to carry an animal into orbit."
+    },
+    "rocket_full_name": "Sputnik 8K74PS",
+    "pad_lat": 45.92,
+    "pad_lon": 63.342,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "e3df2ecd-c239-472f-95e4-2b89b4f75800": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "First artificial satellite consisting of a 58 cm pressurized aluminium shell containing two 1 W transmitters for a total mass of 83.6 kg."
+    },
+    "rocket_full_name": "Sputnik 8K74PS",
+    "pad_lat": 45.92,
+    "pad_lon": 63.342,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=DTDb3eKpPiw"
+      }
+    ]
+  }
+}
