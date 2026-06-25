@@ -108,6 +108,9 @@ function trimUpcoming(launch) {
   };
 }
 
+// Ficha LIGERA de la lista histórica (la que pinta la pantalla de listado). Se
+// mantiene mínima a propósito: el detalle pesado (misión/parche/vídeo) va en un
+// fichero aparte, bajo demanda. Ver trimDetail / {decade}s-detail.json.
 function trimHistorical(launch) {
   return {
     id: launch.id,
@@ -128,6 +131,70 @@ function trimHistorical(launch) {
   };
 }
 
+// Recorta texto largo a `max` caracteres colapsando espacios. null si vacío.
+function trimText(s, max) {
+  if (!s) return null;
+  const clean = String(s).replace(/\s+/g, ' ').trim();
+  if (!clean) return null;
+  return clean.length <= max ? clean : clean.slice(0, max - 1).trimEnd() + '…';
+}
+
+// Solo la URL del parche (nunca el blob).
+function trimPatches(patches) {
+  if (!Array.isArray(patches)) return [];
+  return patches
+    .filter(p => p && p.image_url)
+    .map(p => ({ image_url: p.image_url, priority: p.priority ?? null }));
+}
+
+// Solo la URL del vídeo (nunca el vídeo).
+function trimVids(vids) {
+  if (!Array.isArray(vids)) return [];
+  return vids.filter(v => v && v.url).map(v => ({ url: v.url }));
+}
+
+// DETALLE pesado bajo demanda (se sirve en {decade}s-detail.json como mapa por
+// id). Guarda solo dato crudo / URLs; la ficha de la app lo interpreta. Devuelve
+// null cuando no hay nada que merezca espacio (lanzamientos viejos sin misión ni
+// media → la ficha se conforma con la fila ligera).
+function trimDetail(launch) {
+  const mission = launch.mission ? {
+    type: launch.mission.type || null,
+    orbit: launch.mission.orbit
+      ? { abbrev: launch.mission.orbit.abbrev || null, name: launch.mission.orbit.name || null }
+      : null,
+    description: trimText(launch.mission.description, 300),
+  } : null;
+  const patches = trimPatches(launch.mission_patches);
+  const vids = trimVids(launch.vid_urls);
+  const pad_lat = launch.pad?.latitude ?? null;
+  const pad_lon = launch.pad?.longitude ?? null;
+  const rocket_full_name = launch.rocket?.configuration?.full_name || null;
+
+  const hasContent =
+    (mission && (mission.type || mission.orbit || mission.description)) ||
+    patches.length > 0 || vids.length > 0 || pad_lat != null || rocket_full_name;
+  if (!hasContent) return null;
+
+  return { mission, rocket_full_name, pad_lat, pad_lon, mission_patches: patches, vid_urls: vids };
+}
+
+// Escribe el par lista-ligera + detalle de una década.
+function writeDecade(decade, list, detail) {
+  writeJson(path.join(HIST_DIR, `${decade}s.json`), list);
+  writeJson(path.join(HIST_DIR, `${decade}s-detail.json`), detail);
+}
+
+// Una década está "enriquecida" cuando existen AMBOS ficheros (lista + detalle).
+// Las décadas espejadas antes de esta feature solo tienen la lista → se vuelven
+// a bajar una vez (con mode=detailed) para generar el detalle.
+function decadeEnriched(decade) {
+  return (
+    fs.existsSync(path.join(HIST_DIR, `${decade}s.json`)) &&
+    fs.existsSync(path.join(HIST_DIR, `${decade}s-detail.json`))
+  );
+}
+
 async function fetchUpcoming() {
   console.log('📡 Fetching upcoming launches…');
   const url = `${API_BASE}/launches/upcoming/?limit=50&mode=detailed&ordering=net&hide_recent_previous=true`;
@@ -146,41 +213,50 @@ async function fetchDecade(decade) {
 
   let offset = 0;
   const limit = 100;
-  let all = [];
+  const list = [];
+  const detail = {};
   let hasMore = true;
 
   while (hasMore) {
-    const url = `${API_BASE}/launches/previous/?limit=${limit}&offset=${offset}&ordering=-net&net__gte=${gte}&net__lte=${lte}`;
+    const url = `${API_BASE}/launches/previous/?limit=${limit}&offset=${offset}&mode=detailed&ordering=-net&net__gte=${gte}&net__lte=${lte}`;
     const data = await fetchJson(url);
-    const results = (data.results || []).map(trimHistorical);
-    all = all.concat(results);
+    for (const l of (data.results || [])) {
+      list.push(trimHistorical(l));
+      const d = trimDetail(l);
+      if (d) detail[l.id] = d;
+    }
     hasMore = data.next !== null;
     offset += limit;
     if (hasMore) await sleep(THROTTLE_MS);
   }
 
-  console.log(`  ✓ ${all.length} launches in ${decade}s`);
-  return all;
+  console.log(`  ✓ ${list.length} launches in ${decade}s (${Object.keys(detail).length} con detalle)`);
+  return { list, detail };
 }
 
 // Un único año (acotado: 1-3 páginas). Base de la construcción incremental de
-// la década actual.
+// la década actual. Devuelve lista ligera + mapa de detalle (mode=detailed).
 async function fetchYear(year) {
   const gte = `${year}-01-01T00:00:00Z`;
   const lte = `${year}-12-31T23:59:59Z`;
   let offset = 0;
   const limit = 100;
-  let all = [];
+  const list = [];
+  const detail = {};
   let hasMore = true;
   while (hasMore) {
-    const url = `${API_BASE}/launches/previous/?limit=${limit}&offset=${offset}&ordering=-net&net__gte=${gte}&net__lte=${lte}`;
+    const url = `${API_BASE}/launches/previous/?limit=${limit}&offset=${offset}&mode=detailed&ordering=-net&net__gte=${gte}&net__lte=${lte}`;
     const data = await fetchJson(url);
-    all = all.concat((data.results || []).map(trimHistorical));
+    for (const l of (data.results || [])) {
+      list.push(trimHistorical(l));
+      const d = trimDetail(l);
+      if (d) detail[l.id] = d;
+    }
     hasMore = data.next !== null;
     offset += limit;
     if (hasMore) await sleep(THROTTLE_MS);
   }
-  return all;
+  return { list, detail };
 }
 
 // Construye la década ACTUAL año a año, con escritura incremental y reanudable.
@@ -192,8 +268,18 @@ async function fetchYear(year) {
 async function buildCurrentDecade() {
   fs.mkdirSync(HIST_DIR, { recursive: true });
   const file = path.join(HIST_DIR, `${CURRENT_DECADE}s.json`);
+  const detailFile = path.join(HIST_DIR, `${CURRENT_DECADE}s-detail.json`);
   let existing = [];
   try { existing = JSON.parse(fs.readFileSync(file, 'utf8')); } catch { /* aún no existe */ }
+  const detailMap = {};
+  try { Object.assign(detailMap, JSON.parse(fs.readFileSync(detailFile, 'utf8'))); } catch { /* aún no existe */ }
+
+  // Años ya bajados con mode=detailed, persistidos como clave reservada del mapa
+  // (los ids de lanzamiento son UUID y nunca colisionan con "__years__"). Sin
+  // esto, un año cuyos lanzamientos no tengan media nunca se marcaría "hecho" y
+  // se re-bajaría en cada pasada.
+  const doneYears = new Set(Array.isArray(detailMap.__years__) ? detailMap.__years__ : []);
+  delete detailMap.__years__;
 
   const yearOf = (l) => new Date(l.net).getUTCFullYear();
   const byYear = new Map();
@@ -206,6 +292,12 @@ async function buildCurrentDecade() {
   const writeMerged = () => {
     const merged = [...byYear.values()].flat().sort((a, b) => (a.net < b.net ? 1 : -1));
     writeJson(file, merged);
+    // Poda el detalle a los ids presentes + persiste los años completados.
+    const ids = new Set(merged.map(l => l.id));
+    const out = {};
+    for (const id of Object.keys(detailMap)) if (ids.has(id)) out[id] = detailMap[id];
+    out.__years__ = [...doneYears].sort();
+    writeJson(detailFile, out);
     return merged.length;
   };
 
@@ -213,11 +305,14 @@ async function buildCurrentDecade() {
   let newYears = 0;
   for (let year = CURRENT_DECADE; year <= CURRENT_YEAR; year++) {
     const isCurrent = year === CURRENT_YEAR;
-    if (byYear.has(year) && !isCurrent) continue;                          // pasado ya bajado
-    if (!isCurrent && newYears >= MAX_BACKFILL_YEARS_PER_RUN) continue;    // cap de este run
+    if (doneYears.has(year) && !isCurrent) continue;                      // pasado ya enriquecido
+    if (!isCurrent && newYears >= MAX_BACKFILL_YEARS_PER_RUN) continue;   // cap de este run
     console.log(`⛏  ${CURRENT_DECADE}s — fetching year ${year}…`);
-    byYear.set(year, await fetchYear(year));
-    total = writeMerged();                                                 // progreso persistido
+    const { list, detail } = await fetchYear(year);
+    byYear.set(year, list);
+    Object.assign(detailMap, detail);
+    doneYears.add(year);
+    total = writeMerged();                                               // progreso persistido
     if (!isCurrent) newYears++;
     await sleep(THROTTLE_MS);
   }
@@ -343,16 +438,22 @@ async function backfillOneDecade() {
   try { index = JSON.parse(fs.readFileSync(path.join(OUT_DIR, 'index.json'), 'utf8')); } catch { /* sin index */ }
   if (!index.decades) index.decades = {};
 
-  const missing = [...ALL_DECADES].reverse().find(
-    d => d < CURRENT_DECADE && !fs.existsSync(path.join(HIST_DIR, `${d}s.json`)),
+  // Décadas pasadas que falten O que sigan sin fichero de detalle (espejadas
+  // antes de esta feature) → se (re)bajan una por ejecución para generar el par
+  // lista + detalle. Cuando todas tienen detalle, es no-op. Orden: de la más
+  // RECIENTE a la más antigua (los vídeos/parches viven en las décadas modernas,
+  // así la ficha "revive" se llena antes donde más se usa). ALL_DECADES ya está
+  // en orden descendente.
+  const missing = ALL_DECADES.find(
+    d => d < CURRENT_DECADE && !decadeEnriched(d),
   );
 
   if (missing != null) {
-    console.log(`⛏  Backfilling ${missing}s …`);
-    const launches = await fetchDecade(missing);
-    writeJson(path.join(HIST_DIR, `${missing}s.json`), launches);
-    index.decades[`${missing}s`] = launches.length;
-    console.log(`✅ ${missing}s done (${launches.length}).`);
+    console.log(`⛏  Backfilling ${missing}s (lista + detalle)…`);
+    const { list, detail } = await fetchDecade(missing);
+    writeDecade(missing, list, detail);
+    index.decades[`${missing}s`] = list.length;
+    console.log(`✅ ${missing}s done (${list.length}, ${Object.keys(detail).length} con detalle).`);
   } else {
     // Décadas pasadas completas → avanzar la década ACTUAL año a año (cada cron
     // de 2 h baja un par de años hasta completarla; el año en curso se refresca).
@@ -400,13 +501,13 @@ async function main() {
     try {
       if (decade < CURRENT_DECADE) {
         const decadeFile = path.join(HIST_DIR, `${decade}s.json`);
-        if (fs.existsSync(decadeFile)) {
-          console.log(`⏭  Skipping ${decade}s (immutable, already mirrored)`);
+        if (decadeEnriched(decade)) {
+          console.log(`⏭  Skipping ${decade}s (immutable, lista + detalle ya espejados)`);
           index.decades[`${decade}s`] = JSON.parse(fs.readFileSync(decadeFile, 'utf8')).length;
         } else {
-          const launches = await fetchDecade(decade);
-          writeJson(path.join(HIST_DIR, `${decade}s.json`), launches);
-          index.decades[`${decade}s`] = launches.length;
+          const { list, detail } = await fetchDecade(decade);
+          writeDecade(decade, list, detail);
+          index.decades[`${decade}s`] = list.length;
         }
       } else {
         // Década actual: construcción incremental año a año (un fallo no tumba
