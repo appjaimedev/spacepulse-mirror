@@ -37510,8 +37510,8 @@
     "mission": {
       "type": "Earth Science",
       "orbit": {
-        "abbrev": "SSO",
-        "name": "Sun-Synchronous Orbit"
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
       },
       "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective."
     },
