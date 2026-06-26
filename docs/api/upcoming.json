@@ -59,7 +59,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "Rocket Lab",
+        "title": "Rocket Lab - '10 Owl Of 10' Launch",
+        "description": "",
+        "feature_image": "https://i.ytimg.com/vi/mD-rTeRXx8o/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=mD-rTeRXx8o",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-06-26T16:20:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
     "mission_patches": [
       {
         "id": 1328,
@@ -411,129 +433,6 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/south2520korea_image_20231204145331.png",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192440.png"
     },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "d8eb4b68-5307-4b3b-b585-5598958defc2",
-    "name": "Smart Dragon 3 | Unknown Payload",
-    "net": "2026-06-30T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 272,
-      "name": "China Rocket Co. Ltd.",
-      "abbrev": "CHNR",
-      "country": [
-        {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Smart Dragon 3",
-        "full_name": "Smart Dragon 3",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Unknown Payload",
-      "type": "Unknown",
-      "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
-      }
-    },
-    "pad": {
-      "name": "Haiyang offshore launch location",
-      "latitude": 36.631333,
-      "longitude": 121.198361,
-      "location": {
-        "name": "Haiyang Oriental Spaceport",
-        "country": {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_thumbnail_20240925074607.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "a8d8d683-3ab0-40ab-beb0-e66bb55afd91",
-    "name": "Nebula-1 | Demo Flight",
-    "net": "2026-06-30T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 1102,
-      "name": "Deep Blue Aerospace",
-      "abbrev": "DBA Space",
-      "country": [
-        {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Nebula-1",
-        "full_name": "Nebula-1",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Demo Flight",
-      "type": "Test Flight",
-      "orbit": {
-        "abbrev": "Sub",
-        "name": "Suborbital"
-      }
-    },
-    "pad": {
-      "name": "Land Launch Pad 1",
-      "latitude": 36.664312,
-      "longitude": 121.188333,
-      "location": {
-        "name": "Haiyang Oriental Spaceport",
-        "country": {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      }
-    },
-    "image": null,
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
@@ -1408,6 +1307,69 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_20251028184029.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_thumbnail_20251028184029.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "d8eb4b68-5307-4b3b-b585-5598958defc2",
+    "name": "Smart Dragon 3 | Unknown Payload",
+    "net": "2026-07-31T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 272,
+      "name": "China Rocket Co. Ltd.",
+      "abbrev": "CHNR",
+      "country": [
+        {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Smart Dragon 3",
+        "full_name": "Smart Dragon 3",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Unknown Payload",
+      "type": "Unknown",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      }
+    },
+    "pad": {
+      "name": "Haiyang offshore launch location",
+      "latitude": 36.631333,
+      "longitude": 121.198361,
+      "location": {
+        "name": "Haiyang Oriental Spaceport",
+        "country": {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_thumbnail_20240925074607.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -3229,88 +3191,6 @@
     "mission_patches": []
   },
   {
-    "id": "7b8882e4-db9b-4ed2-91ff-1354525a77e3",
-    "name": "HANBIT-Nano | InnoSat-0",
-    "net": "2026-09-30T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 1098,
-      "name": "Innospace",
-      "abbrev": "IS",
-      "country": [
-        {
-          "id": 35,
-          "name": "South Korea",
-          "alpha_2_code": "KR",
-          "alpha_3_code": "KOR",
-          "nationality_name": "South Korean",
-          "nationality_name_composed": "South Korean"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "HANBIT-Nano",
-        "full_name": "HANBIT-Nano",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "InnoSat-0",
-      "type": "Technology",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "HANBIT Pad",
-      "latitude": -2.31698,
-      "longitude": -44.36873,
-      "location": {
-        "name": "Alcântara Space Center, Federative Republic of Brazil",
-        "country": {
-          "id": 24,
-          "name": "Brazil",
-          "alpha_2_code": "BR",
-          "alpha_3_code": "BRA",
-          "nationality_name": "Brazilian",
-          "nationality_name_composed": "Brazilian"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hanbit-nano_spa_image_20251224011159.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hanbit-nano_spa_image_thumbnail_20251224011200.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": [
-      {
-        "id": 1194,
-        "name": "Spaceward Patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/spaceward2520p_mission_patch_20251021115940.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 1098,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/1098/",
-          "name": "Innospace",
-          "abbrev": "IS",
-          "type": {
-            "id": 5,
-            "name": "Private"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "dca8749f-1552-485a-8061-f1ad79055b8d",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer C",
     "net": "2026-09-30T00:00:00Z",
@@ -3578,14 +3458,6 @@
           "nationality_name_composed": "Swedo"
         },
         {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
-        },
-        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -3690,6 +3562,14 @@
           "nationality_name_composed": "Luxembourgish"
         },
         {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
+        },
+        {
           "id": 86,
           "name": "Slovenia",
           "alpha_2_code": "SI",
@@ -3740,7 +3620,7 @@
   },
   {
     "id": "875ba957-be5f-42bd-8a6e-ed98254f572a",
-    "name": "Firefly Alpha Block 2 | VICTUS HAZE Jackal",
+    "name": "Firefly Alpha Block 2 | ConnectedCosmos Launch 1",
     "net": "2026-09-30T00:00:00Z",
     "status": {
       "id": 2,
@@ -3770,11 +3650,11 @@
       }
     },
     "mission": {
-      "name": "VICTUS HAZE Jackal",
-      "type": "Government/Top Secret",
+      "name": "ConnectedCosmos Launch 1",
+      "type": "Communications",
       "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
+        "abbrev": "PO",
+        "name": "Polar Orbit"
       }
     },
     "pad": {
@@ -3800,5 +3680,150 @@
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
+  },
+  {
+    "id": "91b13c6c-4525-496d-997b-3521bb6a4cd8",
+    "name": "RFA One | Maiden Flight",
+    "net": "2026-09-30T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 1045,
+      "name": "Rocket Factory Augsburg",
+      "abbrev": "RFA",
+      "country": [
+        {
+          "id": 4,
+          "name": "Germany",
+          "alpha_2_code": "DE",
+          "alpha_3_code": "DEU",
+          "nationality_name": "German",
+          "nationality_name_composed": "Germano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "RFA One",
+        "full_name": "RFA One",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Maiden Flight",
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      }
+    },
+    "pad": {
+      "name": "Launch Pad Fredo",
+      "latitude": 60.81736038715111,
+      "longitude": -0.7626391593025057,
+      "location": {
+        "name": "SaxaVord Spaceport",
+        "country": {
+          "id": 10,
+          "name": "United Kingdom",
+          "alpha_2_code": "GB",
+          "alpha_3_code": "GBR",
+          "nationality_name": "British",
+          "nationality_name_composed": "Brito"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rfa_one_image_20230117001619.png",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193837.png"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "7c891a0b-7194-4425-8cfd-2e8c75af2924",
+    "name": "HANBIT-Nano | InnoSat-0",
+    "net": "2026-09-30T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 1098,
+      "name": "Innospace",
+      "abbrev": "IS",
+      "country": [
+        {
+          "id": 35,
+          "name": "South Korea",
+          "alpha_2_code": "KR",
+          "alpha_3_code": "KOR",
+          "nationality_name": "South Korean",
+          "nationality_name_composed": "South Korean"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "HANBIT-Nano",
+        "full_name": "HANBIT-Nano",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "InnoSat-0",
+      "type": "Technology",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "HANBIT Pad",
+      "latitude": -2.31698,
+      "longitude": -44.36873,
+      "location": {
+        "name": "Alcântara Space Center, Federative Republic of Brazil",
+        "country": {
+          "id": 24,
+          "name": "Brazil",
+          "alpha_2_code": "BR",
+          "alpha_3_code": "BRA",
+          "nationality_name": "Brazilian",
+          "nationality_name_composed": "Brazilian"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hanbit-nano_spa_image_20251224011159.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hanbit-nano_spa_image_thumbnail_20251224011200.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": [
+      {
+        "id": 1194,
+        "name": "Spaceward Patch",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/spaceward2520p_mission_patch_20251021115940.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 1098,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/1098/",
+          "name": "Innospace",
+          "abbrev": "IS",
+          "type": {
+            "id": 5,
+            "name": "Private"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
   }
 ]
