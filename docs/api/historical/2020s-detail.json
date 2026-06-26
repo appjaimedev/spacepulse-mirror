@@ -37506,6 +37506,30 @@
       }
     ]
   },
+  "add0a5be-1cf0-49cb-975a-e8c8e18d37ec": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective."
+    },
+    "rocket_full_name": "Electron",
+    "pad_lat": -39.262833,
+    "pad_lon": 177.864469,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/ten2520owl252_mission_patch_20260608000256.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=mD-rTeRXx8o"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
