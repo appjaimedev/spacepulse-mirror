@@ -4,9 +4,9 @@
     "name": "Electron | Ten Owl Of Ten (StriX Launch 10)",
     "net": "2026-06-26T17:43:00Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 9,
+      "name": "Payload Deployed",
+      "abbrev": "Deployed"
     },
     "launch_service_provider": {
       "id": 147,
