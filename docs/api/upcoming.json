@@ -39,9 +39,9 @@
       }
     },
     "pad": {
-      "name": "Unknown Pad",
-      "latitude": -39.260881,
-      "longitude": 177.865826,
+      "name": "Rocket Lab Launch Complex 1B",
+      "latitude": -39.262833,
+      "longitude": 177.864469,
       "location": {
         "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
         "country": {
@@ -167,10 +167,10 @@
       {
         "priority": 10,
         "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "Starlink Mission",
+        "publisher": "X",
+        "title": "Livestream on X",
         "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HLKy1HtboAAMX61.jpg",
+        "feature_image": null,
         "url": "https://x.com/i/broadcasts/1MJgNNPnkqlGL",
         "type": {
           "id": 1,
@@ -181,8 +181,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-06-28T13:50:00Z",
-        "end_time": "2026-06-28T16:50:00Z",
+        "start_time": null,
+        "end_time": null,
         "live": false
       }
     ],
@@ -271,10 +271,10 @@
       {
         "priority": 10,
         "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "SXM-11 Mission",
+        "publisher": "X",
+        "title": "Livestream on X",
         "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HLcXCMBW0AANYzG.jpg",
+        "feature_image": null,
         "url": "https://x.com/i/broadcasts/1AJEmmRWBjkJL",
         "type": {
           "id": 1,
@@ -285,8 +285,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-06-29T02:10:00Z",
-        "end_time": "2026-06-29T07:10:00Z",
+        "start_time": null,
+        "end_time": null,
         "live": false
       }
     ],
@@ -3647,14 +3647,6 @@
           "nationality_name_composed": "Swedo"
         },
         {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
-        },
-        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -3757,6 +3749,14 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
+        },
+        {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
