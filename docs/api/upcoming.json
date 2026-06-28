@@ -2,7 +2,7 @@
   {
     "id": "0740c699-9877-4331-8aef-4e29ea6281c0",
     "name": "Falcon 9 Block 5 | Starlink Group 17-40",
-    "net": "2026-06-28T15:40:17Z",
+    "net": "2026-06-28T16:09:18Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -65,7 +65,7 @@
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Falcon 9 - Starlink 17-40 - SLC-4E - Vandenberg SFB - Space Affairs Live",
-        "description": "Launch Date: June 28, 2026\nLaunch Time: 8:40 a.m. PDT, 15:40 UTC, 17:40 CEST\nLaunch Window: Open until 11:00 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 17-54\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1088 - Turnaround time 25 days)\nFlight for the Booster: 17\nPrevious Flights of the Booster: 16 - NROL-126, Transporter-12, SPHEREx, NROL-57, and 12 Starlink missions.\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\n...",
+        "description": "Launch Date: June 28, 2026\nLaunch Time: 9:09 a.m. PDT, 1609 UTC, 18:09 CEST\nLaunch Window: Open until 11:00 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 17-54\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1088 - Turnaround time 25 days)\nFlight for the Booster: 17\nPrevious Flights of the Booster: 16 - NROL-126, Transporter-12, SPHEREx, NROL-57, and 12 Starlink missions.\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\nS...",
         "feature_image": "https://i.ytimg.com/vi/6R1ZDNpbx1M/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=6R1ZDNpbx1M",
         "type": {
@@ -77,7 +77,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-06-28T15:30:00Z",
+        "start_time": "2026-06-28T15:59:00Z",
         "end_time": null,
         "live": false
       },
@@ -86,7 +86,7 @@
         "source": "youtube.com",
         "publisher": "Spaceflight Now",
         "title": "Live: SpaceX Falcon 9 rocket launches from the West Coast with 24 Starlink satellites",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Sunday, June 28 during a window that opens, at 8:40:17 a.m. PDT (11:40:17 a.m. EDT / 1540:17 UTC).\n\nThe first-stage booster, serial number B1088, launching for a 17th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-40 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join ...",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Sunday, June 28 at 9:09:18 a.m. PDT (12:09:18 p.m. EDT / 1609:18 UTC).\n\nThe first-stage booster, serial number B1088, launching for a 17th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-40 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UC...",
         "feature_image": "https://i.ytimg.com/vi/bW4YJ2XX0lQ/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=bW4YJ2XX0lQ",
         "type": {
@@ -98,7 +98,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-06-28T15:10:00Z",
+        "start_time": "2026-06-28T15:39:00Z",
         "end_time": null,
         "live": false
       },
@@ -119,8 +119,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-06-28T15:30:00Z",
-        "end_time": "2026-06-28T18:30:00Z",
+        "start_time": "2026-07-29T15:59:00Z",
+        "end_time": "2026-07-29T18:59:00Z",
         "live": false
       }
     ],
@@ -273,69 +273,6 @@
     "mission_patches": []
   },
   {
-    "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
-    "name": "South Korean ADD Solid-Fuel SLV | Demo Flight",
-    "net": "2026-06-29T05:00:00Z",
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 1079,
-      "name": "Agency for Defense Development",
-      "abbrev": "ADD",
-      "country": [
-        {
-          "id": 35,
-          "name": "South Korea",
-          "alpha_2_code": "KR",
-          "alpha_3_code": "KOR",
-          "nationality_name": "South Korean",
-          "nationality_name_composed": "South Korean"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "South Korean ADD Solid-Fuel SLV",
-        "full_name": "South Korean ADD Solid-Fuel SLV",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Demo Flight",
-      "type": "Test Flight",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "ADD Offshore launch platform",
-      "latitude": 33.216667,
-      "longitude": 126.366667,
-      "location": {
-        "name": "Sea Launch",
-        "country": {
-          "id": 17,
-          "name": "Unknown",
-          "alpha_2_code": "??",
-          "alpha_3_code": "???",
-          "nationality_name": "Earthling",
-          "nationality_name_composed": "Earthling"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/south2520korea_image_20231204145331.png",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192440.png"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "8b7e748c-6ed5-4681-a898-827b4a23b8d7",
     "name": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
     "net": "2026-06-30T00:00:00Z",
@@ -416,6 +353,69 @@
         "response_mode": "normal"
       }
     ]
+  },
+  {
+    "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
+    "name": "South Korean ADD Solid-Fuel SLV | Demo Flight",
+    "net": "2026-06-30T05:00:00Z",
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 1079,
+      "name": "Agency for Defense Development",
+      "abbrev": "ADD",
+      "country": [
+        {
+          "id": 35,
+          "name": "South Korea",
+          "alpha_2_code": "KR",
+          "alpha_3_code": "KOR",
+          "nationality_name": "South Korean",
+          "nationality_name_composed": "South Korean"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "South Korean ADD Solid-Fuel SLV",
+        "full_name": "South Korean ADD Solid-Fuel SLV",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Demo Flight",
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "ADD Offshore launch platform",
+      "latitude": 33.216667,
+      "longitude": 126.366667,
+      "location": {
+        "name": "Sea Launch",
+        "country": {
+          "id": 17,
+          "name": "Unknown",
+          "alpha_2_code": "??",
+          "alpha_3_code": "???",
+          "nationality_name": "Earthling",
+          "nationality_name_composed": "Earthling"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/south2520korea_image_20231204145331.png",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192440.png"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
   },
   {
     "id": "f596ad48-881e-47d6-806d-113c6dd97427",
