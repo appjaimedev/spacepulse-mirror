@@ -2,7 +2,7 @@
   {
     "id": "0740c699-9877-4331-8aef-4e29ea6281c0",
     "name": "Falcon 9 Block 5 | Starlink Group 17-40",
-    "net": "2026-06-28T14:36:16Z",
+    "net": "2026-06-28T15:40:17Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -65,7 +65,7 @@
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Falcon 9 - Starlink 17-40 - SLC-4E - Vandenberg SFB - Space Affairs Live",
-        "description": "Launch Date: June 28, 2026\nLaunch Time: 7:36 a.m. PDT, 1436 UTC, 16:36 CEST\nLaunch Window: Open until 11:00 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 17-54\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1088 - Turnaround time 25 days)\nFlight for the Booster: 17\nPrevious Flights of the Booster: 16 - NROL-126, Transporter-12, SPHEREx, NROL-57, and 12 Starlink missions.\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\nS...",
+        "description": "Launch Date: June 28, 2026\nLaunch Time: 8:40 a.m. PDT, 15:40 UTC, 17:40 CEST\nLaunch Window: Open until 11:00 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 17-54\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1088 - Turnaround time 25 days)\nFlight for the Booster: 17\nPrevious Flights of the Booster: 16 - NROL-126, Transporter-12, SPHEREx, NROL-57, and 12 Starlink missions.\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\n...",
         "feature_image": "https://i.ytimg.com/vi/6R1ZDNpbx1M/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=6R1ZDNpbx1M",
         "type": {
@@ -77,7 +77,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-06-28T14:26:00Z",
+        "start_time": "2026-06-28T15:30:00Z",
         "end_time": null,
         "live": false
       },
@@ -86,7 +86,7 @@
         "source": "youtube.com",
         "publisher": "Spaceflight Now",
         "title": "Live: SpaceX Falcon 9 rocket launches from the West Coast with 24 Starlink satellites",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Sunday, June 28 during a window that opens, at 7 a.m. PDT (10 a.m. EDT / 1400 UTC).\n\nThe first-stage booster, serial number B1088, launching for a 17th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-40 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to...",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Sunday, June 28 during a window that opens, at 8:40:17 a.m. PDT (11:40:17 a.m. EDT / 1540:17 UTC).\n\nThe first-stage booster, serial number B1088, launching for a 17th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-40 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join ...",
         "feature_image": "https://i.ytimg.com/vi/bW4YJ2XX0lQ/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=bW4YJ2XX0lQ",
         "type": {
@@ -98,7 +98,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-06-28T13:30:00Z",
+        "start_time": "2026-06-28T15:10:00Z",
         "end_time": null,
         "live": false
       },
@@ -119,8 +119,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-06-28T14:26:00Z",
-        "end_time": "2026-06-28T17:26:00Z",
+        "start_time": "2026-06-28T15:30:00Z",
+        "end_time": "2026-06-28T18:30:00Z",
         "live": false
       }
     ],
