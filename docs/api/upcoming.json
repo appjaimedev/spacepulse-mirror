@@ -709,6 +709,88 @@
     "mission_patches": []
   },
   {
+    "id": "a6db1e67-5860-47c9-a674-adc0f35b62e0",
+    "name": "Falcon 9 Block 5 | Transporter 17 (Dedicated SSO Rideshare)",
+    "net": "2026-07-07T06:51:00Z",
+    "status": {
+      "id": 8,
+      "name": "To Be Confirmed",
+      "abbrev": "TBC"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Transporter 17 (Dedicated SSO Rideshare)",
+      "type": "Dedicated Rideshare",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": [
+      {
+        "id": 761,
+        "name": "SpaceX Transporter Patch v2",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/spacex2520tran_mission_patch_20230102202140.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 121,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
+          "name": "SpaceX",
+          "abbrev": "SpX",
+          "type": {
+            "id": 3,
+            "name": "Commercial"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
+  },
+  {
     "id": "62d4cd48-ed28-418b-b58c-526781a50a39",
     "name": "Falcon 9 Block 5 | Starlink Group 10-42",
     "net": "2026-07-09T09:05:00Z",
@@ -875,7 +957,7 @@
   {
     "id": "135fb199-a39e-48cc-ba27-0aecd96ba9f8",
     "name": "Falcon 9 Block 5 | Starlink Group 17-48",
-    "net": "2026-07-10T14:00:00Z",
+    "net": "2026-07-11T14:00:00Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -952,6 +1034,110 @@
         },
         "start_time": "2026-07-05T13:50:00Z",
         "end_time": "2026-07-05T15:50:00Z",
+        "live": false
+      }
+    ],
+    "mission_patches": [
+      {
+        "id": 7,
+        "name": "Space X Starlink Mission Patch",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 121,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
+          "name": "SpaceX",
+          "abbrev": "SpX",
+          "type": {
+            "id": 3,
+            "name": "Commercial"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
+  },
+  {
+    "id": "e09f254f-18bc-4985-963e-6075fa3d7a1c",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-14",
+    "net": "2026-07-12T08:00:00Z",
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Starlink Group 15-14",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png"
+    },
+    "webcast_live": false,
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "SpaceX",
+        "title": "Starlink Mission",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HMARzwdXAAAYR2I.jpg",
+        "url": "https://x.com/i/broadcasts/1qKDzzywYMVJV",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-12T07:50:00Z",
+        "end_time": "2026-07-12T09:50:00Z",
         "live": false
       }
     ],
@@ -1352,88 +1538,6 @@
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
-  },
-  {
-    "id": "a6db1e67-5860-47c9-a674-adc0f35b62e0",
-    "name": "Falcon 9 Block 5 | Transporter 17 (Dedicated SSO Rideshare)",
-    "net": "2026-07-31T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Transporter 17 (Dedicated SSO Rideshare)",
-      "type": "Dedicated Rideshare",
-      "orbit": {
-        "abbrev": "SSO",
-        "name": "Sun-Synchronous Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": [
-      {
-        "id": 761,
-        "name": "SpaceX Transporter Patch v2",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/spacex2520tran_mission_patch_20230102202140.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 121,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-          "name": "SpaceX",
-          "abbrev": "SpX",
-          "type": {
-            "id": 3,
-            "name": "Commercial"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
   },
   {
     "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
@@ -3661,87 +3765,5 @@
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
-  },
-  {
-    "id": "7c891a0b-7194-4425-8cfd-2e8c75af2924",
-    "name": "HANBIT-Nano | InnoSat-0",
-    "net": "2026-09-30T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 1098,
-      "name": "Innospace",
-      "abbrev": "IS",
-      "country": [
-        {
-          "id": 35,
-          "name": "South Korea",
-          "alpha_2_code": "KR",
-          "alpha_3_code": "KOR",
-          "nationality_name": "South Korean",
-          "nationality_name_composed": "South Korean"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "HANBIT-Nano",
-        "full_name": "HANBIT-Nano",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "InnoSat-0",
-      "type": "Technology",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "HANBIT Pad",
-      "latitude": -2.31698,
-      "longitude": -44.36873,
-      "location": {
-        "name": "Alcântara Space Center, Federative Republic of Brazil",
-        "country": {
-          "id": 24,
-          "name": "Brazil",
-          "alpha_2_code": "BR",
-          "alpha_3_code": "BRA",
-          "nationality_name": "Brazilian",
-          "nationality_name_composed": "Brazilian"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hanbit-nano_spa_image_20251224011159.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hanbit-nano_spa_image_thumbnail_20251224011200.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": [
-      {
-        "id": 1194,
-        "name": "Spaceward Patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/spaceward2520p_mission_patch_20251021115940.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 1098,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/1098/",
-          "name": "Innospace",
-          "abbrev": "IS",
-          "type": {
-            "id": 5,
-            "name": "Private"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
   }
 ]
