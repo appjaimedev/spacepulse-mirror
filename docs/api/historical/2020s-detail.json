@@ -37560,6 +37560,34 @@
       }
     ]
   },
+  "ce3db8f7-ba9b-4a2a-953c-c6c6ee926541": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "GTO",
+        "name": "Geostationary Transfer Orbit"
+      },
+      "description": "SXM-11 is the 12th high-powered, digital, audio radio satellite built by Lanteris Space (ex-Maxar, Space System/Loral) for SiriusXM. The SXM-11 satellite will be based on the proven IM-1300 (ex-LS-1300)-class platform and built at the company’s manufacturing facility in Palo Alto, California. SXM-1…"
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 28.56194122,
+    "pad_lon": -80.57735736,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=rz4QAc0BkEA"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=OgSGnNnVHQI"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=zA9MpkFxZFo"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1AJEmmRWBjkJL"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
