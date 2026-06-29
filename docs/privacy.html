@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — SpacePulse: Mission Control</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0a0e1a; color: #e8e0d0; font-family: 'Share Tech Mono', monospace; font-size: 13px; line-height: 1.6; min-height: 100vh; }
+    .container { max-width: 720px; margin: 0 auto; padding: 40px 20px 60px; }
+    .logo { font-family: 'VT323', monospace; font-size: 32px; color: #7dd3fc; letter-spacing: 3px; text-align: center; margin-bottom: 4px; }
+    .subtitle { font-family: 'VT323', monospace; font-size: 14px; color: #8a92a6; letter-spacing: 4px; text-align: center; margin-bottom: 24px; text-transform: uppercase; }
+    .divider { height: 1px; background: #1f2940; margin: 20px 0; }
+    h1 { font-family: 'VT323', monospace; font-size: 28px; color: #7dd3fc; letter-spacing: 2px; margin-bottom: 8px; }
+    h2 { font-family: 'Share Tech Mono', monospace; font-size: 14px; color: #7dd3fc; letter-spacing: 1px; margin: 24px 0 10px; font-weight: normal; }
+    p { margin-bottom: 12px; color: #e8e0d0; }
+    a { color: #7dd3fc; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { margin-bottom: 4px; }
+    .last-updated { font-size: 11px; color: #8a92a6; margin-bottom: 16px; }
+    .contact-box { background: #131829; border: 1px solid #1f2940; border-radius: 8px; padding: 16px; margin-top: 24px; text-align: center; }
+    .app-link { color: #4ade80 !important; text-decoration: none; font-family: 'VT323', monospace; font-size: 18px; letter-spacing: 2px; display: inline-block; }
+    .nav { text-align: center; margin-bottom: 20px; }
+    .nav a { color: #8a92a6; font-size: 11px; text-decoration: none; margin: 0 8px; letter-spacing: 1px; }
+    .nav a:hover { color: #7dd3fc; }
+    footer { text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #1f2940; color: #5b6478; font-size: 11px; }
+    .lang-switch { text-align: center; margin-bottom: 20px; display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; }
+    .lang-switch a { color: #7dd3fc; font-size: 11px; text-decoration: none; font-family: 'Share Tech Mono', monospace; padding: 3px 8px; border: 1px solid #1f2940; border-radius: 4px; }
+    .lang-switch a.active { color: #4ade80; border-color: #4ade80; font-weight: bold; }
+    .section-en, .section-es, .section-fr, .section-de, .section-ja, .section-zh { display: none; }
+    .section-en.active, .section-es.active, .section-fr.active, .section-de.active, .section-ja.active, .section-zh.active { display: block; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">SPACEPULSE</div>
+    <div class="subtitle">Mission Control</div>
+    <div class="divider"></div>
+    <div class="nav"><a href="./">HOME</a> &middot; <a href="privacy.html">PRIVACY</a> &middot; <a href="terms.html">TERMS</a></div>
+
+    <div class="lang-switch">
+      <a href="#" onclick="switchLang('en');return false;" id="btn-en" class="active">EN</a>
+      <a href="#" onclick="switchLang('es');return false;" id="btn-es">ES</a>
+      <a href="#" onclick="switchLang('fr');return false;" id="btn-fr">FR</a>
+      <a href="#" onclick="switchLang('de');return false;" id="btn-de">DE</a>
+      <a href="#" onclick="switchLang('ja');return false;" id="btn-ja">JA</a>
+      <a href="#" onclick="switchLang('zh');return false;" id="btn-zh">ZH</a>
+    </div>
+
+    <div class="section-en active">
+      <h1>PRIVACY POLICY</h1>
+      <p class="last-updated">Last updated: June 2026</p>
+      <h2>1. OVERVIEW</h2>
+      <p>SpacePulse ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information when you use our mobile application.</p>
+      <h2>2. INFORMATION WE COLLECT</h2>
+      <p>Information you provide: We do not require you to create an account. SpacePulse operates without collecting any personal identifying information — no name, email, or login.</p>
+      <p>Device permissions: The app requests access to your device location (only to compute visible ISS pass predictions; your coordinates stay on-device and are never sent to any server), your calendar (to add launch events), notification permissions (to schedule launch alerts), and camera access (only for the AR Sky View overlay to show where the ISS or Tiangong is in the sky; camera frames are processed on-device and never transmitted or stored). All permission-based data is processed locally.</p>
+      <p>Device storage: App preferences (theme, language, favorites, notification settings) are stored locally on your device using AsyncStorage. This data never leaves your device.</p>
+      <p>Network requests: The app fetches public launch data from The Space Devs API, satellite orbital data (TLE) from CelesTrak, and weather conditions from Open-Meteo using publicly available launch site coordinates. All requests are anonymous and contain no user-identifying information.</p>
+      <p>SpacePulse does not include any analytics or tracking SDK — we do not collect usage statistics or crash reports.</p>
+      <h2>3. HOW WE USE DATA</h2>
+      <p>SpacePulse does not collect personal identifying information, so there is nothing for us to share, sell, or analyze. Everything the app stores stays on your device.</p>
+      <p>The permissions we request are used solely for:</p><ul><li>Location — computing visible ISS and Tiangong pass predictions over your position (computed on-device using SGP4 propagation)</li><li>Calendar — adding launch events to your device calendar</li><li>Notifications — scheduling local launch alerts</li><li>Camera — AR Sky View directional overlay (camera feed stays on-device, no images saved or transmitted)</li></ul>
+      <p>We do NOT use your data for advertising, profiling, or selling to third parties.</p>
+      <h2>4. THIRD-PARTY SERVICES</h2>
+      <p>The Space Devs API: Launch data is provided by The Space Devs (thespacedevs.com). Please review their privacy policy at <a href="https://thespacedevs.com/privacy.">https://thespacedevs.com/privacy.</a></p>
+      <p>CelesTrak: Satellite TLE (Two-Line Element) data for ISS and Tiangong tracking is downloaded from CelesTrak (celestrak.org). Position computation is performed offline on your device using SGP4 propagation. No user data is sent.</p>
+      <p>Open-Meteo: Weather conditions at launch sites are fetched from Open-Meteo (open-meteo.com) using publicly available launch coordinates. No user location data is transmitted.</p>
+      <p>In-App Purchases: Pro membership purchases are processed by Apple App Store or Google Play Store. We do not store your payment information or card details. The app only queries your purchase entitlement status from the store. Please refer to Apple's or Google's privacy policies for purchase data handling.</p>
+      <p>Push Notifications: Launch alerts are scheduled as local notifications on your device. No push notification tokens are sent to Apple APNs or Google FCM.</p>
+      <h2>5. DATA RETENTION</h2>
+      <p>Local app data (preferences, favorites, notification schedules, calendar event IDs) is retained on your device until you uninstall the app or clear app data.</p>
+      <p>Cached data: Launch data from the API is cached locally for performance and automatically cleared after 24 hours. Satellite TLE data is cached for 12 hours and refreshed from CelesTrak.</p>
+      <p>Temporary files: When sharing a launch card, a temporary image file is created and deleted immediately after the share action completes.</p>
+      <p>SpacePulse has no backend server, so no data is retained anywhere else.</p>
+      <h2>6. YOUR RIGHTS (GDPR / CCPA)</h2>
+      <p>You have the right to:</p><ul><li>Delete all local app data by uninstalling the app or clearing app data in your device settings</li><li>Request information about any data we hold (we hold none on our servers)</li></ul>
+      <p>For GDPR requests, contact: <a href="mailto:app.jaimedev@gmail.com">app.jaimedev@gmail.com</a></p>
+      <h2>7. CHILDREN'S PRIVACY</h2>
+      <p>SpacePulse is not directed at children under 13. We do not knowingly collect information from children under 13. If you believe we have inadvertently collected such information, please contact us immediately.</p>
+      <h2>8. CHANGES TO THIS POLICY</h2>
+      <p>We may update this Privacy Policy from time to time. We will notify you of significant changes by updating the "Last updated" date above. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+      <h2>9. CONTACT US</h2>
+      <p>Questions about this Privacy Policy?<br>Email: <a href="mailto:app.jaimedev@gmail.com">app.jaimedev@gmail.com</a><br>Website: <a href="https://appjaimedev.github.io/spacepulse-mirror/privacy.html">https://appjaimedev.github.io/spacepulse-mirror/privacy.html</a></p>
+      <div class="contact-box"><a class="app-link" href="https://play.google.com/store/apps/details?id=com.spacepulse.mctrl">GOOGLE PLAY</a></div>
+    </div>
+
+    <div class="section-es">
+      <h1>POLÍTICA DE PRIVACIDAD</h1>
+      <p class="last-updated">Última actualización: junio 2026</p>
+      <h2>1. RESUMEN</h2>
+      <p>SpacePulse ("nosotros") se compromete a proteger tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos la información cuando usas nuestra aplicación móvil.</p>
+      <h2>2. INFORMACIÓN QUE RECOPILAMOS</h2>
+      <p>Información que proporcionas: No requerimos que crees una cuenta. SpacePulse funciona sin recopilar información de identificación personal — sin nombre, correo electrónico ni inicio de sesión.</p>
+      <p>Permisos del dispositivo: La app solicita acceso a la ubicación de tu dispositivo (solo para calcular predicciones de pasos visibles de la ISS; tus coordenadas permanecen en el dispositivo y nunca se envían a ningún servidor), tu calendario (para añadir eventos de lanzamiento), permisos de notificación (para programar alertas de lanzamiento) y acceso a la cámara (solo para la vista AR del cielo que muestra dónde están la ISS o el Tiangong; los frames de la cámara se procesan en el dispositivo y nunca se transmiten ni almacenan). Todos los datos basados en permisos se procesan localmente.</p>
+      <p>Almacenamiento del dispositivo: Las preferencias de la app (tema, idioma, favoritos, ajustes de notificaciones) se almacenan localmente en tu dispositivo usando AsyncStorage. Estos datos nunca salen de tu dispositivo.</p>
+      <p>Solicitudes de red: La app obtiene datos públicos de lanzamiento de la API de The Space Devs, datos orbitales de satélites (TLE) de CelesTrak y condiciones meteorológicas de Open-Meteo usando coordenadas públicas del sitio de lanzamiento. Todas las solicitudes son anónimas y no contienen información que identifique al usuario.</p>
+      <p>SpacePulse no incluye ningún SDK de analíticas o seguimiento — no recopilamos estadísticas de uso ni informes de fallos.</p>
+      <h2>3. CÓMO USAMOS LOS DATOS</h2>
+      <p>SpacePulse no recopila información de identificación personal, así que no hay nada que compartir, vender o analizar. Todo lo que la app almacena se queda en tu dispositivo.</p>
+      <p>Los permisos que solicitamos se usan exclusivamente para:</p><ul><li>Ubicación — calcular predicciones de pasos visibles de la ISS y Tiangong sobre tu posición (calculado en el dispositivo usando propagación SGP4)</li><li>Calendario — añadir eventos de lanzamiento a tu calendario</li><li>Notificaciones — programar alertas locales de lanzamiento</li><li>Cámara — superposición direccional de vista AR del cielo (el feed de cámara se queda en el dispositivo, no se guardan ni transmiten imágenes)</li></ul>
+      <p>NO usamos tus datos para publicidad, elaboración de perfiles ni venta a terceros.</p>
+      <h2>4. SERVICIOS DE TERCEROS</h2>
+      <p>API de The Space Devs: Los datos de lanzamientos son proporcionados por The Space Devs (thespacedevs.com). Consulta su política de privacidad en <a href="https://thespacedevs.com/privacy.">https://thespacedevs.com/privacy.</a></p>
+      <p>CelesTrak: Los datos TLE (Two-Line Element) de satélites para el seguimiento de la ISS y Tiangong se descargan de CelesTrak (celestrak.org). El cálculo de posición se realiza sin conexión en tu dispositivo usando propagación SGP4. No se envían datos del usuario.</p>
+      <p>Open-Meteo: Las condiciones meteorológicas en los sitios de lanzamiento se obtienen de Open-Meteo (open-meteo.com) usando coordenadas públicas de lanzamiento. No se transmiten datos de ubicación del usuario.</p>
+      <p>Compras dentro de la app: Las compras de la membresía Pro son procesadas por Apple App Store o Google Play Store. No almacenamos tu información de pago ni datos de tarjeta. La app solo consulta el estado de tu derecho de compra en la tienda. Consulta las políticas de privacidad de Apple o Google para el manejo de datos de compra.</p>
+      <p>Notificaciones push: Las alertas de lanzamiento se programan como notificaciones locales en tu dispositivo. No se envían tokens de notificación push a Apple APNs ni Google FCM.</p>
+      <h2>5. RETENCIÓN DE DATOS</h2>
+      <p>Los datos locales de la app (preferencias, favoritos, horarios de notificaciones, IDs de eventos de calendario) se conservan en tu dispositivo hasta que desinstales la app o borres los datos.</p>
+      <p>Datos en caché: Los datos de lanzamiento de la API se almacenan en caché localmente para mejorar el rendimiento y se eliminan automáticamente después de 24 horas. Los datos TLE de satélites se almacenan en caché durante 12 horas y se actualizan desde CelesTrak.</p>
+      <p>Archivos temporales: Al compartir una tarjeta de lanzamiento, se crea un archivo de imagen temporal que se elimina inmediatamente después de completar la acción de compartir.</p>
+      <p>SpacePulse no tiene servidor backend, así que ningún dato se guarda en ningún otro lugar.</p>
+      <h2>6. TUS DERECHOS (GDPR / CCPA)</h2>
+      <p>Tienes derecho a:</p><ul><li>Eliminar todos los datos locales de la app desinstalándola o borrando los datos en los ajustes de tu dispositivo</li><li>Solicitar información sobre cualquier dato que tengamos (no almacenamos ninguno en nuestros servidores)</li></ul>
+      <p>Para solicitudes GDPR, contacta: <a href="mailto:app.jaimedev@gmail.com">app.jaimedev@gmail.com</a></p>
+      <h2>7. PRIVACIDAD INFANTIL</h2>
+      <p>SpacePulse no está dirigido a menores de 13 años. No recopilamos deliberadamente información de menores de 13 años. Si crees que hemos recopilado dicha información sin querer, contáctanos inmediatamente.</p>
+      <h2>8. CAMBIOS EN ESTA POLÍTICA</h2>
+      <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Te notificaremos los cambios significativos actualizando la fecha de "Última actualización" arriba. El uso continuado de la app después de los cambios constituye la aceptación de la política actualizada.</p>
+      <h2>9. CONTACTO</h2>
+      <p>¿Preguntas sobre esta Política de Privacidad?<br>Email: <a href="mailto:app.jaimedev@gmail.com">app.jaimedev@gmail.com</a><br>Web: <a href="https://appjaimedev.github.io/spacepulse-mirror/privacy.html">https://appjaimedev.github.io/spacepulse-mirror/privacy.html</a></p>
+      <div class="contact-box"><a class="app-link" href="https://play.google.com/store/apps/details?id=com.spacepulse.mctrl">GOOGLE PLAY</a></div>
+    </div>
+
+    <div class="section-fr">
+      <h1>POLITIQUE DE CONFIDENTIALITÉ</h1>
+      <p class="last-updated">Dernière mise à jour : juin 2026</p>
+      <h2>1. RÉSUMÉ</h2>
+      <p>SpacePulse (« nous ») s'engage à protéger votre vie privée. Cette Politique de confidentialité explique comment nous collectons, utilisons et protégeons les informations lorsque vous utilisez notre application mobile.</p>
+      <h2>2. INFORMATIONS QUE NOUS COLLECTONS</h2>
+      <p>Informations que vous fournissez : Nous n'exigeons pas que vous créiez un compte. SpacePulse fonctionne sans collecter d'informations personnelles identifiables — pas de nom, d'email ni de connexion.</p>
+      <p>Permissions de l'appareil : L'application demande l'accès à la localisation de votre appareil (uniquement pour calculer les prédictions de passages visibles de l'ISS ; vos coordonnées restent sur l'appareil et ne sont jamais envoyées à un serveur), à votre calendrier (pour ajouter des événements de lancement), aux notifications (pour programmer des alertes de lancement) et à la caméra (uniquement pour la vue AR du ciel indiquant où se trouvent l'ISS ou Tiangong ; les images de la caméra sont traitées sur l'appareil et jamais transmises ni stockées). Toutes les données basées sur les permissions sont traitées localement.</p>
+      <p>Stockage sur l'appareil : Les préférences de l'application (thème, langue, favoris, paramètres de notification) sont stockées localement sur votre appareil via AsyncStorage. Ces données ne quittent jamais votre appareil.</p>
+      <p>Requêtes réseau : L'application récupère des données publiques de lancement depuis l'API The Space Devs, des données orbitales de satellites (TLE) depuis CelesTrak et des conditions météo depuis Open-Meteo en utilisant les coordonnées publiques du site de lancement. Toutes les requêtes sont anonymes et ne contiennent aucune information identifiable.</p>
+      <p>SpacePulse n'inclut aucun SDK d'analyse ou de suivi — nous ne collectons pas de statistiques d'utilisation ni de rapports de crash.</p>
+      <h2>3. COMMENT NOUS UTILISONS LES DONNÉES</h2>
+      <p>SpacePulse ne collecte pas d'informations personnelles identifiables, il n'y a donc rien à partager, vendre ou analyser. Tout ce que l'application stocke reste sur votre appareil.</p>
+      <p>Les permissions que nous demandons sont utilisées uniquement pour :</p><ul><li>Localisation — calculer les prédictions de passages visibles de l'ISS et Tiangong au-dessus de votre position (calculé sur l'appareil via propagation SGP4)</li><li>Calendrier — ajouter des événements de lancement à votre calendrier</li><li>Notifications — programmer des alertes de lancement locales</li><li>Caméra — superposition directionnelle vue AR ciel (le flux caméra reste sur l'appareil, aucune image sauvegardée ni transmise)</li></ul>
+      <p>Nous n'utilisons PAS vos données pour la publicité, le profilage ou la vente à des tiers.</p>
+      <h2>4. SERVICES TIERS</h2>
+      <p>API The Space Devs : Les données de lancement sont fournies par The Space Devs (thespacedevs.com). Consultez leur politique de confidentialité sur <a href="https://thespacedevs.com/privacy.">https://thespacedevs.com/privacy.</a></p>
+      <p>CelesTrak : Les données TLE (Two-Line Element) des satellites pour le suivi de l'ISS et Tiangong sont téléchargées depuis CelesTrak (celestrak.org). Le calcul de position est effectué hors ligne sur votre appareil via propagation SGP4. Aucune donnée utilisateur n'est envoyée.</p>
+      <p>Open-Meteo : Les conditions météo aux sites de lancement sont récupérées depuis Open-Meteo (open-meteo.com) en utilisant les coordonnées publiques de lancement. Aucune donnée de localisation utilisateur n'est transmise.</p>
+      <p>Achats intégrés : Les achats de l'adhésion Pro sont traités par l'Apple App Store ou le Google Play Store. Nous ne stockons pas vos informations de paiement ni vos données bancaires. L'application interroge uniquement votre statut d'achat auprès du magasin. Consultez les politiques de confidentialité d'Apple ou de Google pour le traitement des données d'achat.</p>
+      <p>Notifications push : Les alertes de lancement sont programmées comme des notifications locales sur votre appareil. Aucun token de notification push n'est envoyé à Apple APNs ou Google FCM.</p>
+      <h2>5. CONSERVATION DES DONNÉES</h2>
+      <p>Les données locales de l'application (préférences, favoris, horaires de notification, IDs d'événements de calendrier) sont conservées sur votre appareil jusqu'à ce que vous désinstalliez l'application ou effaciez les données.</p>
+      <p>Données en cache : Les données de lancement de l'API sont mises en cache localement pour les performances et supprimées automatiquement après 24 heures. Les données TLE des satellites sont mises en cache pendant 12 heures et actualisées depuis CelesTrak.</p>
+      <p>Fichiers temporaires : Lors du partage d'une carte de lancement, un fichier image temporaire est créé et supprimé immédiatement après l'action de partage.</p>
+      <p>SpacePulse n'a pas de serveur backend, donc aucune donnée n'est conservée ailleurs.</p>
+      <h2>6. VOS DROITS (RGPD / CCPA)</h2>
+      <p>Vous avez le droit de :</p><ul><li>Supprimer toutes les données locales de l'application en la désinstallant ou en effaçant les données dans les paramètres de votre appareil</li><li>Demander des informations sur les données que nous détenons (nous n'en conservons aucune sur nos serveurs)</li></ul>
+      <p>Pour les demandes RGPD, contactez : <a href="mailto:app.jaimedev@gmail.com">app.jaimedev@gmail.com</a></p>
+      <h2>7. CONFIDENTIALITÉ DES ENFANTS</h2>
+      <p>SpacePulse ne s'adresse pas aux enfants de moins de 13 ans. Nous ne collectons pas sciemment d'informations auprès d'enfants de moins de 13 ans. Si vous pensez que nous avons collecté de telles informations par inadvertance, contactez-nous immédiatement.</p>
+      <h2>8. MODIFICATIONS DE CETTE POLITIQUE</h2>
+      <p>Nous pouvons mettre à jour cette Politique de confidentialité occasionnellement. Nous vous informerons des changements importants en mettant à jour la date de « Dernière mise à jour » ci-dessus. L'utilisation continue de l'application après les modifications constitue l'acceptation de la politique mise à jour.</p>
+      <h2>9. CONTACT</h2>
+      <p>Des questions sur cette Politique de confidentialité ?<br>Email : <a href="mailto:app.jaimedev@gmail.com">app.jaimedev@gmail.com</a><br>Web : <a href="https://appjaimedev.github.io/spacepulse-mirror/privacy.html">https://appjaimedev.github.io/spacepulse-mirror/privacy.html</a></p>
+      <div class="contact-box"><a class="app-link" href="https://play.google.com/store/apps/details?id=com.spacepulse.mctrl">GOOGLE PLAY</a></div>
+    </div>
+
+    <div class="section-de">
+      <h1>DATENSCHUTZERKLÄRUNG</h1>
+      <p class="last-updated">Letzte Aktualisierung: Juni 2026</p>
+      <h2>1. ZUSAMMENFASSUNG</h2>
+      <p>SpacePulse („wir") verpflichtet sich, deine Privatsphäre zu schützen. Diese Datenschutzerklärung erläutert, wie wir Informationen erfassen, nutzen und schützen, wenn du unsere mobile App verwendest.</p>
+      <h2>2. DATEN, DIE WIR ERFASSEN</h2>
+      <p>Von dir bereitgestellte Daten: Wir verlangen keine Kontoerstellung. SpacePulse funktioniert ohne Erfassung personenbezogener Daten — kein Name, keine E-Mail, kein Login.</p>
+      <p>Geräteberechtigungen: Die App fordert Zugriff auf deinen Geräte-Standort (nur zur Berechnung sichtbarer ISS-Überflugvorhersagen; deine Koordinaten verbleiben auf dem Gerät und werden niemals an einen Server gesendet), deinen Kalender (zum Hinzufügen von Startereignissen), Benachrichtigungsberechtigungen (zum Planen von Start-Benachrichtigungen) und Kamerazugriff (nur für die AR-Himmelsansicht, die zeigt, wo sich ISS oder Tiangong am Himmel befinden; Kamerabilder werden auf dem Gerät verarbeitet und nie übertragen oder gespeichert). Alle berechtigungsbezogenen Daten werden lokal verarbeitet.</p>
+      <p>Gerätespeicher: App-Einstellungen (Theme, Sprache, Favoriten, Benachrichtigungseinstellungen) werden lokal auf deinem Gerät mit AsyncStorage gespeichert. Diese Daten verlassen niemals dein Gerät.</p>
+      <p>Netzwerkanfragen: Die App ruft öffentliche Startdaten von der The Space Devs API, Satellitenbahndaten (TLE) von CelesTrak und Wetterbedingungen von Open-Meteo unter Verwendung öffentlich verfügbarer Startplatz-Koordinaten ab. Alle Anfragen sind anonym und enthalten keine benutzeridentifizierenden Informationen.</p>
+      <p>SpacePulse enthält kein Analyse- oder Tracking-SDK — wir erfassen keine Nutzungsstatistiken oder Absturzberichte.</p>
+      <h2>3. WIE WIR DATEN NUTZEN</h2>
+      <p>SpacePulse erfasst keine personenidentifizierenden Informationen, daher gibt es nichts zu teilen, zu verkaufen oder zu analysieren. Alles, was die App speichert, bleibt auf deinem Gerät.</p>
+      <p>Die von uns angeforderten Berechtigungen werden ausschließlich verwendet für:</p><ul><li>Standort — Berechnung sichtbarer ISS- und Tiangong-Überflugvorhersagen über deiner Position (berechnet auf dem Gerät mittels SGP4-Propagation)</li><li>Kalender — Hinzufügen von Startereignissen zu deinem Gerätekalender</li><li>Benachrichtigungen — Planen lokaler Start-Benachrichtigungen</li><li>Kamera — AR-Himmelsansicht Richtungs-Overlay (Kamerafeed bleibt auf dem Gerät, keine Bilder gespeichert oder übertragen)</li></ul>
+      <p>Wir verwenden deine Daten NICHT für Werbung, Profiling oder Verkauf an Dritte.</p>
+      <h2>4. DIENSTLEISTUNGEN VON DRITTANBIETERN</h2>
+      <p>The Space Devs API: Startdaten werden von The Space Devs (thespacedevs.com) bereitgestellt. Deren Datenschutzerklärung unter <a href="https://thespacedevs.com/privacy.">https://thespacedevs.com/privacy.</a></p>
+      <p>CelesTrak: Satelliten-TLE-Daten (Two-Line Element) für ISS- und Tiangong-Tracking werden von CelesTrak (celestrak.org) heruntergeladen. Die Positionsberechnung erfolgt offline auf deinem Gerät mittels SGP4-Propagation. Es werden keine Benutzerdaten gesendet.</p>
+      <p>Open-Meteo: Wetterbedingungen an Startplätzen werden von Open-Meteo (open-meteo.com) unter Verwendung öffentlich verfügbarer Startkoordinaten abgerufen. Es werden keine Standortdaten des Benutzers übertragen.</p>
+      <p>In-App-Käufe: Pro-Mitgliedschaften werden über den Apple App Store oder Google Play Store abgewickelt. Wir speichern keine Zahlungsdaten oder Kartendetails. Die App fragt lediglich deinen Kaufberechtigungsstatus beim Store ab. Siehe Apple- oder Google-Datenschutzerklärungen für die Kaufdatenverarbeitung.</p>
+      <p>Push-Benachrichtigungen: Start-Benachrichtigungen werden als lokale Benachrichtigungen auf deinem Gerät geplant. Es werden keine Push-Benachrichtigungs-Token an Apple APNs oder Google FCM gesendet.</p>
+      <h2>5. DATENSPEICHERUNG</h2>
+      <p>Lokale App-Daten (Einstellungen, Favoriten, Benachrichtigungspläne, Kalender-Ereignis-IDs) werden auf deinem Gerät gespeichert, bis du die App deinstallierst oder die Daten löschst.</p>
+      <p>Zwischengespeicherte Daten: Startdaten der API werden lokal zwischengespeichert und nach 24 Stunden automatisch gelöscht. Satelliten-TLE-Daten werden für 12 Stunden zwischengespeichert und von CelesTrak aktualisiert.</p>
+      <p>Temporäre Dateien: Beim Teilen einer Startkarte wird eine temporäre Bilddatei erstellt und unmittelbar nach dem Teilen gelöscht.</p>
+      <p>SpacePulse hat keinen Backend-Server, daher werden nirgendwo sonst Daten gespeichert.</p>
+      <h2>6. DEINE RECHTE (DSGVO / CCPA)</h2>
+      <p>Du hast das Recht auf:</p><ul><li>Löschung aller lokalen App-Daten durch Deinstallation der App oder Löschen der Daten in deinen Geräteeinstellungen</li><li>Auskunft über bei uns gespeicherte Daten zu verlangen (wir speichern keine auf unseren Servern)</li></ul>
+      <p>Für DSGVO-Anfragen: <a href="mailto:app.jaimedev@gmail.com">app.jaimedev@gmail.com</a></p>
+      <h2>7. DATENSCHUTZ FÜR KINDER</h2>
+      <p>SpacePulse richtet sich nicht an Kinder unter 13 Jahren. Wir erfassen wissentlich keine Daten von Kindern unter 13 Jahren. Wenn du glaubst, dass wir solche Daten versehentlich erfasst haben, kontaktiere uns bitte umgehend.</p>
+      <h2>8. ÄNDERUNGEN DIESER ERKLÄRUNG</h2>
+      <p>Wir können diese Datenschutzerklärung gelegentlich aktualisieren. Wesentliche Änderungen werden durch Aktualisierung des Datums „Letzte Aktualisierung" oben mitgeteilt. Die fortgesetzte Nutzung der App nach Änderungen gilt als Zustimmung zur aktualisierten Erklärung.</p>
+      <h2>9. KONTAKT</h2>
+      <p>Fragen zu dieser Datenschutzerklärung?<br>Email: <a href="mailto:app.jaimedev@gmail.com">app.jaimedev@gmail.com</a><br>Web: <a href="https://appjaimedev.github.io/spacepulse-mirror/privacy.html">https://appjaimedev.github.io/spacepulse-mirror/privacy.html</a></p>
+      <div class="contact-box"><a class="app-link" href="https://play.google.com/store/apps/details?id=com.spacepulse.mctrl">GOOGLE PLAY</a></div>
+    </div>
+
+    <div class="section-ja">
+      <h1>プライバシーポリシー</h1>
+      <p class="last-updated">最終更新日: 2026年6月</p>
+      <h2>1. 概要</h2>
+      <p>SpacePulse（「当社」）は、お客様のプライバシー保護に努めています。このプライバシーポリシーでは、お客様が当社のモバイルアプリを使用する際に、当社がどのように情報を収集、使用、保護するかについて説明します。</p>
+      <h2>2. 収集する情報</h2>
+      <p>お客様から提供される情報: アカウント作成は必須ではありません。SpacePulseは個人を特定できる情報を収集せずに機能します — 名前、メール、ログイン情報はいずれも収集しません。</p>
+      <p>端末の権限: アプリは端末の位置情報（ISSの可視通過予測の計算にのみ使用。座標は端末内に留まり、サーバーに送信されることはありません）、カレンダー（打ち上げイベントの追加）、通知（打ち上げアラートのスケジュール）、カメラ（ARスカイビューでISSや天宮が空のどこにあるかを表示するのみに使用。カメラフレームは端末内で処理され、送信も保存もされません）へのアクセスを要求します。権限に基づくすべてのデータはローカルで処理されます。</p>
+      <p>端末内ストレージ: アプリの設定（テーマ、言語、お気に入り、通知設定）はAsyncStorageを使用して端末内にローカル保存されます。このデータが端末外に出ることはありません。</p>
+      <p>ネットワークリクエスト: アプリはThe Space Devs APIから公開打ち上げデータ、CelesTrakから衛星軌道データ（TLE）、Open-Meteoから公開の発射場座標を使用して気象条件を取得します。すべてのリクエストは匿名であり、ユーザーを特定する情報は含まれません。</p>
+      <p>SpacePulseには分析や追跡のSDKは含まれていません — 使用統計やクラッシュレポートは収集していません。</p>
+      <h2>3. データの利用方法</h2>
+      <p>SpacePulseは個人を特定する情報を収集しないため、共有、販売、分析するものはありません。アプリが保存するすべてのデータは端末内に留まります。</p>
+      <p>要求する権限は以下の目的でのみ使用されます：</p><ul><li>位置情報 — 端末の位置に基づくISSおよび天宮の可視通過予測の計算（SGP4Propagationを使用して端末内で計算）</li><li>カレンダー — 端末のカレンダーに打ち上げイベントを追加</li><li>通知 — ローカル打ち上げアラートのスケジュール</li><li>カメラ — ARスカイビュー方向オーバーレイ（カメラフィードは端末内に留まり、画像は保存も送信もされません）</li></ul>
+      <p>お客様のデータを広告、プロファイリング、第三者への販売に使用することはありません。</p>
+      <h2>4. サードパーティサービス</h2>
+      <p>The Space Devs API: 打ち上げデータはThe Space Devs (thespacedevs.com) によって提供されています。プライバシーポリシーは <a href="https://thespacedevs.com/privacy">https://thespacedevs.com/privacy</a> をご覧ください。</p>
+      <p>CelesTrak: ISSおよび天宮追跡用の衛星TLE（Two-Line Element）データはCelesTrak (celestrak.org) からダウンロードされます。位置計算はSGP4Propagationを使用して端末上でオフラインで実行されます。ユーザーデータは送信されません。</p>
+      <p>Open-Meteo: 発射場の気象条件はOpen-Meteo (open-meteo.com) から公開の発射場座標を使用して取得されます。ユーザーの位置データは送信されません。</p>
+      <p>アプリ内購入: Proメンバーシップの購入はApple App StoreまたはGoogle Play Storeによって処理されます。当社はお支払い情報やカード詳細を保存しません。アプリはストアから購入権限ステータスのみを照会します。購入データの取り扱いについてはAppleまたはGoogleのプライバシーポリシーをご参照ください。</p>
+      <p>プッシュ通知: 打ち上げアラートは端末上のローカル通知としてスケジュールされます。プッシュ通知トークンはApple APNsまたはGoogle FCMに送信されません。</p>
+      <h2>5. データの保持</h2>
+      <p>アプリのローカルデータ（設定、お気に入り、通知スケジュール、カレンダーイベントID）は、アプリをアンインストールするかデータを消去するまで端末に保持されます。</p>
+      <p>キャッシュデータ: APIからの打ち上げデータはパフォーマンス向上のためローカルにキャッシュされ、24時間後に自動的に削除されます。衛星TLEデータは12時間キャッシュされ、CelesTrakから更新されます。</p>
+      <p>一時ファイル: 打ち上げカードを共有する際、一時的な画像ファイルが作成され、共有アクション完了直後に削除されます。</p>
+      <p>SpacePulseにはバックエンドサーバーがないため、データは他のどこにも保存されません。</p>
+      <h2>6. お客様の権利（GDPR / CCPA）</h2>
+      <p>お客様には以下の権利があります：</p><ul><li>アプリのアンインストールまたは端末設定でのデータ消去により、すべてのローカルデータを削除する</li><li>当社が保持するデータについて情報を請求する（当社のサーバーには何も保持していません）</li></ul>
+      <p>GDPRに関する請求は <a href="mailto:app.jaimedev@gmail.com">app.jaimedev@gmail.com</a> までご連絡ください。</p>
+      <h2>7. 子どものプライバシー</h2>
+      <p>SpacePulseは13歳未満の子どもを対象としていません。13歳未満の子どもからの情報を故意に収集することはありません。万が一、意図せずにそのような情報を収集したと思われる場合は、直ちにご連絡ください。</p>
+      <h2>8. 本ポリシーの変更</h2>
+      <p>当社は本プライバシーポリシーを随時更新することがあります。重要な変更は、上記の「最終更新日」を更新することでお知らせします。変更後のアプリの継続利用は、更新されたポリシーへの同意とみなされます。</p>
+      <h2>9. お問い合わせ</h2>
+      <p>本プライバシーポリシーに関するご質問は？<br>メール: <a href="mailto:app.jaimedev@gmail.com">app.jaimedev@gmail.com</a><br>ウェブ: <a href="https://appjaimedev.github.io/spacepulse-mirror/privacy.html">https://appjaimedev.github.io/spacepulse-mirror/privacy.html</a></p>
+      <div class="contact-box"><a class="app-link" href="https://play.google.com/store/apps/details?id=com.spacepulse.mctrl">GOOGLE PLAY</a></div>
+    </div>
+
+    <div class="section-zh">
+      <h1>隐私政策</h1>
+      <p class="last-updated">最后更新: 2026年6月</p>
+      <h2>1. 概述</h2>
+      <p>SpacePulse（"我们"）致力于保护您的隐私。本隐私政策说明您在使用我们的移动应用时，我们如何收集、使用和保护信息。</p>
+      <h2>2. 我们收集的信息</h2>
+      <p>您提供的信息: 我们不需要您创建账户。SpacePulse 在不收集个人身份信息的情况下运行 — 不收集姓名、电子邮件或登录信息。</p>
+      <p>设备权限: 应用请求访问您的设备位置（仅用于计算 ISS 可见过境预测；您的坐标保留在设备上，永远不会发送到任何服务器）、日历（添加发射事件）、通知权限（安排发射提醒）和相机权限（仅用于 AR 天空视图显示 ISS 或天宫在天空中的位置；相机帧在设备上处理，永不传输或存储）。所有基于权限的数据都在本地处理。</p>
+      <p>设备存储: 应用偏好设置（主题、语言、收藏、通知设置）使用 AsyncStorage 本地存储在您的设备上。这些数据永远不会离开您的设备。</p>
+      <p>网络请求: 应用从 The Space Devs API 获取公开发射数据，从 CelesTrak 获取卫星轨道数据（TLE），从 Open-Meteo 使用公开的发射场坐标获取天气状况。所有请求都是匿名的，不包含用户身份信息。</p>
+      <p>SpacePulse 不包含任何分析或跟踪 SDK — 我们不收集使用统计或崩溃报告。</p>
+      <h2>3. 我们如何使用数据</h2>
+      <p>SpacePulse 不收集个人身份信息，因此我们没有可分享、出售或分析的内容。应用存储的一切都保留在您的设备上。</p>
+      <p>我们请求的权限仅用于以下用途：</p><ul><li>位置 — 计算您位置上方的 ISS 和天宫可见过境预测（使用 SGP4 传播在设备本地计算）</li><li>日历 — 将发射事件添加到您的设备日历</li><li>通知 — 安排本地发射提醒</li><li>相机 — AR 天空视图方向叠加层（相机馈留在设备上，不保存或传输图像）</li></ul>
+      <p>我们不会将您的数据用于广告、用户画像或出售给第三方。</p>
+      <h2>4. 第三方服务</h2>
+      <p>The Space Devs API: 发射数据由 The Space Devs (thespacedevs.com) 提供。请查看其隐私政策 <a href="https://thespacedevs.com/privacy。">https://thespacedevs.com/privacy。</a></p>
+      <p>CelesTrak: 用于 ISS 和天宫追踪的卫星 TLE（Two-Line Element）数据从 CelesTrak (celestrak.org) 下载。位置计算使用 SGP4 传播在您的设备上离线执行。不发送任何用户数据。</p>
+      <p>Open-Meteo: 发射场的天气状况从 Open-Meteo (open-meteo.com) 使用公开的发射坐标获取。不传输用户位置数据。</p>
+      <p>应用内购买: Pro 会员购买由 Apple App Store 或 Google Play Store 处理。我们不会存储您的支付信息或卡详细信息。应用仅从商店查询您的购买权限状态。请参阅 Apple 或 Google 的隐私政策以了解购买数据的处理方式。</p>
+      <p>推送通知: 发射提醒作为设备上的本地通知进行调度。不会向 Apple APNs 或 Google FCM 发送推送通知令牌。</p>
+      <h2>5. 数据保留</h2>
+      <p>应用的本地数据（偏好设置、收藏、通知计划、日历事件 ID）保留在您的设备上，直到您卸载应用或清除数据。</p>
+      <p>缓存数据: 来自 API 的发射数据为了性能进行本地缓存，并在 24 小时后自动清除。卫星 TLE 数据缓存 12 小时并从 CelesTrak 刷新。</p>
+      <p>临时文件: 分享发射卡片时，会创建一个临时图像文件，并在分享操作完成后立即删除。</p>
+      <p>SpacePulse 没有后端服务器，因此数据不会保存在其他任何地方。</p>
+      <h2>6. 您的权利（GDPR / CCPA）</h2>
+      <p>您有权：</p><ul><li>通过卸载应用或在设备设置中清除数据来删除所有本地数据</li><li>请求了解我们持有的任何数据（我们的服务器上不保留任何数据）</li></ul>
+      <p>GDPR 请求请联系: <a href="mailto:app.jaimedev@gmail.com">app.jaimedev@gmail.com</a></p>
+      <h2>7. 儿童隐私</h2>
+      <p>SpacePulse 不面向 13 岁以下的儿童。我们不会故意收集 13 岁以下儿童的信息。如果您认为我们无意中收集了此类信息，请立即联系我们。</p>
+      <h2>8. 本政策的变更</h2>
+      <p>我们可能会不时更新本隐私政策。重大变更将通过更新上方"最后更新"日期来通知您。政策变更后继续使用应用即表示您接受更新后的政策。</p>
+      <h2>9. 联系方式</h2>
+      <p>对本隐私政策有疑问？<br>邮箱: <a href="mailto:app.jaimedev@gmail.com">app.jaimedev@gmail.com</a><br>网站: <a href="https://appjaimedev.github.io/spacepulse-mirror/privacy.html">https://appjaimedev.github.io/spacepulse-mirror/privacy.html</a></p>
+      <div class="contact-box"><a class="app-link" href="https://play.google.com/store/apps/details?id=com.spacepulse.mctrl">GOOGLE PLAY</a></div>
+    </div>
+
+    <footer>&copy; 2026 SpacePulse: Mission Control &middot; com.spacepulse.mctrl</footer>
+  </div>
+
+  <script>
+    const LANGS = ['en','es','fr','de','ja','zh'];
+    function switchLang(lang) {
+      LANGS.forEach(l => {
+        document.querySelector('.section-'+l).classList.remove('active');
+        document.getElementById('btn-'+l).classList.remove('active');
+      });
+      document.querySelector('.section-'+lang).classList.add('active');
+      document.getElementById('btn-'+lang).classList.add('active');
+    }
+  </script>
+</body>
+</html>
