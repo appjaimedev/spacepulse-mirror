@@ -1,34 +1,5 @@
 [
   {
-    "id": "f596ad48-881e-47d6-806d-113c6dd97427",
-    "name": "Pegasus XL | Swift Boost Mission",
-    "net": "2026-06-30T10:17:00Z",
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 257,
-      "name": "Northrop Grumman Space Systems",
-      "country_code": null
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Pegasus XL"
-      }
-    },
-    "pad": {
-      "name": "Kwajalein Atoll",
-      "location": {
-        "name": "Air launch to orbit"
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg"
-    }
-  },
-  {
     "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
     "name": "South Korean ADD Solid-Fuel SLV | Demo Flight",
     "net": "2026-06-30T05:00:00Z",
