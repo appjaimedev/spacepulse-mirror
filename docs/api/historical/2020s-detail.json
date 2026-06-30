@@ -8783,10 +8783,10 @@
     "mission_patches": [],
     "vid_urls": [
       {
-        "url": "https://plus.nasa.gov/scheduled-video/progress-94-cargo-ship-launch/"
+        "url": "https://www.youtube.com/watch?v=O1OaCfLTPnw"
       },
       {
-        "url": "https://www.youtube.com/watch?v=O1OaCfLTPnw"
+        "url": "https://plus.nasa.gov/scheduled-video/progress-94-cargo-ship-launch/"
       },
       {
         "url": "https://www.youtube.com/watch?v=IlCZbwnYW5o"
@@ -37587,21 +37587,6 @@
         "url": "https://x.com/i/broadcasts/1AJEmmRWBjkJL"
       }
     ]
-  },
-  "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f": {
-    "mission": {
-      "type": "Test Flight",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      },
-      "description": "Note: Launch vehicle name is provisional. First orbital full version launch of the South Korean military small satellite launch vehicle, after 2 sub-orbital tests of individual stages on 30 March and 30 December 2022, and 1 orbital test flight without the 2nd stage on 4 December 2023. Details TBD."
-    },
-    "rocket_full_name": "South Korean ADD Solid-Fuel SLV",
-    "pad_lat": 33.216667,
-    "pad_lon": 126.366667,
-    "mission_patches": [],
-    "vid_urls": []
   },
   "__years__": [
     2020,

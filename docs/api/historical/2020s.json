@@ -1,34 +1,5 @@
 [
   {
-    "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
-    "name": "South Korean ADD Solid-Fuel SLV | Demo Flight",
-    "net": "2026-06-30T05:00:00Z",
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 1079,
-      "name": "Agency for Defense Development",
-      "country_code": null
-    },
-    "rocket": {
-      "configuration": {
-        "name": "South Korean ADD Solid-Fuel SLV"
-      }
-    },
-    "pad": {
-      "name": "ADD Offshore launch platform",
-      "location": {
-        "name": "Sea Launch"
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/south2520korea_image_20231204145331.png"
-    }
-  },
-  {
     "id": "ce3db8f7-ba9b-4a2a-953c-c6c6ee926541",
     "name": "Falcon 9 Block 5 | Sirius SXM-11",
     "net": "2026-06-29T02:25:00Z",
