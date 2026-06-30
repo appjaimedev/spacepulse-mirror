@@ -1414,6 +1414,69 @@
     "mission_patches": []
   },
   {
+    "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
+    "name": "South Korean ADD Solid-Fuel SLV | Demo Flight",
+    "net": "2026-07-31T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 1079,
+      "name": "Agency for Defense Development",
+      "abbrev": "ADD",
+      "country": [
+        {
+          "id": 35,
+          "name": "South Korea",
+          "alpha_2_code": "KR",
+          "alpha_3_code": "KOR",
+          "nationality_name": "South Korean",
+          "nationality_name_composed": "South Korean"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "South Korean ADD Solid-Fuel SLV",
+        "full_name": "South Korean ADD Solid-Fuel SLV",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Demo Flight",
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "ADD Offshore launch platform",
+      "latitude": 33.216667,
+      "longitude": 126.366667,
+      "location": {
+        "name": "Sea Launch",
+        "country": {
+          "id": 17,
+          "name": "Unknown",
+          "alpha_2_code": "??",
+          "alpha_3_code": "???",
+          "nationality_name": "Earthling",
+          "nationality_name_composed": "Earthling"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/south2520korea_image_20231204145331.png",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192440.png"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "a2234679-5efe-4a00-9aff-cf82dbac22b0",
     "name": "H3-24 | HTV-X2",
     "net": "2026-07-31T00:00:00Z",
@@ -3373,14 +3436,6 @@
           "nationality_name_composed": "Swedo"
         },
         {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
-        },
-        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -3483,6 +3538,14 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
+        },
+        {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
@@ -3717,69 +3780,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20220301072106.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192609.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
-    "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
-    "net": "2026-09-30T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "5x Astranis MicroGEO",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "GTO",
-        "name": "Geostationary Transfer Orbit"
-      }
-    },
-    "pad": {
-      "name": "Unknown Pad",
-      "latitude": 28.458,
-      "longitude": -80.528,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241221043403.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241221043404.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
