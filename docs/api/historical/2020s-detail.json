@@ -37588,6 +37588,54 @@
       }
     ]
   },
+  "491122a3-3eff-42db-aff3-424b3431fc0b": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system."
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 34.632,
+    "pad_lon": -120.611,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=nbzgvvmQYEc"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=5usMlga4NnM"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1aKbddvkZVeJX"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=dcdbmqJ3vkw"
+      }
+    ]
+  },
+  "2bedbf8c-8df2-4e24-8397-8c2a08fab581": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "Haiyang 2E (Chinese: \"Ocean\"), abbreviated HY-2E, is a marine remote sensing satellite of China. The HY-2 series' primary objective is to measure ocean dynamic and regional environmental trends in the microwave spectral range, plus measurements of parameters such as marine wind vector, marine surfa…"
+    },
+    "rocket_full_name": "Long March 4B",
+    "pad_lat": 40.960482,
+    "pad_lon": 100.298059,
+    "mission_patches": [],
+    "vid_urls": []
+  },
   "__years__": [
     2020,
     2021,
