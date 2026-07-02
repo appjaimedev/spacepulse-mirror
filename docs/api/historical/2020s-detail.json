@@ -37636,6 +37636,31 @@
     "mission_patches": [],
     "vid_urls": []
   },
+  "9eb09815-c237-4fdd-9057-5b161131240c": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The s…"
+    },
+    "rocket_full_name": "Atlas V 551",
+    "pad_lat": 28.58341025,
+    "pad_lon": -80.58303644,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=IxEYrkqNH8s"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=o1HtMe5qJy0"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=dcdbmqJ3vkw"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
