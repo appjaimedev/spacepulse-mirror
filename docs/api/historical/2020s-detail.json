@@ -37661,26 +37661,6 @@
       }
     ]
   },
-  "f596ad48-881e-47d6-806d-113c6dd97427": {
-    "mission": {
-      "type": "Mission Extension",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      },
-      "description": "Contracted by NASA under the Small Business Innovation Research Phase 3 contract, Katalyst Space Technologies' LINK servicing spacecraft will rendezvous and attach to NASA’s Neil Gehrels Swift Observatory to re-boost its orbit. This aims to demonstrate a key capability for the future of space explo…"
-    },
-    "rocket_full_name": "Pegasus XL",
-    "pad_lat": 8.716667,
-    "pad_lon": 167.733333,
-    "mission_patches": [
-      {
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/swift2520rescu_mission_patch_20260612075155.png",
-        "priority": 10
-      }
-    ],
-    "vid_urls": []
-  },
   "__years__": [
     2020,
     2021,

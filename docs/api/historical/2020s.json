@@ -1,34 +1,5 @@
 [
   {
-    "id": "f596ad48-881e-47d6-806d-113c6dd97427",
-    "name": "Pegasus XL | Swift Boost Mission",
-    "net": "2026-07-02T09:09:00Z",
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 257,
-      "name": "Northrop Grumman Space Systems",
-      "country_code": null
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Pegasus XL"
-      }
-    },
-    "pad": {
-      "name": "Kwajalein Atoll",
-      "location": {
-        "name": "Air launch to orbit"
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg"
-    }
-  },
-  {
     "id": "9eb09815-c237-4fdd-9057-5b161131240c",
     "name": "Atlas V 551 | Amazon Leo (LA-08)",
     "net": "2026-07-02T04:30:15Z",
