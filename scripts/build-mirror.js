@@ -38,6 +38,7 @@ const args = process.argv.slice(2);
 const FULL_MODE = args.includes('--full');
 const LIGHT_MODE = args.includes('--upcoming'); // solo upcoming.json (cron frecuente, 1 req)
 const BACKFILL_MODE = args.includes('--backfill'); // 1 década inmutable que falte (anónimo 15/h, sin token)
+const MARS_MODE = args.includes('--mars'); // solo mars-photos.json (NASA, independiente de LL2)
 
 function headers() {
   const h = { 'User-Agent': 'SpacePulse/1.0 (Mission Control · mirror-build)' };
@@ -325,6 +326,30 @@ async function buildCurrentDecade() {
 const NASA_API_KEY = process.env.NASA_API_KEY || 'DEMO_KEY';
 const MARS_ROVERS = ['perseverance', 'curiosity'];
 
+// Fallback curado: la API mars-photos de NASA (servicio de terceros que NASA
+// proxea) cae con frecuencia (404). Cuando no devuelve nada, servimos este set
+// de fotos icónicas reales alojadas en el mirror, para que el feature nunca
+// aparezca vacío. Se sustituye por las fotos "en vivo" en cuanto NASA responde.
+const MARS_IMG = 'https://appjaimedev.github.io/spacepulse-mirror/img/mars';
+const CURATED_MARS = {
+  perseverance: [
+    { id: 'cur-perseverance-1', sol: 46,   camera: { name: 'SHERLOC_WATSON', full_name: 'WATSON selfie camera' }, img_src: `${MARS_IMG}/perseverance_1.jpg`, earth_date: '2021-04-06', rover: { name: 'Perseverance', status: 'active' } },
+    { id: 'cur-perseverance-2', sol: 198,  camera: { name: 'SHERLOC_WATSON', full_name: 'WATSON selfie camera' }, img_src: `${MARS_IMG}/perseverance_2.jpg`, earth_date: '2021-09-10', rover: { name: 'Perseverance', status: 'active' } },
+    { id: 'cur-perseverance-3', sol: 1500, camera: { name: 'SHERLOC_WATSON', full_name: 'WATSON selfie camera' }, img_src: `${MARS_IMG}/perseverance_3.jpg`, earth_date: '2025-05-10', rover: { name: 'Perseverance', status: 'active' } },
+    { id: 'cur-perseverance-4', sol: 1350, camera: { name: 'MCZ',            full_name: 'Mastcam-Z' },             img_src: `${MARS_IMG}/perseverance_4.jpg`, earth_date: '2024-12-25', rover: { name: 'Perseverance', status: 'active' } },
+    { id: 'cur-perseverance-5', sol: 768,  camera: { name: 'MCZ',            full_name: 'Mastcam-Z' },             img_src: `${MARS_IMG}/perseverance_5.jpg`, earth_date: '2023-04-16', rover: { name: 'Perseverance', status: 'active' } },
+    { id: 'cur-perseverance-6', sol: 0,    camera: { name: 'EDL',            full_name: 'Entry, Descent & Landing' }, img_src: `${MARS_IMG}/perseverance_6.jpg`, earth_date: '2021-02-18', rover: { name: 'Perseverance', status: 'active' } },
+  ],
+  curiosity: [
+    { id: 'cur-curiosity-1', sol: 2620, camera: { name: 'MAST', full_name: 'Mast Camera' },   img_src: `${MARS_IMG}/curiosity_1.jpg`, earth_date: '2019-12-01', rover: { name: 'Curiosity', status: 'active' } },
+    { id: 'cur-curiosity-2', sol: 3977, camera: { name: 'MAST', full_name: 'Mast Camera' },   img_src: `${MARS_IMG}/curiosity_2.jpg`, earth_date: '2023-10-26', rover: { name: 'Curiosity', status: 'active' } },
+    { id: 'cur-curiosity-3', sol: 3423, camera: { name: 'MAST', full_name: 'Mast Camera' },   img_src: `${MARS_IMG}/curiosity_3.jpg`, earth_date: '2022-03-23', rover: { name: 'Curiosity', status: 'active' } },
+    { id: 'cur-curiosity-4', sol: 3070, camera: { name: 'MAHLI', full_name: 'Mars Hand Lens Imager' }, img_src: `${MARS_IMG}/curiosity_4.jpg`, earth_date: '2021-03-26', rover: { name: 'Curiosity', status: 'active' } },
+    { id: 'cur-curiosity-5', sol: 1128, camera: { name: 'MAHLI', full_name: 'Mars Hand Lens Imager' }, img_src: `${MARS_IMG}/curiosity_5.jpg`, earth_date: '2015-12-19', rover: { name: 'Curiosity', status: 'active' } },
+    { id: 'cur-curiosity-6', sol: 3415, camera: { name: 'MAST', full_name: 'Mast Camera' },   img_src: `${MARS_IMG}/curiosity_6.jpg`, earth_date: '2022-03-15', rover: { name: 'Curiosity', status: 'active' } },
+  ],
+};
+
 function trimEvent(event) {
   return {
     id:            event.id,
@@ -372,6 +397,14 @@ async function fetchMarsPhotos() {
     } catch (err) {
       console.warn(`  ✗ ${rover}: ${err.message}`);
       out[rover] = [];
+    }
+  }
+  // Fallback curado por rover: si la API en vivo no devolvió nada (backend de
+  // NASA caído), servimos las fotos icónicas alojadas en el mirror.
+  for (const rover of MARS_ROVERS) {
+    if (!out[rover] || out[rover].length === 0) {
+      out[rover] = CURATED_MARS[rover] || [];
+      if (out[rover].length) console.log(`  ↩ ${rover}: fallback curado (${out[rover].length})`);
     }
   }
   return out;
@@ -476,6 +509,19 @@ async function main() {
 
   if (BACKFILL_MODE) { await backfillOneDecade(); return; }
 
+  if (MARS_MODE) {
+    fs.mkdirSync(OUT_DIR, { recursive: true });
+    try {
+      const marsPhotos = await fetchMarsPhotos();
+      writeJson(path.join(OUT_DIR, 'mars-photos.json'), marsPhotos);
+      console.log('✅ Mars photos sync complete!');
+    } catch (e) {
+      console.error(`❌ Mars photos failed: ${e.message}`);
+      process.exit(1);
+    }
+    return;
+  }
+
   fs.mkdirSync(HIST_DIR, { recursive: true });
 
   const index = { generatedAt: new Date().toISOString(), decades: {}, upcomingCount: 0, astronautCount: 0, eventCount: 0, marsPhotos: false };
@@ -492,6 +538,17 @@ async function main() {
     writeJson(path.join(OUT_DIR, 'index.json'), { ...prev, generatedAt: index.generatedAt, upcomingCount: upcoming.length });
     console.log('✅ Mirror upcoming-only sync complete!');
     return;
+  }
+
+  // Mars primero: usa NASA (no LL2), así se genera aunque el trabajo LL2
+  // posterior falle o agote el límite. En su propio try/catch para no abortar
+  // el resto del build (ni el commit del workflow).
+  try {
+    const marsPhotos = await fetchMarsPhotos();
+    writeJson(path.join(OUT_DIR, 'mars-photos.json'), marsPhotos);
+    index.marsPhotos = true;
+  } catch (e) {
+    console.warn(`⚠ Mars photos falló: ${e.message}`);
   }
 
   await sleep(THROTTLE_MS);
@@ -524,21 +581,25 @@ async function main() {
 
   await sleep(THROTTLE_MS);
 
-  const astronauts = await fetchAstronauts();
-  writeJson(path.join(OUT_DIR, 'astronauts.json'), astronauts);
-  index.astronautCount = astronauts.length;
+  // Cada sección en su propio try/catch: un fallo (p.ej. 429 de LL2 en la
+  // lista de astronautas) no debe abortar el build ni saltarse el commit.
+  try {
+    const astronauts = await fetchAstronauts();
+    writeJson(path.join(OUT_DIR, 'astronauts.json'), astronauts);
+    index.astronautCount = astronauts.length;
+  } catch (e) {
+    console.warn(`⚠ Astronauts falló: ${e.message}`);
+  }
 
   await sleep(THROTTLE_MS);
 
-  const events = await fetchEvents();
-  writeJson(path.join(OUT_DIR, 'events.json'), events);
-  index.eventCount = events.length;
-
-  await sleep(THROTTLE_MS);
-
-  const marsPhotos = await fetchMarsPhotos();
-  writeJson(path.join(OUT_DIR, 'mars-photos.json'), marsPhotos);
-  index.marsPhotos = true;
+  try {
+    const events = await fetchEvents();
+    writeJson(path.join(OUT_DIR, 'events.json'), events);
+    index.eventCount = events.length;
+  } catch (e) {
+    console.warn(`⚠ Events falló: ${e.message}`);
+  }
 
   writeJson(path.join(OUT_DIR, 'index.json'), index);
 

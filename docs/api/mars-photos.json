@@ -1,0 +1,174 @@
+{
+  "perseverance": [
+    {
+      "id": "cur-perseverance-1",
+      "sol": 46,
+      "camera": {
+        "name": "SHERLOC_WATSON",
+        "full_name": "WATSON selfie camera"
+      },
+      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/perseverance_1.jpg",
+      "earth_date": "2021-04-06",
+      "rover": {
+        "name": "Perseverance",
+        "status": "active"
+      }
+    },
+    {
+      "id": "cur-perseverance-2",
+      "sol": 198,
+      "camera": {
+        "name": "SHERLOC_WATSON",
+        "full_name": "WATSON selfie camera"
+      },
+      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/perseverance_2.jpg",
+      "earth_date": "2021-09-10",
+      "rover": {
+        "name": "Perseverance",
+        "status": "active"
+      }
+    },
+    {
+      "id": "cur-perseverance-3",
+      "sol": 1500,
+      "camera": {
+        "name": "SHERLOC_WATSON",
+        "full_name": "WATSON selfie camera"
+      },
+      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/perseverance_3.jpg",
+      "earth_date": "2025-05-10",
+      "rover": {
+        "name": "Perseverance",
+        "status": "active"
+      }
+    },
+    {
+      "id": "cur-perseverance-4",
+      "sol": 1350,
+      "camera": {
+        "name": "MCZ",
+        "full_name": "Mastcam-Z"
+      },
+      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/perseverance_4.jpg",
+      "earth_date": "2024-12-25",
+      "rover": {
+        "name": "Perseverance",
+        "status": "active"
+      }
+    },
+    {
+      "id": "cur-perseverance-5",
+      "sol": 768,
+      "camera": {
+        "name": "MCZ",
+        "full_name": "Mastcam-Z"
+      },
+      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/perseverance_5.jpg",
+      "earth_date": "2023-04-16",
+      "rover": {
+        "name": "Perseverance",
+        "status": "active"
+      }
+    },
+    {
+      "id": "cur-perseverance-6",
+      "sol": 0,
+      "camera": {
+        "name": "EDL",
+        "full_name": "Entry, Descent & Landing"
+      },
+      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/perseverance_6.jpg",
+      "earth_date": "2021-02-18",
+      "rover": {
+        "name": "Perseverance",
+        "status": "active"
+      }
+    }
+  ],
+  "curiosity": [
+    {
+      "id": "cur-curiosity-1",
+      "sol": 2620,
+      "camera": {
+        "name": "MAST",
+        "full_name": "Mast Camera"
+      },
+      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/curiosity_1.jpg",
+      "earth_date": "2019-12-01",
+      "rover": {
+        "name": "Curiosity",
+        "status": "active"
+      }
+    },
+    {
+      "id": "cur-curiosity-2",
+      "sol": 3977,
+      "camera": {
+        "name": "MAST",
+        "full_name": "Mast Camera"
+      },
+      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/curiosity_2.jpg",
+      "earth_date": "2023-10-26",
+      "rover": {
+        "name": "Curiosity",
+        "status": "active"
+      }
+    },
+    {
+      "id": "cur-curiosity-3",
+      "sol": 3423,
+      "camera": {
+        "name": "MAST",
+        "full_name": "Mast Camera"
+      },
+      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/curiosity_3.jpg",
+      "earth_date": "2022-03-23",
+      "rover": {
+        "name": "Curiosity",
+        "status": "active"
+      }
+    },
+    {
+      "id": "cur-curiosity-4",
+      "sol": 3070,
+      "camera": {
+        "name": "MAHLI",
+        "full_name": "Mars Hand Lens Imager"
+      },
+      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/curiosity_4.jpg",
+      "earth_date": "2021-03-26",
+      "rover": {
+        "name": "Curiosity",
+        "status": "active"
+      }
+    },
+    {
+      "id": "cur-curiosity-5",
+      "sol": 1128,
+      "camera": {
+        "name": "MAHLI",
+        "full_name": "Mars Hand Lens Imager"
+      },
+      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/curiosity_5.jpg",
+      "earth_date": "2015-12-19",
+      "rover": {
+        "name": "Curiosity",
+        "status": "active"
+      }
+    },
+    {
+      "id": "cur-curiosity-6",
+      "sol": 3415,
+      "camera": {
+        "name": "MAST",
+        "full_name": "Mast Camera"
+      },
+      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/curiosity_6.jpg",
+      "earth_date": "2022-03-15",
+      "rover": {
+        "name": "Curiosity",
+        "status": "active"
+      }
+    }
+  ]
+}
