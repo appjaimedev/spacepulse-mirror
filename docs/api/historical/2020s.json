@@ -2,11 +2,11 @@
   {
     "id": "f596ad48-881e-47d6-806d-113c6dd97427",
     "name": "Pegasus XL | Swift Boost Mission",
-    "net": "2026-07-03T08:35:00Z",
+    "net": "2026-07-03T08:36:00Z",
     "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 257,
