@@ -37683,12 +37683,12 @@
   },
   "9e0f6efb-4742-4ba3-9fd4-4ea218576c71": {
     "mission": {
-      "type": "Unknown",
+      "type": "Communications",
       "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
+        "abbrev": "PO",
+        "name": "Polar Orbit"
       },
-      "description": "Details TBD."
+      "description": "18 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government. Initial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 1…"
     },
     "rocket_full_name": "Long March 6A",
     "pad_lat": 38.8583,
