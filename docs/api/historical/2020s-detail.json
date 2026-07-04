@@ -37681,6 +37681,21 @@
     ],
     "vid_urls": []
   },
+  "9e0f6efb-4742-4ba3-9fd4-4ea218576c71": {
+    "mission": {
+      "type": "Unknown",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      },
+      "description": "Details TBD."
+    },
+    "rocket_full_name": "Long March 6A",
+    "pad_lat": 38.8583,
+    "pad_lon": 111.5802,
+    "mission_patches": [],
+    "vid_urls": []
+  },
   "__years__": [
     2020,
     2021,
