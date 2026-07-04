@@ -140,7 +140,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-05T10:26:00Z",
+        "start_time": "2026-07-05T10:36:00Z",
         "end_time": "2026-07-05T13:27:00Z",
         "live": false
       }
@@ -2671,69 +2671,6 @@
     "mission_patches": []
   },
   {
-    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-    "net": "2026-09-30T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 124,
-      "name": "United Launch Alliance",
-      "abbrev": "ULA",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Vulcan VC6L",
-        "full_name": "Vulcan VC6L",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Amazon Leo (LV-01)",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 41",
-      "latitude": 28.58341025,
-      "longitude": -80.58303644,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "cb1762f0-90f4-4902-a5f6-655a7ade25bf",
     "name": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer B",
     "net": "2026-09-30T00:00:00Z",
@@ -2791,6 +2728,69 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+    "net": "2026-09-30T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 124,
+      "name": "United Launch Alliance",
+      "abbrev": "ULA",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Vulcan VC6L",
+        "full_name": "Vulcan VC6L",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Amazon Leo (LV-01)",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 41",
+      "latitude": 28.58341025,
+      "longitude": -80.58303644,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
