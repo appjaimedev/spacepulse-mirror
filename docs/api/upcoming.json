@@ -58,8 +58,30 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg"
     },
-    "webcast_live": false,
-    "vid_urls": [],
+    "webcast_live": true,
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "ThatSpaceDogeGuy",
+        "title": "Watch Long March 8A Launch SpaceSail Polar Group 14 from Wenchang, LIVE!!",
+        "description": "Credits: TSDG Wenchang & 离弦和白猫 (BiliBili)\n-------------------------------------------------------------\nSubscribe and follow my socials for more content!!!\n▶️ Twitter/X @TestAiden [ThatSpaceDogeGuy]\n▶️ Instagram | ThatSpaceDogeGuy\n▶️ Tiktok | ThatSpaceDogeGuy\n▶️ Twitch | ThatSpaceDogeGuy\n\nFootage from TSDG may be reused only with proper credit. Credit must be clearly visible in the video or included in the description. Unauthorized use without credit may be subject to removal.\n\nFor all business inquiries, questions, or copyright matters, please contact: tsdgbusiness@gmail.com\nThis stream includes footage from our team..",
+        "feature_image": "https://i.ytimg.com/vi/j7RtIMmwYho/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=j7RtIMmwYho",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-05T13:16:21Z",
+        "end_time": null,
+        "live": true
+      }
+    ],
     "mission_patches": []
   },
   {
