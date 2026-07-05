@@ -2,11 +2,11 @@
   {
     "id": "888e0de3-ce4d-4daf-8140-bb0d3a4c8245",
     "name": "Long March 8A | SpaceSail Polar Group TBD",
-    "net": "2026-07-05T13:40:00Z",
+    "net": "2026-07-05T13:43:00Z",
     "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
+      "id": 6,
+      "name": "Launch in Flight",
+      "abbrev": "In Flight"
     },
     "launch_service_provider": {
       "id": 88,
