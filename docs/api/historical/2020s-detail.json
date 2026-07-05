@@ -37696,6 +37696,58 @@
     "mission_patches": [],
     "vid_urls": []
   },
+  "888e0de3-ce4d-4daf-8140-bb0d3a4c8245": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      },
+      "description": "Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government. Initial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 1200…"
+    },
+    "rocket_full_name": "Long March 8A",
+    "pad_lat": 19.597275,
+    "pad_lon": 110.930753,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=j7RtIMmwYho"
+      }
+    ]
+  },
+  "1ef27ca1-af91-48bb-b934-3da5abd9f711": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system. The Falcon 9 1st stage carries 2 customer payload from Besxar Space Industries for testing their Fabships pilot reusable semiconductor wafers manufacturing pods in launch a…"
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 28.56194122,
+    "pad_lon": -80.57735736,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=ZMD1swgTLkU"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=qx8NM71T1XY"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=OMMBI0pQLfo"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1oKMvvkZZAOGQ"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,

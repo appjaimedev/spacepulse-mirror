@@ -1,5 +1,63 @@
 [
   {
+    "id": "888e0de3-ce4d-4daf-8140-bb0d3a4c8245",
+    "name": "Long March 8A | SpaceSail Polar Group TBD",
+    "net": "2026-07-05T13:40:00Z",
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 8A"
+      }
+    },
+    "pad": {
+      "name": "Commercial LC-1",
+      "location": {
+        "name": "Wenchang Space Launch Site, People's Republic of China"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg"
+    }
+  },
+  {
+    "id": "1ef27ca1-af91-48bb-b934-3da5abd9f711",
+    "name": "Falcon 9 Block 5 | Starlink Group 10-50",
+    "net": "2026-07-05T10:50:00Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 40",
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png"
+    }
+  },
+  {
     "id": "9e0f6efb-4742-4ba3-9fd4-4ea218576c71",
     "name": "Long March 6A | SpaceSail Polar Group #13",
     "net": "2026-07-04T09:30:00Z",
