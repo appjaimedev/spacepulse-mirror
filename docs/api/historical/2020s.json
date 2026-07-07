@@ -4,9 +4,9 @@
     "name": "Falcon 9 Block 5 | Transporter 17 (Dedicated SSO Rideshare)",
     "net": "2026-07-07T07:12:00Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 121,
