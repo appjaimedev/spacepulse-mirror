@@ -37751,6 +37751,36 @@
       }
     ]
   },
+  "a6db1e67-5860-47c9-a674-adc0f35b62e0": {
+    "mission": {
+      "type": "Dedicated Rideshare",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers."
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 34.632,
+    "pad_lon": -120.611,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/spacex2520tran_mission_patch_20230102202140.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=kf6ZM4lFO5Q"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VFGj4aen9OU"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1YxNrryLloQxw"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
