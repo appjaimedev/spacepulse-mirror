@@ -61,6 +61,48 @@
     "webcast_live": false,
     "vid_urls": [
       {
+        "priority": 7,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Falcon 9 - Starlink 10-42 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+        "description": "Launch Date:  July 9, 2026\nLaunch Time: 5:05 a.m. EDT, 0905 UTC, 11:05 CEST\nLaunch Window:  Open until 9:05 a.m. EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Northeast\nLaunch Status: Scheduled and announced\n\nMission: Starlink 10-42\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1067 - Turnaround 31 days)\nFlight for the Booster: 36\nPrevious Flights of the Booster: 35 - CRS-22, Crew-3, Turksat 5B, Crew-4, CRS-25, Eutelsat HOTBIRD 13G, SES O3B mPOWER-A, PSN SATRIA, Telkomsat Merah Putih 2, Galileo, Koreasat-6A, and 24 Starlink missions\nDroneship: A Shortfall Of Gravitas\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,60...",
+        "feature_image": "https://i.ytimg.com/vi/1nqwTfqAHAw/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=1nqwTfqAHAw",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-09T08:55:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "NASASpaceflight",
+        "title": "SpaceX Launches Record Breaking Falcon 9 with Starlink 10-42",
+        "description": "Launch Window: July 9 from 5:05 AM Eastern to 9:05 AM Eastern\n\n\n⚡ Become a member of NASASpaceflight's channel for exclusive discord access, fast turnaround clips, and other exclusive benefits. Your support helps us continue our 24/7 coverage. ⚡\n\n🔍 If you are interested in using footage captured by this stream, please review our content use policy: https://www.nasaspaceflight.com/content-use-policy/\n\n#SpaceX #Starlink #Falcon9 #Starlink1223 #LEO #SatelliteInternet #SpaceXLaunch #GlobalInternet #HighSpeedInternet #RocketLaunch #StarlinkMission #NextGenSatellites #SpaceTechnology\n\n LDAPAABJRG2UMCU3 🎵 Intro song: New Way Out by Denis. Licensed via PremiumBeat. LDAPAABJRG2UMCU3\n🎵 Music used on streams and in videos is licensed via EpidemicSound: https://share.epidemicsound.com/qvh38e\n\nAll...",
+        "feature_image": "https://i.ytimg.com/vi/D3cSGwTyAdQ/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=D3cSGwTyAdQ",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-09T08:05:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
         "priority": 10,
         "source": "x.com",
         "publisher": "SpaceX",
@@ -3027,69 +3069,6 @@
     ]
   },
   {
-    "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
-    "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
-    "net": "2026-09-30T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "5x Astranis MicroGEO",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "GTO",
-        "name": "Geostationary Transfer Orbit"
-      }
-    },
-    "pad": {
-      "name": "Unknown Pad",
-      "latitude": 28.458,
-      "longitude": -80.528,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241221043403.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241221043404.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "0a07a23e-606a-4589-bf3e-c3e41bd4de51",
     "name": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer A",
     "net": "2026-09-30T00:00:00Z",
@@ -3705,5 +3684,87 @@
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
+  },
+  {
+    "id": "67213393-7983-4c06-8b44-b8c785a5ed79",
+    "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+    "net": "2026-10-31T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Transporter 18 (Dedicated SSO Rideshare)",
+      "type": "Dedicated Rideshare",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": [
+      {
+        "id": 761,
+        "name": "SpaceX Transporter Patch v2",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/spacex2520tran_mission_patch_20230102202140.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 121,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
+          "name": "SpaceX",
+          "abbrev": "SpX",
+          "type": {
+            "id": 3,
+            "name": "Commercial"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
   }
 ]
