@@ -1981,6 +1981,69 @@
     "mission_patches": []
   },
   {
+    "id": "91b13c6c-4525-496d-997b-3521bb6a4cd8",
+    "name": "RFA One | Maiden Flight",
+    "net": "2026-08-31T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 1045,
+      "name": "Rocket Factory Augsburg",
+      "abbrev": "RFA",
+      "country": [
+        {
+          "id": 4,
+          "name": "Germany",
+          "alpha_2_code": "DE",
+          "alpha_3_code": "DEU",
+          "nationality_name": "German",
+          "nationality_name_composed": "Germano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "RFA One",
+        "full_name": "RFA One",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Maiden Flight",
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      }
+    },
+    "pad": {
+      "name": "Launch Pad Fredo",
+      "latitude": 60.81736038715111,
+      "longitude": -0.7626391593025057,
+      "location": {
+        "name": "SaxaVord Spaceport",
+        "country": {
+          "id": 10,
+          "name": "United Kingdom",
+          "alpha_2_code": "GB",
+          "alpha_3_code": "GBR",
+          "nationality_name": "British",
+          "nationality_name_composed": "Brito"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rfa_one_image_20230117001619.png",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193837.png"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
     "name": "Soyuz 2.1b | Progress MS-35 (96P)",
     "net": "2026-09-09T16:10:00Z",
@@ -3512,69 +3575,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20220301072106.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192609.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "91b13c6c-4525-496d-997b-3521bb6a4cd8",
-    "name": "RFA One | Maiden Flight",
-    "net": "2026-09-30T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 1045,
-      "name": "Rocket Factory Augsburg",
-      "abbrev": "RFA",
-      "country": [
-        {
-          "id": 4,
-          "name": "Germany",
-          "alpha_2_code": "DE",
-          "alpha_3_code": "DEU",
-          "nationality_name": "German",
-          "nationality_name_composed": "Germano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "RFA One",
-        "full_name": "RFA One",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Maiden Flight",
-      "type": "Test Flight",
-      "orbit": {
-        "abbrev": "SSO",
-        "name": "Sun-Synchronous Orbit"
-      }
-    },
-    "pad": {
-      "name": "Launch Pad Fredo",
-      "latitude": 60.81736038715111,
-      "longitude": -0.7626391593025057,
-      "location": {
-        "name": "SaxaVord Spaceport",
-        "country": {
-          "id": 10,
-          "name": "United Kingdom",
-          "alpha_2_code": "GB",
-          "alpha_3_code": "GBR",
-          "nationality_name": "British",
-          "nationality_name_composed": "Brito"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rfa_one_image_20230117001619.png",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193837.png"
     },
     "webcast_live": false,
     "vid_urls": [],
