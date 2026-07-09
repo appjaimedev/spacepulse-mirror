@@ -2,7 +2,7 @@
   {
     "id": "62d4cd48-ed28-418b-b58c-526781a50a39",
     "name": "Falcon 9 Block 5 | Starlink Group 10-42",
-    "net": "2026-07-09T09:25:37Z",
+    "net": "2026-07-09T09:25:43Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -82,6 +82,27 @@
         "live": false
       },
       {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "Live: Falcon 9 rocket launches from Cape Canaveral with 29 satellites for SpaceX's Starlink service",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for the company's Starlink internet service plus a test flight for two prototype semiconductor manufacturing devices. Liftoff of the Starlink 10-42 mission from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Thursday, July 9, at 5:25 a.m. EDT (0925 UTC).\n\nThe first-stage Falcon 9 booster, serial number 1067, launching for a  record-breaking 36th time, will take a north-easterly trajectory on departure from Florida's Space Coast. About 8.5 minutes into flight it will land on SpaceX's drone ship 'A Shortfall of Gravitas', stationed in the Atlantic Ocean.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to launch.\n\nVi...",
+        "feature_image": "https://i.ytimg.com/vi/nlP96NjHG0Y/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=nlP96NjHG0Y",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-09T08:25:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
         "priority": 9,
         "source": "youtube.com",
         "publisher": "NASASpaceflight",
@@ -98,7 +119,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-09T08:05:00Z",
+        "start_time": "2026-07-09T08:25:00Z",
         "end_time": null,
         "live": false
       },
