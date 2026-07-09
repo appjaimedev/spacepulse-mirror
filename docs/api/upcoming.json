@@ -2,7 +2,7 @@
   {
     "id": "1e79a5e9-c02c-470f-882f-884120100fef",
     "name": "Long March 10B | Demo Flight",
-    "net": "2026-07-10T05:20:00Z",
+    "net": "2026-07-10T04:10:00Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -54,7 +54,10 @@
         }
       }
     },
-    "image": null,
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_10b__image_20260709125908.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_10b__image_thumbnail_20260709125908.jpeg"
+    },
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
