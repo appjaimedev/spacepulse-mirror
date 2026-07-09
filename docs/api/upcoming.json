@@ -560,7 +560,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193857.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "plus.nasa.gov",
+        "publisher": "NASA",
+        "title": "NASA Astronaut Anil Menon Soyuz MS-29 Launch",
+        "description": "",
+        "feature_image": "https://plus.nasa.gov/wp-content/uploads/2026/06/soyuz-ms-29-launch-key-art-r1-horizontal-program-tile-16-9-without-title.jpg",
+        "url": "https://plus.nasa.gov/scheduled-video/nasa-astronaut-anil-menon-soyuz-ms-29-launch/",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-14T13:45:00Z",
+        "end_time": "2026-07-14T16:00:00Z",
+        "live": false
+      }
+    ],
     "mission_patches": []
   },
   {
