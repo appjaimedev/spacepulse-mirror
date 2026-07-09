@@ -1,172 +1,5 @@
 [
   {
-    "id": "62d4cd48-ed28-418b-b58c-526781a50a39",
-    "name": "Falcon 9 Block 5 | Starlink Group 10-42",
-    "net": "2026-07-09T09:25:43Z",
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Starlink Group 10-42",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 40",
-      "latitude": 28.56194122,
-      "longitude": -80.57735736,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 7,
-        "source": "youtube.com",
-        "publisher": "SPACE AFFAIRS",
-        "title": "GO! - SpaceX - Falcon 9 - Starlink 10-42 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
-        "description": "Launch Date:  July 9, 2026\nLaunch Time: 5:25 a.m. EDT, 0925 UTC, 11:25 CEST\nLaunch Window:  Open until 9:05 a.m. EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Northeast\nLaunch Status: Scheduled and announced\n\nMission: Starlink 10-42\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1067 - Turnaround 31 days)\nFlight for the Booster: 36\nPrevious Flights of the Booster: 35 - CRS-22, Crew-3, Turksat 5B, Crew-4, CRS-25, Eutelsat HOTBIRD 13G, SES O3B mPOWER-A, PSN SATRIA, Telkomsat Merah Putih 2, Galileo, Koreasat-6A, and 24 Starlink missions\nDroneship: A Shortfall Of Gravitas\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,60...",
-        "feature_image": "https://i.ytimg.com/vi/1nqwTfqAHAw/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=1nqwTfqAHAw",
-        "type": {
-          "id": 4,
-          "name": "Unofficial Re-stream"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-09T09:15:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 8,
-        "source": "youtube.com",
-        "publisher": "Spaceflight Now",
-        "title": "Live: Falcon 9 rocket launches from Cape Canaveral with 29 satellites for SpaceX's Starlink service",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for the company's Starlink internet service plus a test flight for two prototype semiconductor manufacturing devices. Liftoff of the Starlink 10-42 mission from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Thursday, July 9, at 5:25 a.m. EDT (0925 UTC).\n\nThe first-stage Falcon 9 booster, serial number 1067, launching for a  record-breaking 36th time, will take a north-easterly trajectory on departure from Florida's Space Coast. About 8.5 minutes into flight it will land on SpaceX's drone ship 'A Shortfall of Gravitas', stationed in the Atlantic Ocean.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to launch.\n\nVi...",
-        "feature_image": "https://i.ytimg.com/vi/nlP96NjHG0Y/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=nlP96NjHG0Y",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-09T08:25:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 9,
-        "source": "youtube.com",
-        "publisher": "NASASpaceflight",
-        "title": "SpaceX Launches Record Breaking Falcon 9 with Starlink 10-42",
-        "description": "Launch Window: July 9 from 5:05 AM Eastern to 9:05 AM Eastern\n\n\n⚡ Become a member of NASASpaceflight's channel for exclusive discord access, fast turnaround clips, and other exclusive benefits. Your support helps us continue our 24/7 coverage. ⚡\n\n🔍 If you are interested in using footage captured by this stream, please review our content use policy: https://www.nasaspaceflight.com/content-use-policy/\n\n#SpaceX #Starlink #Falcon9 #Starlink1223 #LEO #SatelliteInternet #SpaceXLaunch #GlobalInternet #HighSpeedInternet #RocketLaunch #StarlinkMission #NextGenSatellites #SpaceTechnology\n\n LDAPAABJRG2UMCU3 🎵 Intro song: New Way Out by Denis. Licensed via PremiumBeat. LDAPAABJRG2UMCU3\n🎵 Music used on streams and in videos is licensed via EpidemicSound: https://share.epidemicsound.com/qvh38e\n\nAll...",
-        "feature_image": "https://i.ytimg.com/vi/D3cSGwTyAdQ/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=D3cSGwTyAdQ",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-09T08:25:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "Starlink Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HLrUcEyWUAAIFKf.jpg",
-        "url": "https://x.com/i/broadcasts/1kKzDDNnkOLJv",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-09T09:15:00Z",
-        "end_time": "2026-07-09T10:55:00Z",
-        "live": false
-      }
-    ],
-    "mission_patches": [
-      {
-        "id": 7,
-        "name": "Space X Starlink Mission Patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 121,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-          "name": "SpaceX",
-          "abbrev": "SpX",
-          "type": {
-            "id": 3,
-            "name": "Commercial"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "1e79a5e9-c02c-470f-882f-884120100fef",
     "name": "Long March 10B | Demo Flight",
     "net": "2026-07-10T05:20:00Z",
@@ -3787,5 +3620,68 @@
         "response_mode": "normal"
       }
     ]
+  },
+  {
+    "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
+    "name": "H3-24 | Martian Moon eXplorer (MMX)",
+    "net": "2026-10-31T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 98,
+      "name": "Mitsubishi Heavy Industries",
+      "abbrev": "MHI",
+      "country": [
+        {
+          "id": 28,
+          "name": "Japan",
+          "alpha_2_code": "JP",
+          "alpha_3_code": "JPN",
+          "nationality_name": "Japanese",
+          "nationality_name_composed": "Nippo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "H3-24",
+        "full_name": "H3-24",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Martian Moon eXplorer (MMX)",
+      "type": "Planetary Science",
+      "orbit": {
+        "abbrev": "Mars",
+        "name": "Mars Orbit"
+      }
+    },
+    "pad": {
+      "name": "Yoshinobu Launch Complex LP-2",
+      "latitude": 30.400938,
+      "longitude": 130.97564,
+      "location": {
+        "name": "Tanegashima Space Center, Japan",
+        "country": {
+          "id": 28,
+          "name": "Japan",
+          "alpha_2_code": "JP",
+          "alpha_3_code": "JPN",
+          "nationality_name": "Japanese",
+          "nationality_name_composed": "Nippo"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_20251028184029.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_thumbnail_20251028184029.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
   }
 ]
