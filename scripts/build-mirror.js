@@ -365,7 +365,10 @@ function trimEvent(event) {
 
 async function fetchEvents() {
   console.log('📡 Fetching upcoming events…');
-  const url = `${API_BASE}/event/upcoming/?limit=30&ordering=date`;
+  // OJO: en LL2 2.3.0 el recurso es PLURAL (`/events/`). El singular devuelve
+  // 404 — con la ruta antigua el fetch fallaba en cada run diario y
+  // events.json no se generaba nunca (la app caía a LL2 y quemaba rate-limit).
+  const url = `${API_BASE}/events/upcoming/?limit=30&ordering=date`;
   const data = await fetchJson(url);
   const results = (data.results || []).map(trimEvent);
   console.log(`  ✓ ${results.length} upcoming events`);
@@ -524,7 +527,12 @@ async function main() {
 
   fs.mkdirSync(HIST_DIR, { recursive: true });
 
-  const index = { generatedAt: new Date().toISOString(), decades: {}, upcomingCount: 0, astronautCount: 0, eventCount: 0, marsPhotos: false };
+  // Partimos del index existente para NO perder los contadores de décadas
+  // pasadas: el run diario solo recorre la década actual, y arrancar con
+  // `decades: {}` borraba 1950s-2010s del index en cada pasada.
+  let prevIndex = {};
+  try { prevIndex = JSON.parse(fs.readFileSync(path.join(OUT_DIR, 'index.json'), 'utf8')); } catch { /* sin index previo */ }
+  const index = { generatedAt: new Date().toISOString(), decades: { ...(prevIndex.decades || {}) }, upcomingCount: 0, astronautCount: 0, eventCount: 0, marsPhotos: false };
 
   const upcoming = await fetchUpcoming();
   writeJson(path.join(OUT_DIR, 'upcoming.json'), upcoming);

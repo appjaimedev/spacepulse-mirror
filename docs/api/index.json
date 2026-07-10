@@ -1,10 +1,17 @@
 {
-  "generatedAt": "2026-07-10T07:37:46.883Z",
+  "generatedAt": "2026-07-10T07:54:26.146Z",
   "decades": {
-    "2020s": 1495
+    "2020s": 1495,
+    "1950s": 59,
+    "1960s": 1060,
+    "1970s": 1239,
+    "1980s": 1193,
+    "1990s": 891,
+    "2000s": 666,
+    "2010s": 968
   },
   "upcomingCount": 50,
   "astronautCount": 10,
-  "eventCount": 0,
+  "eventCount": 28,
   "marsPhotos": true
 }
