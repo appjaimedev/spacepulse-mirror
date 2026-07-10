@@ -37814,6 +37814,25 @@
       }
     ]
   },
+  "1e79a5e9-c02c-470f-882f-884120100fef": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "First launch of the Long March 10B rocket and first ever successful rocket booster recovery of a Chinese launch vehicle. Payloads on board is TBD."
+    },
+    "rocket_full_name": "Long March 10B",
+    "pad_lat": 19.59755,
+    "pad_lon": 110.936481,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=QOT4CBR6ryg"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,

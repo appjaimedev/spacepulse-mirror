@@ -65,7 +65,7 @@
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Falcon 9 - Starlink 17-48 - SLC-4E - Vandenberg SFB - Space Affairs Live",
-        "description": "Launch Date: July 10, 2026 PDT\nLaunch Time:  7:00 p.m. PDT (July 11, 0200 UTC, 04:00 CEST)\nLaunch Window: Open until 11:00 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 17-48\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1097 - Turnaround time 33 days)\nFlight for the Booster: 11\nPrevious Flights of the Booster: 10 - Sentinel-6B, Twilight, NROL-172, and seven Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages...",
+        "description": "Launch Date: July 10, 2026 PDT\nLaunch Time:  7:55 p.m. PDT (July 11, 0255 UTC, 04:55 CEST)\nLaunch Window: Open until 11:00 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 17-48\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1097 - Turnaround time 33 days)\nFlight for the Booster: 11\nPrevious Flights of the Booster: 10 - Sentinel-6B, Twilight, NROL-172, and seven Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages...",
         "feature_image": "https://i.ytimg.com/vi/-56tCCViN1A/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=-56tCCViN1A",
         "type": {
@@ -77,7 +77,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-11T01:50:00Z",
+        "start_time": "2026-07-11T02:45:00Z",
         "end_time": null,
         "live": false
       },
@@ -123,69 +123,6 @@
         "response_mode": "normal"
       }
     ]
-  },
-  {
-    "id": "10fa7952-f00b-4292-80a2-4207e208844e",
-    "name": "Vikram-I | Demo Flight",
-    "net": "2026-07-12T05:00:00Z",
-    "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
-    },
-    "launch_service_provider": {
-      "id": 1099,
-      "name": "Skyroot Aerospace",
-      "abbrev": "Skyroot",
-      "country": [
-        {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Vikram-I",
-        "full_name": "Vikram-I",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Demo Flight",
-      "type": "Test Flight",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Satish Dhawan Space Centre First Launch Pad",
-      "latitude": 13.733,
-      "longitude": 80.235,
-      "location": {
-        "name": "Satish Dhawan Space Centre, India",
-        "country": {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_artist_image_20251115043247.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_artist_image_thumbnail_20251115043247.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
   },
   {
     "id": "e09f254f-18bc-4985-963e-6075fa3d7a1c",
@@ -746,6 +683,69 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_20251206093324.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_thumbnail_20251206093324.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "10fa7952-f00b-4292-80a2-4207e208844e",
+    "name": "Vikram-I | Demo Flight",
+    "net": "2026-07-18T05:00:00Z",
+    "status": {
+      "id": 8,
+      "name": "To Be Confirmed",
+      "abbrev": "TBC"
+    },
+    "launch_service_provider": {
+      "id": 1099,
+      "name": "Skyroot Aerospace",
+      "abbrev": "Skyroot",
+      "country": [
+        {
+          "id": 9,
+          "name": "India",
+          "alpha_2_code": "IN",
+          "alpha_3_code": "IND",
+          "nationality_name": "Indian",
+          "nationality_name_composed": "Indo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Vikram-I",
+        "full_name": "Vikram-I",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Demo Flight",
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Satish Dhawan Space Centre First Launch Pad",
+      "latitude": 13.733,
+      "longitude": 80.235,
+      "location": {
+        "name": "Satish Dhawan Space Centre, India",
+        "country": {
+          "id": 9,
+          "name": "India",
+          "alpha_2_code": "IN",
+          "alpha_3_code": "IND",
+          "nationality_name": "Indian",
+          "nationality_name_composed": "Indo"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_artist_image_20251115043247.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_artist_image_thumbnail_20251115043247.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -2984,6 +2984,14 @@
           "nationality_name_composed": "Swedo"
         },
         {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
+        },
+        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -3086,14 +3094,6 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
-        },
-        {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
