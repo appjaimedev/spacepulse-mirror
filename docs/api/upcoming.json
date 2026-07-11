@@ -293,13 +293,76 @@
     "mission_patches": []
   },
   {
-    "id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
-    "name": "Starship | Flight 13",
-    "net": "2026-07-15T22:45:00Z",
+    "id": "d9adedc4-8fa1-4a36-84f9-43b8893a6865",
+    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
+    "net": "2026-07-16T20:22:00Z",
     "status": {
       "id": 8,
       "name": "To Be Confirmed",
       "abbrev": "TBC"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "SDA Tranche 1 Transport Layer E",
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
+    "name": "Starship | Flight 13",
+    "net": "2026-07-16T22:45:00Z",
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 121,
@@ -373,69 +436,6 @@
         "response_mode": "normal"
       }
     ]
-  },
-  {
-    "id": "d9adedc4-8fa1-4a36-84f9-43b8893a6865",
-    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
-    "net": "2026-07-16T20:22:00Z",
-    "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "SDA Tranche 1 Transport Layer E",
-      "type": "Government/Top Secret",
-      "orbit": {
-        "abbrev": "PO",
-        "name": "Polar Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
   },
   {
     "id": "599ba2df-7483-4b2f-a083-2b5ddc06e069",
