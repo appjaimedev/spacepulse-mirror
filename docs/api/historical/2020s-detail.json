@@ -37833,6 +37833,36 @@
       }
     ]
   },
+  "135fb199-a39e-48cc-ba27-0aecd96ba9f8": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system."
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 34.632,
+    "pad_lon": -120.611,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=LRES4HfNbi4"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Qz3H6fhooHY"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1PKqrrkYpNwGb"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
