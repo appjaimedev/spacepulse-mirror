@@ -11,11 +11,15 @@ name: LL2 Mirror Sync
 #
 # Un LL2_TOKEN (opcional, secreto del repo) sube a 1000 req/h; sin él va igual.
 
+# OJO: cada schedule lleva un MINUTO ÚNICO. Cuando varios crons del mismo
+# workflow coinciden en el mismo minuto (p. ej. '0 4' vs '*/30' en el :00),
+# GitHub dispara UN solo run con el schedule del primero listado → el diario
+# no corría NUNCA (astronauts/mars/events llevaban días sin regenerarse).
 on:
   schedule:
-    - cron: '*/30 * * * *'   # frecuente: upcoming
-    - cron: '0 */2 * * *'    # cada 2 h: backfill de una década (hasta completar)
-    - cron: '0 4 * * *'      # diario: SOLO década actual + astronautas + eventos + Mars
+    - cron: '*/30 * * * *'   # frecuente: upcoming (:00 y :30)
+    - cron: '13 */2 * * *'   # cada 2 h (:13): backfill de una década (hasta completar)
+    - cron: '43 3 * * *'     # diario (03:43): SOLO década actual + astronautas + eventos + Mars
   workflow_dispatch:
     inputs:
       mode:
@@ -54,9 +58,9 @@ jobs:
               backfill) node scripts/build-mirror.js --backfill ;;
               full)     node scripts/build-mirror.js --full ;;
             esac
-          elif [ "${{ github.event.schedule }}" = "0 4 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "43 3 * * *" ]; then
             node scripts/build-mirror.js
-          elif [ "${{ github.event.schedule }}" = "0 */2 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "13 */2 * * *" ]; then
             node scripts/build-mirror.js --backfill
           else
             node scripts/build-mirror.js --upcoming
