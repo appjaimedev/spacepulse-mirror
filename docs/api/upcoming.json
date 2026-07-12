@@ -270,6 +270,27 @@
     "vid_urls": [
       {
         "priority": 10,
+        "source": "youtube.com",
+        "publisher": "NASA",
+        "title": "NASA Astronaut Anil Menon Soyuz MS-29 Launch",
+        "description": "Watch NASA astronaut Anil Menon's first mission to space begin as he launches to the International Space Station. He and cosmonauts Pyotr Dubrov and Anna Kikina will lift off aboard the Roscosmos Soyuz MS-29 spacecraft.\n\nLiftoff is scheduled for 10:47 a.m. EDT (1447 UTC) on July 14, 2026. The spacecraft and crew are scheduled to dock at the station at about 1:56 p.m. EDT (1756 UTC) on the same day.\n\nMenon, Dubrov, and Kikina will spend about eight months aboard the space station. During his stay on the station, Menon will conduct scientific research and technology demonstrations aimed at advancing human space exploration and benefiting life on Earth.\n\nLearn more about the International Space Station: https://www.nasa.gov/international-space-station/\n\nCredit: NASA",
+        "feature_image": "https://i.ytimg.com/vi/SwhPXxNtdoc/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=SwhPXxNtdoc",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-14T13:45:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 11,
         "source": "plus.nasa.gov",
         "publisher": "NASA",
         "title": "NASA Astronaut Anil Menon Soyuz MS-29 Launch",
