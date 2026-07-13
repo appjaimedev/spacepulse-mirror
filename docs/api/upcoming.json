@@ -148,7 +148,7 @@
   {
     "id": "9999a3a3-b15d-4ee3-b70f-acf00d10d912",
     "name": "Falcon 9 Block 5 | Starlink Group 10-45",
-    "net": "2026-07-14T08:27:32Z",
+    "net": "2026-07-14T09:10:12Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -232,7 +232,7 @@
         "source": "youtube.com",
         "publisher": "Spaceflight Now",
         "title": "Live: SpaceX Falcon 9 rocket launches from Cape Canaveral with 29 Starlink satellites",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for the company's Starlink internet service plus a test flight for two prototype semiconductor manufacturing devices. Liftoff of the Starlink 10-45 mission from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Tuesday, July 14, at 4:27:32 a.m. EDT (0827:32 UTC).\n\nThe first-stage Falcon 9 booster, serial number B1080, launching for a 28th time, will take a north-easterly trajectory on departure from Florida's Space Coast. About 8.5 minutes into flight it will land on SpaceX's drone ship 'A Shortfall of Gravitas', stationed in the Atlantic Ocean.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to launch.\n\nVideos like ...",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for the company's Starlink internet service plus a test flight for two prototype semiconductor manufacturing devices. Liftoff of the Starlink 10-45 mission from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Tuesday, July 14, at 5:10:12 a.m. EDT (0910:12 UTC).\n\nThe first-stage Falcon 9 booster, serial number B1080, launching for a 28th time, will take a north-easterly trajectory on departure from Florida's Space Coast. About 8.5 minutes into flight it will land on SpaceX's drone ship 'A Shortfall of Gravitas', stationed in the Atlantic Ocean.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to launch.\n\nVideos like ...",
         "feature_image": "https://i.ytimg.com/vi/IStWHfc23go/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=IStWHfc23go",
         "type": {
@@ -244,7 +244,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-14T07:27:00Z",
+        "start_time": "2026-07-14T08:10:00Z",
         "end_time": null,
         "live": false
       },
@@ -265,8 +265,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-14T08:11:00Z",
-        "end_time": "2026-07-15T08:11:00Z",
+        "start_time": "2026-07-14T09:00:00Z",
+        "end_time": "2026-07-15T09:00:00Z",
         "live": false
       }
     ],
@@ -378,7 +378,7 @@
         "source": "plus.nasa.gov",
         "publisher": "NASA",
         "title": "NASA Astronaut Anil Menon Soyuz MS-29 Launch",
-        "description": "",
+        "description": "Watch NASA astronaut Anil Menon’s first mission to space begin as he launches to the International Space Station. He and cosmonauts Pyotr Dubrov and Anna Kikina will lift off aboard […]",
         "feature_image": "https://plus.nasa.gov/wp-content/uploads/2026/06/soyuz-ms-29-launch-key-art-r1-horizontal-program-tile-16-9-without-title.jpg",
         "url": "https://plus.nasa.gov/scheduled-video/nasa-astronaut-anil-menon-soyuz-ms-29-launch/",
         "type": {
@@ -818,9 +818,9 @@
     "name": "Falcon 9 Block 5 | MRV-1",
     "net": "2026-07-21T21:15:00Z",
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 121,
