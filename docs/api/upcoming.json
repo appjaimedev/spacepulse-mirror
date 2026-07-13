@@ -265,8 +265,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-14T07:05:00Z",
-        "end_time": "2026-07-15T07:05:00Z",
+        "start_time": "2026-07-14T08:11:00Z",
+        "end_time": "2026-07-15T08:11:00Z",
         "live": false
       }
     ],
@@ -294,7 +294,7 @@
   {
     "id": "a556b963-0f36-4660-95a8-fdffdba653e2",
     "name": "Soyuz 2.1a | Soyuz MS-29",
-    "net": "2026-07-14T14:47:50Z",
+    "net": "2026-07-14T14:47:43Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -457,7 +457,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "SpaceX",
+        "title": "SDA's Third Tranche 1 Mission",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HNHpgSVXEAEtm3Z.jpg",
+        "url": "https://x.com/i/broadcasts/1kJzDDmBBArKv",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-16T20:20:00Z",
+        "end_time": "2026-07-17T20:20:00Z",
+        "live": false
+      }
+    ],
     "mission_patches": [
       {
         "id": 1331,
