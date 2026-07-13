@@ -2,7 +2,7 @@
   {
     "id": "e09f254f-18bc-4985-963e-6075fa3d7a1c",
     "name": "Falcon 9 Block 5 | Starlink Group 15-14",
-    "net": "2026-07-14T01:16:00Z",
+    "net": "2026-07-14T01:17:14Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -61,6 +61,48 @@
     "webcast_live": false,
     "vid_urls": [
       {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Falcon 9 - Starlink 15-14 - SLC-4E - Vandenberg SFB - Space Affairs Live",
+        "description": "Launch Date: July 13, 2026\nLaunch Time: 6:17 p.m. PDT (July 14, 0117 UTC, 03:17 CEST)\nLaunch Window: 7:16 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 15-14\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1082 - Turnaround time 44 days)\nFlight for the Booster: 23\nPrevious Flights of the Booster: 22 - USSF-62, OneWeb Launch 20, NROL-145, and 19 Starlink missions. \nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\nSpaceX...",
+        "feature_image": "https://i.ytimg.com/vi/A_2KK99wGRw/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=A_2KK99wGRw",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-14T01:07:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "Live: SpaceX Falcon 9 rocket launches 24 Starlink internet satellites from Vandenberg, California",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Monday, July 13 during a launch window that opens, at 6:16 p.m. PDT (9:16 p.m. EDT / 0116 UTC).\n\nThe first-stage booster, serial number B1093, launching for a 15th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 15-14 mission will take a south-easterly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Joi...",
+        "feature_image": "https://i.ytimg.com/vi/9j-W-79aoNI/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=9j-W-79aoNI",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-14T00:46:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
         "priority": 10,
         "source": "x.com",
         "publisher": "SpaceX",
@@ -106,7 +148,7 @@
   {
     "id": "9999a3a3-b15d-4ee3-b70f-acf00d10d912",
     "name": "Falcon 9 Block 5 | Starlink Group 10-45",
-    "net": "2026-07-14T07:15:00Z",
+    "net": "2026-07-14T08:21:37Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -164,6 +206,48 @@
     },
     "webcast_live": false,
     "vid_urls": [
+      {
+        "priority": 7,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Falcon 9 - Starlink 10-45 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+        "description": "Launch Date:  July 14, 2026\nLaunch Time: 4:21 a.m. EDT, 0821 UTC, 10:21 CEST\nLaunch Window:  Open until 7:15 a.m. EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Northeast\nLaunch Status: Nominal orbit insertion, Falcon 9 booster landed the 36th time on the droneship. \n\nMission: Starlink 10-45\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1080 - Turnaround 32 days)\nFlight for the Booster: 28\nPrevious Flights of the Booster: 27 - Ax-2, Euclid, Ax-3, CRS-30, SES ASTRA 1P, NG-21, and 21 Starlink missions\nDroneship: A Shortfall Of Gravitas\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2...",
+        "feature_image": "https://i.ytimg.com/vi/Cs8MhzKv3gA/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=Cs8MhzKv3gA",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-14T08:11:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "Live: SpaceX Falcon 9 rocket launches from Cape Canaveral with 29 Starlink satellites",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for the company's Starlink internet service plus a test flight for two prototype semiconductor manufacturing devices. Liftoff of the Starlink 10-45 mission from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Tuesday, July 14, during a window that opens at 3:15 a.m. EDT (0715 UTC).\n\nThe first-stage Falcon 9 booster, serial number B1080, launching for a 28th time, will take a north-easterly trajectory on departure from Florida's Space Coast. About 8.5 minutes into flight it will land on SpaceX's drone ship 'A Shortfall of Gravitas', stationed in the Atlantic Ocean.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to ...",
+        "feature_image": "https://i.ytimg.com/vi/IStWHfc23go/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=IStWHfc23go",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-14T06:15:00Z",
+        "end_time": null,
+        "live": false
+      },
       {
         "priority": 10,
         "source": "x.com",
@@ -461,11 +545,11 @@
   {
     "id": "beac6ac1-97dd-4eb2-912c-8b4d4d15cd4e",
     "name": "Long March 7A | Unknown Payload",
-    "net": "2026-07-17T11:00:00Z",
+    "net": "2026-07-17T11:50:00Z",
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 88,
@@ -587,7 +671,7 @@
   {
     "id": "e1079d3a-c0a6-4b42-bc1d-92e48a5a78fc",
     "name": "Falcon 9 Block 5 | Starlink Group 17-39",
-    "net": "2026-07-18T14:00:00Z",
+    "net": "2026-07-20T14:00:00Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -689,6 +773,69 @@
     ]
   },
   {
+    "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
+    "name": "Falcon 9 Block 5 | MRV-1",
+    "net": "2026-07-21T21:15:00Z",
+    "status": {
+      "id": 8,
+      "name": "To Be Confirmed",
+      "abbrev": "TBC"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "MRV-1",
+      "type": "Mission Extension",
+      "orbit": {
+        "abbrev": "GTO",
+        "name": "Geostationary Transfer Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 40",
+      "latitude": 28.56194122,
+      "longitude": -80.57735736,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "5421e43a-1623-40ac-9dac-201075064e24",
     "name": "Long March 3B/E | Unknown Payload",
     "net": "2026-07-23T11:00:00Z",
@@ -752,9 +899,72 @@
     "mission_patches": []
   },
   {
+    "id": "12b9454b-d48b-4fd5-9c11-17c18f45dafe",
+    "name": "Long March 8A | Unknown Payload",
+    "net": "2026-07-24T11:00:00Z",
+    "status": {
+      "id": 8,
+      "name": "To Be Confirmed",
+      "abbrev": "TBC"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "abbrev": "CASC",
+      "country": [
+        {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 8A",
+        "full_name": "Long March 8A",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Unknown Payload",
+      "type": "Unknown",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      }
+    },
+    "pad": {
+      "name": "Commercial LC-1",
+      "latitude": 19.597275,
+      "longitude": 110.930753,
+      "location": {
+        "name": "Wenchang Space Launch Site, People's Republic of China",
+        "country": {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "5b2f05d7-9052-49fb-9bd7-2a05d4910576",
     "name": "Falcon 9 Block 5 | Starlink Group 17-51",
-    "net": "2026-07-23T14:00:00Z",
+    "net": "2026-07-24T14:00:00Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -1354,69 +1564,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
-    "name": "Falcon 9 Block 5 | MRV-1",
-    "net": "2026-07-31T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "MRV-1",
-      "type": "Mission Extension",
-      "orbit": {
-        "abbrev": "GTO",
-        "name": "Geostationary Transfer Orbit"
-      }
-    },
-    "pad": {
-      "name": "Unknown Pad",
-      "latitude": 28.458,
-      "longitude": -80.528,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -3684,69 +3831,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_20260618063419.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260618063419.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
-    "name": "Electron | StriX Launch 12",
-    "net": "2026-10-31T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 147,
-      "name": "Rocket Lab",
-      "abbrev": "RL",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Electron",
-        "full_name": "Electron",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "StriX Launch 12",
-      "type": "Earth Science",
-      "orbit": {
-        "abbrev": "SSO",
-        "name": "Sun-Synchronous Orbit"
-      }
-    },
-    "pad": {
-      "name": "Unknown Pad",
-      "latitude": -39.260881,
-      "longitude": 177.865826,
-      "location": {
-        "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-        "country": {
-          "id": 51,
-          "name": "New Zealand",
-          "alpha_2_code": "NZ",
-          "alpha_3_code": "NZL",
-          "nationality_name": "Kiwi",
-          "nationality_name_composed": "Kiwi"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
