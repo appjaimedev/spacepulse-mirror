@@ -86,7 +86,7 @@
         "source": "youtube.com",
         "publisher": "Spaceflight Now",
         "title": "Live: SpaceX Falcon 9 rocket launches 24 Starlink internet satellites from Vandenberg, California",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Monday, July 13 during a launch window that opens, at 6:16 p.m. PDT (9:16 p.m. EDT / 0116 UTC).\n\nThe first-stage booster, serial number B1093, launching for a 15th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 15-14 mission will take a south-easterly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Joi...",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Monday, July 13, at 6:17:14 p.m. PDT (9:17:14 p.m. EDT / 0117:14 UTC).\n\nThe first-stage booster, serial number B1093, launching for a 15th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 15-14 mission will take a south-easterly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get acc...",
         "feature_image": "https://i.ytimg.com/vi/9j-W-79aoNI/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=9j-W-79aoNI",
         "type": {
@@ -98,7 +98,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-14T00:46:00Z",
+        "start_time": "2026-07-14T00:47:00Z",
         "end_time": null,
         "live": false
       },
@@ -120,7 +120,7 @@
           "code": "en"
         },
         "start_time": "2026-07-14T01:06:00Z",
-        "end_time": "2026-07-14T03:07:00Z",
+        "end_time": "2026-07-15T01:06:00Z",
         "live": false
       }
     ],
@@ -148,7 +148,7 @@
   {
     "id": "9999a3a3-b15d-4ee3-b70f-acf00d10d912",
     "name": "Falcon 9 Block 5 | Starlink Group 10-45",
-    "net": "2026-07-14T08:21:37Z",
+    "net": "2026-07-14T08:27:32Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -232,7 +232,7 @@
         "source": "youtube.com",
         "publisher": "Spaceflight Now",
         "title": "Live: SpaceX Falcon 9 rocket launches from Cape Canaveral with 29 Starlink satellites",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for the company's Starlink internet service plus a test flight for two prototype semiconductor manufacturing devices. Liftoff of the Starlink 10-45 mission from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Tuesday, July 14, during a window that opens at 3:15 a.m. EDT (0715 UTC).\n\nThe first-stage Falcon 9 booster, serial number B1080, launching for a 28th time, will take a north-easterly trajectory on departure from Florida's Space Coast. About 8.5 minutes into flight it will land on SpaceX's drone ship 'A Shortfall of Gravitas', stationed in the Atlantic Ocean.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to ...",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for the company's Starlink internet service plus a test flight for two prototype semiconductor manufacturing devices. Liftoff of the Starlink 10-45 mission from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Tuesday, July 14, at 4:27:32 a.m. EDT (0827:32 UTC).\n\nThe first-stage Falcon 9 booster, serial number B1080, launching for a 28th time, will take a north-easterly trajectory on departure from Florida's Space Coast. About 8.5 minutes into flight it will land on SpaceX's drone ship 'A Shortfall of Gravitas', stationed in the Atlantic Ocean.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to launch.\n\nVideos like ...",
         "feature_image": "https://i.ytimg.com/vi/IStWHfc23go/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=IStWHfc23go",
         "type": {
@@ -244,7 +244,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-14T06:15:00Z",
+        "start_time": "2026-07-14T07:27:00Z",
         "end_time": null,
         "live": false
       },
@@ -266,7 +266,7 @@
           "code": "en"
         },
         "start_time": "2026-07-14T07:05:00Z",
-        "end_time": "2026-07-14T09:05:00Z",
+        "end_time": "2026-07-15T07:05:00Z",
         "live": false
       }
     ],
@@ -400,11 +400,11 @@
   {
     "id": "d9adedc4-8fa1-4a36-84f9-43b8893a6865",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
-    "net": "2026-07-16T20:22:00Z",
+    "net": "2026-07-16T20:32:00Z",
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 121,
@@ -458,7 +458,26 @@
     },
     "webcast_live": false,
     "vid_urls": [],
-    "mission_patches": []
+    "mission_patches": [
+      {
+        "id": 1331,
+        "name": "SDA-T1TL-E",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/sda-t1tl-e_mission_patch_20260713155542.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 121,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
+          "name": "SpaceX",
+          "abbrev": "SpX",
+          "type": {
+            "id": 3,
+            "name": "Commercial"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
   },
   {
     "id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
