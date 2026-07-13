@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T06:18:03.175Z",
+  "generatedAt": "2026-07-13T06:39:55.009Z",
   "decades": {
     "2020s": 1496,
     "1950s": 59,
@@ -12,6 +12,6 @@
   },
   "upcomingCount": 50,
   "astronautCount": 10,
-  "eventCount": 28,
+  "eventCount": 29,
   "marsPhotos": true
 }

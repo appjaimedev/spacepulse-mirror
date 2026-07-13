@@ -13,6 +13,19 @@
     "feature_image": null
   },
   {
+    "id": 1495,
+    "name": "Soyuz MS-29 Hatch Opening",
+    "type": {
+      "id": 12,
+      "name": "Hatch Opening"
+    },
+    "date": "2026-07-14T19:55:00Z",
+    "description": "Coverage of the hatch opening and welcoming remarks by the Soyuz MS-29 crew on the International Space Station as they join the Expedition 74 crew.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1454,
     "name": "Total Solar Eclipse in Europe",
     "type": {
