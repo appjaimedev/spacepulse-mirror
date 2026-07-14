@@ -37923,6 +37923,31 @@
       }
     ]
   },
+  "a556b963-0f36-4660-95a8-fdffdba653e2": {
+    "mission": {
+      "type": "Human Exploration",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Soyuz MS-29 will carry three cosmonauts and one astronaut to the International Space Station aboard the Soyuz spacecraft from the Baikonur Cosmodrome in Kazakhstan. The crew consists of Roscosmos cosmonauts Pyotr Dubrov and Anna Kikina, as well as NASA astronaut Anil Menon."
+    },
+    "rocket_full_name": "Soyuz 2.1a",
+    "pad_lat": 45.996034,
+    "pad_lon": 63.564003,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=SwhPXxNtdoc"
+      },
+      {
+        "url": "https://plus.nasa.gov/scheduled-video/nasa-astronaut-anil-menon-soyuz-ms-29-launch/"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=d_CsFH3uIbc"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
