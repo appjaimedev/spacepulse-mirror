@@ -475,7 +475,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "SpaceX",
+        "title": "MRV-MEP Mission",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HNNeMJ3W8AAgTdK.jpg",
+        "url": "https://x.com/i/broadcasts/1nxnRRdXWEkxO",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-21T21:05:00Z",
+        "end_time": "2026-07-22T01:05:00Z",
+        "live": false
+      }
+    ],
     "mission_patches": []
   },
   {
