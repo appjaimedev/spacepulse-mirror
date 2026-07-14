@@ -26,6 +26,19 @@
     "feature_image": null
   },
   {
+    "id": 1496,
+    "name": "Soyuz MS-28 Undocking",
+    "type": {
+      "id": 8,
+      "name": "Spacecraft Undocking"
+    },
+    "date": "2026-07-26T07:04:00Z",
+    "description": "The Soyuz MS-28 spacecraft will undock from the International Space Station ahead of reentry and landing in Kazakhstan.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1454,
     "name": "Total Solar Eclipse in Europe",
     "type": {
