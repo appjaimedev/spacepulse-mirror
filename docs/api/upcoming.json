@@ -1,151 +1,5 @@
 [
   {
-    "id": "e09f254f-18bc-4985-963e-6075fa3d7a1c",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-14",
-    "net": "2026-07-14T01:17:14Z",
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Starlink Group 15-14",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 8,
-        "source": "youtube.com",
-        "publisher": "SPACE AFFAIRS",
-        "title": "GO! - SpaceX - Falcon 9 - Starlink 15-14 - SLC-4E - Vandenberg SFB - Space Affairs Live",
-        "description": "Launch Date: July 13, 2026\nLaunch Time: 6:17 p.m. PDT (July 14, 0117 UTC, 03:17 CEST)\nLaunch Window: 7:16 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 15-14\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1082 - Turnaround time 44 days)\nFlight for the Booster: 23\nPrevious Flights of the Booster: 22 - USSF-62, OneWeb Launch 20, NROL-145, and 19 Starlink missions. \nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\nSpaceX...",
-        "feature_image": "https://i.ytimg.com/vi/A_2KK99wGRw/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=A_2KK99wGRw",
-        "type": {
-          "id": 4,
-          "name": "Unofficial Re-stream"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-14T01:04:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 9,
-        "source": "youtube.com",
-        "publisher": "Spaceflight Now",
-        "title": "Live: SpaceX Falcon 9 rocket launches 24 Starlink internet satellites from Vandenberg, California",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Monday, July 13, at 6:17:14 p.m. PDT (9:17:14 p.m. EDT / 0117:14 UTC).\n\nThe first-stage booster, serial number B1093, launching for a 15th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 15-14 mission will take a south-easterly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get acc...",
-        "feature_image": "https://i.ytimg.com/vi/9j-W-79aoNI/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=9j-W-79aoNI",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-14T00:47:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "Starlink Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HMARzwdXAAAYR2I.jpg",
-        "url": "https://x.com/i/broadcasts/1qKDzzywYMVJV",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-14T01:06:00Z",
-        "end_time": "2026-07-15T01:06:00Z",
-        "live": false
-      }
-    ],
-    "mission_patches": [
-      {
-        "id": 7,
-        "name": "Space X Starlink Mission Patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 121,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-          "name": "SpaceX",
-          "abbrev": "SpX",
-          "type": {
-            "id": 3,
-            "name": "Commercial"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "9999a3a3-b15d-4ee3-b70f-acf00d10d912",
     "name": "Falcon 9 Block 5 | Starlink Group 10-45",
     "net": "2026-07-14T09:10:12Z",
@@ -1107,69 +961,6 @@
     ]
   },
   {
-    "id": "aafe107e-46d8-420c-bcb9-192069d80893",
-    "name": "Soyuz 2.1b | 16 x Rassvet-3",
-    "net": "2026-07-31T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 63,
-      "name": "Russian Federal Space Agency (ROSCOSMOS)",
-      "abbrev": "RFSA",
-      "country": [
-        {
-          "id": 5,
-          "name": "Russia",
-          "alpha_2_code": "RU",
-          "alpha_3_code": "RUS",
-          "nationality_name": "Russian",
-          "nationality_name_composed": "Russo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Soyuz 2.1b",
-        "full_name": "Soyuz 2.1b",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "16 x Rassvet-3",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "PO",
-        "name": "Polar Orbit"
-      }
-    },
-    "pad": {
-      "name": "Unknown Pad",
-      "latitude": 62.925556,
-      "longitude": 40.577778,
-      "location": {
-        "name": "Plesetsk Cosmodrome, Russian Federation",
-        "country": {
-          "id": 5,
-          "name": "Russia",
-          "alpha_2_code": "RU",
-          "alpha_3_code": "RUS",
-          "nationality_name": "Russian",
-          "nationality_name_composed": "Russo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "d8eb4b68-5307-4b3b-b585-5598958defc2",
     "name": "Gravity-1 | Unknown Payload",
     "net": "2026-07-31T00:00:00Z",
@@ -1227,6 +1018,69 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gravity-1_image_20240108105446.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193637.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "aafe107e-46d8-420c-bcb9-192069d80893",
+    "name": "Soyuz 2.1b | 16 x Rassvet-3",
+    "net": "2026-07-31T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 63,
+      "name": "Russian Federal Space Agency (ROSCOSMOS)",
+      "abbrev": "RFSA",
+      "country": [
+        {
+          "id": 5,
+          "name": "Russia",
+          "alpha_2_code": "RU",
+          "alpha_3_code": "RUS",
+          "nationality_name": "Russian",
+          "nationality_name_composed": "Russo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Soyuz 2.1b",
+        "full_name": "Soyuz 2.1b",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "16 x Rassvet-3",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "latitude": 62.925556,
+      "longitude": 40.577778,
+      "location": {
+        "name": "Plesetsk Cosmodrome, Russian Federation",
+        "country": {
+          "id": 5,
+          "name": "Russia",
+          "alpha_2_code": "RU",
+          "alpha_3_code": "RUS",
+          "nationality_name": "Russian",
+          "nationality_name_composed": "Russo"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -2549,6 +2403,69 @@
     ]
   },
   {
+    "id": "2d0472b9-463d-49c8-afb1-7925e49a3368",
+    "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
+    "net": "2026-09-30T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "SDA Tranche 1 Tracking Layer A",
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "d1a3807e-f304-467c-a095-e08b86924347",
     "name": "Firefly Alpha Block 2 | QuickSounder",
     "net": "2026-09-30T00:00:00Z",
@@ -2669,69 +2586,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_liftoff_2_image_20240820080542.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_liftoff_2_image_thumbnail_20240820080542.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "2d0472b9-463d-49c8-afb1-7925e49a3368",
-    "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
-    "net": "2026-09-30T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "SDA Tranche 1 Tracking Layer A",
-      "type": "Government/Top Secret",
-      "orbit": {
-        "abbrev": "PO",
-        "name": "Polar Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -2990,6 +2844,69 @@
     "mission_patches": []
   },
   {
+    "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+    "net": "2026-09-30T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "SDA Tranche 1 Transport Layer A",
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "c5783e2b-d458-4b99-9936-4043c236190b",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer F",
     "net": "2026-09-30T00:00:00Z",
@@ -3085,69 +3002,6 @@
     },
     "mission": {
       "name": "SDA Tranche 1 Tracking Layer E",
-      "type": "Government/Top Secret",
-      "orbit": {
-        "abbrev": "PO",
-        "name": "Polar Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
-    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-    "net": "2026-09-30T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "SDA Tranche 1 Transport Layer A",
       "type": "Government/Top Secret",
       "orbit": {
         "abbrev": "PO",
@@ -3872,6 +3726,69 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_20260618063419.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260618063419.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
+    "name": "Electron | StriX Launch 12",
+    "net": "2026-10-31T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 147,
+      "name": "Rocket Lab",
+      "abbrev": "RL",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Electron",
+        "full_name": "Electron",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "StriX Launch 12",
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "latitude": -39.260881,
+      "longitude": 177.865826,
+      "location": {
+        "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+        "country": {
+          "id": 51,
+          "name": "New Zealand",
+          "alpha_2_code": "NZ",
+          "alpha_3_code": "NZL",
+          "nationality_name": "Kiwi",
+          "nationality_name_composed": "Kiwi"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
