@@ -88,6 +88,94 @@
     "date_of_death": null
   },
   {
+    "id": 649,
+    "name": "Anna Kikina",
+    "type": {
+      "id": 2,
+      "name": "Government"
+    },
+    "nationality": [
+      {
+        "id": 5,
+        "name": "Russia",
+        "alpha_2_code": "RU",
+        "alpha_3_code": "RUS",
+        "nationality_name": "Russian",
+        "nationality_name_composed": "Russo"
+      }
+    ],
+    "agency": {
+      "response_mode": "list",
+      "id": 63,
+      "url": "https://ll.thespacedevs.com/2.3.0/agencies/63/",
+      "name": "Russian Federal Space Agency (ROSCOSMOS)",
+      "abbrev": "RFSA",
+      "type": {
+        "id": 1,
+        "name": "Government"
+      }
+    },
+    "last_flight": "2026-07-14T14:47:43Z",
+    "bio": "Anna Yuryevna Kikina is a Russian engineer and test cosmonaut, selected in 2012. Kikina is assigned to Crew-5 mission which is to launch in 2022. The seat was arranged as a part of exchange agreement between Roscosmos and NASA, allowing Russian cosmonaut to fly on US vehicle while American astronaut gets a seat on Soyuz. Kikina will be the first Russian cosmonaut to fly on Crew Dragon.",
+    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185904.jpeg",
+    "flights": [
+      {
+        "id": "a556b963-0f36-4660-95a8-fdffdba653e2",
+        "name": "Soyuz 2.1a | Soyuz MS-29"
+      },
+      {
+        "id": "f33d5ece-e825-4cd8-809f-1d4c72a2e0d3",
+        "name": "Falcon 9 Block 5 | Crew-5"
+      }
+    ],
+    "date_of_birth": "1984-08-27",
+    "date_of_death": null
+  },
+  {
+    "id": 650,
+    "name": "Pyotr Dubrov",
+    "type": {
+      "id": 2,
+      "name": "Government"
+    },
+    "nationality": [
+      {
+        "id": 5,
+        "name": "Russia",
+        "alpha_2_code": "RU",
+        "alpha_3_code": "RUS",
+        "nationality_name": "Russian",
+        "nationality_name_composed": "Russo"
+      }
+    ],
+    "agency": {
+      "response_mode": "list",
+      "id": 63,
+      "url": "https://ll.thespacedevs.com/2.3.0/agencies/63/",
+      "name": "Russian Federal Space Agency (ROSCOSMOS)",
+      "abbrev": "RFSA",
+      "type": {
+        "id": 1,
+        "name": "Government"
+      }
+    },
+    "last_flight": "2026-07-14T14:47:43Z",
+    "bio": "Dubrov was selected by Roscosmos as a cosmonaut on 8 October 2012, as one of eight cosmonauts selected as part of Roscosmos's 2012 selection group.\r\nIn 2020 he was assigned to the backup crew of Soyuz MS-17, backing up Russian cosmonaut Sergey Kud-Sverchkov as Flight Engineer on ISS Expedition 63/64",
+    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185922.jpeg",
+    "flights": [
+      {
+        "id": "a556b963-0f36-4660-95a8-fdffdba653e2",
+        "name": "Soyuz 2.1a | Soyuz MS-29"
+      },
+      {
+        "id": "3898f855-5794-48b5-9cb8-6741cb53363b",
+        "name": "Soyuz 2.1a | Soyuz MS-18"
+      }
+    ],
+    "date_of_birth": "1978-01-30",
+    "date_of_death": null
+  },
+  {
     "id": 712,
     "name": "Jack Hathaway",
     "type": {
@@ -125,6 +213,46 @@
       }
     ],
     "date_of_birth": "1982-01-01",
+    "date_of_death": null
+  },
+  {
+    "id": 713,
+    "name": "Anil Menon",
+    "type": {
+      "id": 2,
+      "name": "Government"
+    },
+    "nationality": [
+      {
+        "id": 2,
+        "name": "United States of America",
+        "alpha_2_code": "US",
+        "alpha_3_code": "USA",
+        "nationality_name": "American",
+        "nationality_name_composed": "Americano"
+      }
+    ],
+    "agency": {
+      "response_mode": "list",
+      "id": 44,
+      "url": "https://ll.thespacedevs.com/2.3.0/agencies/44/",
+      "name": "National Aeronautics and Space Administration",
+      "abbrev": "NASA",
+      "type": {
+        "id": 1,
+        "name": "Government"
+      }
+    },
+    "last_flight": "2026-07-14T14:47:43Z",
+    "bio": "Anil Menon is a US Air Force lieutenant colonel from Minneapolis, Minnesota. He was SpaceX’s first flight surgeon, helping to launch the company’s first humans to space during NASA’s SpaceX Demo-2 mission and building a medical organization to support the human system during future missions. Prior to that, he served NASA as the crew flight surgeon for various expeditions taking astronauts to the International Space Station. Menon is an actively practicing emergency medicine physician with fellowship training in wilderness and aerospace medicine. As a physician, he was a first responder during the 2010 earthquake in Haiti, 2015 earthquake in Nepal, and the 2011 Reno Air Show accident. In the Air Force, Menon supported the 45th Space Wing as a flight surgeon and the 173rd Fighter Wing, where he logged over 100 sorties in the F-15 fighter jet and transported over 100 patients as part of the critical care air transport team.\r\n\r\nExact date of birth unknown.",
+    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190559.jpeg",
+    "flights": [
+      {
+        "id": "a556b963-0f36-4660-95a8-fdffdba653e2",
+        "name": "Soyuz 2.1a | Soyuz MS-29"
+      }
+    ],
+    "date_of_birth": "1976-01-01",
     "date_of_death": null
   },
   {
@@ -403,16 +531,6 @@
         "name": "Government"
       }
     },
-    "last_flight": "2026-05-24T15:08:36Z",
-    "bio": "(Placeholder)",
-    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lai_ka-ying_off_image_thumbnail_20260524130423.png",
-    "flights": [
-      {
-        "id": "a0e0f590-1cb4-4b6b-845c-0087633af132",
-        "name": "Long March 2F/G | Shenzhou 23"
-      }
-    ],
-    "date_of_birth": "1982-11-01",
-    "date_of_death": null
+    "last_flight": "2026-05-24T15:08:36Z"
   }
 ]
