@@ -37948,6 +37948,36 @@
       }
     ]
   },
+  "d9adedc4-8fa1-4a36-84f9-43b8893a6865": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      },
+      "description": "Tranche 1 Transport Layer E is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity wor…"
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 34.632,
+    "pad_lon": -120.611,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/sda-t1tl-e_mission_patch_20260713155542.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=8FWEeOWY4Bs"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=rLAfNp2CtrY"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1kJzDDmBBArKv"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
