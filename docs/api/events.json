@@ -1,31 +1,5 @@
 [
   {
-    "id": 1494,
-    "name": "Soyuz MS-29 Docking",
-    "type": {
-      "id": 2,
-      "name": "Docking"
-    },
-    "date": "2026-07-14T17:56:41Z",
-    "description": "The Soyuz MS-29 spacecraft will autonomously dock to the International Space Station.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1495,
-    "name": "Soyuz MS-29 Hatch Opening",
-    "type": {
-      "id": 12,
-      "name": "Hatch Opening"
-    },
-    "date": "2026-07-14T19:55:00Z",
-    "description": "Coverage of the hatch opening and welcoming remarks by the Soyuz MS-29 crew on the International Space Station as they join the Expedition 74 crew.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1496,
     "name": "Soyuz MS-28 Undocking",
     "type": {
