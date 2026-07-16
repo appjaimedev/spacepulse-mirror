@@ -65,7 +65,7 @@
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Falcon 9 - Tranche 1 Transport Layer E - SLC-4E - Vandenberg SFB - Space Affairs Live",
-        "description": "Launch Date: July 16, 2026\nLaunch Time: 1:32 p.m. PDT, 2032 UTC, 22:32 CEST\nLaunch Window: 1:22 p.m. PDT to 2:09 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South (Polar Orbit)\nLaunch Status: Scheduled and announced\n\nMission: Tranch 1 Transport Lyer E\nLaunch Provider: SpaceX\nClient: United States Sapce Force Space Development Agency (SDA)\nLauncher System: Falcon 9 (Booster 11ß3 - Turnaround time 27 days)\nFlight for the Booster: 4\nPrevious Flights of the Booster: 3 - NROL-179 and two Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: ...",
+        "description": "Launch Date: July 16, 2026\nLaunch Time: 1:32 p.m. PDT, 2032 UTC, 22:32 CEST\nLaunch Window: 1:22 p.m. PDT to 2:09 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South (Polar Orbit)\nLaunch Status: Scheduled and announced\n\nMission: Tranch 1 Transport Lyer E\nLaunch Provider: SpaceX\nClient: United States Sapce Force Space Development Agency (SDA)\nLauncher System: Falcon 9 (Booster 1103 - Turnaround time 27 days)\nFlight for the Booster: 4\nPrevious Flights of the Booster: 3 - NROL-179 and two Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: ...",
         "feature_image": "https://i.ytimg.com/vi/M0agOywbDIU/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=M0agOywbDIU",
         "type": {
@@ -380,9 +380,9 @@
     "name": "Vikram-I | Demo Flight",
     "net": "2026-07-18T06:00:00Z",
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 1099,
