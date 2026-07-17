@@ -1741,9 +1741,9 @@
     "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
     "net": "2026-08-30T11:20:00Z",
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 121,
