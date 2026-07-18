@@ -4,9 +4,9 @@
     "name": "Vikram-I | Demo Flight",
     "net": "2026-07-18T06:35:30Z",
     "status": {
-      "id": 9,
-      "name": "Payload Deployed",
-      "abbrev": "Deployed"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 1099,
