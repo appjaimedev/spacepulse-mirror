@@ -2,7 +2,7 @@
   {
     "id": "10fa7952-f00b-4292-80a2-4207e208844e",
     "name": "Vikram-I | Demo Flight",
-    "net": "2026-07-18T06:00:00Z",
+    "net": "2026-07-18T06:01:00Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -58,7 +58,7 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_on_lau_image_20260717052522.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_on_lau_image_thumbnail_20260717052523.jpeg"
     },
-    "webcast_live": false,
+    "webcast_live": true,
     "vid_urls": [
       {
         "priority": 10,
@@ -77,9 +77,30 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-18T04:45:00Z",
+        "start_time": "2026-07-18T04:44:57Z",
         "end_time": null,
-        "live": false
+        "live": true
+      },
+      {
+        "priority": 11,
+        "source": "x.com",
+        "publisher": "Skyroot Aerospace",
+        "title": "Vikram-1 | Test Flight-1 | Skyroot | Mission Aagaman| India's First Private Orbital Rocket Launch",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HNewwFCXgAAP0sd.jpg",
+        "url": "https://x.com/i/broadcasts/1PJqrrXWeXbxb",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-18T04:48:12Z",
+        "end_time": "2026-07-19T04:45:00Z",
+        "live": true
       }
     ],
     "mission_patches": []
