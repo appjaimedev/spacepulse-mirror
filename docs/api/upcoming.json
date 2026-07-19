@@ -484,11 +484,11 @@
   {
     "id": "fa42624c-1e30-4b4b-a06b-59b6153bc4e5",
     "name": "Kinetica 1 | Unknown Payload",
-    "net": "2026-07-24T02:00:00Z",
+    "net": "2026-07-23T23:30:00Z",
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 1040,
