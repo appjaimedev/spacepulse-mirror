@@ -125,131 +125,6 @@
     ]
   },
   {
-    "id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
-    "name": "Starship | Flight 13",
-    "net": "2026-07-20T22:45:00Z",
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Starship",
-        "full_name": "Starship V3",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Flight 13",
-      "type": "Test Flight",
-      "orbit": {
-        "abbrev": "Sub",
-        "name": "Suborbital"
-      }
-    },
-    "pad": {
-      "name": "Orbital Launch Pad 2",
-      "latitude": 25.99677,
-      "longitude": -97.15799,
-      "location": {
-        "name": "SpaceX Starbase, TX, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20250111100521.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 7,
-        "source": "youtube.com",
-        "publisher": "SPACE AFFAIRS",
-        "title": "GO! - SpaceX - Starship - Starship Flight 13 - Pad 2 - Starbase, TX - Space Affairs Live",
-        "description": "Launch Date: July 20, 2026\nLaunch Time: 3:45 p.m. PDT, 5:45 p.m. CDT, 6:45 p.m. EDT, 2245 UTC (July 21, 00:45 CEST)\nLaunch Window: 90 minutes, open until 8:15 p.m. CDT\nStatus: Scheduled and announced. Two Raptor engines have been replaced after the scrub on July 16. \nLaunch Provider: SpaceX\nLauncher System: Starship-Super Heavy (Prototype) - (Vehicles: Starship 20  & Booster 20)\nMission: Starship Test Flight 13 - Suborbital\nFlight: 1st flight for Super Heavy Booster 20 - 1st flight for Starship 40\nLaunch Location: Pad 2, Starbase, Texas, USA\n\nThe thirteenth flight test of Starship is preparing to launch as soon as Thursday, July 16. The 90-minute launch window will open at 5:45 p.m. CDT, 2245 UTC (July 17, 00:45 CEST)\nAs with all developmental testing, the schedule is dynamic and like...",
-        "feature_image": "https://i.ytimg.com/vi/0EnOQCjgq4E/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=0EnOQCjgq4E",
-        "type": {
-          "id": 4,
-          "name": "Unofficial Re-stream"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-20T22:05:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 9,
-        "source": "youtube.com",
-        "publisher": "NASASpaceflight",
-        "title": "SpaceX Starship Flight 13 - Launch & Landing - ATTEMPT 2 LAUNCH STREAM",
-        "description": "Starship launches Flight 13, the second launch of the Block 3 vehicle from Pad 2 at Starbase at the second attempt following a T-0 abort on July 16.\n\nLaunch Window: July 20th at 5:45PM to 7:15PM CDT (22:45-00:15 UTC)\nCurrent T0: July 20th at 5:45PM CDT (22:45 UTC)\n\nMission: Starship's 13th integrated flight test. Correcting issues from version 3's debut flight.\nLaunch location: Pad 2, Starbase, Earth. \nTarget orbit: Trans-atmospheric\nBooster: B20-1\nShip: S40-1\nBooster recovery: Expended - will attempt a water splashdown, no recovery.\nShip recovery: Expended - will attempt a water splashdown, no recovery.\nRocket trajectory: Southeast passing between Cuba and the Yucatan Peninsula.\nPayload onboard: 20 Starlink v3 satellites, 6 of them fitted with a suite of cameras for heatshield inspec...",
-        "feature_image": "https://i.ytimg.com/vi/lC3RDO7tdLc/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=lC3RDO7tdLc",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-20T19:45:00Z",
-        "end_time": null,
-        "live": false
-      }
-    ],
-    "mission_patches": [
-      {
-        "id": 773,
-        "name": "Starship IFT patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/starship2520if_mission_patch_20230414221655.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 121,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-          "name": "SpaceX",
-          "abbrev": "SpX",
-          "type": {
-            "id": 3,
-            "name": "Commercial"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
     "name": "Falcon 9 Block 5 | MRV-1",
     "net": "2026-07-21T21:15:00Z",
@@ -480,6 +355,131 @@
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
+  },
+  {
+    "id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
+    "name": "Starship | Flight 13",
+    "net": "2026-07-23T22:45:00Z",
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Starship",
+        "full_name": "Starship V3",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Flight 13",
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "Sub",
+        "name": "Suborbital"
+      }
+    },
+    "pad": {
+      "name": "Orbital Launch Pad 2",
+      "latitude": 25.99677,
+      "longitude": -97.15799,
+      "location": {
+        "name": "SpaceX Starbase, TX, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20250111100521.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [
+      {
+        "priority": 7,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Starship - Starship Flight 13 - Pad 2 - Starbase, TX - Space Affairs Live",
+        "description": "Launch Date: July 23, 2026\nLaunch Time: 3:45 p.m. PDT, 5:45 p.m. CDT, 6:45 p.m. EDT, 2245 UTC (July 24, 00:45 CEST)\nLaunch Window: 90 minutes, open until 8:15 p.m. CDT\nStatus: Scheduled and announced. Two Raptor engines have been replaced after the scrub on July 16. \nLaunch Provider: SpaceX\nLauncher System: Starship-Super Heavy (Prototype) - (Vehicles: Starship 20  & Booster 20)\nMission: Starship Test Flight 13 - Suborbital\nFlight: 1st flight for Super Heavy Booster 20 - 1st flight for Starship 40\nLaunch Location: Pad 2, Starbase, Texas, USA\n\nThe thirteenth flight test of Starship is preparing to launch as soon as Thursday, July 23. The 90-minute launch window will open at 5:45 p.m. CDT, 2245 UTC (July 17, 00:45 CEST)\nAs with all developmental testing, the schedule is dynamic and like...",
+        "feature_image": "https://i.ytimg.com/vi/0EnOQCjgq4E/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=0EnOQCjgq4E",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-23T22:05:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "NASASpaceflight",
+        "title": "SpaceX Starship Flight 13 - Launch & Landing - ATTEMPT 2 LAUNCH STREAM",
+        "description": "Starship launches Flight 13, the second launch of the Block 3 vehicle from Pad 2 at Starbase at the second attempt following a T-0 abort on July 16.\n\nLaunch Window: July 20th at 5:45PM to 7:15PM CDT (22:45-00:15 UTC)\nCurrent T0: July 20th at 5:45PM CDT (22:45 UTC)\n\nMission: Starship's 13th integrated flight test. Correcting issues from version 3's debut flight.\nLaunch location: Pad 2, Starbase, Earth. \nTarget orbit: Trans-atmospheric\nBooster: B20-1\nShip: S40-1\nBooster recovery: Expended - will attempt a water splashdown, no recovery.\nShip recovery: Expended - will attempt a water splashdown, no recovery.\nRocket trajectory: Southeast passing between Cuba and the Yucatan Peninsula.\nPayload onboard: 20 Starlink v3 satellites, 6 of them fitted with a suite of cameras for heatshield inspec...",
+        "feature_image": "https://i.ytimg.com/vi/lC3RDO7tdLc/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=lC3RDO7tdLc",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-23T19:45:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
+    "mission_patches": [
+      {
+        "id": 773,
+        "name": "Starship IFT patch",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/starship2520if_mission_patch_20230414221655.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 121,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
+          "name": "SpaceX",
+          "abbrev": "SpX",
+          "type": {
+            "id": 3,
+            "name": "Commercial"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
   },
   {
     "id": "fa42624c-1e30-4b4b-a06b-59b6153bc4e5",
