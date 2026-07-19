@@ -37990,7 +37990,12 @@
     "rocket_full_name": "Vikram-I",
     "pad_lat": 13.733,
     "pad_lon": 80.235,
-    "mission_patches": [],
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/aagaman2520mis_mission_patch_20260719081643.png",
+        "priority": 10
+      }
+    ],
     "vid_urls": [
       {
         "url": "https://www.youtube.com/watch?v=2KKZbSX9SgI"
