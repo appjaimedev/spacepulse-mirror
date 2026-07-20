@@ -568,7 +568,7 @@
   {
     "id": "5b2f05d7-9052-49fb-9bd7-2a05d4910576",
     "name": "Falcon 9 Block 5 | Starlink Group 17-51",
-    "net": "2026-07-24T14:00:00Z",
+    "net": "2026-07-25T14:00:00Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -672,7 +672,7 @@
   {
     "id": "e7e55b53-6f69-4c22-9fc5-df00df653a3f",
     "name": "Falcon 9 Block 5 | Starlink Group 17-52",
-    "net": "2026-07-28T02:00:00Z",
+    "net": "2026-07-29T02:00:00Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -3214,14 +3214,6 @@
           "nationality_name_composed": "Swedo"
         },
         {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
-        },
-        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -3324,6 +3316,14 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
+        },
+        {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
