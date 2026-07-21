@@ -65,7 +65,7 @@
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Falcon 9 - Starlink 17-39 - SLC-4E - Vandenberg SFB - Space Affairs Live",
-        "description": "Launch Date: July 21, 2026 PDT\nLaunch Time:  7:00 a.m. PDT 1400 UTC, 16:00 CEST\nLaunch Window: Open until 11:00 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: The automated launch system initiated an abort shortly after Merlin engine ignition on July 20. Shortly after, SpaceX set a new schedule to go for a 24-hour recycle to July 21. \n\nMission: Starlink Group 17-39\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1092 - Turnaround time 49 days)\nFlight for the Booster: 23\nPrevious Flights of the Booster: 22 - USSF-62, OneWeb Launch 20, NROL-145, and 19 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeig...",
+        "description": "Launch Date: July 21, 2026 PDT\nLaunch Time:  7:43 a.m. PDT 1443 UTC, 16:43 CEST\nLaunch Window: Open until 11:00 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: The automated launch system initiated an abort shortly after Merlin engine ignition on July 20. Shortly after, SpaceX set a new schedule to go for a 24-hour recycle to July 21. \n\nMission: Starlink Group 17-39\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1092 - Turnaround time 49 days)\nFlight for the Booster: 23\nPrevious Flights of the Booster: 22 - USSF-62, OneWeb Launch 20, NROL-145, and 19 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeig...",
         "feature_image": "https://i.ytimg.com/vi/cT5v36PmSDQ/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=cT5v36PmSDQ",
         "type": {
@@ -77,7 +77,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-21T13:50:00Z",
+        "start_time": "2026-07-21T14:33:00Z",
         "end_time": null,
         "live": false
       },
@@ -3256,6 +3256,14 @@
           "nationality_name_composed": "Swedo"
         },
         {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
+        },
+        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -3358,14 +3366,6 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
-        },
-        {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
