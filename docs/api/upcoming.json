@@ -2,7 +2,7 @@
   {
     "id": "e1079d3a-c0a6-4b42-bc1d-92e48a5a78fc",
     "name": "Falcon 9 Block 5 | Starlink Group 17-39",
-    "net": "2026-07-21T14:43:04Z",
+    "net": "2026-07-21T14:49:34Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -119,8 +119,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-21T14:33:00Z",
-        "end_time": "2026-07-22T14:33:00Z",
+        "start_time": "2026-07-21T14:39:00Z",
+        "end_time": "2026-07-22T14:39:00Z",
         "live": false
       }
     ],
