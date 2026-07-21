@@ -4,9 +4,9 @@
     "name": "Falcon 9 Block 5 | MRV-1",
     "net": "2026-07-21T21:15:00Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 9,
+      "name": "Payload Deployed",
+      "abbrev": "Deployed"
     },
     "launch_service_provider": {
       "id": 121,
