@@ -1,151 +1,5 @@
 [
   {
-    "id": "e1079d3a-c0a6-4b42-bc1d-92e48a5a78fc",
-    "name": "Falcon 9 Block 5 | Starlink Group 17-39",
-    "net": "2026-07-21T14:49:34Z",
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Starlink Group 17-39",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 8,
-        "source": "youtube.com",
-        "publisher": "SPACE AFFAIRS",
-        "title": "GO! - SpaceX - Falcon 9 - Starlink 17-39 - SLC-4E - Vandenberg SFB - Space Affairs Live",
-        "description": "Launch Date: July 21, 2026 PDT\nLaunch Time:  7:43 a.m. PDT 1443 UTC, 16:43 CEST\nLaunch Window: Open until 11:00 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: The automated launch system initiated an abort shortly after Merlin engine ignition on July 20. Shortly after, SpaceX set a new schedule to go for a 24-hour recycle to July 21. \n\nMission: Starlink Group 17-39\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1092 - Turnaround time 49 days)\nFlight for the Booster: 23\nPrevious Flights of the Booster: 22 - USSF-62, OneWeb Launch 20, NROL-145, and 19 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeig...",
-        "feature_image": "https://i.ytimg.com/vi/cT5v36PmSDQ/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=cT5v36PmSDQ",
-        "type": {
-          "id": 4,
-          "name": "Unofficial Re-stream"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-21T14:33:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 9,
-        "source": "youtube.com",
-        "publisher": "Spaceflight Now",
-        "title": "Live: SpaceX Falcon 9 rocket launches 24 Starlink internet satellites from Vandenberg, California",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Tuesday, July 21, at 7:43 a.m. PDT (10:43 a.m. EDT / 1443 UTC). It follows a last-second abort during the first launch attempt on Monday.\n\nThe first-stage booster, serial number B1082, launching for a 23rd time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-39 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this...",
-        "feature_image": "https://i.ytimg.com/vi/tOQwbRqCWV8/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=tOQwbRqCWV8",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-21T14:13:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "Starlink Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HNrku7WbwAAV3g0.jpg",
-        "url": "https://x.com/i/broadcasts/1RJjppBPkALKw",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-21T14:39:00Z",
-        "end_time": "2026-07-22T14:39:00Z",
-        "live": false
-      }
-    ],
-    "mission_patches": [
-      {
-        "id": 7,
-        "name": "Space X Starlink Mission Patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 121,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-          "name": "SpaceX",
-          "abbrev": "SpX",
-          "type": {
-            "id": 3,
-            "name": "Commercial"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
     "name": "Falcon 9 Block 5 | MRV-1",
     "net": "2026-07-21T21:15:00Z",
@@ -3871,6 +3725,69 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_20251028184029.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_thumbnail_20251028184029.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
+    "name": "Soyuz 2.1b | Progress MS-36 (97P)",
+    "net": "2026-11-24T05:03:00Z",
+    "status": {
+      "id": 8,
+      "name": "To Be Confirmed",
+      "abbrev": "TBC"
+    },
+    "launch_service_provider": {
+      "id": 63,
+      "name": "Russian Federal Space Agency (ROSCOSMOS)",
+      "abbrev": "RFSA",
+      "country": [
+        {
+          "id": 5,
+          "name": "Russia",
+          "alpha_2_code": "RU",
+          "alpha_3_code": "RUS",
+          "nationality_name": "Russian",
+          "nationality_name_composed": "Russo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Soyuz 2.1b",
+        "full_name": "Soyuz 2.1b",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Progress MS-36 (97P)",
+      "type": "Resupply",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "31/6",
+      "latitude": 45.996034,
+      "longitude": 63.564003,
+      "location": {
+        "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+        "country": {
+          "id": 44,
+          "name": "Kazakhstan",
+          "alpha_2_code": "KZ",
+          "alpha_3_code": "KAZ",
+          "nationality_name": "Kazakh",
+          "nationality_name_composed": "Kazakhstani"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
