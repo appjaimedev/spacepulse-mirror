@@ -13,6 +13,32 @@
     "feature_image": null
   },
   {
+    "id": 1497,
+    "name": "SpaceX Crew-13 Mission Overview News Conference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-08-03T16:00:00Z",
+    "description": "The Crew-13 mission leadership will host a mission overview press conference with the following participants\r\n- Joel Montalbano, deputy associate administrator, Human Spaceflight Mission Directorate, NASA Headquarters\r\n- Dana Weigel, manager, Low Earth Orbit Program, NASA Johnson\r\n- Mathieu Caron, director, Astronauts, Life Sciences, and Space Medicine, CSA\r\n- Julianna Scheiman, director, NASA Science and Dragon Programs, SpaceX",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1498,
+    "name": "SpaceX Crew-13 Crew News Conference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-08-03T18:00:00Z",
+    "description": "The crew of NASA’s SpaceX Crew-13 mission will participate in a news conference from NASA Johnson Space Center.\r\n\r\nParticipants include:\r\n- Jessica Watkins, commander, NASA\r\n- Luke Delaney, pilot, NASA\r\n- Joshua Kutryk, mission specialist, CSA\r\n- Sergey Teteryatnikov, mission specialist, Roscosmos",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1454,
     "name": "Total Solar Eclipse in Europe",
     "type": {
