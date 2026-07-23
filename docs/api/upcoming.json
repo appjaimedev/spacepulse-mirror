@@ -2,7 +2,7 @@
   {
     "id": "fa42624c-1e30-4b4b-a06b-59b6153bc4e5",
     "name": "Kinetica 1 | Unknown Payload",
-    "net": "2026-07-23T23:30:00Z",
+    "net": "2026-07-23T23:33:00Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -58,8 +58,30 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png"
     },
-    "webcast_live": false,
-    "vid_urls": [],
+    "webcast_live": true,
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "ThatSpaceDogeGuy",
+        "title": "Watch Kinetica-1 Launch from Jiuquan, LIVE!!",
+        "description": "Credits: CAS Space (brought to you by TSDG Media) & TSDG Jiuquan\n-------------------------------------------------------------\nSubscribe and follow my socials for more content!!!\n▶️ Twitter/X @TestAiden [ThatSpaceDogeGuy]\n▶️ Instagram | ThatSpaceDogeGuy\n▶️ Tiktok | ThatSpaceDogeGuy\n▶️ Twitch | ThatSpaceDogeGuy\n\nFootage from TSDG may be reused only with proper credit. Credit must be clearly visible in the video or included in the description. Unauthorized use without credit may be subject to removal.\n\nFor all business inquiries, questions, or copyright matters, please contact: tsdgbusiness@gmail.com",
+        "feature_image": "https://i.ytimg.com/vi/n_faAgi5wZI/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=n_faAgi5wZI",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-23T23:11:51Z",
+        "end_time": null,
+        "live": true
+      }
+    ],
     "mission_patches": []
   },
   {
@@ -128,7 +150,7 @@
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Starship - Starship Flight 13 - Pad 2 - Starbase, TX - Space Affairs Live",
-        "description": "Launch Date: July 24, 2026\nLaunch Time: 3:45 p.m. PDT, 5:45 p.m. CDT, 6:45 p.m. EDT, 2245 UTC (July 25, 00:45 CEST)\nLaunch Window: 90 minutes, open until 8:15 p.m. CDT\nStatus: Scheduled and announced. Two Raptor engines have been replaced after the scrub on July 16. \nLaunch Provider: SpaceX\nLauncher System: Starship-Super Heavy (Prototype) - (Vehicles: Starship 20  & Booster 20)\nMission: Starship Test Flight 13 - Suborbital\nFlight: 1st flight for Super Heavy Booster 20 - 1st flight for Starship 40\nLaunch Location: Pad 2, Starbase, Texas, USA\n\nThe thirteenth flight test of Starship is preparing to launch as soon as Thursday, July 23. The 90-minute launch window will open at 5:45 p.m. CDT, 2245 UTC (July 17, 00:45 CEST)\nAs with all developmental testing, the schedule is dynamic and like...",
+        "description": "Launch Date: July 24, 2026\nLaunch Time: 3:45 p.m. PDT, 5:45 p.m. CDT, 6:45 p.m. EDT, 2245 UTC (July 25, 00:45 CEST)\nLaunch Window: 90 minutes, open until 8:15 p.m. CDT\nStatus: Scheduled and announced. Two Raptor engines have been replaced after the scrub on July 16. \nLaunch Provider: SpaceX\nLauncher System: Starship-Super Heavy (Prototype) - (Vehicles: Starship 40 & Booster 20)\nMission: Starship Test Flight 13 - Suborbital\nFlight: 1st flight for Super Heavy Booster 20 - 1st flight for Starship 40\nLaunch Location: Pad 2, Starbase, Texas, USA\n\nThe thirteenth flight test of Starship is preparing to launch as soon as Friday, July 24. The 90-minute launch window will open at 5:45 p.m. CDT, 2245 UTC (July 25, 00:45 CEST)\nAs with all developmental testing, the schedule is dynamic and likely ...",
         "feature_image": "https://i.ytimg.com/vi/0EnOQCjgq4E/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=0EnOQCjgq4E",
         "type": {
