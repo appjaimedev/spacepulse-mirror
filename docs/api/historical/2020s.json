@@ -1,5 +1,34 @@
 [
   {
+    "id": "5421e43a-1623-40ac-9dac-201075064e24",
+    "name": "Long March 3B/E | Tianlian 2-06",
+    "net": "2026-07-23T12:00:00Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 3B/E"
+      }
+    },
+    "pad": {
+      "name": "Launch Complex 2 (LC-2)",
+      "location": {
+        "name": "Xichang Satellite Launch Center, People's Republic of China"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907120240.jpeg"
+    }
+  },
+  {
     "id": "d8eb4b68-5307-4b3b-b585-5598958defc2",
     "name": "Gravity-1 | 9 satellites",
     "net": "2026-07-22T02:54:00Z",

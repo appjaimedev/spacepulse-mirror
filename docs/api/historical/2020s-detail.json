@@ -38098,6 +38098,25 @@
     "mission_patches": [],
     "vid_urls": []
   },
+  "5421e43a-1623-40ac-9dac-201075064e24": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "GTO",
+        "name": "Geostationary Transfer Orbit"
+      },
+      "description": "Tianlian is a Chinese data tracking and relay communications geostationary satellite series. The TL 2 (Tian Lian 2) satellites represent the second generation of this relay satellite network, and is based on the DFH-4 Bus, a three-axis-stabilized telecommunications satellite platform. TL 2 will be…"
+    },
+    "rocket_full_name": "Long March 3B/E",
+    "pad_lat": 28.245504,
+    "pad_lon": 102.026768,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=H6ZqSTcsZko"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
