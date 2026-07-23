@@ -880,11 +880,11 @@
   {
     "id": "12b9454b-d48b-4fd5-9c11-17c18f45dafe",
     "name": "Long March 8A | Unknown Payload",
-    "net": "2026-08-04T11:00:00Z",
+    "net": "2026-08-04T08:50:00Z",
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 88,
@@ -2691,14 +2691,6 @@
           "nationality_name_composed": "Swedo"
         },
         {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
-        },
-        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -2801,6 +2793,14 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
+        },
+        {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
