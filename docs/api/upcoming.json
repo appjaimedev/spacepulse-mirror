@@ -1,8 +1,71 @@
 [
   {
+    "id": "fa42624c-1e30-4b4b-a06b-59b6153bc4e5",
+    "name": "Kinetica 1 | Unknown Payload",
+    "net": "2026-07-23T23:30:00Z",
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 1040,
+      "name": "CAS Space",
+      "abbrev": "CAS",
+      "country": [
+        {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Kinetica 1",
+        "full_name": "Kinetica 1",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Unknown Payload",
+      "type": "Unknown",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      }
+    },
+    "pad": {
+      "name": "Launch Area 130",
+      "latitude": 40.8182,
+      "longitude": 100.22514,
+      "location": {
+        "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+        "country": {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
     "name": "Starship | Flight 13",
-    "net": "2026-07-23T22:45:00Z",
+    "net": "2026-07-24T22:45:00Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -86,7 +149,7 @@
         "source": "youtube.com",
         "publisher": "Spaceflight Now",
         "title": "Watch Live: SpaceX Starship launches on 13th test flight",
-        "description": "Watch live as SpaceX launches its revolutionary Starship launcher for a 13th test flight. Liftoff of the Version 3 integrated Starship vehicle from Starbase in Texas is scheduled during a launch window that opens at 5:45 p.m. CDT / 6:45 p.m. EDT / 2245 UTC on Thursday, July 23.\n\nThe mission will see splashdowns of the Super Heavy booster (Booster 20) in the Gulf of Mexico and the Starship upper stage (Ship 40) in the Indian Ocean.\n\nThe Starship upper stage will deploy 20 production Starlink V3 satellites for a 20-minute sub-orbital test.\n\nOur live coverage, hosted by Will Robinson-Smith, will begin about two hours before launch.\n\nCamera support from our friends at Avid Space @LabPadre .  \n\nVideos like this are made possible by the support of our members. Join this channel to get acces...",
+        "description": "Watch live as SpaceX launches its revolutionary Starship launcher for a 13th test flight. Liftoff of the Version 3 integrated Starship vehicle from Starbase in Texas is scheduled during a launch window that opens at 5:45 p.m. CDT / 6:45 p.m. EDT / 2245 UTC on Friday, July 24.\n\nThe mission will see splashdowns of the Super Heavy booster (Booster 20) in the Gulf of Mexico and the Starship upper stage (Ship 40) in the Indian Ocean.\n\nThe Starship upper stage will deploy 20 production Starlink V3 satellites for a 20-minute sub-orbital test.\n\nOur live coverage, hosted by Will Robinson-Smith, will begin about two hours before launch.\n\nCamera support from our friends at Avid Space @LabPadre .  \n\nVideos like this are made possible by the support of our members. Join this channel to get access ...",
         "feature_image": "https://i.ytimg.com/vi/Ew0Xu1RT8oc/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=Ew0Xu1RT8oc",
         "type": {
@@ -98,7 +161,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-23T20:45:00Z",
+        "start_time": "2026-07-24T20:45:00Z",
         "end_time": null,
         "live": false
       },
@@ -106,8 +169,8 @@
         "priority": 9,
         "source": "youtube.com",
         "publisher": "NASASpaceflight",
-        "title": "SpaceX Starship Flight 13 - Launch & Landing - ATTEMPT 2 LAUNCH STREAM",
-        "description": "Starship launches Flight 13, the second launch of the Block 3 vehicle from Pad 2 at Starbase at the second attempt following a T-0 abort on July 16.\n\nLaunch Window: July 20th at 5:45PM to 7:15PM CDT (22:45-00:15 UTC)\nCurrent T0: July 20th at 5:45PM CDT (22:45 UTC)\n\nMission: Starship's 13th integrated flight test. Correcting issues from version 3's debut flight.\nLaunch location: Pad 2, Starbase, Earth. \nTarget orbit: Trans-atmospheric\nBooster: B20-1\nShip: S40-1\nBooster recovery: Expended - will attempt a water splashdown, no recovery.\nShip recovery: Expended - will attempt a water splashdown, no recovery.\nRocket trajectory: Southeast passing between Cuba and the Yucatan Peninsula.\nPayload onboard: 20 Starlink v3 satellites, 6 of them fitted with a suite of cameras for heatshield inspec...",
+        "title": "SpaceX Starship Flight 13 - Launch & Landing - ATTEMPT 3 LAUNCH STREAM",
+        "description": "Starship launches Flight 13, the second launch of the Block 3 vehicle from Pad 2 at Starbase. This is the third attempt following a T-0 abort on July 16, and a weather scrub on July 23.\n\nLaunch Window: July 24th at 5:45PM to 7:15PM CDT (22:45-00:15 UTC)\n\nMission: Starship's 13th integrated flight test. Correcting issues from version 3's debut flight.\nLaunch location: Pad 2, Starbase, Earth. \nTarget orbit: Trans-atmospheric\nBooster: B20-1\nShip: S40-1\nBooster recovery: Expended - will attempt a water splashdown, no recovery.\nShip recovery: Expended - will attempt a water splashdown, no recovery.\nRocket trajectory: Southeast passing between Cuba and the Yucatan Peninsula.\nPayload onboard: 20 Starlink v3 satellites, 6 of them fitted with a suite of cameras for heatshield inspection.\nPaylo...",
         "feature_image": "https://i.ytimg.com/vi/lC3RDO7tdLc/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=lC3RDO7tdLc",
         "type": {
@@ -119,7 +182,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-23T20:00:00Z",
+        "start_time": "2026-07-24T20:00:00Z",
         "end_time": null,
         "live": false
       },
@@ -140,8 +203,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-23T22:12:00Z",
-        "end_time": "2026-07-24T03:12:00Z",
+        "start_time": "2026-07-24T22:12:00Z",
+        "end_time": "2026-07-25T03:13:00Z",
         "live": false
       },
       {
@@ -161,7 +224,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-23T21:15:00Z",
+        "start_time": "2026-07-24T21:15:00Z",
         "end_time": null,
         "live": false
       }
@@ -186,69 +249,6 @@
         "response_mode": "normal"
       }
     ]
-  },
-  {
-    "id": "fa42624c-1e30-4b4b-a06b-59b6153bc4e5",
-    "name": "Kinetica 1 | Unknown Payload",
-    "net": "2026-07-23T23:30:00Z",
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 1040,
-      "name": "CAS Space",
-      "abbrev": "CAS",
-      "country": [
-        {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Kinetica 1",
-        "full_name": "Kinetica 1",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Unknown Payload",
-      "type": "Unknown",
-      "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
-      }
-    },
-    "pad": {
-      "name": "Launch Area 130",
-      "latitude": 40.8182,
-      "longitude": 100.22514,
-      "location": {
-        "name": "Jiuquan Satellite Launch Center, People's Republic of China",
-        "country": {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
   },
   {
     "id": "5b2f05d7-9052-49fb-9bd7-2a05d4910576",
