@@ -119,7 +119,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-23T19:45:00Z",
+        "start_time": "2026-07-23T20:00:00Z",
         "end_time": null,
         "live": false
       },
@@ -314,10 +314,10 @@
       {
         "priority": 10,
         "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "Starlink Mission",
+        "publisher": "X",
+        "title": "Livestream on X",
         "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HM4PVnDWwAAQTwe.jpg",
+        "feature_image": null,
         "url": "https://x.com/i/broadcasts/1wxWjjQvmrkJQ",
         "type": {
           "id": 1,
@@ -328,8 +328,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-23T13:50:00Z",
-        "end_time": "2026-07-24T13:50:00Z",
+        "start_time": null,
+        "end_time": null,
         "live": false
       }
     ],
