@@ -1,13 +1,52 @@
 [
   {
+    "id": 1499,
+    "name": "SpaceX Starship Booster B20 Testing",
+    "type": {
+      "id": 30,
+      "name": "Vehicle Testing"
+    },
+    "date": "2026-07-22T17:00:00Z",
+    "description": "SpaceX is testing Booster 20 before the 13th Starship Test Flight.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1496,
     "name": "Soyuz MS-28 Undocking",
     "type": {
       "id": 8,
       "name": "Spacecraft Undocking"
     },
-    "date": "2026-07-26T07:04:00Z",
+    "date": "2026-07-26T07:02:30Z",
     "description": "The Soyuz MS-28 spacecraft will undock from the International Space Station ahead of reentry and landing in Kazakhstan.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1501,
+    "name": "Soyuz MS-28 Landing",
+    "type": {
+      "id": 9,
+      "name": "Spacecraft Landing"
+    },
+    "date": "2026-07-26T10:26:00Z",
+    "description": "The Soyuz MS-28 spacecraft will land back on Earth near Dzhezkazgan, Kazakhstan.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1500,
+    "name": "Roman Telescope Pre-Launch Media Briefing",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-07-29T18:00:00Z",
+    "description": "NASA will host a virtual news conference to preview the Nancy Grace Roman Space Telescope mission, scheduled to launch from the agency’s Kennedy Space Center in Florida on Sunday, Aug. 30.\r\n\r\nParticipants in the briefing, who will provide an overview of the mission and its status, include:\r\n- Shawn Domagal-Goldman, director, Astrophysics Division, NASA Headquarters in Washington\r\n- Jackie Townsend, Roman telescope project manager, NASA’s Goddard Space Flight Center in Greenbelt, Maryland\r\n- Julie McEnery, Roman telescope senior project scientist, NASA Goddard\r\n- Jeremy Perkins, Roman telescope integration and test scientist, NASA Goddard",
     "video_url": null,
     "launch": null,
     "feature_image": null
@@ -346,45 +385,6 @@
     },
     "date": "2031-07-31T00:00:00Z",
     "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Jupiter, using a Ganymede gravity assist flyby to reduce its velocity, followed by two engine burns.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 403,
-    "name": "Lucy Trojan Asteroids (617) Patroclus & Menoetius Flyby",
-    "type": {
-      "id": 23,
-      "name": "Flyby"
-    },
-    "date": "2033-03-03T00:00:00Z",
-    "description": "Flyby of the Trojan binary asteroid pair (617) Patroclus and Menoetius by NASA's Lucy mission.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1281,
-    "name": "Juice Ganymede Orbit Insertion",
-    "type": {
-      "id": 16,
-      "name": "Orbital Insertion"
-    },
-    "date": "2034-12-31T00:00:00Z",
-    "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Ganymede.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1282,
-    "name": "Juice Ganymede Impact",
-    "type": {
-      "id": 6,
-      "name": "Spacecraft Event"
-    },
-    "date": "2035-12-31T00:00:00Z",
-    "description": "After running out of propellant to maintain its trajectory, ESA's Jupiter Icy Moons Explorer (Juice) spacecraft will impact Ganymede due to orbital perturbations.",
     "video_url": null,
     "launch": null,
     "feature_image": null
