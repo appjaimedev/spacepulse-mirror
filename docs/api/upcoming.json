@@ -98,9 +98,9 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-24T20:45:00Z",
+        "start_time": "2026-07-24T20:46:04Z",
         "end_time": null,
-        "live": false
+        "live": true
       },
       {
         "priority": 9,
@@ -148,7 +148,7 @@
         "priority": 11,
         "source": "youtube.com",
         "publisher": "Everyday Astronaut",
-        "title": "Watch SpaceX Launch Starship Flight 13!!",
+        "title": "[4K] Watch SpaceX Launch Starship Flight 13!!",
         "description": "SpaceX is about to launch their second V3 Starship as well as a deploying the first operational V3 Starlink satellites! It will still be a sub-orbital mission with similar objectives to Flight 12, but an important step towards orbit and full reuse.\n\nWant to learn what's new and different about Starship V3 vs V2? Check this out! - https://youtu.be/y_ecCDqTSJs\n\nWant to support what I do? Consider becoming a Patreon supporter for access to exclusive livestreams, our discord channel! - http://patreon.com/everydayastronaut\n\nOr become a YouTube member for some bonus perks as well! - https://www.youtube.com/channel/UC6uKrU_WqJ1R2HMTY3LIx5Q/join\n\nThe best place for all your space merch needs!\nhttps://everydayastronaut.com/shop/\n\nAll music is original! Check it out anywhere you listen to music...",
         "feature_image": "https://i.ytimg.com/vi/-pR0eOj9hK0/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=-pR0eOj9hK0",
@@ -161,9 +161,9 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-24T21:15:00Z",
+        "start_time": "2026-07-24T21:15:47Z",
         "end_time": null,
-        "live": false
+        "live": true
       }
     ],
     "mission_patches": [
