@@ -1,13 +1,26 @@
 [
   {
-    "id": 1499,
-    "name": "SpaceX Starship Booster B20 Testing",
+    "id": 1502,
+    "name": "ISS Expedition 74-75 Change of Command Ceremony",
     "type": {
-      "id": 30,
-      "name": "Vehicle Testing"
+      "id": 15,
+      "name": "Change of Command"
     },
-    "date": "2026-07-22T17:00:00Z",
-    "description": "SpaceX is testing Booster 20 before the 13th Starship Test Flight.",
+    "date": "2026-07-25T13:40:00Z",
+    "description": "ROSCOSMOS cosmonaut Sergey Kud-Sverchkov will hand over the International Space Station command to NASA astronaut Jessica Meir.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1503,
+    "name": "Soyuz MS-28 Farewell Ceremony",
+    "type": {
+      "id": 17,
+      "name": "Farewell Ceremony"
+    },
+    "date": "2026-07-26T03:10:00Z",
+    "description": "NASA will livestream the farewell ceremony and hatch closing of the Soyuz MS-278crew ahead of its return to Earth.",
     "video_url": null,
     "launch": null,
     "feature_image": null
@@ -372,19 +385,6 @@
     },
     "date": "2031-07-31T00:00:00Z",
     "description": "As part of its mission extension, JAXA's Hayabusa2 spacecraft will rendezvous with asteroid 1998 KY26.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1280,
-    "name": "Juice Jupiter Orbit Insertion",
-    "type": {
-      "id": 16,
-      "name": "Orbital Insertion"
-    },
-    "date": "2031-07-31T00:00:00Z",
-    "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Jupiter, using a Ganymede gravity assist flyby to reduce its velocity, followed by two engine burns.",
     "video_url": null,
     "launch": null,
     "feature_image": null
