@@ -38093,8 +38093,8 @@
       "description": "Note: Payload identities uncertain. Batch of 16 Rassvet-3 Low Earth Orbit communication satellites for the Russian Byuro-1440 (Bureau 1440) constellation for broadband high-speed internet access in Russia."
     },
     "rocket_full_name": "Soyuz 2.1b",
-    "pad_lat": 62.925556,
-    "pad_lon": 40.577778,
+    "pad_lat": 62.92883,
+    "pad_lon": 40.457098,
     "mission_patches": [],
     "vid_urls": []
   },
