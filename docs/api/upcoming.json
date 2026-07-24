@@ -1,90 +1,5 @@
 [
   {
-    "id": "fa42624c-1e30-4b4b-a06b-59b6153bc4e5",
-    "name": "Kinetica 1 | Unknown Payload",
-    "net": "2026-07-23T23:33:00Z",
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 1040,
-      "name": "CAS Space",
-      "abbrev": "CAS",
-      "country": [
-        {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Kinetica 1",
-        "full_name": "Kinetica 1",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Unknown Payload",
-      "type": "Unknown",
-      "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
-      }
-    },
-    "pad": {
-      "name": "Launch Area 130",
-      "latitude": 40.8182,
-      "longitude": 100.22514,
-      "location": {
-        "name": "Jiuquan Satellite Launch Center, People's Republic of China",
-        "country": {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png"
-    },
-    "webcast_live": true,
-    "vid_urls": [
-      {
-        "priority": 10,
-        "source": "youtube.com",
-        "publisher": "ThatSpaceDogeGuy",
-        "title": "Watch Kinetica-1 Launch from Jiuquan, LIVE!!",
-        "description": "Credits: CAS Space (brought to you by TSDG Media) & TSDG Jiuquan\n-------------------------------------------------------------\nSubscribe and follow my socials for more content!!!\n▶️ Twitter/X @TestAiden [ThatSpaceDogeGuy]\n▶️ Instagram | ThatSpaceDogeGuy\n▶️ Tiktok | ThatSpaceDogeGuy\n▶️ Twitch | ThatSpaceDogeGuy\n\nFootage from TSDG may be reused only with proper credit. Credit must be clearly visible in the video or included in the description. Unauthorized use without credit may be subject to removal.\n\nFor all business inquiries, questions, or copyright matters, please contact: tsdgbusiness@gmail.com",
-        "feature_image": "https://i.ytimg.com/vi/n_faAgi5wZI/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=n_faAgi5wZI",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-23T23:11:51Z",
-        "end_time": null,
-        "live": true
-      }
-    ],
-    "mission_patches": []
-  },
-  {
     "id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
     "name": "Starship | Flight 13",
     "net": "2026-07-24T22:45:00Z",
@@ -2465,6 +2380,69 @@
     "mission_patches": []
   },
   {
+    "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
+    "name": "Falcon 9 Block 5 | O3b mPower 11-13",
+    "net": "2026-09-30T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "O3b mPower 11-13",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "MEO",
+        "name": "Medium Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "latitude": 28.458,
+      "longitude": -80.528,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
     "name": "LVM-3 | Gaganyaan-1",
     "net": "2026-09-30T00:00:00Z",
@@ -2572,69 +2550,6 @@
       "longitude": -120.611,
       "location": {
         "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
-    "name": "Falcon 9 Block 5 | O3b mPower 11-13",
-    "net": "2026-09-30T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "O3b mPower 11-13",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "MEO",
-        "name": "Medium Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Unknown Pad",
-      "latitude": 28.458,
-      "longitude": -80.528,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
         "country": {
           "id": 2,
           "name": "United States of America",
@@ -2921,6 +2836,14 @@
           "nationality_name_composed": "Swedo"
         },
         {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
+        },
+        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -3023,14 +2946,6 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
-        },
-        {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
@@ -3857,6 +3772,69 @@
       "longitude": -120.611,
       "location": {
         "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "e61d353c-db55-4a57-8184-0fab187231e6",
+    "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 8)",
+    "net": "2026-12-31T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Globalstar 2-R Mission 2 (x 8)",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 40",
+      "latitude": 28.56194122,
+      "longitude": -80.57735736,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
         "country": {
           "id": 2,
           "name": "United States of America",
