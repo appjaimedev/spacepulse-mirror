@@ -1,5 +1,34 @@
 [
   {
+    "id": "fa42624c-1e30-4b4b-a06b-59b6153bc4e5",
+    "name": "Kinetica 1 | 5 satellites",
+    "net": "2026-07-23T23:33:00Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 1040,
+      "name": "CAS Space",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Kinetica 1"
+      }
+    },
+    "pad": {
+      "name": "Launch Area 130",
+      "location": {
+        "name": "Jiuquan Satellite Launch Center, People's Republic of China"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png"
+    }
+  },
+  {
     "id": "5421e43a-1623-40ac-9dac-201075064e24",
     "name": "Long March 3B/E | Tianlian 2-06",
     "net": "2026-07-23T12:00:00Z",

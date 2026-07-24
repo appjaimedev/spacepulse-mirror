@@ -38117,6 +38117,25 @@
       }
     ]
   },
+  "fa42624c-1e30-4b4b-a06b-59b6153bc4e5": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "Share-ride of 5 commercial Earth observation and technology demonstration satellites to SSO, including SpaceTY's TY-48. Details TBD."
+    },
+    "rocket_full_name": "Kinetica 1",
+    "pad_lat": 40.8182,
+    "pad_lon": 100.22514,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=n_faAgi5wZI"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
