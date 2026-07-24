@@ -58,7 +58,7 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20260724044615.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg"
     },
-    "webcast_live": false,
+    "webcast_live": true,
     "vid_urls": [
       {
         "priority": 7,
@@ -119,9 +119,9 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-24T20:00:00Z",
+        "start_time": "2026-07-24T19:45:42Z",
         "end_time": null,
-        "live": false
+        "live": true
       },
       {
         "priority": 10,
