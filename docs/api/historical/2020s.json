@@ -4,9 +4,9 @@
     "name": "Starship | Flight 13",
     "net": "2026-07-24T22:51:00Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 121,
