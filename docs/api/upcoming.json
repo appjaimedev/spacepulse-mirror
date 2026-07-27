@@ -1,109 +1,5 @@
 [
   {
-    "id": "e7e55b53-6f69-4c22-9fc5-df00df653a3f",
-    "name": "Falcon 9 Block 5 | Starlink Group 17-52",
-    "net": "2026-07-29T02:00:00Z",
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Starlink Group 17-52",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "Starlink Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HNX9TuyXAAA7UlA.jpg",
-        "url": "https://x.com/i/broadcasts/1AxRnnrObgzxl",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-07-29T01:50:00Z",
-        "end_time": "2026-07-29T07:50:00Z",
-        "live": false
-      }
-    ],
-    "mission_patches": [
-      {
-        "id": 7,
-        "name": "Space X Starlink Mission Patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 121,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-          "name": "SpaceX",
-          "abbrev": "SpX",
-          "type": {
-            "id": 3,
-            "name": "Commercial"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "beac6ac1-97dd-4eb2-912c-8b4d4d15cd4e",
     "name": "Long March 7A | Unknown Payload",
     "net": "2026-07-29T11:50:00Z",
@@ -228,6 +124,110 @@
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
+  },
+  {
+    "id": "e7e55b53-6f69-4c22-9fc5-df00df653a3f",
+    "name": "Falcon 9 Block 5 | Starlink Group 17-52",
+    "net": "2026-07-30T02:00:00Z",
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Starlink Group 17-52",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png"
+    },
+    "webcast_live": false,
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "SpaceX",
+        "title": "Starlink Mission",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HNX9TuyXAAA7UlA.jpg",
+        "url": "https://x.com/i/broadcasts/1AxRnnrObgzxl",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-30T01:50:00Z",
+        "end_time": "2026-07-30T07:50:00Z",
+        "live": false
+      }
+    ],
+    "mission_patches": [
+      {
+        "id": 7,
+        "name": "Space X Starlink Mission Patch",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 121,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
+          "name": "SpaceX",
+          "abbrev": "SpX",
+          "type": {
+            "id": 3,
+            "name": "Commercial"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
   },
   {
     "id": "24675e3d-2458-48a3-8c70-5196e44d4dc3",
@@ -629,7 +629,7 @@
   {
     "id": "0448d030-5175-4c1f-bd0b-4f3f87072921",
     "name": "Falcon 9 Block 5 | Starlink Group 17-53",
-    "net": "2026-08-01T14:00:00Z",
+    "net": "2026-08-02T14:00:00Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -2544,14 +2544,6 @@
           "nationality_name_composed": "Swedo"
         },
         {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
-        },
-        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -2654,6 +2646,14 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
+        },
+        {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
