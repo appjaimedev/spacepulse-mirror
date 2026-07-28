@@ -1,31 +1,5 @@
 [
   {
-    "id": 1496,
-    "name": "Soyuz MS-28 Undocking",
-    "type": {
-      "id": 8,
-      "name": "Spacecraft Undocking"
-    },
-    "date": "2026-07-26T07:02:30Z",
-    "description": "The Soyuz MS-28 spacecraft will undock from the International Space Station ahead of reentry and landing in Kazakhstan.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1501,
-    "name": "Soyuz MS-28 Landing",
-    "type": {
-      "id": 9,
-      "name": "Spacecraft Landing"
-    },
-    "date": "2026-07-26T10:26:00Z",
-    "description": "The Soyuz MS-28 spacecraft will land back on Earth near Dzhezkazgan, Kazakhstan.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1500,
     "name": "Roman Telescope Pre-Launch Media Briefing",
     "type": {
@@ -34,6 +8,19 @@
     },
     "date": "2026-07-29T18:00:00Z",
     "description": "NASA will host a virtual news conference to preview the Nancy Grace Roman Space Telescope mission, scheduled to launch from the agency’s Kennedy Space Center in Florida on Sunday, Aug. 30.\r\n\r\nParticipants in the briefing, who will provide an overview of the mission and its status, include:\r\n- Shawn Domagal-Goldman, director, Astrophysics Division, NASA Headquarters in Washington\r\n- Jackie Townsend, Roman telescope project manager, NASA’s Goddard Space Flight Center in Greenbelt, Maryland\r\n- Julie McEnery, Roman telescope senior project scientist, NASA Goddard\r\n- Jeremy Perkins, Roman telescope integration and test scientist, NASA Goddard",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1507,
+    "name": "US EVA-96/97/98 Preview News Conference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-07-30T18:00:00Z",
+    "description": "NASA will discuss the upcoming US EVA-96, 97 and 98 spacewalks during a news conference at the agency’s Johnson Space Center in Houston.\r\n\r\nNASA participants include:\r\n- Bill Spetch, deputy manager of Commercial, Low Earth Orbit Program\r\n- Chris Dobbins, spacewalk flight director\r\n- Chloe Mehring, spacewalk flight director",
     "video_url": null,
     "launch": null,
     "feature_image": null
@@ -65,6 +52,19 @@
     "feature_image": null
   },
   {
+    "id": 1504,
+    "name": "US EVA-96",
+    "type": {
+      "id": 3,
+      "name": "EVA"
+    },
+    "date": "2026-08-06T12:00:00Z",
+    "description": "NASA astronauts Jessica Meir and Anil Menon will install hardware that will modify the station’s 3B power channel and prepare it for the future installation of an International Space Station Roll-Out Solar Array (IROSA), which will provide additional power to support critical station operations, including its safe and controlled deorbit.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1454,
     "name": "Total Solar Eclipse in Europe",
     "type": {
@@ -73,6 +73,32 @@
     },
     "date": "2026-08-12T15:35:23Z",
     "description": "On 12 August 2026, a solar eclipse will be visible across parts of Europe and the north Atlantic. The path of totality will cross Greenland, Iceland, Spain and a small area of northeastern Portugal. Other parts of Europe will see a partial solar eclipse.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1505,
+    "name": "US EVA-97",
+    "type": {
+      "id": 3,
+      "name": "EVA"
+    },
+    "date": "2026-08-13T00:00:00Z",
+    "description": "Two NASA astronauts will replace a Space-to-Ground antenna, a critical communication system NASA uses to transmit data and high‑speed communication between the Mission Control Center in Houston and the space station, on the orbital complex.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1506,
+    "name": "US EVA-98",
+    "type": {
+      "id": 3,
+      "name": "EVA"
+    },
+    "date": "2026-08-25T00:00:00Z",
+    "description": "Two NASA astronauts will connect power channel cables and data relay systems as part of ongoing maintenance, including preparations for the space station’s future de-orbit. The astronauts also will replace a navigational aid used for spacecraft docking on the Harmony module’s forward port.",
     "video_url": null,
     "launch": null,
     "feature_image": null
@@ -359,32 +385,6 @@
     },
     "date": "2031-07-31T00:00:00Z",
     "description": "As part of its mission extension, JAXA's Hayabusa2 spacecraft will rendezvous with asteroid 1998 KY26.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1280,
-    "name": "Juice Jupiter Orbit Insertion",
-    "type": {
-      "id": 16,
-      "name": "Orbital Insertion"
-    },
-    "date": "2031-07-31T00:00:00Z",
-    "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Jupiter, using a Ganymede gravity assist flyby to reduce its velocity, followed by two engine burns.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 403,
-    "name": "Lucy Trojan Asteroids (617) Patroclus & Menoetius Flyby",
-    "type": {
-      "id": 23,
-      "name": "Flyby"
-    },
-    "date": "2033-03-03T00:00:00Z",
-    "description": "Flyby of the Trojan binary asteroid pair (617) Patroclus and Menoetius by NASA's Lucy mission.",
     "video_url": null,
     "launch": null,
     "feature_image": null
