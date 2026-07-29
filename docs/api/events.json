@@ -52,6 +52,19 @@
     "feature_image": null
   },
   {
+    "id": 1508,
+    "name": "Chris Williams Post-Flight News Conference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-08-04T18:45:00Z",
+    "description": "NASA astronaut Chris Williams will recap his recent mission aboard the International Space Station during a news conference from the agency’s Johnson Space Center in Houston.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1504,
     "name": "US EVA-96",
     "type": {
@@ -372,19 +385,6 @@
     },
     "date": "2030-12-25T00:00:00Z",
     "description": "Third and final Earth flyby of NASA's Lucy mission to the Trojan asteroids.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1286,
-    "name": "Hayabusa2 Asteroid 1998 KY26 Rendezvous",
-    "type": {
-      "id": 6,
-      "name": "Spacecraft Event"
-    },
-    "date": "2031-07-31T00:00:00Z",
-    "description": "As part of its mission extension, JAXA's Hayabusa2 spacecraft will rendezvous with asteroid 1998 KY26.",
     "video_url": null,
     "launch": null,
     "feature_image": null
