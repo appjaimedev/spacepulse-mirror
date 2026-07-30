@@ -38239,6 +38239,43 @@
     "mission_patches": [],
     "vid_urls": []
   },
+  "24675e3d-2458-48a3-8c70-5196e44d4dc3": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      },
+      "description": "Classified payload for the US National Reconnaissance Office."
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 28.56194122,
+    "pad_lon": -80.57735736,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-95_mission_patch_20260730065924.png",
+        "priority": 9
+      },
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-952520mis_mission_patch_20260723163818.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=L6c0OzSQevo"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=5cokZJ3XQW0"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=7QchKzHqvOM"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1DxLddLoqayxm"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
