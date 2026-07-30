@@ -2,7 +2,7 @@
   {
     "id": "24675e3d-2458-48a3-8c70-5196e44d4dc3",
     "name": "Falcon 9 Block 5 | NROL-95",
-    "net": "2026-07-30T07:09:01Z",
+    "net": "2026-07-30T07:10:19Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -61,6 +61,69 @@
     "webcast_live": false,
     "vid_urls": [
       {
+        "priority": 7,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Falcon 9 - NROL-95 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+        "description": "Launch Date:  July 30, 2026\nLaunch Time: 3:10 a.m. EDT, 0710 UTC, 09:10 CEST\nLaunch Window:  Open until 3:21 a.m. EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Northeast\nLaunch Status: Scheduled and announced \n\nMission: NROL-95\nLaunch Provider: SpaceX\nLaunch Contractor: National Reconnaissance Office, USA\nLauncher System: Falcon 9 (Booster 1096 - Turnaround 75 days)\nFlight for the Booster: 7 \nPrevious Flights of the Booster: 6 - KF-01, IMAP, NROL-77, GPS III-9, CRS-34, and one Starlink mission\nBooster Landing: Landing Zone 2 (LZ-2) at Cape Canaveral Space Force Station\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewto...",
+        "feature_image": "https://i.ytimg.com/vi/1-ScMofSZKQ/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=1-ScMofSZKQ",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-30T06:56:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "Live: SpaceX Falcon 9 rocket launches mission for U.S. spy satellite agency",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying a classified payload for the National Reconnaissance Office, the U.S. government spy satellite agency. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Thursday, July 30, at 3:10 a.m. EDT (0710 UTC).\n\nThe first-stage Falcon 9 booster, serial number B1096, launching for a seventh time, will return to a landing at Landing Zone 2 at Cape Canaveral Space Force Station.\n\nThe Falcon 9 will take a north-easterly trajectory on departure from Florida's Space Coast.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about an hour prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to per...",
+        "feature_image": "https://i.ytimg.com/vi/5cokZJ3XQW0/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=5cokZJ3XQW0",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-30T06:10:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "NASASpaceflight",
+        "title": "SpaceX Launches Falcon 9 with NROL-95",
+        "description": "Instantaneous Launch Window: July 30th at 3:09:01AM EDT (07:09:01 UTC)\n\nMission: Falcon 9 launch of NROL-95 mission for the National Reconnaissance Office\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Low-Earth Orbit (LEO)\nBooster: B1096-7; 75d 9h 3min 20s turnaround\nBooster history: Leo Falcon 1, IMAP, Starlink 6-87, NROL-77, GPS-III SV09, CRS-34. \nSatellites Launched: 59, will likely be 60 after this mission\nBooster recovery: Landing Zone 2 (LZ-2)\nFairing recovery: Doug\nRocket trajectory: Northeast\nPayload mass: Unknown\nStats:\n  - SpaceX's 700th launch overall (5 F1, 670 F9, 12 FH, 13 Starship)\n  - SpaceX's 91st launch of the year.\n  - SpaceX's 13th launch of the month.\n  - Earth's 180th orbital launch of the year.\n  - Fa...",
+        "feature_image": "https://i.ytimg.com/vi/7QchKzHqvOM/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=7QchKzHqvOM",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-30T06:09:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
         "priority": 10,
         "source": "x.com",
         "publisher": "SpaceX",
@@ -77,8 +140,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-30T06:57:00Z",
-        "end_time": "2026-07-31T06:57:00Z",
+        "start_time": "2026-07-30T06:58:00Z",
+        "end_time": "2026-07-30T08:57:00Z",
         "live": false
       }
     ],
@@ -165,6 +228,27 @@
     "webcast_live": false,
     "vid_urls": [
       {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Falcon 9 - Starlink 17-52 - SLC-4E - Vandenberg SFB - Space Affairs Live",
+        "description": "Launch Date: July 30, 2026 (PDT)\nLaunch Time: 7:00 p.m. PDT (July 31, 0200 UTC, 04:00 CEST)\nLaunch Window: 11:00 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 17-52\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1081 - Turnaround time 33 days)\nFlight for the Booster: 26\nPrevious Flights of the Booster: 25 -  Crew-7, CRS-29, PACE, Transporter-10, EarthCARE, NROL-186, Transporter-13, TRACERS, NROL-48, COSMO-SkyMED Second Generation FM3, and 15 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLi...",
+        "feature_image": "https://i.ytimg.com/vi/OMxBhQDCXts/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=OMxBhQDCXts",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-07-31T01:50:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
         "priority": 10,
         "source": "x.com",
         "publisher": "SpaceX",
@@ -206,69 +290,6 @@
         "response_mode": "normal"
       }
     ]
-  },
-  {
-    "id": "d46cab82-dcf5-4d70-b698-d7bead7f638c",
-    "name": "Smart Dragon 3 | Unknown Payload",
-    "net": "2026-08-04T00:00:00Z",
-    "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
-    },
-    "launch_service_provider": {
-      "id": 272,
-      "name": "China Rocket Co. Ltd.",
-      "abbrev": "CHNR",
-      "country": [
-        {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Smart Dragon 3",
-        "full_name": "Smart Dragon 3",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Unknown Payload",
-      "type": "Unknown",
-      "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
-      }
-    },
-    "pad": {
-      "name": "Haiyang offshore launch location",
-      "latitude": 36.631333,
-      "longitude": 121.198361,
-      "location": {
-        "name": "Haiyang Oriental Spaceport",
-        "country": {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_thumbnail_20240925074607.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
   },
   {
     "id": "12b9454b-d48b-4fd5-9c11-17c18f45dafe",
@@ -395,6 +416,27 @@
     "webcast_live": false,
     "vid_urls": [
       {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Falcon 9 - Starlink 17-53 - SLC-4E - Vandenberg SFB - Space Affairs Live",
+        "description": "Launch Date: August 3, 2026 PDT\nLaunch Time:  7:00 a.m. PDT, 1400 UTC, 16:00 CEST\nLaunch Window: Open until 11:00 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced \n\nMission: Starlink Group 17-53\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1063 - Turnaround time 41 days)\nFlight for the Booster: 34\nPrevious Flights of the Booster: 33 - Sentinel-6 Michael Freilich, DART, Transporter-7, Iridium OneWeb, SDA-0B, NROL-113, NROL-167, NROL-149, NAOS, and 24 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 ...",
+        "feature_image": "https://i.ytimg.com/vi/18lBZDObHp0/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=18lBZDObHp0",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-03T13:50:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
         "priority": 10,
         "source": "x.com",
         "publisher": "SpaceX",
@@ -438,8 +480,71 @@
     ]
   },
   {
+    "id": "d46cab82-dcf5-4d70-b698-d7bead7f638c",
+    "name": "Smart Dragon 3 | Unknown Payload",
+    "net": "2026-08-05T02:35:00Z",
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 272,
+      "name": "China Rocket Co. Ltd.",
+      "abbrev": "CHNR",
+      "country": [
+        {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Smart Dragon 3",
+        "full_name": "Smart Dragon 3",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Unknown Payload",
+      "type": "Unknown",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      }
+    },
+    "pad": {
+      "name": "Haiyang offshore launch location",
+      "latitude": 36.631333,
+      "longitude": 121.198361,
+      "location": {
+        "name": "Haiyang Oriental Spaceport",
+        "country": {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_thumbnail_20240925074607.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "56a85c82-ea71-449b-828c-b583f6f4a18b",
-    "name": "Falcon 9 Block 5 | BlueBird Block 2 #6-8",
+    "name": "Falcon 9 Block 5 | BlueBird 11-13 (Block 2 #6-8)",
     "net": "2026-08-05T07:42:00Z",
     "status": {
       "id": 1,
@@ -469,7 +574,7 @@
       }
     },
     "mission": {
-      "name": "BlueBird Block 2 #6-8",
+      "name": "BlueBird 11-13 (Block 2 #6-8)",
       "type": "Communications",
       "orbit": {
         "abbrev": "LEO",
@@ -497,7 +602,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_thumbnail_20240919072420.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 7,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Falcon 9 - BlueBird 11 - 13 - SLC-40 - Cape Canaveral SFS -  Space Affairs Live",
+        "description": "Launch Date:  August 5, 2026\nLaunch Time: 3:42 a.m. EDT, 0742 UTC, 09:42 CEST\nLaunch Window:  Open until 5:18 a.m. EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Northeast\nLaunch Status: Scheduled and announced\n\nMission: BlueBird 11 - 13\nLaunch Provider: SpaceX\nLaunch Contractor AST SpaceMobile \nLauncher System: Falcon 9 (Booster 1077 - Turnaround 49 days)\nFlight for the Booster: 30\nPrevious Flights of the Booster: 29  -  Crew-5, GPS III Space Vehicle 06, Inmarsat I-6 F2, CRS-28, Intelsat G-37, NG-20, TD7, BlueBird 8-10, and 21 Starlink missions\nDroneship: A Shortfall Of Gravitas\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607...",
+        "feature_image": "https://i.ytimg.com/vi/xlb3ukMQ-Ec/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=xlb3ukMQ-Ec",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-05T07:25:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
     "mission_patches": []
   },
   {
