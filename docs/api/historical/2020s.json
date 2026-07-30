@@ -4,9 +4,9 @@
     "name": "Falcon 9 Block 5 | NROL-95",
     "net": "2026-07-30T07:10:19Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 121,
