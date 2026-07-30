@@ -1,5 +1,34 @@
 [
   {
+    "id": "394d2745-610b-409e-b4ea-2071a35f8668",
+    "name": "Long March 6A | TJSW-27A & B",
+    "net": "2026-07-30T01:00:00Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 6A"
+      }
+    },
+    "pad": {
+      "name": "Launch Complex 9A",
+      "location": {
+        "name": "Taiyuan Satellite Launch Center, People's Republic of China"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_20251209050223.jpeg"
+    }
+  },
+  {
     "id": "beac6ac1-97dd-4eb2-912c-8b4d4d15cd4e",
     "name": "Long March 7A | Tianlian 3-01",
     "net": "2026-07-29T11:50:00Z",

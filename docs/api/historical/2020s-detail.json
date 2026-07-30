@@ -38209,7 +38209,7 @@
         "abbrev": "GTO",
         "name": "Geostationary Transfer Orbit"
       },
-      "description": "Tianlian is a Chinese data tracking and relay communications geostationary satellite series. The TL-3 (Tian Lian 3) satellites are the 3rd generation of China's geostationary orbit data relay satellite system. They will be used to support real-time communications between orbiting satellites/rockets…"
+      "description": "Tianlian is a Chinese data tracking and relay communications geostationary satellite series. The TL-3 (Tian Lian 3) satellites are the 3rd generation of China's geostationary orbit data relay satellites, based on the DFH-4E geostationary satellite bus. They will be used to support real-time communi…"
     },
     "rocket_full_name": "Long March 7A",
     "pad_lat": 19.618452,
@@ -38223,6 +38223,21 @@
         "url": "https://www.youtube.com/watch?v=rNwuAZ7WLaI"
       }
     ]
+  },
+  "394d2745-610b-409e-b4ea-2071a35f8668": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      },
+      "description": "2 Chinese classified satellites claimed to be for communication technology test purposes. Actual mission not known."
+    },
+    "rocket_full_name": "Long March 6A",
+    "pad_lat": 38.8583,
+    "pad_lon": 111.5802,
+    "mission_patches": [],
+    "vid_urls": []
   },
   "__years__": [
     2020,
