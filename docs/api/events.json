@@ -1,18 +1,5 @@
 [
   {
-    "id": 1507,
-    "name": "US EVA-96/97/98 Preview News Conference",
-    "type": {
-      "id": 20,
-      "name": "Press Event"
-    },
-    "date": "2026-07-30T18:00:00Z",
-    "description": "NASA will discuss the upcoming US EVA-96, 97 and 98 spacewalks during a news conference at the agency’s Johnson Space Center in Houston.\r\n\r\nNASA participants include:\r\n- Bill Spetch, deputy manager of Commercial, Low Earth Orbit Program\r\n- Chris Dobbins, spacewalk flight director\r\n- Chloe Mehring, spacewalk flight director",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1497,
     "name": "SpaceX Crew-13 Mission Overview News Conference",
     "type": {
@@ -385,6 +372,19 @@
     },
     "date": "2031-07-31T00:00:00Z",
     "description": "As part of its mission extension, JAXA's Hayabusa2 spacecraft will rendezvous with asteroid 1998 KY26.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1280,
+    "name": "Juice Jupiter Orbit Insertion",
+    "type": {
+      "id": 16,
+      "name": "Orbital Insertion"
+    },
+    "date": "2031-07-31T00:00:00Z",
+    "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Jupiter, using a Ganymede gravity assist flyby to reduce its velocity, followed by two engine burns.",
     "video_url": null,
     "launch": null,
     "feature_image": null
