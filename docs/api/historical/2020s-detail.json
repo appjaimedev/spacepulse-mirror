@@ -38306,6 +38306,28 @@
       }
     ]
   },
+  "12b9454b-d48b-4fd5-9c11-17c18f45dafe": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group. The constellation will eventually consists of 13000 satellites."
+    },
+    "rocket_full_name": "Long March 8A",
+    "pad_lat": 19.597275,
+    "pad_lon": 110.930753,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=U50JIfKPGCk"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=boUA2gAkWI4"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
