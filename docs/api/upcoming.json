@@ -2,7 +2,7 @@
   {
     "id": "0448d030-5175-4c1f-bd0b-4f3f87072921",
     "name": "Falcon 9 Block 5 | Starlink Group 17-53",
-    "net": "2026-08-04T16:29:39Z",
+    "net": "2026-08-04T17:05:03Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -86,7 +86,7 @@
         "source": "youtube.com",
         "publisher": "Spaceflight Now",
         "title": "Live: SpaceX Falcon 9 rocket launches 24 Starlink internet satellites from California",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Tuesday, August 4, at 9:29 a.m. PDT (12:29 p.m. EDT / 1629 UTC).\n\nThe first-stage booster, serial number B1063, launching for a 34th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-53 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perk...",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Tuesday, August 4, at 10:05 a.m. PDT (1:05 p.m. EDT / 1705 UTC).\n\nThe first-stage booster, serial number B1063, launching for a 34th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-53 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perk...",
         "feature_image": "https://i.ytimg.com/vi/cUU6opP_GDg/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=cUU6opP_GDg",
         "type": {
@@ -98,7 +98,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-08-04T15:59:00Z",
+        "start_time": "2026-08-04T16:35:00Z",
         "end_time": null,
         "live": false
       },
@@ -119,8 +119,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-08-04T16:14:00Z",
-        "end_time": "2026-08-05T16:14:00Z",
+        "start_time": "2026-08-04T16:55:00Z",
+        "end_time": "2026-08-05T16:55:00Z",
         "live": false
       }
     ],
