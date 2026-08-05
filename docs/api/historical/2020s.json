@@ -4,9 +4,9 @@
     "name": "Falcon 9 Block 5 | BlueBird 11-13 (Block 2 #6-8)",
     "net": "2026-08-05T07:49:00Z",
     "status": {
-      "id": 9,
-      "name": "Payload Deployed",
-      "abbrev": "Deployed"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 121,
