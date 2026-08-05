@@ -38358,6 +38358,25 @@
       }
     ]
   },
+  "d46cab82-dcf5-4d70-b698-d7bead7f638c": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "2 hyper-spectral Earth observation satellites from Chinese company STAR.VISION. Both satellites are built in corporation with foreign customers: * Lampung-1: Built in close partnership with Lampung Province, Indonesia, to accelerate marine economy growth, environmental governance, and regional indu…"
+    },
+    "rocket_full_name": "Smart Dragon 3",
+    "pad_lat": 36.631333,
+    "pad_lon": 121.198361,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=QElbEmB1PUM"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
