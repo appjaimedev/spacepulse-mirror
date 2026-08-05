@@ -2,7 +2,7 @@
   {
     "id": "56a85c82-ea71-449b-828c-b583f6f4a18b",
     "name": "Falcon 9 Block 5 | BlueBird 11-13 (Block 2 #6-8)",
-    "net": "2026-08-05T07:42:00Z",
+    "net": "2026-08-05T08:49:00Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -58,7 +58,7 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20240919072420.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_thumbnail_20240919072420.jpeg"
     },
-    "webcast_live": false,
+    "webcast_live": true,
     "vid_urls": [
       {
         "priority": 7,
@@ -98,9 +98,9 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-08-05T06:25:00Z",
+        "start_time": "2026-08-05T06:30:17Z",
         "end_time": null,
-        "live": false
+        "live": true
       },
       {
         "priority": 9,
@@ -119,9 +119,9 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-08-05T06:42:00Z",
+        "start_time": "2026-08-05T06:25:30Z",
         "end_time": null,
-        "live": false
+        "live": true
       },
       {
         "priority": 10,
@@ -140,7 +140,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-08-05T07:30:00Z",
+        "start_time": "2026-08-05T07:35:00Z",
         "end_time": "2026-08-05T10:30:00Z",
         "live": false
       }
@@ -2601,14 +2601,6 @@
           "nationality_name_composed": "Swedo"
         },
         {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
-        },
-        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -2711,6 +2703,14 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
+        },
+        {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
