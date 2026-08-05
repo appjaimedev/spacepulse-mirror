@@ -1,31 +1,5 @@
 [
   {
-    "id": 1497,
-    "name": "SpaceX Crew-13 Mission Overview News Conference",
-    "type": {
-      "id": 20,
-      "name": "Press Event"
-    },
-    "date": "2026-08-03T16:00:00Z",
-    "description": "The Crew-13 mission leadership will host a mission overview press conference with the following participants\r\n- Joel Montalbano, deputy associate administrator, Human Spaceflight Mission Directorate, NASA Headquarters\r\n- Dana Weigel, manager, Low Earth Orbit Program, NASA Johnson\r\n- Mathieu Caron, director, Astronauts, Life Sciences, and Space Medicine, CSA\r\n- Julianna Scheiman, director, NASA Science and Dragon Programs, SpaceX",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1498,
-    "name": "SpaceX Crew-13 Crew News Conference",
-    "type": {
-      "id": 20,
-      "name": "Press Event"
-    },
-    "date": "2026-08-03T18:00:00Z",
-    "description": "The crew of NASA’s SpaceX Crew-13 mission will participate in a news conference from NASA Johnson Space Center.\r\n\r\nParticipants include:\r\n- Jessica Watkins, commander, NASA\r\n- Luke Delaney, pilot, NASA\r\n- Joshua Kutryk, mission specialist, CSA\r\n- Sergey Teteryatnikov, mission specialist, Roscosmos",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1508,
     "name": "Chris Williams Post-Flight News Conference",
     "type": {
@@ -385,6 +359,32 @@
     },
     "date": "2031-07-31T00:00:00Z",
     "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Jupiter, using a Ganymede gravity assist flyby to reduce its velocity, followed by two engine burns.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 403,
+    "name": "Lucy Trojan Asteroids (617) Patroclus & Menoetius Flyby",
+    "type": {
+      "id": 23,
+      "name": "Flyby"
+    },
+    "date": "2033-03-03T00:00:00Z",
+    "description": "Flyby of the Trojan binary asteroid pair (617) Patroclus and Menoetius by NASA's Lucy mission.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1281,
+    "name": "Juice Ganymede Orbit Insertion",
+    "type": {
+      "id": 16,
+      "name": "Orbital Insertion"
+    },
+    "date": "2034-12-31T00:00:00Z",
+    "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Ganymede.",
     "video_url": null,
     "launch": null,
     "feature_image": null
