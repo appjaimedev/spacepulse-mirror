@@ -1,18 +1,5 @@
 [
   {
-    "id": 1508,
-    "name": "Chris Williams Post-Flight News Conference",
-    "type": {
-      "id": 20,
-      "name": "Press Event"
-    },
-    "date": "2026-08-04T18:45:00Z",
-    "description": "NASA astronaut Chris Williams will recap his recent mission aboard the International Space Station during a news conference from the agency’s Johnson Space Center in Houston.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1504,
     "name": "US EVA-96",
     "type": {
@@ -385,6 +372,19 @@
     },
     "date": "2034-12-31T00:00:00Z",
     "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Ganymede.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1282,
+    "name": "Juice Ganymede Impact",
+    "type": {
+      "id": 6,
+      "name": "Spacecraft Event"
+    },
+    "date": "2035-12-31T00:00:00Z",
+    "description": "After running out of propellant to maintain its trajectory, ESA's Jupiter Icy Moons Explorer (Juice) spacecraft will impact Ganymede due to orbital perturbations.",
     "video_url": null,
     "launch": null,
     "feature_image": null
