@@ -64,10 +64,10 @@
         "priority": 10,
         "source": "youtube.com",
         "publisher": "Rocket Lab",
-        "title": "SCRUB | Rocket Lab - 'The Grain Goddess Provides' Launch",
+        "title": "Rocket Lab - 'The Grain Goddess Provides' Launch",
         "description": "",
-        "feature_image": "https://i.ytimg.com/vi/C_JarlUSk5I/maxresdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=C_JarlUSk5I",
+        "feature_image": "https://i.ytimg.com/vi/TR4bkBCR6VI/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=TR4bkBCR6VI",
         "type": {
           "id": 1,
           "name": "Official Webcast"
@@ -77,8 +77,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-07-01T00:30:37Z",
-        "end_time": "2026-07-01T01:08:00Z",
+        "start_time": "2026-08-06T08:45:00Z",
+        "end_time": null,
         "live": false
       }
     ],
