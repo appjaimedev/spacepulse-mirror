@@ -104,6 +104,88 @@
     ]
   },
   {
+    "id": "b89ab080-66c3-4831-85a9-38d85da71d30",
+    "name": "H3-22 | Michibiki 7 (QZS-7)",
+    "net": "2026-08-09T19:00:00Z",
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 98,
+      "name": "Mitsubishi Heavy Industries",
+      "abbrev": "MHI",
+      "country": [
+        {
+          "id": 28,
+          "name": "Japan",
+          "alpha_2_code": "JP",
+          "alpha_3_code": "JPN",
+          "nationality_name": "Japanese",
+          "nationality_name_composed": "Nippo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "H3-22",
+        "full_name": "H3-22",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Michibiki 7 (QZS-7)",
+      "type": "Navigation",
+      "orbit": {
+        "abbrev": "GTO",
+        "name": "Geostationary Transfer Orbit"
+      }
+    },
+    "pad": {
+      "name": "Yoshinobu Launch Complex LP-2",
+      "latitude": 30.400938,
+      "longitude": 130.97564,
+      "location": {
+        "name": "Tanegashima Space Center, Japan",
+        "country": {
+          "id": 28,
+          "name": "Japan",
+          "alpha_2_code": "JP",
+          "alpha_3_code": "JPN",
+          "nationality_name": "Japanese",
+          "nationality_name_composed": "Nippo"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_liftoff__image_20251028183835.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_liftoff__image_thumbnail_20251028183835.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": [
+      {
+        "id": 1095,
+        "name": "QZS-5 to 7 Patch",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/qzs-252052520_mission_patch_20250203070402.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 37,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/37/",
+          "name": "Japan Aerospace Exploration Agency",
+          "abbrev": "JAXA",
+          "type": {
+            "id": 1,
+            "name": "Government"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
+  },
+  {
     "id": "cff704ab-8098-4f65-899e-50adaf908e59",
     "name": "Long March 7A | Unknown Payload",
     "net": "2026-08-10T12:00:00Z",
@@ -1115,88 +1197,6 @@
           "type": {
             "id": 3,
             "name": "Commercial"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
-    "id": "b89ab080-66c3-4831-85a9-38d85da71d30",
-    "name": "H3-22 | Michibiki 7 (QZS-7)",
-    "net": "2026-08-31T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 98,
-      "name": "Mitsubishi Heavy Industries",
-      "abbrev": "MHI",
-      "country": [
-        {
-          "id": 28,
-          "name": "Japan",
-          "alpha_2_code": "JP",
-          "alpha_3_code": "JPN",
-          "nationality_name": "Japanese",
-          "nationality_name_composed": "Nippo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "H3-22",
-        "full_name": "H3-22",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Michibiki 7 (QZS-7)",
-      "type": "Navigation",
-      "orbit": {
-        "abbrev": "GTO",
-        "name": "Geostationary Transfer Orbit"
-      }
-    },
-    "pad": {
-      "name": "Yoshinobu Launch Complex LP-2",
-      "latitude": 30.400938,
-      "longitude": 130.97564,
-      "location": {
-        "name": "Tanegashima Space Center, Japan",
-        "country": {
-          "id": 28,
-          "name": "Japan",
-          "alpha_2_code": "JP",
-          "alpha_3_code": "JPN",
-          "nationality_name": "Japanese",
-          "nationality_name_composed": "Nippo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_liftoff__image_20251028183835.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_liftoff__image_thumbnail_20251028183835.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": [
-      {
-        "id": 1095,
-        "name": "QZS-5 to 7 Patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/qzs-252052520_mission_patch_20250203070402.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 37,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/37/",
-          "name": "Japan Aerospace Exploration Agency",
-          "abbrev": "JAXA",
-          "type": {
-            "id": 1,
-            "name": "Government"
           }
         },
         "response_mode": "normal"
@@ -2535,14 +2535,6 @@
           "nationality_name_composed": "Swedo"
         },
         {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
-        },
-        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -2645,6 +2637,14 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
+        },
+        {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
