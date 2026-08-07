@@ -326,8 +326,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-08-10T10:50:00Z",
-        "end_time": "2026-08-11T10:50:00Z",
+        "start_time": "2026-08-10T14:39:00Z",
+        "end_time": "2026-08-11T14:39:00Z",
         "live": false
       }
     ],
@@ -587,9 +587,9 @@
     "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
     "net": "2026-08-16T01:12:00Z",
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 121,
@@ -647,10 +647,10 @@
         "priority": 10,
         "source": "x.com",
         "publisher": "SpaceX",
-        "title": "Globalstar 2-R Launch 1 Mission",
+        "title": "Globalstar 2-R Launch 1 mission ",
         "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HH0VKi0XUAA4goe.jpg",
-        "url": "https://x.com/i/broadcasts/1nJOLERVPDzxR",
+        "feature_image": "https://pbs.twimg.com/media/HPImyJAW8AA61dz.jpg",
+        "url": "https://x.com/i/broadcasts/1pJkOOkmyQyJj",
         "type": {
           "id": 1,
           "name": "Official Webcast"
@@ -660,8 +660,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-05-17T12:35:00Z",
-        "end_time": "2026-05-17T16:35:00Z",
+        "start_time": "2026-08-16T00:58:00Z",
+        "end_time": "2026-08-16T03:58:00Z",
         "live": false
       }
     ],
