@@ -438,6 +438,69 @@
     ]
   },
   {
+    "id": "55b79515-ddbf-4198-8a59-29a12ed21330",
+    "name": "Falcon 9 Block 5 | R-1",
+    "net": "2026-08-15T21:52:00Z",
+    "status": {
+      "id": 8,
+      "name": "To Be Confirmed",
+      "abbrev": "TBC"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "R-1",
+      "type": "Unknown",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
     "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
     "net": "2026-08-16T01:12:00Z",
@@ -584,6 +647,110 @@
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
+  },
+  {
+    "id": "f6958a77-37bb-4559-a108-40ba0ff9e34a",
+    "name": "Falcon 9 Block 5 | Starlink Group 17-50",
+    "net": "2026-08-19T02:00:00Z",
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Starlink Group 17-50",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png"
+    },
+    "webcast_live": false,
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "SpaceX",
+        "title": "Starlink Mission",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HPDPPtFWgAAbLE0.jpg",
+        "url": "https://x.com/i/broadcasts/1RJjppgNbXwKw",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-19T01:50:00Z",
+        "end_time": "2026-08-20T01:50:00Z",
+        "live": false
+      }
+    ],
+    "mission_patches": [
+      {
+        "id": 7,
+        "name": "Space X Starlink Mission Patch",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 121,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
+          "name": "SpaceX",
+          "abbrev": "SpX",
+          "type": {
+            "id": 3,
+            "name": "Commercial"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
   },
   {
     "id": "9d402fb6-9115-424d-b6f0-bd3b13ee310e",
@@ -752,7 +919,7 @@
   {
     "id": "521f3a1c-f977-4306-9b7f-495858719adf",
     "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
-    "net": "2026-08-30T11:26:00Z",
+    "net": "2026-08-30T11:25:00Z",
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -1100,8 +1267,8 @@
     "mission_patches": []
   },
   {
-    "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
-    "name": "Spectrum | Onward and Upward",
+    "id": "57280454-470e-4c5d-8de1-1bbd0ea41b49",
+    "name": "Electron | The Lightning God Defends (iQPS Launch 8)",
     "net": "2026-08-31T00:00:00Z",
     "status": {
       "id": 2,
@@ -1109,115 +1276,72 @@
       "abbrev": "TBD"
     },
     "launch_service_provider": {
-      "id": 1046,
-      "name": "Isar Aerospace",
-      "abbrev": "ISAR",
+      "id": 147,
+      "name": "Rocket Lab",
+      "abbrev": "RL",
       "country": [
         {
-          "id": 4,
-          "name": "Germany",
-          "alpha_2_code": "DE",
-          "alpha_3_code": "DEU",
-          "nationality_name": "German",
-          "nationality_name_composed": "Germano"
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
         }
       ]
     },
     "rocket": {
       "configuration": {
-        "name": "Spectrum",
-        "full_name": "Spectrum",
+        "name": "Electron",
+        "full_name": "Electron",
         "reusable": false
       }
     },
     "mission": {
-      "name": "Onward and Upward",
-      "type": "Test Flight",
+      "name": "The Lightning God Defends (iQPS Launch 8)",
+      "type": "Earth Science",
       "orbit": {
-        "abbrev": "SSO",
-        "name": "Sun-Synchronous Orbit"
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
       }
     },
     "pad": {
-      "name": "Orbital Launch Pad",
-      "latitude": 69.1084,
-      "longitude": 15.5895,
+      "name": "Unknown Pad",
+      "latitude": -39.260881,
+      "longitude": 177.865826,
       "location": {
-        "name": "Andøya Spaceport",
+        "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
         "country": {
-          "id": 49,
-          "name": "Norway",
-          "alpha_2_code": "NO",
-          "alpha_3_code": "NOR",
-          "nationality_name": "Norwegian",
-          "nationality_name_composed": "Norwegian"
+          "id": 51,
+          "name": "New Zealand",
+          "alpha_2_code": "NZ",
+          "alpha_3_code": "NZL",
+          "nationality_name": "Kiwi",
+          "nationality_name_composed": "Kiwi"
         }
       }
     },
     "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg"
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 10,
-        "source": "youtube.com",
-        "publisher": "Isar Aerospace",
-        "title": "\"Onward and Upward\" Mission of Isar Aerospace",
-        "description": "Mission Name: 'Onward and Upward'\n\nLaunch Date: Updates via https://isaraerospace.com/mission-updates-overview\n\nLaunch site: Andøya Space\n\nThe second flight of our ‘Spectrum’ launch vehicle marks a significant milestone serving as both the vehicle’s qualification mission and its first flight carrying payload.\n\n\"Onward and Upward\" symbolizes our relentless drive for progress and continuous improvement, reflecting our determination to build upon the successes and lessons learned from our inaugural test flight.\n\nThe livestream is produced in collaboration with the @NASASpaceflight team.\n\nMore information on the Mission ‘Onward and Upward’ here: https://isaraerospace.com/mission-2\n\nWant to be part of our next mission? \nWe are looking for ambitious talent across all teams to engineer the f...",
-        "feature_image": "https://i.ytimg.com/vi/Ss1DUqLjecc/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=Ss1DUqLjecc",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-06-15T19:00:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 11,
-        "source": "youtube.com",
-        "publisher": "NASASpaceflight",
-        "title": "Isar Aerospace Launches \"Onward and Upward\" Mission",
-        "description": "Mission Name: 'Onward and Upward'\n\nLaunch Date: Updates via https://isaraerospace.com/mission-updates-overview\n\nLaunch site: Andøya Space\n\nThe second flight of Isar's ‘Spectrum’ launch vehicle marks a significant milestone serving as both the vehicle’s qualification mission and its first flight carrying payload.\n\n\"Onward and Upward\" symbolizes Isar's relentless drive for progress and continuous improvement, reflecting their determination to build upon the successes and lessons learned from our inaugural test flight.\n\nNSF/NASASpaceflight LLC is providing live stream production services for Isar Aerospace's second flight of Spectrum.\n\nMore information on the Mission ‘Onward and Upward’ here: https://isaraerospace.com/mission-2\n\nLDAPAABJRG2UMCU3",
-        "feature_image": "https://i.ytimg.com/vi/uUc2d_NPBN0/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=uUc2d_NPBN0",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-06-15T19:00:00Z",
-        "end_time": null,
-        "live": false
-      }
-    ],
+    "vid_urls": [],
     "mission_patches": [
       {
-        "id": 1298,
-        "name": "Onward and Upward Patch",
+        "id": 1339,
+        "name": "The Lightning God Defends Patch",
         "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/onward2520and_mission_patch_20260120112758.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/the2520lightni_mission_patch_20260806150507.png",
         "agency": {
           "response_mode": "list",
-          "id": 1046,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/1046/",
-          "name": "Isar Aerospace",
-          "abbrev": "ISAR",
+          "id": 147,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/147/",
+          "name": "Rocket Lab",
+          "abbrev": "RL",
           "type": {
-            "id": 5,
-            "name": "Private"
+            "id": 3,
+            "name": "Commercial"
           }
         },
         "response_mode": "normal"
@@ -1349,6 +1473,131 @@
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
+  },
+  {
+    "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
+    "name": "Spectrum | Onward and Upward",
+    "net": "2026-08-31T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 1046,
+      "name": "Isar Aerospace",
+      "abbrev": "ISAR",
+      "country": [
+        {
+          "id": 4,
+          "name": "Germany",
+          "alpha_2_code": "DE",
+          "alpha_3_code": "DEU",
+          "nationality_name": "German",
+          "nationality_name_composed": "Germano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Spectrum",
+        "full_name": "Spectrum",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Onward and Upward",
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      }
+    },
+    "pad": {
+      "name": "Orbital Launch Pad",
+      "latitude": 69.1084,
+      "longitude": 15.5895,
+      "location": {
+        "name": "Andøya Spaceport",
+        "country": {
+          "id": 49,
+          "name": "Norway",
+          "alpha_2_code": "NO",
+          "alpha_3_code": "NOR",
+          "nationality_name": "Norwegian",
+          "nationality_name_composed": "Norwegian"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "Isar Aerospace",
+        "title": "\"Onward and Upward\" Mission of Isar Aerospace",
+        "description": "Mission Name: 'Onward and Upward'\n\nLaunch Date: Updates via https://isaraerospace.com/mission-updates-overview\n\nLaunch site: Andøya Space\n\nThe second flight of our ‘Spectrum’ launch vehicle marks a significant milestone serving as both the vehicle’s qualification mission and its first flight carrying payload.\n\n\"Onward and Upward\" symbolizes our relentless drive for progress and continuous improvement, reflecting our determination to build upon the successes and lessons learned from our inaugural test flight.\n\nThe livestream is produced in collaboration with the @NASASpaceflight team.\n\nMore information on the Mission ‘Onward and Upward’ here: https://isaraerospace.com/mission-2\n\nWant to be part of our next mission? \nWe are looking for ambitious talent across all teams to engineer the f...",
+        "feature_image": "https://i.ytimg.com/vi/Ss1DUqLjecc/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=Ss1DUqLjecc",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-06-15T19:00:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 11,
+        "source": "youtube.com",
+        "publisher": "NASASpaceflight",
+        "title": "Isar Aerospace Launches \"Onward and Upward\" Mission",
+        "description": "Mission Name: 'Onward and Upward'\n\nLaunch Date: Updates via https://isaraerospace.com/mission-updates-overview\n\nLaunch site: Andøya Space\n\nThe second flight of Isar's ‘Spectrum’ launch vehicle marks a significant milestone serving as both the vehicle’s qualification mission and its first flight carrying payload.\n\n\"Onward and Upward\" symbolizes Isar's relentless drive for progress and continuous improvement, reflecting their determination to build upon the successes and lessons learned from our inaugural test flight.\n\nNSF/NASASpaceflight LLC is providing live stream production services for Isar Aerospace's second flight of Spectrum.\n\nMore information on the Mission ‘Onward and Upward’ here: https://isaraerospace.com/mission-2\n\nLDAPAABJRG2UMCU3",
+        "feature_image": "https://i.ytimg.com/vi/uUc2d_NPBN0/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=uUc2d_NPBN0",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-06-15T19:00:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
+    "mission_patches": [
+      {
+        "id": 1298,
+        "name": "Onward and Upward Patch",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/onward2520and_mission_patch_20260120112758.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 1046,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/1046/",
+          "name": "Isar Aerospace",
+          "abbrev": "ISAR",
+          "type": {
+            "id": 5,
+            "name": "Private"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
   },
   {
     "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
@@ -1622,69 +1871,6 @@
     "mission_patches": []
   },
   {
-    "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-    "name": "LVM-3 | Gaganyaan-1",
-    "net": "2026-09-30T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 31,
-      "name": "Indian Space Research Organization",
-      "abbrev": "ISRO",
-      "country": [
-        {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "LVM-3 (GSLV Mk III)",
-        "full_name": "Launch Vehicle Mark-3 (GSLV Mk III)",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Gaganyaan-1",
-      "type": "Test Flight",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Satish Dhawan Space Centre Second Launch Pad",
-      "latitude": 13.7199,
-      "longitude": 80.2304,
-      "location": {
-        "name": "Satish Dhawan Space Centre, India",
-        "country": {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk2520iii_image_20190604000938.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
     "name": "Starship | Flight 14",
     "net": "2026-09-30T00:00:00Z",
@@ -1893,6 +2079,69 @@
     "mission_patches": []
   },
   {
+    "id": "b81156da-c0b8-46c8-aebd-8af8d2be83cd",
+    "name": "Electron | BlackSky Gen-3 5",
+    "net": "2026-09-30T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 147,
+      "name": "Rocket Lab",
+      "abbrev": "RL",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Electron",
+        "full_name": "Electron",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "BlackSky Gen-3 5",
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "latitude": -39.260881,
+      "longitude": 177.865826,
+      "location": {
+        "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+        "country": {
+          "id": 51,
+          "name": "New Zealand",
+          "alpha_2_code": "NZ",
+          "alpha_3_code": "NZL",
+          "nationality_name": "Kiwi",
+          "nationality_name_composed": "Kiwi"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "2d0472b9-463d-49c8-afb1-7925e49a3368",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
     "net": "2026-09-30T00:00:00Z",
@@ -1937,69 +2186,6 @@
       "longitude": -120.611,
       "location": {
         "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
-    "name": "Falcon 9 Block 5 | O3b mPower 11-13",
-    "net": "2026-09-30T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "O3b mPower 11-13",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "MEO",
-        "name": "Medium Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Unknown Pad",
-      "latitude": 28.458,
-      "longitude": -80.528,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
         "country": {
           "id": 2,
           "name": "United States of America",
@@ -2145,8 +2331,8 @@
     "mission_patches": []
   },
   {
-    "id": "875ba957-be5f-42bd-8a6e-ed98254f572a",
-    "name": "Firefly Alpha Block 2 | ConnectedCosmos Launch 1",
+    "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
+    "name": "Falcon 9 Block 5 | O3b mPower 11-13",
     "net": "2026-09-30T00:00:00Z",
     "status": {
       "id": 2,
@@ -2154,9 +2340,9 @@
       "abbrev": "TBD"
     },
     "launch_service_provider": {
-      "id": 265,
-      "name": "Firefly Aerospace",
-      "abbrev": "FA",
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
       "country": [
         {
           "id": 2,
@@ -2170,25 +2356,25 @@
     },
     "rocket": {
       "configuration": {
-        "name": "Firefly Alpha Block 2",
-        "full_name": "Firefly Alpha Block 2",
-        "reusable": false
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
       }
     },
     "mission": {
-      "name": "ConnectedCosmos Launch 1",
+      "name": "O3b mPower 11-13",
       "type": "Communications",
       "orbit": {
-        "abbrev": "PO",
-        "name": "Polar Orbit"
+        "abbrev": "MEO",
+        "name": "Medium Earth Orbit"
       }
     },
     "pad": {
-      "name": "Space Launch Complex 2W",
-      "latitude": 34.7556,
-      "longitude": -120.6224,
+      "name": "Space Launch Complex 40",
+      "latitude": 28.56194122,
+      "longitude": -80.57735736,
       "location": {
-        "name": "Vandenberg SFB, CA, USA",
+        "name": "Cape Canaveral SFS, FL, USA",
         "country": {
           "id": 2,
           "name": "United States of America",
@@ -2200,8 +2386,8 @@
       }
     },
     "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_alpha_l_image_20240605174156.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_alpha_l_image_thumbnail_20240605174157.jpeg"
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -2510,8 +2696,8 @@
     "mission_patches": []
   },
   {
-    "id": "4541ce85-0e38-42ac-a9a0-20474bb5f2cd",
-    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer D",
+    "id": "548df42c-ae26-4cc9-921a-f0042941911a",
+    "name": "Electron | BlackSky Gen-3 6",
     "net": "2026-09-30T00:00:00Z",
     "status": {
       "id": 2,
@@ -2519,9 +2705,9 @@
       "abbrev": "TBD"
     },
     "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
+      "id": 147,
+      "name": "Rocket Lab",
+      "abbrev": "RL",
       "country": [
         {
           "id": 2,
@@ -2535,23 +2721,86 @@
     },
     "rocket": {
       "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
+        "name": "Electron",
+        "full_name": "Electron",
+        "reusable": false
       }
     },
     "mission": {
-      "name": "SDA Tranche 1 Transport Layer D",
-      "type": "Government/Top Secret",
+      "name": "BlackSky Gen-3 6",
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "latitude": -39.260881,
+      "longitude": 177.865826,
+      "location": {
+        "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+        "country": {
+          "id": 51,
+          "name": "New Zealand",
+          "alpha_2_code": "NZ",
+          "alpha_3_code": "NZL",
+          "nationality_name": "Kiwi",
+          "nationality_name_composed": "Kiwi"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "875ba957-be5f-42bd-8a6e-ed98254f572a",
+    "name": "Firefly Alpha Block 2 | ConnectedCosmos Launch 1",
+    "net": "2026-09-30T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 265,
+      "name": "Firefly Aerospace",
+      "abbrev": "FA",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Firefly Alpha Block 2",
+        "full_name": "Firefly Alpha Block 2",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "ConnectedCosmos Launch 1",
+      "type": "Communications",
       "orbit": {
         "abbrev": "PO",
         "name": "Polar Orbit"
       }
     },
     "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
+      "name": "Space Launch Complex 2W",
+      "latitude": 34.7556,
+      "longitude": -120.6224,
       "location": {
         "name": "Vandenberg SFB, CA, USA",
         "country": {
@@ -2565,8 +2814,8 @@
       }
     },
     "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_alpha_l_image_20240605174156.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_alpha_l_image_thumbnail_20240605174157.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -2630,6 +2879,132 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk2520ii_image_20190825171642.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193640.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
+    "name": "Electron | 6x HawkEye 360",
+    "net": "2026-09-30T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 147,
+      "name": "Rocket Lab",
+      "abbrev": "RL",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Electron",
+        "full_name": "Electron",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "6x HawkEye 360",
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "latitude": -39.260881,
+      "longitude": 177.865826,
+      "location": {
+        "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+        "country": {
+          "id": 51,
+          "name": "New Zealand",
+          "alpha_2_code": "NZ",
+          "alpha_3_code": "NZL",
+          "nationality_name": "Kiwi",
+          "nationality_name_composed": "Kiwi"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "4541ce85-0e38-42ac-a9a0-20474bb5f2cd",
+    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer D",
+    "net": "2026-09-30T00:00:00Z",
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "SDA Tranche 1 Transport Layer D",
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -3297,8 +3672,8 @@
     "mission_patches": []
   },
   {
-    "id": "d6615c37-dcef-45d1-96c1-3d1a5250bf13",
-    "name": "Falcon 9 Block 5 | Telesat Lightspeed 3",
+    "id": "0a07a23e-606a-4589-bf3e-c3e41bd4de51",
+    "name": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer A",
     "net": "2026-12-31T00:00:00Z",
     "status": {
       "id": 2,
@@ -3328,196 +3703,7 @@
       }
     },
     "mission": {
-      "name": "Telesat Lightspeed 3",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Unknown Pad",
-      "latitude": 28.458,
-      "longitude": -80.528,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "07e945c1-2ec6-4d29-a500-1afbe920440f",
-    "name": "Atlas V N22 | Starliner-1",
-    "net": "2026-12-31T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 124,
-      "name": "United Launch Alliance",
-      "abbrev": "ULA",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Atlas V N22",
-        "full_name": "Atlas V N22",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Starliner-1",
-      "type": "Human Exploration",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 41",
-      "latitude": 28.58341025,
-      "longitude": -80.58303644,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_n22_image_20210813082339.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193538.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "be50d3a3-1385-4371-a4dd-d7ab4969be59",
-    "name": "H3-24 | HTV-X3",
-    "net": "2026-12-31T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 98,
-      "name": "Mitsubishi Heavy Industries",
-      "abbrev": "MHI",
-      "country": [
-        {
-          "id": 28,
-          "name": "Japan",
-          "alpha_2_code": "JP",
-          "alpha_3_code": "JPN",
-          "nationality_name": "Japanese",
-          "nationality_name_composed": "Nippo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "H3-24",
-        "full_name": "H3-24",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "HTV-X3",
-      "type": "Resupply",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Yoshinobu Launch Complex LP-2",
-      "latitude": 30.400938,
-      "longitude": 130.97564,
-      "location": {
-        "name": "Tanegashima Space Center, Japan",
-        "country": {
-          "id": 28,
-          "name": "Japan",
-          "alpha_2_code": "JP",
-          "alpha_3_code": "JPN",
-          "nationality_name": "Japanese",
-          "nationality_name_composed": "Nippo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_20251028184029.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_thumbnail_20251028184029.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "cb1762f0-90f4-4902-a5f6-655a7ade25bf",
-    "name": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer B",
-    "net": "2026-12-31T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "SDA Tranche 2 Tracking Layer B",
+      "name": "SDA Tranche 2 Tracking Layer A",
       "type": "Government/Top Secret",
       "orbit": {
         "abbrev": "PO",
@@ -3530,132 +3716,6 @@
       "longitude": -80.528,
       "location": {
         "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "ca3d56b7-2175-48e4-9a6a-2ecc9996d96b",
-    "name": "New Glenn | Amazon Leo (LN-01)",
-    "net": "2026-12-31T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 141,
-      "name": "Blue Origin",
-      "abbrev": "BO",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "New Glenn",
-        "full_name": "New Glenn",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Amazon Leo (LN-01)",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Launch Complex 36A",
-      "latitude": 28.4705556,
-      "longitude": -80.542194,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_20240313170026.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_thumbnail_20240313170027.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "dfd444f9-ddda-4b35-8f51-cda7cd801809",
-    "name": "Falcon 9 Block 5 | Rivada 1",
-    "net": "2026-12-31T00:00:00Z",
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Rivada 1",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "PO",
-        "name": "Polar Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
         "country": {
           "id": 2,
           "name": "United States of America",
