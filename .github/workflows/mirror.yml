@@ -124,17 +124,27 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore(mirror): sync LL2 data [skip ci]"
-            # Reintento con rebase: si otro run coló un commit entre nuestro
-            # checkout y el push, un push a secas fallaría y perderíamos el sync.
+
+            # Si otro run coló un commit entre nuestro checkout y el push, hay
+            # que rebasar. Todo lo que hay aquí es GENERADO, así que un choque
+            # no se fusiona: gana nuestra copia, que es la más reciente. En un
+            # rebase "theirs" son justamente nuestros commits.
             for attempt in 1 2 3; do
               if git push; then
-                echo "Pushed on attempt $attempt."
+                echo "Empujado al intento $attempt."
                 exit 0
               fi
-              echo "Push rechazado; reintentando tras rebase (intento $attempt)…"
-              git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+              echo "Push rechazado; rebasando sobre el remoto (intento $attempt)…"
+              git rebase --abort 2>/dev/null || true
+              git fetch origin "${GITHUB_REF_NAME}"
+              if ! git rebase -X theirs "origin/${GITHUB_REF_NAME}"; then
+                git rebase --abort 2>/dev/null || true
+                echo "Rebase imposible. Se abandona ESTE sync sin fallar: los datos"
+                echo "no se pierden, el siguiente run los regenera en minutos."
+                exit 0
+              fi
               sleep 5
             done
-            echo "No se pudo empujar tras 3 intentos."
-            exit 1
+            echo "No se pudo empujar tras 3 intentos; el siguiente run lo recupera."
+            exit 0
           fi
