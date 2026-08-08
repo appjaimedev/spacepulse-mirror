@@ -1,18 +1,5 @@
 [
   {
-    "id": 1504,
-    "name": "US EVA-96",
-    "type": {
-      "id": 3,
-      "name": "EVA"
-    },
-    "date": "2026-08-06T12:00:00Z",
-    "description": "NASA astronauts Jessica Meir and Anil Menon will install hardware that will modify the station’s 3B power channel and prepare it for the future installation of an International Space Station Roll-Out Solar Array (IROSA), which will provide additional power to support critical station operations, including its safe and controlled deorbit.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1454,
     "name": "Total Solar Eclipse in Europe",
     "type": {
@@ -32,7 +19,7 @@
       "id": 3,
       "name": "EVA"
     },
-    "date": "2026-08-13T00:00:00Z",
+    "date": "2026-08-18T00:00:00Z",
     "description": "Two NASA astronauts will replace a Space-to-Ground antenna, a critical communication system NASA uses to transmit data and high‑speed communication between the Mission Control Center in Houston and the space station, on the orbital complex.",
     "video_url": null,
     "launch": null,
