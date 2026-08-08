@@ -39,6 +39,7 @@ const FULL_MODE = args.includes('--full');
 const LIGHT_MODE = args.includes('--upcoming'); // solo upcoming.json (cron frecuente, 1 req)
 const BACKFILL_MODE = args.includes('--backfill'); // 1 década inmutable que falte (anónimo 15/h, sin token)
 const MARS_MODE = args.includes('--mars'); // solo mars-photos.json (NASA, independiente de LL2)
+const MOON_MODE = args.includes('--moon'); // solo moon-photos.json (ídem)
 
 function headers() {
   const h = { 'User-Agent': 'SpacePulse/1.0 (Mission Control · mirror-build)' };
@@ -342,6 +343,125 @@ const MARS_ROVERS = ['perseverance', 'curiosity'];
 // proxea) cae con frecuencia (404). Cuando no devuelve nada, servimos este set
 // de fotos icónicas reales alojadas en el mirror, para que el feature nunca
 // aparezca vacío. Se sustituye por las fotos "en vivo" en cuanto NASA responde.
+const MOON_IMG = 'https://appjaimedev.github.io/spacepulse-mirror/img/moon';
+
+/**
+ * Biblioteca de imágenes de la NASA. Es pública, sin clave, y la usamos para
+ * Luna y Marte.
+ *
+ * Por qué: la API de fotos de rover (api.nasa.gov/mars-photos) está RETIRADA.
+ * Vivía en Heroku y hoy devuelve "No such app", así que el mirror llevaba
+ * tiempo cayendo en silencio a las fotos curadas y nadie se enteraba.
+ * Comprobado el 8 de agosto de 2026, tanto en api.nasa.gov como en el Heroku
+ * original.
+ */
+const NASA_IMAGES = 'https://images-api.nasa.gov/search';
+
+/** Fotos icónicas de la Luna, alojadas aquí. Rellenan si la API se queda corta. */
+const CURATED_MOON = [
+  { id: "moon-1", img_src: `${MOON_IMG}/moon_1.jpg`, title: "Buzz Aldrin on the Moon", year: 1969, curated: true },
+  { id: "moon-6", img_src: `${MOON_IMG}/moon_6.jpg`, title: "Earthrise (Apollo 8)", year: 1968, curated: true },
+  { id: "moon-2", img_src: `${MOON_IMG}/moon_2.jpg`, title: "Aldrin at Tranquility Base", year: 1969, curated: true },
+  { id: "moon-11", img_src: `${MOON_IMG}/moon_11.jpg`, title: "Aldrin and the U.S. flag", year: 1969, curated: true },
+  { id: "moon-3", img_src: `${MOON_IMG}/moon_3.jpg`, title: "Bootprint on the Moon", year: 1969, curated: true },
+  { id: "moon-4", img_src: `${MOON_IMG}/moon_4.jpg`, title: "Descending the lunar module", year: 1969, curated: true },
+  { id: "moon-5", img_src: `${MOON_IMG}/moon_5.jpg`, title: "Deploying experiments", year: 1969, curated: true },
+  { id: "moon-12", img_src: `${MOON_IMG}/moon_12.jpg`, title: "Saluting the flag", year: 1969, curated: true },
+  { id: "moon-7", img_src: `${MOON_IMG}/moon_7.jpg`, title: "The Earth and the Moon", year: 1992, curated: true },
+  { id: "moon-8", img_src: `${MOON_IMG}/moon_8.jpg`, title: "Full Moon", year: 2010, curated: true },
+  { id: "moon-9", img_src: `${MOON_IMG}/moon_9.jpg`, title: "Full Moon detail", year: 2010, curated: true },
+  { id: "moon-10", img_src: `${MOON_IMG}/moon_10.jpg`, title: "Full Moon rising", year: 2020, curated: true },
+];
+
+/**
+ * Busca imágenes y devuelve las más RECIENTES.
+ *
+ * La API ordena por relevancia, no por fecha: se lanzan varias consultas, se
+ * juntan, se quitan duplicados por nasa_id y se ordena por fecha descendente.
+ * Solo entran las que traen un enlace de imagen usable.
+ */
+async function fetchNasaImages(queries, { yearStart, limit, reject }) {
+  const seen = new Map();
+  for (const q of queries) {
+    const params = new URLSearchParams({ q, media_type: 'image' });
+    if (yearStart) params.set('year_start', String(yearStart));
+    try {
+      const data = await fetchJson(`${NASA_IMAGES}?${params.toString()}`);
+      for (const item of data.collection?.items ?? []) {
+        const meta = (item.data || [])[0];
+        const href = (item.links || []).find(l => l.render === 'image')?.href
+          || (item.links || [])[0]?.href;
+        if (!meta || !href || !meta.nasa_id) continue;
+        if (seen.has(meta.nasa_id)) continue;
+        if (reject && reject.test(`${meta.title || ''} ${meta.description || ''}`)) continue;
+        seen.set(meta.nasa_id, {
+          id: meta.nasa_id,
+          title: (meta.title || '').trim() || null,
+          img_src: href,
+          date: meta.date_created || null,
+          center: meta.center || null,
+          credit: meta.secondary_creator || meta.photographer || null,
+        });
+      }
+    } catch (err) {
+      console.warn(`  ✗ imágenes NASA "${q}": ${err.message}`);
+    }
+    await sleep(THROTTLE_MS);
+  }
+  return [...seen.values()]
+    .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')))
+    .slice(0, limit);
+}
+
+/**
+ * Cosas que la búsqueda devuelve y NO son fotos: recreaciones de artista,
+ * infografías, logos, ruedas de prensa, retratos, maquetas. Colar un render
+ * entre fotos reales de la Luna es peor que no enseñar nada.
+ */
+const NOT_A_PHOTO = /(artist|concept|illustration|render|animation|infographic|diagram|chart|graphic|logo|patch|poster|mockup|model of|briefing|press|ceremony|administrator|portrait|team|competition|award|interview|meeting|panel)/i;
+
+/**
+ * Fotos REALES de la Luna, rotando.
+ *
+ * Aquí no se puede hacer "las últimas": la biblioteca de la NASA no es un feed
+ * cronológico. Las imágenes del LRO están todas fechadas el día que se
+ * ingestaron (2017-12-08), no cuando se tomaron, y si se ordena por fecha lo
+ * que sube arriba son conceptos de artista y actos de prensa recientes.
+ *
+ * Lo que sí se puede hacer, y es honesto, es reunir un fondo amplio de
+ * fotografía lunar de verdad —LRO, Artemis I desde Orion, panorámicas Apollo—
+ * y rotar veinte cada día. Deja de ser siempre la misma docena de 1969 sin
+ * fingir una actualidad que la fuente no da.
+ */
+async function fetchMoonPhotos() {
+  console.log('📡 Fetching Moon photos (NASA image library)…');
+  const pool = await fetchNasaImages([
+    'Lunar Reconnaissance Orbiter Camera',
+    'Moon crater LRO',
+    'Artemis I Orion Moon',
+    'Apollo lunar surface panorama',
+    'Moon farside',
+    'lunar south pole',
+  ], { limit: 200, reject: NOT_A_PHOTO });
+
+  if (pool.length === 0) {
+    console.warn('  ✗ sin imágenes; se conserva lo publicado');
+    return [];
+  }
+
+  // Rotación estable dentro del día: el mismo desplazamiento durante toda la
+  // jornada (varios syncs al día no deben barajar la cuadrícula cada media
+  // hora) y distinto al siguiente.
+  const dayIndex = Math.floor(Date.now() / 86400000);
+  const offset = (dayIndex * 7) % pool.length;
+  const rotated = [...pool.slice(offset), ...pool.slice(0, offset)].slice(0, 20);
+
+  console.log(`  ✓ ${rotated.length} de un fondo de ${pool.length} (rota a diario)`);
+  return rotated.length >= 20
+    ? rotated
+    : [...rotated, ...CURATED_MOON.slice(0, 20 - rotated.length)];
+}
+
 const MARS_IMG = 'https://appjaimedev.github.io/spacepulse-mirror/img/mars';
 const CURATED_MARS = {
   perseverance: [
@@ -398,28 +518,36 @@ function trimMarsPhoto(p) {
   };
 }
 
+/**
+ * Últimas imágenes de los rover. La API de fotos de rover está retirada (ver
+ * NASA_IMAGES), así que se tira de la biblioteca de imágenes: no trae sol ni
+ * cámara —esos campos quedan a null— pero sí fotos reales y recientes.
+ */
 async function fetchMarsPhotos() {
-  console.log('📡 Fetching latest Mars rover photos (NASA)...');
+  console.log('📡 Fetching Mars rover photos (NASA image library)…');
   const out = {};
+  const QUERIES = {
+    perseverance: ['Perseverance rover', 'Jezero crater'],
+    curiosity:    ['Curiosity rover', 'Gale crater'],
+  };
   for (const rover of MARS_ROVERS) {
-    try {
-      const url = `https://api.nasa.gov/mars-photos/api/v1/rovers/${rover}/latest_photos?api_key=${NASA_API_KEY}`;
-      const data = await fetchJson(url);
-      const photos = (data.latest_photos || []).slice(0, 6).map(trimMarsPhoto);
-      out[rover] = photos;
-      console.log(`  ✓ ${rover}: ${photos.length} photos`);
-      if (MARS_ROVERS.indexOf(rover) < MARS_ROVERS.length - 1) await sleep(THROTTLE_MS);
-    } catch (err) {
-      console.warn(`  ✗ ${rover}: ${err.message}`);
-      out[rover] = [];
-    }
+    const live = await fetchNasaImages(QUERIES[rover], { yearStart: 2021, limit: 8 });
+    out[rover] = live.map(p => ({
+      id: p.id,
+      sol: null,
+      camera: null,
+      img_src: p.img_src,
+      earth_date: p.date ? p.date.slice(0, 10) : null,
+      title: p.title,
+      rover: { name: rover, status: 'active' },
+    }));
+    console.log(`  ✓ ${rover}: ${out[rover].length} fotos`);
   }
-  // Fallback curado por rover: si la API en vivo no devolvió nada (backend de
-  // NASA caído), servimos las fotos icónicas alojadas en el mirror.
+  // Relleno curado por rover: antes una cuadrícula vacía, las icónicas.
   for (const rover of MARS_ROVERS) {
     if (!out[rover] || out[rover].length === 0) {
       out[rover] = CURATED_MARS[rover] || [];
-      if (out[rover].length) console.log(`  ↩ ${rover}: fallback curado (${out[rover].length})`);
+      console.log(`  ↩ ${rover}: relleno curado (${out[rover].length})`);
     }
   }
   return out;
@@ -633,6 +761,19 @@ async function main() {
     return;
   }
 
+  if (MOON_MODE) {
+    fs.mkdirSync(OUT_DIR, { recursive: true });
+    try {
+      const moonPhotos = await fetchMoonPhotos();
+      writeJsonList(path.join(OUT_DIR, 'moon-photos.json'), moonPhotos, 'moon-photos');
+      console.log('✅ Moon photos sync complete!');
+    } catch (e) {
+      console.error(`❌ Moon photos failed: ${e.message}`);
+      process.exit(1);
+    }
+    return;
+  }
+
   fs.mkdirSync(HIST_DIR, { recursive: true });
 
   // Partimos del index existente para NO perder los contadores de décadas
@@ -664,6 +805,17 @@ async function main() {
     index.marsPhotos = true;
   } catch (e) {
     console.warn(`⚠ Mars photos falló: ${e.message}`);
+  }
+
+  await sleep(THROTTLE_MS);
+
+  try {
+    const moonPhotos = await fetchMoonPhotos();
+    index.moonPhotoCount = writeJsonList(
+      path.join(OUT_DIR, 'moon-photos.json'), moonPhotos, 'moon-photos',
+    );
+  } catch (e) {
+    console.warn(`⚠ Moon photos falló: ${e.message}`);
   }
 
   await sleep(THROTTLE_MS);

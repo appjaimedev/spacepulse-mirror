@@ -1,172 +1,196 @@
 {
   "perseverance": [
     {
-      "id": "cur-perseverance-1",
-      "sol": 46,
-      "camera": {
-        "name": "SHERLOC_WATSON",
-        "full_name": "WATSON selfie camera"
-      },
-      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/perseverance_1.jpg",
-      "earth_date": "2021-04-06",
+      "id": "PIA26644",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26644/PIA26644~medium.jpg",
+      "earth_date": "2025-08-06",
+      "title": "NASA's Perseverance Rover at 'Falbreen'",
       "rover": {
-        "name": "Perseverance",
+        "name": "perseverance",
         "status": "active"
       }
     },
     {
-      "id": "cur-perseverance-2",
-      "sol": 198,
-      "camera": {
-        "name": "SHERLOC_WATSON",
-        "full_name": "WATSON selfie camera"
-      },
-      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/perseverance_2.jpg",
-      "earth_date": "2021-09-10",
+      "id": "PIA26577",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26577/PIA26577~medium.jpg",
+      "earth_date": "2025-06-25",
+      "title": "Perseverance Rover's Abrading Bit",
       "rover": {
-        "name": "Perseverance",
+        "name": "perseverance",
         "status": "active"
       }
     },
     {
-      "id": "cur-perseverance-3",
-      "sol": 1500,
-      "camera": {
-        "name": "SHERLOC_WATSON",
-        "full_name": "WATSON selfie camera"
-      },
-      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/perseverance_3.jpg",
-      "earth_date": "2025-05-10",
+      "id": "PIA26576",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26576/PIA26576~medium.jpg",
+      "earth_date": "2025-06-25",
+      "title": "Zooming in on Perseverance Rover's 'Kenmore' Abrasion Patch",
       "rover": {
-        "name": "Perseverance",
+        "name": "perseverance",
         "status": "active"
       }
     },
     {
-      "id": "cur-perseverance-4",
-      "sol": 1350,
-      "camera": {
-        "name": "MCZ",
-        "full_name": "Mastcam-Z"
-      },
-      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/perseverance_4.jpg",
-      "earth_date": "2024-12-25",
+      "id": "PIA26575",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26575/PIA26575~medium.jpg",
+      "earth_date": "2025-06-25",
+      "title": "Perseverance Drills a Rock on Jezero Crater Rim",
       "rover": {
-        "name": "Perseverance",
+        "name": "perseverance",
         "status": "active"
       }
     },
     {
-      "id": "cur-perseverance-5",
-      "sol": 768,
-      "camera": {
-        "name": "MCZ",
-        "full_name": "Mastcam-Z"
-      },
-      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/perseverance_5.jpg",
-      "earth_date": "2023-04-16",
+      "id": "PIA26573",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26573/PIA26573~medium.jpg",
+      "earth_date": "2025-05-19",
+      "title": "Perseverance Rover Says Goodbye to 'Witch Hazel Hill'",
       "rover": {
-        "name": "Perseverance",
+        "name": "perseverance",
         "status": "active"
       }
     },
     {
-      "id": "cur-perseverance-6",
-      "sol": 0,
-      "camera": {
-        "name": "EDL",
-        "full_name": "Entry, Descent & Landing"
-      },
-      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/perseverance_6.jpg",
-      "earth_date": "2021-02-18",
+      "id": "PIA26572",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26572/PIA26572~medium.jpg",
+      "earth_date": "2025-05-14",
+      "title": "Dust Devil Whirls by Perseverance Coring Operation",
       "rover": {
-        "name": "Perseverance",
+        "name": "perseverance",
+        "status": "active"
+      }
+    },
+    {
+      "id": "PIA26530",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26530/PIA26530~medium.jpg",
+      "earth_date": "2025-04-10",
+      "title": "Christmas at Crater Rim",
+      "rover": {
+        "name": "perseverance",
+        "status": "active"
+      }
+    },
+    {
+      "id": "PIA26476",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26476/PIA26476~medium.jpg",
+      "earth_date": "2024-12-12",
+      "title": "Jezero Crater Elevation Graph",
+      "rover": {
+        "name": "perseverance",
         "status": "active"
       }
     }
   ],
   "curiosity": [
     {
-      "id": "cur-curiosity-1",
-      "sol": 2620,
-      "camera": {
-        "name": "MAST",
-        "full_name": "Mast Camera"
-      },
-      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/curiosity_1.jpg",
-      "earth_date": "2019-12-01",
+      "id": "PIA26727",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26727/PIA26727~medium.jpg",
+      "earth_date": "2026-06-30",
+      "title": "Curiosity Takes a Close Look at Martian Sulfur Crystals",
       "rover": {
-        "name": "Curiosity",
+        "name": "curiosity",
         "status": "active"
       }
     },
     {
-      "id": "cur-curiosity-2",
-      "sol": 3977,
-      "camera": {
-        "name": "MAST",
-        "full_name": "Mast Camera"
-      },
-      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/curiosity_2.jpg",
-      "earth_date": "2023-10-26",
+      "id": "PIA26695",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26695/PIA26695~medium.jpg",
+      "earth_date": "2026-01-27",
+      "title": "Curiosity Lights Up ‘Nevado Sajama’ at Night",
       "rover": {
-        "name": "Curiosity",
+        "name": "curiosity",
         "status": "active"
       }
     },
     {
-      "id": "cur-curiosity-3",
-      "sol": 3423,
-      "camera": {
-        "name": "MAST",
-        "full_name": "Mast Camera"
-      },
-      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/curiosity_3.jpg",
-      "earth_date": "2022-03-23",
+      "id": "PIA26680",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26680/PIA26680~large.jpg",
+      "earth_date": "2025-12-30",
+      "title": "Curiosity Sends a Postcard From Mount Sharp’s Boxwork Region",
       "rover": {
-        "name": "Curiosity",
+        "name": "curiosity",
         "status": "active"
       }
     },
     {
-      "id": "cur-curiosity-4",
-      "sol": 3070,
-      "camera": {
-        "name": "MAHLI",
-        "full_name": "Mars Hand Lens Imager"
-      },
-      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/curiosity_4.jpg",
-      "earth_date": "2021-03-26",
+      "id": "PIA26673",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26673/PIA26673~thumb.jpg",
+      "earth_date": "2025-09-22",
+      "title": "Curiosity Works Its Robotic Arm During Sunset",
       "rover": {
-        "name": "Curiosity",
+        "name": "curiosity",
         "status": "active"
       }
     },
     {
-      "id": "cur-curiosity-5",
-      "sol": 1128,
-      "camera": {
-        "name": "MAHLI",
-        "full_name": "Mars Hand Lens Imager"
-      },
-      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/curiosity_5.jpg",
-      "earth_date": "2015-12-19",
+      "id": "PIA26638",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26638/PIA26638~medium.jpg",
+      "earth_date": "2025-09-17",
+      "title": "Curiosity's ChemCam Views Summit and Cliffs Beyond Gale Crater",
       "rover": {
-        "name": "Curiosity",
+        "name": "curiosity",
         "status": "active"
       }
     },
     {
-      "id": "cur-curiosity-6",
-      "sol": 3415,
-      "camera": {
-        "name": "MAST",
-        "full_name": "Mast Camera"
-      },
-      "img_src": "https://appjaimedev.github.io/spacepulse-mirror/img/mars/curiosity_6.jpg",
-      "earth_date": "2022-03-15",
+      "id": "PIA26671",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26671/PIA26671~medium.jpg",
+      "earth_date": "2025-09-17",
+      "title": "Curiosity Views Gale Crater's Rim, Homing in on Ancient River Channel",
       "rover": {
-        "name": "Curiosity",
+        "name": "curiosity",
+        "status": "active"
+      }
+    },
+    {
+      "id": "PIA26637",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26637/PIA26637~medium.jpg",
+      "earth_date": "2025-09-17",
+      "title": "Curiosity's ChemCam Views Ancient River Channel Peace Vallis",
+      "rover": {
+        "name": "curiosity",
+        "status": "active"
+      }
+    },
+    {
+      "id": "PIA26632",
+      "sol": null,
+      "camera": null,
+      "img_src": "https://images-assets.nasa.gov/image/PIA26632/PIA26632~medium.jpg",
+      "earth_date": "2025-08-04",
+      "title": "Curiosity Captures Mars Landscape While Talking to an Orbiter",
+      "rover": {
+        "name": "curiosity",
         "status": "active"
       }
     }
