@@ -3,6 +3,11 @@
     "id": "cff704ab-8098-4f65-899e-50adaf908e59",
     "name": "Long March 7A | Unknown Payload",
     "net": "2026-08-10T12:00:00Z",
+    "net_precision": {
+      "id": 2,
+      "name": "Hour",
+      "abbrev": "HR"
+    },
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -66,6 +71,11 @@
     "id": "36ab6924-bb36-416a-b71d-cda9e88004be",
     "name": "Falcon 9 Block 5 | Starlink Group 10-19",
     "net": "2026-08-10T14:49:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -212,6 +222,11 @@
     "id": "b89ab080-66c3-4831-85a9-38d85da71d30",
     "name": "H3-22 | Michibiki 7 (QZS-7)",
     "net": "2026-08-10T19:00:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -294,6 +309,11 @@
     "id": "ef02e2cf-e617-4b38-a526-951ac9204b0a",
     "name": "Zhuque-3 | Flight 2",
     "net": "2026-08-10T23:45:00Z",
+    "net_precision": {
+      "id": 2,
+      "name": "Hour",
+      "abbrev": "HR"
+    },
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -357,6 +377,11 @@
     "id": "6f94dbe4-1318-4ffb-a53d-351bbdcba733",
     "name": "Falcon 9 Block 5 | Starlink Group 17-49",
     "net": "2026-08-12T02:00:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -461,6 +486,11 @@
     "id": "55b79515-ddbf-4198-8a59-29a12ed21330",
     "name": "Falcon 9 Block 5 | R-1",
     "net": "2026-08-15T21:52:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
     "status": {
       "id": 8,
       "name": "To Be Confirmed",
@@ -524,6 +554,11 @@
     "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
     "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
     "net": "2026-08-16T01:12:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -609,6 +644,11 @@
     "id": "b0e7d1cc-24dd-4da4-bb60-b15b6791d08e",
     "name": "Long March 12 | Unknown Payload",
     "net": "2026-08-17T02:00:00Z",
+    "net_precision": {
+      "id": 2,
+      "name": "Hour",
+      "abbrev": "HR"
+    },
     "status": {
       "id": 8,
       "name": "To Be Confirmed",
@@ -672,6 +712,11 @@
     "id": "f6958a77-37bb-4559-a108-40ba0ff9e34a",
     "name": "Falcon 9 Block 5 | Starlink Group 17-50",
     "net": "2026-08-19T02:00:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -776,6 +821,11 @@
     "id": "9d402fb6-9115-424d-b6f0-bd3b13ee310e",
     "name": "Long March 5 | Chang'e 7",
     "net": "2026-08-24T00:00:00Z",
+    "net_precision": {
+      "id": 2,
+      "name": "Hour",
+      "abbrev": "HR"
+    },
     "status": {
       "id": 8,
       "name": "To Be Confirmed",
@@ -858,6 +908,11 @@
     "id": "a57aed97-b94f-42e1-905e-9421dbd96ac8",
     "name": "Ariane 62 | MTG-I2",
     "net": "2026-08-27T20:10:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -940,6 +995,11 @@
     "id": "521f3a1c-f977-4306-9b7f-495858719adf",
     "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
     "net": "2026-08-30T11:25:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -1003,6 +1063,11 @@
     "id": "dc570565-4dcf-4ab9-8174-bf88efef477f",
     "name": "Long March 12A | Flight 2",
     "net": "2026-08-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -1066,6 +1131,11 @@
     "id": "a927b2f9-f9a5-4196-9abb-2e275e4a6b96",
     "name": "Pallas-1 | Demo Flight",
     "net": "2026-08-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -1145,6 +1215,11 @@
     "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
     "name": "Mir | Demo Flight",
     "net": "2026-08-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -1208,6 +1283,11 @@
     "id": "57280454-470e-4c5d-8de1-1bbd0ea41b49",
     "name": "Electron | The Lightning God Defends (iQPS Launch 8)",
     "net": "2026-08-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -1290,6 +1370,11 @@
     "id": "9f5a4cb6-63f9-47e1-9512-b468bae2a8e6",
     "name": "Electron | StriX Launch 11",
     "net": "2026-08-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -1353,6 +1438,11 @@
     "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
     "name": "Spectrum | Onward and Upward",
     "net": "2026-08-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -1478,6 +1568,11 @@
     "id": "599ba2df-7483-4b2f-a083-2b5ddc06e069",
     "name": "Electron | LOXSAT 1",
     "net": "2026-08-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -1541,6 +1636,11 @@
     "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
     "name": "Soyuz 2.1b | Progress MS-35 (96P)",
     "net": "2026-09-09T16:10:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
     "status": {
       "id": 8,
       "name": "To Be Confirmed",
@@ -1604,6 +1704,11 @@
     "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
     "name": "Falcon 9 Block 5 | Crew-13",
     "net": "2026-09-12T22:34:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -1667,6 +1772,11 @@
     "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
     "name": "Vega-C | Sentinel-3C & FLEX",
     "net": "2026-09-15T01:21:07Z",
+    "net_precision": {
+      "id": 0,
+      "name": "Second",
+      "abbrev": "SEC"
+    },
     "status": {
       "id": 1,
       "name": "Go for Launch",
@@ -1749,6 +1859,11 @@
     "id": "548df42c-ae26-4cc9-921a-f0042941911a",
     "name": "Electron | BlackSky Gen-3 6",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -1812,6 +1927,11 @@
     "id": "fcbc4550-e69e-4458-a9e6-4a5b6b6b15a5",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer E",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -1875,6 +1995,11 @@
     "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
     "name": "Starship | Flight 14",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -1957,6 +2082,11 @@
     "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -2020,6 +2150,11 @@
     "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
     "name": "Vulcan VC6L | Amazon Leo (LV-01)",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -2083,6 +2218,11 @@
     "id": "2d0472b9-463d-49c8-afb1-7925e49a3368",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -2146,6 +2286,11 @@
     "id": "b81156da-c0b8-46c8-aebd-8af8d2be83cd",
     "name": "Electron | BlackSky Gen-3 5",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -2209,6 +2354,11 @@
     "id": "c5783e2b-d458-4b99-9936-4043c236190b",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer F",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -2272,6 +2422,11 @@
     "id": "d1a3807e-f304-467c-a095-e08b86924347",
     "name": "Firefly Alpha Block 2 | QuickSounder",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -2335,6 +2490,11 @@
     "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
     "name": "Falcon 9 Block 5 | O3b mPower 11-13",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -2398,6 +2558,11 @@
     "id": "875ba957-be5f-42bd-8a6e-ed98254f572a",
     "name": "Firefly Alpha Block 2 | ConnectedCosmos Launch 1",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -2461,6 +2626,11 @@
     "id": "dca8749f-1552-485a-8061-f1ad79055b8d",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer C",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -2524,6 +2694,11 @@
     "id": "3b94ad50-3505-496e-8a95-b0bc4c0dadc6",
     "name": "Themis Demonstrator | T1H-1",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -2597,6 +2772,14 @@
           "alpha_3_code": "SWE",
           "nationality_name": "Swedish",
           "nationality_name_composed": "Swedo"
+        },
+        {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
         },
         {
           "id": 23,
@@ -2703,14 +2886,6 @@
           "nationality_name_composed": "Luxembourgish"
         },
         {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
-        },
-        {
           "id": 86,
           "name": "Slovenia",
           "alpha_2_code": "SI",
@@ -2763,6 +2938,11 @@
     "id": "17d0ec68-f466-4916-9dc5-16123eda6484",
     "name": "GSLV Mk II | GISAT-1A (EOS-05)",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -2826,6 +3006,11 @@
     "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
     "name": "Electron | 6x HawkEye 360",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -2889,6 +3074,11 @@
     "id": "4541ce85-0e38-42ac-a9a0-20474bb5f2cd",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer D",
     "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 10,
+      "name": "Quarter 3",
+      "abbrev": "Q3"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -2952,6 +3142,11 @@
     "id": "7bdc412b-c965-4517-a131-f57a01189803",
     "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
     "net": "2026-10-07T00:00:00Z",
+    "net_precision": {
+      "id": 5,
+      "name": "Day",
+      "abbrev": "DAY"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3015,6 +3210,11 @@
     "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
     "name": "H3-24 | Martian Moon eXplorer (MMX)",
     "net": "2026-10-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3078,6 +3278,11 @@
     "id": "e0741415-6c63-4236-9736-24a6c04485bc",
     "name": "Nuri | NeonSat-2 to 6",
     "net": "2026-10-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3141,6 +3346,11 @@
     "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
     "name": "Electron | StriX Launch 12",
     "net": "2026-10-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3204,6 +3414,11 @@
     "id": "67213393-7983-4c06-8b44-b8c785a5ed79",
     "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
     "net": "2026-10-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3286,6 +3501,11 @@
     "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
     "name": "Soyuz 2.1b | Progress MS-36 (97P)",
     "net": "2026-11-24T05:03:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
     "status": {
       "id": 8,
       "name": "To Be Confirmed",
@@ -3349,6 +3569,11 @@
     "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
     "name": "Falcon Heavy | Griffin Mission One",
     "net": "2026-11-30T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3412,6 +3637,11 @@
     "id": "d47cbca4-48c1-455a-b357-f156833b189e",
     "name": "Firefly Alpha Block 2 | ConnectedCosmos Launch 2",
     "net": "2026-11-30T00:00:00Z",
+    "net_precision": {
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3475,6 +3705,11 @@
     "id": "7c891a0b-7194-4425-8cfd-2e8c75af2924",
     "name": "HANBIT-Nano | InnoSat-0",
     "net": "2026-11-30T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3557,6 +3792,11 @@
     "id": "46d6822b-82aa-452c-aa34-80b6f052de84",
     "name": "Falcon 9 Block 5 | Rivada 6",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3620,6 +3860,11 @@
     "id": "0196fba7-dd6c-4ba0-bf71-e1460930ffde",
     "name": "HASTE | Leidos-4",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3676,6 +3921,11 @@
     "id": "4d3943e9-c894-46c4-a318-84d526d0ef40",
     "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-22",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3739,6 +3989,11 @@
     "id": "0a07a23e-606a-4589-bf3e-c3e41bd4de51",
     "name": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer A",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3802,6 +4057,11 @@
     "id": "07e945c1-2ec6-4d29-a500-1afbe920440f",
     "name": "Atlas V N22 | Starliner-1",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3865,6 +4125,11 @@
     "id": "d6615c37-dcef-45d1-96c1-3d1a5250bf13",
     "name": "Falcon 9 Block 5 | Telesat Lightspeed 3",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3928,6 +4193,11 @@
     "id": "511a3ef8-799e-4723-9293-b954d9d2eb83",
     "name": "Falcon 9 Block 5 | Rivada 10",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -3991,6 +4261,11 @@
     "id": "cb1762f0-90f4-4902-a5f6-655a7ade25bf",
     "name": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer B",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4054,6 +4329,11 @@
     "id": "be50d3a3-1385-4371-a4dd-d7ab4969be59",
     "name": "H3-24 | HTV-X3",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4117,6 +4397,11 @@
     "id": "ca3d56b7-2175-48e4-9a6a-2ecc9996d96b",
     "name": "New Glenn | Amazon Leo (LN-01)",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4180,6 +4465,11 @@
     "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
     "name": "LVM-3 | Gaganyaan-1",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4243,6 +4533,11 @@
     "id": "dff42a2e-f047-48d7-b260-3888d3a4fe33",
     "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 13,
+      "name": "Year Half 2",
+      "abbrev": "H2"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4306,6 +4601,11 @@
     "id": "dfd444f9-ddda-4b35-8f51-cda7cd801809",
     "name": "Falcon 9 Block 5 | Rivada 1",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4369,6 +4669,11 @@
     "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
     "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4432,6 +4737,11 @@
     "id": "bff2fc91-eddd-4dfc-af26-ac0674cfab4d",
     "name": "Soyuz 2.1a/Fregat-M | MKA Kinosputnik, KOEN and others",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4495,6 +4805,11 @@
     "id": "e61d353c-db55-4a57-8184-0fab187231e6",
     "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 8)",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 13,
+      "name": "Year Half 2",
+      "abbrev": "H2"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4558,6 +4873,11 @@
     "id": "ab932c60-d808-4825-ab71-b6fe0a745f15",
     "name": "Falcon 9 Block 5 | Rivada 3",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4621,6 +4941,11 @@
     "id": "60f4ba6c-4201-4727-94aa-0015a5a0023f",
     "name": "Spectrum | 1 x Pelican satellite",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4684,6 +5009,11 @@
     "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
     "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4747,6 +5077,11 @@
     "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
     "name": "Long March 2F/G | Shenzhou 24",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 13,
+      "name": "Year Half 2",
+      "abbrev": "H2"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4810,6 +5145,11 @@
     "id": "ed2bf159-ee2d-4b60-bb8e-e964c005c8d9",
     "name": "Zéphyr | Maiden Flight",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4873,6 +5213,11 @@
     "id": "ce1317de-ec94-4479-9b28-38ebf11f13ae",
     "name": "Falcon 9 Block 5 | Telesat Lightspeed 1",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4936,6 +5281,11 @@
     "id": "cb0c27fd-496c-4f74-aa04-9c0e5af33e3c",
     "name": "Epsilon S | JV-LOTUSat-1",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -4999,6 +5349,11 @@
     "id": "d40b57ec-e294-4aa2-9822-33eb222105cb",
     "name": "Vulcan | USSF-16",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5081,6 +5436,11 @@
     "id": "eb8cbca7-5ae6-430c-8ff6-0f672cfb5bd0",
     "name": "Vulcan | SILENTBARKER 2/NROL-118",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5144,6 +5504,11 @@
     "id": "f494692f-471c-4a75-b78e-667842fea27f",
     "name": "Vulcan | USSF-25",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5207,6 +5572,11 @@
     "id": "d055f3cc-ef83-4229-98df-73bf68e67581",
     "name": "Vulcan | USSF-43",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5289,6 +5659,11 @@
     "id": "b97a54e5-5c6f-4f85-bcf3-69da17fa9682",
     "name": "Terran R | Mars Lander",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5352,6 +5727,11 @@
     "id": "ac02da00-6e8b-45a0-b829-09d614891e6a",
     "name": "H3-22 | ETS-9",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5415,6 +5795,11 @@
     "id": "ac92d963-ebfb-4d18-b48c-04102d8dce8e",
     "name": "Vulcan | NROL-64",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5478,6 +5863,11 @@
     "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
     "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5541,6 +5931,11 @@
     "id": "adfc829a-6704-4d9e-b2ca-1068c38b2b83",
     "name": "Falcon 9 Block 5 | Telesat Lightspeed 4",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5604,6 +5999,11 @@
     "id": "b48e32c5-3776-4684-a956-5ea4df032e90",
     "name": "Spectrum | ΣYNDEO-3",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5667,6 +6067,11 @@
     "id": "0a63b1f5-16e9-44c2-b202-830e86b8e8e7",
     "name": "Vulcan | USSF-112",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5730,6 +6135,11 @@
     "id": "220e6d9f-33dc-4533-8a48-535ba4c559e2",
     "name": "GSLV | IDRSS-2",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5786,6 +6196,11 @@
     "id": "b94b49fc-5784-4dfd-92e7-07e57f50edcd",
     "name": "Firefly Alpha Block 2 | TacSat",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5849,6 +6264,11 @@
     "id": "a8d8d683-3ab0-40ab-beb0-e66bb55afd91",
     "name": "Nebula-1 | Demo Flight",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5909,6 +6329,11 @@
     "id": "20fa8dc4-8cab-41cf-b452-98a2620f7e86",
     "name": "Falcon 9 Block 5 | Rivada 2",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -5972,6 +6397,11 @@
     "id": "2f31a7f0-968a-448d-b447-333bf0341078",
     "name": "Falcon 9 Block 5 | Rivada 4",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6035,6 +6465,11 @@
     "id": "b3a7aacd-4f23-45a8-aa6c-da9f34804452",
     "name": "Unknown | Owlet-01",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6095,6 +6530,11 @@
     "id": "98b905bb-4060-40a2-b299-2773b6883203",
     "name": "Falcon 9 Block 5 | Telesat Lightspeed 5",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6158,6 +6598,11 @@
     "id": "d08d8b46-353b-4eee-ab5e-e1385b329008",
     "name": "Falcon 9 Block 5 | Rivada 11",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6221,6 +6666,11 @@
     "id": "fc1bd321-e502-4d0f-81f4-1926dece81c6",
     "name": "Falcon 9 Block 5 | VICTUS SURGO",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6284,6 +6734,11 @@
     "id": "1fa3741c-3339-4954-a026-2cd9d36161c0",
     "name": "Falcon 9 Block 5 | Rivada 7",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6347,6 +6802,11 @@
     "id": "a67b40f9-cfcc-4614-a355-a156280b4bb3",
     "name": "Vulcan VC4L | Dream Chaser CRS 2 Flight 1",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6407,6 +6867,11 @@
     "id": "a9ee8337-127d-4f17-9e3a-a07999f80099",
     "name": "Vulcan | SDA Tranche 1 Tracking Layer D",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6470,6 +6935,11 @@
     "id": "9e24bef7-c44b-4fdc-ba52-68545ce9457e",
     "name": "Electron | StriX Launch 13",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6533,6 +7003,11 @@
     "id": "c1bd775a-2fff-45bb-9726-765b69817c19",
     "name": "Falcon Heavy | USSF-75",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6596,6 +7071,11 @@
     "id": "a96ece1c-c745-43cc-a08a-b623e7b93957",
     "name": "Neutron | Maiden Flight",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6659,6 +7139,11 @@
     "id": "b565ab64-1642-4cef-a13f-f3dad53518e7",
     "name": "Spectrum | Cassini",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6722,6 +7207,11 @@
     "id": "71df1dd0-d658-4762-b0bc-0fca6886aea7",
     "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer D",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6785,6 +7275,11 @@
     "id": "fa895702-687b-4ba3-95fb-9462a2c9844b",
     "name": "Falcon 9 Block 5 | Rivada 5",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
@@ -6848,6 +7343,11 @@
     "id": "bf5c6fa2-3add-49ff-aad6-c6450148cd89",
     "name": "Falcon 9 Block 5 | Rivada 12",
     "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
     "status": {
       "id": 2,
       "name": "To Be Determined",
