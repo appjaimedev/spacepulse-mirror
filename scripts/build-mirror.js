@@ -198,7 +198,12 @@ function decadeEnriched(decade) {
 
 async function fetchUpcoming() {
   console.log('📡 Fetching upcoming launches…');
-  const url = `${API_BASE}/launches/upcoming/?limit=50&mode=detailed&ordering=net&hide_recent_previous=true`;
+  // limit=100: sigue siendo UNA sola petición, así que no cuesta cuota extra, y
+  // duplica lo que la app puede pintar en la timeline (con 50 se acababa a ~3
+  // meses vista). La app usa limit=50 en SU fallback directo a LL2 porque ahí
+  // mode=detailed con 100 se pasa de los 15 s de timeout del cliente; aquí no
+  // hay prisa y fetchJson ya reintenta los 429 esperando.
+  const url = `${API_BASE}/launches/upcoming/?limit=100&mode=detailed&ordering=net&hide_recent_previous=true`;
   const data = await fetchJson(url);
   const results = (data.results || []).map(trimUpcoming);
   console.log(`  ✓ ${results.length} upcoming launches`);
