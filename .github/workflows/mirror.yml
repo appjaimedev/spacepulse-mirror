@@ -93,6 +93,13 @@ jobs:
       - name: Build subscribable calendar
         run: node scripts/build-ics.js
 
+      # Trazado de los eclipses solares. La geometría de un eclipse no cambia,
+      # así que basta con el ciclo diario; el script conserva lo ya publicado
+      # si la fuente de la NASA no responde.
+      - name: Build eclipse paths
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '43 3 * * *'
+        run: node scripts/build-eclipses.js
+
       # Redacta los briefings de misión con un modelo y los deja como JSON
       # estático. Sin ninguna clave el script avisa y sale sin error: la app cae
       # a sus plantillas locales, así que el mirror sigue siendo válido.

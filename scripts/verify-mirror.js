@@ -122,6 +122,8 @@ checkList('events.json', { required: false, minItems: 1 });
 // mars-photos.json NO es una lista: es un mapa por rover ({perseverance, curiosity}).
 checkRoverMap('mars-photos.json');
 checkList('moon-photos.json', { required: false, minItems: 1 });
+checkList('eclipses.json', { required: false, minItems: 1 });
+checkList('astronauts-all.json', { required: false, minItems: 100 });
 checkIcs();
 
 // Las décadas históricas son inmutables: si alguna se corrompiera, se queda
