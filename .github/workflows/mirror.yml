@@ -15,9 +15,15 @@ name: LL2 Mirror Sync
 # workflow coinciden en el mismo minuto (p. ej. '0 4' vs '*/30' en el :00),
 # GitHub dispara UN solo run con el schedule del primero listado → el diario
 # no corría NUNCA (astronauts/mars/events llevaban días sin regenerarse).
+#
+# Y NINGÚN cron en el minuto :00. GitHub encola los schedules y el :00 es el
+# minuto más congestionado del día: durante julio de 2026 los runs de la franja
+# 06:00-07:30 UTC se quedaban 15-40 min esperando y morían con "The job was not
+# acquired by Runner of type hosted". No fallaba el script — no llegaba a
+# ejecutarse. Por eso el frecuente va a :07 y :37.
 on:
   schedule:
-    - cron: '*/30 * * * *'   # frecuente: upcoming (:00 y :30)
+    - cron: '7,37 * * * *'   # frecuente: upcoming (:07 y :37, fuera del pico)
     - cron: '13 */2 * * *'   # cada 2 h (:13): backfill de una década (hasta completar)
     - cron: '43 3 * * *'     # diario (03:43): SOLO década actual + astronautas + eventos + Mars
   workflow_dispatch:
@@ -39,6 +45,11 @@ concurrency:
 jobs:
   mirror:
     runs-on: ubuntu-latest
+    # Un sync completo tarda 1-2 min; el backfill de una década, menos de 10.
+    # Sin este tope, un run que no consigue runner se queda ~40 min ocupando el
+    # grupo de concurrencia (cancel-in-progress: false) y arrastra a los
+    # siguientes a la cola.
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
