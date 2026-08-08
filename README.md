@@ -21,6 +21,42 @@ never re-requested; only the present (upcoming items and the current period) is
 refreshed, on a conservative schedule. A request token can be configured to use
 the higher authenticated quota, but is not required.
 
+## What is served
+
+Everything lives under `docs/api/`:
+
+| File | What it is |
+|---|---|
+| `upcoming.json` | Next ~100 launches. Includes `net_precision`, which says how much of the date is actually known — most distant launches only have a year. |
+| `historical/{decade}s.json` | Immutable past launches, one file per decade, plus a `-detail.json` companion loaded on demand. |
+| `astronauts.json` | People in space right now, with live time-in-space figures. |
+| `astronauts-all.json` | Full catalogue (~858), refreshed weekly, without biographies. |
+| `events.json` · `mars-photos.json` · `moon-photos.json` | Supporting content. |
+| `launches.ics` | Subscribable calendar of launches with a confirmed date. |
+| `briefings/{lang}.json` | Optional model-written mission briefings. Absent unless configured. |
+| `index.json` | Counts and `generatedAt`. |
+
+## Safeguards
+
+This cache is the app's only data source, so a bad publish is worse than a stale
+one. Two guards enforce that:
+
+- **The builder never replaces a good file with a worse one.** An empty or
+  drastically shorter list is treated as an upstream hiccup and the previous
+  file is kept.
+- **`scripts/verify-mirror.js` gates the commit.** It parses every served file
+  and checks shape and size; if anything is off, the job fails and nothing is
+  published.
+
+## Optional: model-written briefings
+
+`scripts/generate-briefings.js` is off unless a provider is configured, and the
+app falls back to its own local templates when the files are missing. It speaks
+two protocols — Anthropic's, and anything OpenAI-compatible (GitHub Models,
+Gemini, Groq, OpenRouter). Configure with repository variables
+`BRIEFING_PROVIDER`, `BRIEFING_BASE`, `BRIEFING_MODEL` and, where needed, the
+secret `BRIEFING_API_KEY`.
+
 ## Attribution & thanks
 
 - Launch, agency, astronaut and event data: **[The Space Devs](https://thespacedevs.com)**

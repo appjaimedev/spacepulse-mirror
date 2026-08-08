@@ -77,6 +77,13 @@ function trimUpcoming(launch) {
     id: launch.id,
     name: launch.name,
     net: launch.net,
+    // Cuánto se sabe REALMENTE del NET. La mayoría de los próximos lanzamientos
+    // no tienen fecha y LL2 rellena `net` con el último día del periodo conocido
+    // (mes/trimestre/semestre/año). Sin este campo la app los pintaba como
+    // fechas de verdad: 39 misiones amontonadas bajo un mismo 31 de diciembre.
+    net_precision: launch.net_precision
+      ? { id: launch.net_precision.id, name: launch.net_precision.name, abbrev: launch.net_precision.abbrev }
+      : null,
     status: launch.status ? { id: launch.status.id, name: launch.status.name, abbrev: launch.status.abbrev } : null,
     launch_service_provider: launch.launch_service_provider ? {
       id: launch.launch_service_provider.id,
@@ -418,48 +425,102 @@ async function fetchMarsPhotos() {
   return out;
 }
 
+/** Fuera maniquíes y cargas que LL2 lista como "tripulación". */
+function isRealPerson(a) {
+  return a.name !== 'Starman'
+    && a.type?.name !== 'Dummy'
+    && a.type?.name !== 'Non-Human';
+}
+
+/**
+ * Ficha de astronauta a partir de la respuesta de la LISTA.
+ *
+ * El modo normal de `/astronauts/` ya devuelve bio, imagen, wiki y —lo
+ * importante— las estadísticas VIVAS: time_in_space, eva_time, flights_count y
+ * spacewalks_count. Antes se pedía el detalle de cada uno, once peticiones para
+ * diez astronautas, contra un presupuesto de quince por hora. Con esto es UNA.
+ *
+ * Esas cifras son la fuente buena: el JSON estático de la app se escribió una
+ * vez y daba 0 días a quien voló después — Sophie Adenot llevaba 169 días en
+ * órbita y su ficha decía cero.
+ */
+function trimAstronaut(a, { withBio = true } = {}) {
+  return {
+    id: a.id,
+    name: a.name,
+    type: a.type ? { id: a.type.id, name: a.type.name } : null,
+    nationality: a.nationality || [],
+    agency: a.agency ? { id: a.agency.id, name: a.agency.name, abbrev: a.agency.abbrev } : null,
+    status: a.status ? a.status.name : null,
+    last_flight: a.last_flight || null,
+    first_flight: a.first_flight || null,
+    date_of_birth: a.date_of_birth || null,
+    date_of_death: a.date_of_death || null,
+    profile_image: a.image?.thumbnail_url || a.image?.image_url || null,
+    wiki: a.wiki || null,
+    in_space: a.in_space ?? null,
+    time_in_space: a.time_in_space || null,
+    eva_time: a.eva_time || null,
+    flights_count: a.flights_count ?? null,
+    spacewalks_count: a.spacewalks_count ?? null,
+    // La biografía es lo único voluminoso: se guarda solo para quien está en
+    // órbita. En el catálogo completo son 858 personas y multiplicaría por
+    // cinco el peso de un fichero que el móvil descarga entero.
+    bio: withBio ? (a.bio || null) : null,
+  };
+}
+
 async function fetchAstronauts() {
   console.log('📡 Fetching astronauts in space…');
-  const listUrl = `${API_BASE}/astronauts/?in_space=true&limit=50`;
-  const listData = await fetchJson(listUrl);
-  const list = (listData.results || []).filter(a =>
-    a.name !== 'Starman' && a.type?.name !== 'Dummy' && a.type?.name !== 'Non-Human'
-  );
+  const url = `${API_BASE}/astronauts/?in_space=true&limit=50`;
+  const data = await fetchJson(url);
+  const list = (data.results || []).filter(isRealPerson).map(a => trimAstronaut(a));
+  console.log(`  ✓ ${list.length} astronauts in space (1 request)`);
+  return list;
+}
 
-  console.log(`  ✓ ${list.length} astronauts in space, fetching details…`);
-  const enriched = [];
-  for (const a of list) {
-    await sleep(THROTTLE_MS);
-    try {
-      const detailUrl = `${API_BASE}/astronauts/${a.id}/`;
-      const detail = await fetchJson(detailUrl);
-      enriched.push({
-        id: a.id,
-        name: a.name,
-        type: a.type ? { id: a.type.id, name: a.type.name } : null,
-        nationality: a.nationality || [],
-        agency: a.agency || null,
-        last_flight: a.last_flight || null,
-        bio: detail.bio || null,
-        profile_image: detail.image?.thumbnail_url || detail.image?.image_url || null,
-        flights: (detail.flights || []).map(f => ({ id: f.id, name: f.name })),
-        date_of_birth: detail.date_of_birth || null,
-        date_of_death: detail.date_of_death || null,
-      });
-      console.log(`    ✓ ${a.name}`);
-    } catch (err) {
-      console.warn(`    ✗ ${a.name}: ${err.message}`);
-      enriched.push({
-        id: a.id, name: a.name,
-        type: a.type ? { id: a.type.id, name: a.type.name } : null,
-        nationality: a.nationality || [],
-        agency: a.agency || null,
-        last_flight: a.last_flight || null,
-      });
+/** Cada cuánto se refresca el catálogo completo. */
+const CATALOG_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+
+/**
+ * Catálogo COMPLETO de astronautas (~858), sin biografías.
+ *
+ * Son nueve peticiones, así que no se rehace a diario: solo si el fichero pasa
+ * de una semana. A cambio, la app deja de depender de su lista estática, que es
+ * de donde salían las fichas congeladas.
+ */
+async function fetchAstronautCatalog() {
+  const file = path.join(OUT_DIR, 'astronauts-all.json');
+  if (fs.existsSync(file)) {
+    const age = Date.now() - fs.statSync(file).mtimeMs;
+    if (age < CATALOG_MAX_AGE_MS) {
+      console.log(`⏭  Catálogo de astronautas fresco (${Math.round(age / 86400000)} d), se salta`);
+      return null;
     }
   }
-  return enriched;
+
+  console.log('📡 Fetching full astronaut catalog…');
+  const limit = 100;
+  let offset = 0;
+  const all = [];
+  for (;;) {
+    const data = await fetchJson(`${API_BASE}/astronauts/?limit=${limit}&offset=${offset}&ordering=name`);
+    const page = (data.results || []).filter(isRealPerson).map(a => trimAstronaut(a, { withBio: false }));
+    all.push(...page);
+    if (!data.next || (data.results || []).length === 0) break;
+    offset += limit;
+    await sleep(THROTTLE_MS);
+  }
+  console.log(`  ✓ ${all.length} astronautas en el catálogo`);
+  return all;
 }
+
+/**
+ * Cuánto puede encoger una lista respecto a la anterior antes de considerarlo
+ * un fallo. Los lanzamientos futuros entran y salen constantemente, así que una
+ * bajada del 20% es normal; perder la mitad de golpe no lo es.
+ */
+const SHRINK_GUARD = 0.5;
 
 function writeJson(filePath, data) {
   const dir = path.dirname(filePath);
@@ -467,6 +528,48 @@ function writeJson(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
   const size = fs.statSync(filePath).size;
   console.log(`  💾 ${path.relative(path.join(__dirname, '..'), filePath)} (${(size / 1024).toFixed(0)} KB)`);
+}
+
+/**
+ * Escribe una LISTA protegiendo lo que ya había.
+ *
+ * El riesgo real de este mirror no es que falle la petición —eso ya se
+ * reintenta y se registra— sino que LL2 conteste 200 con una lista vacía o a
+ * medias. Eso no es un error para nadie: el fichero se sobrescribiría, el
+ * commit saldría limpio y TODAS las apps se quedarían con la pantalla vacía
+ * hasta el siguiente run. Como el mirror es la única fuente de datos, aquí se
+ * prefiere servir el fichero anterior —aunque tenga media hora— antes que
+ * publicar uno peor.
+ *
+ * Devuelve el número de elementos que quedan publicados.
+ */
+function writeJsonList(filePath, data, label) {
+  if (!Array.isArray(data)) {
+    console.warn(`  ⚠ ${label}: la respuesta no es una lista; se conserva lo anterior.`);
+    return previousLength(filePath);
+  }
+
+  const prev = previousLength(filePath);
+  if (data.length === 0 && prev > 0) {
+    console.warn(`  ⚠ ${label}: llegaron 0 elementos y había ${prev}. NO se sobrescribe.`);
+    return prev;
+  }
+  if (prev > 0 && data.length < prev * SHRINK_GUARD) {
+    console.warn(`  ⚠ ${label}: caída sospechosa (${prev} → ${data.length}). NO se sobrescribe.`);
+    return prev;
+  }
+
+  writeJson(filePath, data);
+  return data.length;
+}
+
+function previousLength(filePath) {
+  try {
+    const prev = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    return Array.isArray(prev) ? prev.length : 0;
+  } catch {
+    return 0;
+  }
 }
 
 // Backfill: construye la década inmutable más antigua que aún falte (una por
@@ -540,8 +643,7 @@ async function main() {
   const index = { generatedAt: new Date().toISOString(), decades: { ...(prevIndex.decades || {}) }, upcomingCount: 0, astronautCount: 0, eventCount: 0, marsPhotos: false };
 
   const upcoming = await fetchUpcoming();
-  writeJson(path.join(OUT_DIR, 'upcoming.json'), upcoming);
-  index.upcomingCount = upcoming.length;
+  index.upcomingCount = writeJsonList(path.join(OUT_DIR, 'upcoming.json'), upcoming, 'upcoming');
 
   if (LIGHT_MODE) {
     // Cron frecuente: solo upcoming.json (1 req). Fusiona en el index existente
@@ -598,8 +700,17 @@ async function main() {
   // lista de astronautas) no debe abortar el build ni saltarse el commit.
   try {
     const astronauts = await fetchAstronauts();
-    writeJson(path.join(OUT_DIR, 'astronauts.json'), astronauts);
-    index.astronautCount = astronauts.length;
+    index.astronautCount = writeJsonList(path.join(OUT_DIR, 'astronauts.json'), astronauts, 'astronauts');
+
+    await sleep(THROTTLE_MS);
+    const catalog = await fetchAstronautCatalog();
+    if (catalog) {
+      index.astronautCatalogCount = writeJsonList(
+        path.join(OUT_DIR, 'astronauts-all.json'), catalog, 'astronauts-all',
+      );
+    } else {
+      index.astronautCatalogCount = previousLength(path.join(OUT_DIR, 'astronauts-all.json'));
+    }
   } catch (e) {
     console.warn(`⚠ Astronauts falló: ${e.message}`);
   }
@@ -608,8 +719,7 @@ async function main() {
 
   try {
     const events = await fetchEvents();
-    writeJson(path.join(OUT_DIR, 'events.json'), events);
-    index.eventCount = events.length;
+    index.eventCount = writeJsonList(path.join(OUT_DIR, 'events.json'), events, 'events');
   } catch (e) {
     console.warn(`⚠ Events falló: ${e.message}`);
   }
