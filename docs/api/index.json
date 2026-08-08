@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:44:13.140Z",
+  "generatedAt": "2026-08-08T13:48:28.568Z",
   "decades": {
     "2020s": 1518,
     "1950s": 59,
@@ -10,7 +10,7 @@
     "2000s": 666,
     "2010s": 968
   },
-  "upcomingCount": 50,
+  "upcomingCount": 100,
   "astronautCount": 10,
   "eventCount": 29,
   "marsPhotos": true
