@@ -52,10 +52,13 @@ one. Two guards enforce that:
 
 `scripts/generate-briefings.js` is off unless a provider is configured, and the
 app falls back to its own local templates when the files are missing. It speaks
-two protocols — Anthropic's, and anything OpenAI-compatible (GitHub Models,
-Gemini, Groq, OpenRouter). Configure with repository variables
-`BRIEFING_PROVIDER`, `BRIEFING_BASE`, `BRIEFING_MODEL` and, where needed, the
-secret `BRIEFING_API_KEY`.
+two protocols — Anthropic's, and anything OpenAI-compatible (Gemini, Groq,
+OpenRouter, a local server). Configure with repository variables
+`BRIEFING_PROVIDER`, `BRIEFING_BASE`, `BRIEFING_MODEL` and the secret
+`BRIEFING_API_KEY` (or `ANTHROPIC_API_KEY`).
+
+GitHub Models is **not** an option: it is being retired and answers `410
+github_models_retirement_brownout` (verified 8 Aug 2026).
 
 ## Attribution & thanks
 

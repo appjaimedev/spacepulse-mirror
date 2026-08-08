@@ -48,9 +48,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      # Necesario solo para GitHub Models (briefings). Sin este permiso el
-      # generador recibe 401 y cae a plantillas, sin romper el sync.
-      models: read
     # Un sync completo tarda 1-2 min; el backfill de una década, menos de 10.
     # Sin este tope, un run que no consigue runner se queda ~40 min ocupando el
     # grupo de concurrencia (cancel-in-progress: false) y arrastra a los
@@ -104,9 +101,7 @@ jobs:
       - name: Generate briefings
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '43 3 * * *'
         env:
-          # Se usa la que exista. GITHUB_TOKEN cubre GitHub Models sin secretos
-          # ni facturación; los otros dos solo si se configuran.
-          GITHUB_TOKEN:      ${{ secrets.GITHUB_TOKEN }}
+          # Se usa la clave que exista; sin ninguna, el paso no llama a nada.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BRIEFING_API_KEY:  ${{ secrets.BRIEFING_API_KEY }}
           BRIEFING_PROVIDER: ${{ vars.BRIEFING_PROVIDER }}

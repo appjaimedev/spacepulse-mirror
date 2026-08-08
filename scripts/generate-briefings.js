@@ -68,10 +68,17 @@ const PROVIDERS = {
     model: () => process.env.BRIEFING_MODEL || 'claude-haiku-4-5-20251001',
   },
   openai: {
-    // GITHUB_TOKEN sirve si el workflow declara `permissions: models: read`.
-    key:   () => process.env.BRIEFING_API_KEY || process.env.GITHUB_TOKEN,
-    base:  () => process.env.BRIEFING_BASE || 'https://models.github.ai/inference/chat/completions',
-    model: () => process.env.BRIEFING_MODEL || 'openai/gpt-4o-mini',
+    // Cualquier endpoint compatible con /chat/completions. El valor por defecto
+    // apunta a Gemini porque es la opción con nivel gratuito más accesible,
+    // pero solo se activa si hay clave: sin BRIEFING_API_KEY no se llama a nada.
+    //
+    // NO se usa el GITHUB_TOKEN del workflow: GitHub Models se está retirando y
+    // responde 410 (github_models_retirement_brownout). Se probó el 8 de agosto
+    // de 2026 y falló en todas las peticiones.
+    key:   () => process.env.BRIEFING_API_KEY,
+    base:  () => process.env.BRIEFING_BASE
+             || 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions',
+    model: () => process.env.BRIEFING_MODEL || 'gemini-2.0-flash',
   },
 };
 
@@ -267,6 +274,15 @@ async function main() {
       // briefing horneado y la app usa la plantilla.
       console.warn(`   ✗ ${launch.name}: ${err.message}`);
     }
+  }
+
+  // Si no hay ni un briefing (proveedor caído, sin cuota…) no se publican
+  // ficheros vacíos: serían seis descargas por usuario para no encontrar nada.
+  // Sin ellos, la app cae a plantillas exactamente igual.
+  const anyContent = LANGS.some(lang => Object.keys(stores[lang].items).length > 0);
+  if (!anyContent) {
+    console.log('ℹ Ningún briefing disponible; no se publica nada. La app usa sus plantillas.');
+    return;
   }
 
   // Poda: fuera los lanzamientos que ya no están en upcoming, o el fichero
