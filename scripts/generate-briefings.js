@@ -18,8 +18,10 @@
  * Si no hay ninguna clave configurada el script no falla: avisa y sale con 0.
  * La app cae a sus plantillas locales y nadie nota nada.
  *
- * Proveedores (ver PROVIDERS más abajo): GitHub Models entra gratis con el
- * propio token del workflow; Claude, Gemini, Groq u OpenRouter con su secreto.
+ * Proveedores (ver PROVIDERS más abajo): Claude por su protocolo, y cualquier
+ * endpoint compatible con OpenAI — Gemini, Groq, OpenRouter. En producción va
+ * con el nivel gratuito de Gemini y BRIEFING_API_KEY. GitHub Models NO: está
+ * retirado y responde 410.
  *
  * Uso: node scripts/generate-briefings.js [--limit N]
  */
@@ -141,7 +143,7 @@ function readJson(file, fallback) {
  * vuelve a redactar nunca. Subir este número reescribe todo en las siguientes
  * ejecuciones, a razón de MAX_NEW_PER_RUN por día.
  */
-const PROMPT_VERSION = 2;
+const PROMPT_VERSION = 3;
 
 /** Firma de los datos que alimentan el texto: si no cambian, no se regenera. */
 function launchHash(l) {
@@ -198,8 +200,22 @@ function buildPrompt(facts) {
     '  the launch vehicle arrives in lunar orbit, at L2 or at any other target.',
     '- If netPrecision is coarser than "Day", the date is a placeholder: say the timing is not',
     '  yet confirmed rather than quoting a specific day.',
+    '- "Unknown Payload", "Unknown", "N/A" and "TBD" are placeholders, NOT names. Never use them',
+    '  as if they were the payload\'s name: write "an undisclosed payload" in your language.',
     '- Each section is ONE paragraph, 2 sentences, under 320 characters.',
     '- Say something specific to THIS launch in every section. Generic filler is a failure.',
+    // El apretón contra la invención dejó frases que no dicen nada ("el vehículo
+    // se encarga de transportar la carga útil"). Refuse-to-guess no es lo mismo
+    // que refuse-to-say.
+    '- Do not restate the section\'s own subject as its content. "The rocket carries the payload"',
+    '  or "this orbit lets the payload be in this orbit" are empty sentences: the reader already',
+    '  sees those fields. Add what they mean — what the vehicle class implies, what that site\'s',
+    '  geography allows, what the status means for the schedule.',
+    '- Name the mission in full ONCE. After that use a short form or a pronoun; repeating',
+    '  "Starlink Group 17-49" in all five sections reads like a machine.',
+    '- Facts you may still use because they follow from the data itself: what a rocket class is',
+    '  for, what a launch site\'s latitude and coastline allow, what an orbit is generally used',
+    '  for, and any count written in the mission name.',
     '',
     `Sections, in order:\n${sections}`,
     '',
@@ -212,6 +228,9 @@ function buildPrompt(facts) {
     'Proper names stay exactly as given — rockets, pads, sites, agencies, missions. Never',
     'translate or localise them. Never leave an English word or status label inside another',
     'language: say what the status means in that language instead of quoting it.',
+    'Wrap bare names in your own language rather than pasting the raw field: "pad 101 at the',
+    'Wenchang Space Launch Site", not "from 101 in Wenchang Space Launch Site, People\'s Republic',
+    'of China". Drop the country boilerplate when the site already says where it is.',
     '',
     'Reply with JSON only, no prose around it, shaped exactly like:',
     '{"en":{"ai_brief_sec_overview":"…","ai_brief_sec_vehicle":"…","ai_brief_sec_orbit":"…","ai_brief_sec_site":"…","ai_brief_sec_verdict":"…"},"es":{…},"fr":{…},"de":{…},"ja":{…},"zh":{…}}',
