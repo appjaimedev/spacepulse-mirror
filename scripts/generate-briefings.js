@@ -163,7 +163,11 @@ function launchHash(l) {
 function launchFacts(l) {
   const cfg = (l.rocket && l.rocket.configuration) || {};
   return {
-    name: l.name,
+    // LL2 llama "name" a "cohete | misión", que no es el nombre de nada: con la
+    // regla de no traducir nombres propios, el modelo lo pegaba tal cual, barra
+    // incluida ("el lanzamiento de Long March 7A | Unknown Payload"). Se manda
+    // etiquetado como lo que es, y el prompt prohíbe citarlo.
+    listingLabel: l.name,
     provider: l.launch_service_provider && l.launch_service_provider.name,
     rocket: cfg.full_name || cfg.name,
     mission: l.mission && l.mission.name,
@@ -202,6 +206,8 @@ function buildPrompt(facts) {
     '  yet confirmed rather than quoting a specific day.',
     '- "Unknown Payload", "Unknown", "N/A" and "TBD" are placeholders, NOT names. Never use them',
     '  as if they were the payload\'s name: write "an undisclosed payload" in your language.',
+    '- listingLabel is a list heading ("rocket | mission"), not a name. Never quote it. Use the',
+    '  rocket and the mission separately.',
     '- Each section is ONE paragraph, 2 sentences, under 320 characters.',
     '- Say something specific to THIS launch in every section. Generic filler is a failure.',
     // El apretón contra la invención dejó frases que no dicen nada ("el vehículo
