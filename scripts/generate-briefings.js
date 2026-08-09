@@ -78,6 +78,8 @@ const PROVIDERS = {
     key:   () => process.env.BRIEFING_API_KEY,
     base:  () => process.env.BRIEFING_BASE
              || 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions',
+    // Solo la red de seguridad: si nadie fija BRIEFING_MODEL, el modelo se
+    // descubre preguntando al proveedor (ver MODEL_PINNED más abajo).
     model: () => process.env.BRIEFING_MODEL || 'gemini-2.0-flash',
   },
 };
@@ -86,7 +88,19 @@ const PROVIDER = process.env.BRIEFING_PROVIDER
   || (process.env.ANTHROPIC_API_KEY ? 'anthropic' : 'openai');
 const CFG = PROVIDERS[PROVIDER];
 const API_KEY = CFG ? CFG.key() : null;
-const MODEL = CFG ? CFG.model() : null;
+
+// El modelo por defecto de arriba envejece: los nombres cambian y los retirados
+// pierden su cuota gratuita, que se manifiesta como un 429 sin más pistas. Si
+// nadie fija BRIEFING_MODEL se pregunta al proveedor qué modelos ve esta clave
+// y se elige uno — la misma lección que GitHub Models y la API de Marte: no dar
+// por hecho que sigue existiendo lo que existía.
+let MODEL = CFG ? CFG.model() : null;
+const MODEL_PINNED = !!process.env.BRIEFING_MODEL;
+
+// Códigos que no son mala suerte de una petición: la clave no vale, no hay
+// cuota o el modelo no existe. Reintentar los 11 lanzamientos restantes solo
+// llena el log de lo mismo.
+const FATAL_STATUS = new Set([400, 401, 403, 404, 429]);
 
 /** Tope duro por sección. El texto viene de un modelo y va directo a la app. */
 const MAX_SECTION_CHARS = 400;
@@ -159,18 +173,61 @@ function buildPrompt(facts) {
   ].join('\n');
 }
 
+function authHeaders() {
+  return PROVIDER === 'anthropic'
+    ? { 'x-api-key': API_KEY, 'anthropic-version': '2023-06-01' }
+    : { authorization: `Bearer ${API_KEY}` };
+}
+
+/** El endpoint hermano de listado, derivado de la base del proveedor. */
+function modelsUrl() {
+  const base = CFG.base();
+  return PROVIDER === 'anthropic'
+    ? base.replace(/\/messages$/, '/models')
+    : base.replace(/\/chat\/completions$/, '/models');
+}
+
+/** Ids de modelo que esta clave puede ver. Vacío si el listado no responde. */
+async function listModels() {
+  const res = await fetch(modelsUrl(), { headers: authHeaders() });
+  if (!res.ok) throw new Error(`HTTP ${res.status} ${(await res.text()).slice(0, 160)}`);
+  const data = await res.json();
+  const list = data.data || data.models || [];
+  return list
+    .map(m => String((m && (m.id || m.name)) || ''))
+    .filter(Boolean)
+    // Gemini devuelve "models/gemini-…"; el endpoint de chat quiere el id pelado.
+    .map(id => id.replace(/^models\//, ''));
+}
+
+/**
+ * De la lista, el modelo más barato que sirva para redactar texto: se descartan
+ * los que no son de chat y se prefiere la gama rápida (flash/haiku/mini), la
+ * estable sobre la preview, y el alias corto sobre la versión fechada.
+ */
+function pickModel(ids) {
+  const notChat = /embed|aqa|image|imagen|veo|tts|audio|live|rerank|guard|vision/i;
+  const cheap   = /flash|haiku|mini|lite|small/i;
+  const unstable = /preview|exp|experimental|thinking/i;
+  const usable = ids.filter(id => !notChat.test(id));
+  if (usable.length === 0) return null;
+  return usable
+    .map(id => ({ id, score: (cheap.test(id) ? 2 : 0) + (unstable.test(id) ? 0 : 1) }))
+    .sort((a, b) => b.score - a.score || a.id.length - b.id.length)[0].id;
+}
+
 async function callModel(prompt) {
   const isAnthropic = PROVIDER === 'anthropic';
-  const headers = isAnthropic
-    ? { 'content-type': 'application/json', 'x-api-key': API_KEY, 'anthropic-version': '2023-06-01' }
-    : { 'content-type': 'application/json', authorization: `Bearer ${API_KEY}` };
+  const headers = { 'content-type': 'application/json', ...authHeaders() };
   const body = isAnthropic
     ? { model: MODEL, max_tokens: 4000, messages: [{ role: 'user', content: prompt }] }
     : { model: MODEL, max_tokens: 4000, messages: [{ role: 'user', content: prompt }] };
 
   const res = await fetch(CFG.base(), { method: 'POST', headers, body: JSON.stringify(body) });
   if (!res.ok) {
-    throw new Error(`HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
+    const err = new Error(`HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
+    err.status = res.status;
+    throw err;
   }
   const data = await res.json();
   const text = isAnthropic
@@ -214,6 +271,29 @@ function validate(parsed) {
   return null;
 }
 
+/**
+ * Qué mirar cuando el fallo es de los que no se arreglan solos. El log de un
+ * workflow es lo único que se puede leer después, así que aquí se deja escrito
+ * qué significa el código y qué modelos ve la clave — sin la lista, un 429 no
+ * distingue "sin cuota" de "modelo que ya no existe".
+ */
+async function explainFatal(status) {
+  const hint = {
+    400: 'petición o clave rechazadas: revisa que la clave sea del proveedor correcto.',
+    401: 'clave inválida o caducada.',
+    403: 'la clave no tiene permiso para este modelo o esta API.',
+    404: 'el endpoint o el modelo no existen: revisa BRIEFING_BASE y BRIEFING_MODEL.',
+    429: 'sin cuota. En Gemini esto sale también cuando el proyecto no tiene nivel gratuito para el modelo pedido, no solo al pasarse de peticiones.',
+  }[status];
+  if (hint) console.warn(`   ↳ ${hint}`);
+  try {
+    const ids = await listModels();
+    console.warn(`   ↳ La clave ve ${ids.length} modelos: ${ids.slice(0, 25).join(', ')}${ids.length > 25 ? '…' : ''}`);
+  } catch (err) {
+    console.warn(`   ↳ Tampoco se pudo listar modelos: ${err.message}`);
+  }
+}
+
 async function main() {
   if (!CFG) {
     console.warn(`⚠ BRIEFING_PROVIDER desconocido: ${PROVIDER}. Se omiten los briefings.`);
@@ -223,6 +303,22 @@ async function main() {
     console.log(`ℹ Sin clave para el proveedor "${PROVIDER}" — se omiten los briefings.`);
     console.log('  La app seguirá usando sus plantillas locales.');
     return;
+  }
+  if (!MODEL_PINNED) {
+    try {
+      const ids = await listModels();
+      const picked = pickModel(ids);
+      if (picked) {
+        console.log(`🔎 ${ids.length} modelos visibles; elegido "${picked}" (por defecto era "${MODEL}").`);
+        MODEL = picked;
+      } else if (ids.length > 0) {
+        console.warn(`⚠ Ninguno de los ${ids.length} modelos visibles sirve para chat; se prueba "${MODEL}".`);
+      }
+    } catch (err) {
+      // El listado no es imprescindible: se sigue con el modelo por defecto y,
+      // si falla, el diagnóstico de abajo lo cuenta.
+      console.warn(`⚠ No se pudo listar modelos (${err.message}); se prueba "${MODEL}".`);
+    }
   }
   console.log(`🤖 Proveedor: ${PROVIDER} · modelo: ${MODEL}`);
 
@@ -273,6 +369,11 @@ async function main() {
       // Un fallo puntual no debe tumbar el build: ese lanzamiento se queda sin
       // briefing horneado y la app usa la plantilla.
       console.warn(`   ✗ ${launch.name}: ${err.message}`);
+      if (FATAL_STATUS.has(err.status)) {
+        console.warn(`   ⏹ ${err.status} no se arregla reintentando; se corta la tanda.`);
+        await explainFatal(err.status);
+        break;
+      }
     }
   }
 
