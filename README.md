@@ -60,6 +60,28 @@ OpenRouter, a local server). Configure with repository variables
 GitHub Models is **not** an option: it is being retired and answers `410
 github_models_retirement_brownout` (verified 8 Aug 2026).
 
+## Images of Solar System bodies
+
+`img/planets/` and `img/bodies/` hold 256×256 crops used by the app's size
+comparator and body cards. They are built by hand, not by the cron —
+`scripts/fetch-planet-images.js` and `scripts/fetch-body-images.js`. The latter
+picks from Wikimedia Commons under three rules worth keeping:
+
+- **A declared licence or nothing.** Many NASA-looking files carry no licence
+  field (PIA17485, PIA23017 expose only an author) and are rejected. "Almost
+  certainly public domain" is not a licence.
+- **A brightness floor.** Half of an astronomy frame is empty space; a crescent
+  moon becomes a black circle at comparator size. Too-dark candidates are
+  skipped in favour of the next one.
+- **Trim, then fit to square**, so the body fills its circle instead of floating
+  in black.
+
+Every chosen file is recorded in `img/bodies/credits.json` with its title,
+licence and author. That file is the app's source for attribution and for
+whether an image is a photograph or an artist's impression — Eris, Makemake and
+Haumea have no photograph in existence, and the app says so rather than passing
+a rendering off as one.
+
 ## Attribution & thanks
 
 - Launch, agency, astronaut and event data: **[The Space Devs](https://thespacedevs.com)**

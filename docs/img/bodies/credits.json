@@ -1,0 +1,100 @@
+{
+  "moon": {
+    "kind": "photo",
+    "title": "File:Moon nearside LRO 5000.jpg",
+    "license": "Public domain",
+    "author": "NASA/GSFC/Arizona State University",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMoon%20nearside%20LRO%205000.jpg"
+  },
+  "io": {
+    "kind": "photo",
+    "title": "File:Io highest resolution true color.jpg",
+    "license": "Public domain",
+    "author": "NASA / JPL / University of Arizona",
+    "source": "https://commons.wikimedia.org/wiki/File%3AIo%20highest%20resolution%20true%20color.jpg"
+  },
+  "europa": {
+    "kind": "photo",
+    "title": "File:Europa-moon-with-margins.jpg",
+    "license": "Public domain",
+    "author": "NASA/JPL/DLR",
+    "source": "https://commons.wikimedia.org/wiki/File%3AEuropa-moon-with-margins.jpg"
+  },
+  "ganymede": {
+    "kind": "photo",
+    "title": "File:Ganymede, moon of Jupiter, NASA.jpg",
+    "license": "Public domain",
+    "author": "NASA/JPL/DLR",
+    "source": "https://commons.wikimedia.org/wiki/File%3AGanymede%2C%20moon%20of%20Jupiter%2C%20NASA.jpg"
+  },
+  "callisto": {
+    "kind": "photo",
+    "title": "File:Callisto, moon of Jupiter, NASA.jpg",
+    "license": "Public domain",
+    "author": "",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACallisto%2C%20moon%20of%20Jupiter%2C%20NASA.jpg"
+  },
+  "titan": {
+    "kind": "photo",
+    "title": "File:Titan in true color.jpg",
+    "license": "Public domain",
+    "author": "NASA/JPL-Caltech/Space Science Institute",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATitan%20in%20true%20color.jpg"
+  },
+  "enceladus": {
+    "kind": "photo",
+    "title": "File:Cassini Rev 230 - Enceladus (40974335232).png",
+    "license": "Public domain",
+    "author": "Justin Cowart",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACassini%20Rev%20230%20-%20Enceladus%20(40974335232).png"
+  },
+  "triton": {
+    "kind": "photo",
+    "title": "File:Triton moon mosaic Voyager 2 (large).jpg",
+    "license": "Public domain",
+    "author": "NASA / Jet Propulsion Lab / U.S. Geological Survey",
+    "source": "https://commons.wikimedia.org/wiki/File%3ATriton%20moon%20mosaic%20Voyager%202%20(large).jpg"
+  },
+  "ceres": {
+    "kind": "photo",
+    "title": "File:Ceres - RC3 - Haulani Crater (22381131691).jpg",
+    "license": "Public domain",
+    "author": "Justin Cowart",
+    "source": "https://commons.wikimedia.org/wiki/File%3ACeres%20-%20RC3%20-%20Haulani%20Crater%20(22381131691).jpg"
+  },
+  "vesta": {
+    "kind": "photo",
+    "title": "File:Vesta full mosaic.jpg",
+    "license": "Public domain",
+    "author": "NASA/JPL-Caltech/UCAL/MPS/DLR/IDA",
+    "source": "https://commons.wikimedia.org/wiki/File%3AVesta%20full%20mosaic.jpg"
+  },
+  "halley": {
+    "kind": "photo",
+    "title": "File:Comet Halley close up-cropped.jpg",
+    "license": "CC BY-SA 3.0 igo",
+    "author": "ESA/MPS",
+    "source": "https://commons.wikimedia.org/wiki/File%3AComet%20Halley%20close%20up-cropped.jpg"
+  },
+  "eris": {
+    "kind": "illustration",
+    "title": "File:2006-16-a-full-1-.jpg",
+    "license": "CC BY 4.0",
+    "author": "NASA, ESA, and A. Schaller (for STScI)",
+    "source": "https://commons.wikimedia.org/wiki/File%3A2006-16-a-full-1-.jpg"
+  },
+  "makemake": {
+    "kind": "illustration",
+    "title": "File:Makemake Animation.gif",
+    "license": "Public domain",
+    "author": "NASA Visualization Technology Applications and Development (VTAD) Gif by Charlestpt",
+    "source": "https://commons.wikimedia.org/wiki/File%3AMakemake%20Animation.gif"
+  },
+  "haumea": {
+    "kind": "illustration",
+    "title": "File:2003EL61art.jpg",
+    "license": "Public domain",
+    "author": "A. Feild (Space Telescope Science Institute)",
+    "source": "https://commons.wikimedia.org/wiki/File%3A2003EL61art.jpg"
+  }
+}
