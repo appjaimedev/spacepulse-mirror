@@ -135,9 +135,18 @@ function readJson(file, fallback) {
   try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return fallback; }
 }
 
+/**
+ * Versión de las instrucciones. Va dentro del hash a propósito: sin ella,
+ * arreglar el prompt no arregla nada — lo ya publicado conserva su hash y no se
+ * vuelve a redactar nunca. Subir este número reescribe todo en las siguientes
+ * ejecuciones, a razón de MAX_NEW_PER_RUN por día.
+ */
+const PROMPT_VERSION = 2;
+
 /** Firma de los datos que alimentan el texto: si no cambian, no se regenera. */
 function launchHash(l) {
   const sig = [
+    PROMPT_VERSION,
     l.id, l.name, l.net,
     l.rocket && l.rocket.configuration && l.rocket.configuration.full_name,
     l.mission && l.mission.name,
@@ -176,6 +185,17 @@ function buildPrompt(facts) {
     'Rules that matter:',
     '- Use ONLY the facts given. Never invent dates, numbers, customers or outcomes.',
     '- If a fact is missing, write around it instead of guessing.',
+    // Las tres reglas siguientes salen de revisar la primera tanda publicada:
+    // con "Unknown" delante, el modelo se inventaba una narrativa entera; daba
+    // por hecho eventos que no constan; y hacía llegar el COHETE al destino.
+    '- "Unknown", "N/A" or a missing value means UNKNOWN. Say so. Do not infer the purpose,',
+    '  the customer, the payload class or what the orbit is for. A launch whose type is',
+    '  "Unknown" is not a communications launch, a debut, or part of a series unless the',
+    '  facts say it.',
+    '- Mention no flight event that is not in the facts: no booster landing or recovery, no',
+    '  satellite count, no direct-to-device service, no reuse. Likely is not the same as known.',
+    '- The rocket does not reach the destination: it delivers the spacecraft. Do not write that',
+    '  the launch vehicle arrives in lunar orbit, at L2 or at any other target.',
     '- If netPrecision is coarser than "Day", the date is a placeholder: say the timing is not',
     '  yet confirmed rather than quoting a specific day.',
     '- Each section is ONE paragraph, 2 sentences, under 320 characters.',
@@ -187,6 +207,11 @@ function buildPrompt(facts) {
     '',
     `Write the briefing in each of these languages: ${LANGS.map(l => `${l} (${LANG_NAMES[l]})`).join(', ')}.`,
     'Write natively in each language — translate the meaning, not the words.',
+    // La primera tanda salió con "Larga Marcha 12" en un briefing y "Long March
+    // 5" en otro, y con un "Go for Launch" en mitad del castellano.
+    'Proper names stay exactly as given — rockets, pads, sites, agencies, missions. Never',
+    'translate or localise them. Never leave an English word or status label inside another',
+    'language: say what the status means in that language instead of quoting it.',
     '',
     'Reply with JSON only, no prose around it, shaped exactly like:',
     '{"en":{"ai_brief_sec_overview":"…","ai_brief_sec_vehicle":"…","ai_brief_sec_orbit":"…","ai_brief_sec_site":"…","ai_brief_sec_verdict":"…"},"es":{…},"fr":{…},"de":{…},"ja":{…},"zh":{…}}',
