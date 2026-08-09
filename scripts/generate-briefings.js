@@ -102,6 +102,11 @@ const MODEL_PINNED = !!process.env.BRIEFING_MODEL;
 // llena el log de lo mismo.
 const FATAL_STATUS = new Set([400, 401, 403, 404, 429]);
 
+// Qué modelo tiene cuota gratuita no lo dice ningún listado: hay que llamarlo.
+// Por eso se prueban varios en orden y se para en el primero que responde.
+const MAX_MODEL_TRIES = 4;
+let fallbackModels = [];
+
 /** Tope duro por sección. El texto viene de un modelo y va directo a la app. */
 const MAX_SECTION_CHARS = 400;
 
@@ -201,19 +206,27 @@ async function listModels() {
 }
 
 /**
- * De la lista, el modelo más barato que sirva para redactar texto: se descartan
- * los que no son de chat y se prefiere la gama rápida (flash/haiku/mini), la
- * estable sobre la preview, y el alias corto sobre la versión fechada.
+ * Candidatos ordenados: los que sirven para redactar texto, gama rápida primero
+ * y estable antes que preview.
+ *
+ * Los límites de palabra son load-bearing: "gemini" CONTIENE "mini", así que sin
+ * ellos todos los modelos de Google puntuaban como gama barata y el desempate
+ * por nombre corto elegía "gemini-2.5-pro" — el único que seguro no entra en el
+ * nivel gratuito. Se prefiere lo barato porque lo gratis vive ahí.
  */
-function pickModel(ids) {
-  const notChat = /embed|aqa|image|imagen|veo|tts|audio|live|rerank|guard|vision/i;
-  const cheap   = /flash|haiku|mini|lite|small/i;
+function rankModels(ids) {
+  const notChat  = /embed|aqa|image|imagen|veo|tts|audio|live|rerank|guard|vision|banana/i;
+  const cheap    = /(^|[-_.])(flash|haiku|mini|lite|small|nano)/i;
+  const premium  = /(^|[-_.])(pro|opus|ultra|max)/i;
   const unstable = /preview|exp|experimental|thinking/i;
-  const usable = ids.filter(id => !notChat.test(id));
-  if (usable.length === 0) return null;
-  return usable
-    .map(id => ({ id, score: (cheap.test(id) ? 2 : 0) + (unstable.test(id) ? 0 : 1) }))
-    .sort((a, b) => b.score - a.score || a.id.length - b.id.length)[0].id;
+  return ids
+    .filter(id => !notChat.test(id))
+    .map(id => ({
+      id,
+      score: (cheap.test(id) ? 2 : 0) + (premium.test(id) ? -2 : 0) + (unstable.test(id) ? 0 : 1),
+    }))
+    .sort((a, b) => b.score - a.score || a.id.length - b.id.length)
+    .map(m => m.id);
 }
 
 async function callModel(prompt) {
@@ -272,6 +285,24 @@ function validate(parsed) {
 }
 
 /**
+ * Como callModel, pero si el modelo elegido no responde por algo estructural
+ * (sin cuota, no existe, sin permiso) baja al siguiente candidato en vez de dar
+ * por perdida la ejecución. Al primero que funciona se queda.
+ */
+async function callModelWithFallback(prompt) {
+  for (;;) {
+    try {
+      return await callModel(prompt);
+    } catch (err) {
+      if (!FATAL_STATUS.has(err.status) || fallbackModels.length === 0) throw err;
+      const next = fallbackModels.shift();
+      console.warn(`   ↻ "${MODEL}" no vale (HTTP ${err.status}); se prueba "${next}".`);
+      MODEL = next;
+    }
+  }
+}
+
+/**
  * Qué mirar cuando el fallo es de los que no se arreglan solos. El log de un
  * workflow es lo único que se puede leer después, así que aquí se deja escrito
  * qué significa el código y qué modelos ve la clave — sin la lista, un 429 no
@@ -307,10 +338,11 @@ async function main() {
   if (!MODEL_PINNED) {
     try {
       const ids = await listModels();
-      const picked = pickModel(ids);
-      if (picked) {
-        console.log(`🔎 ${ids.length} modelos visibles; elegido "${picked}" (por defecto era "${MODEL}").`);
-        MODEL = picked;
+      const ranked = rankModels(ids).slice(0, MAX_MODEL_TRIES);
+      if (ranked.length > 0) {
+        console.log(`🔎 ${ids.length} modelos visibles; se probarán: ${ranked.join(' → ')}.`);
+        MODEL = ranked[0];
+        fallbackModels = ranked.slice(1);
       } else if (ids.length > 0) {
         console.warn(`⚠ Ninguno de los ${ids.length} modelos visibles sirve para chat; se prueba "${MODEL}".`);
       }
@@ -353,7 +385,7 @@ async function main() {
   let written = 0;
   for (const launch of batch) {
     try {
-      const parsed = await callModel(buildPrompt(launchFacts(launch)));
+      const parsed = await callModelWithFallback(buildPrompt(launchFacts(launch)));
       const problem = validate(parsed);
       if (problem) throw new Error(problem);
 
