@@ -107,6 +107,21 @@ const FATAL_STATUS = new Set([400, 401, 403, 404, 429]);
 const MAX_MODEL_TRIES = 4;
 let fallbackModels = [];
 
+// Seis idiomas × cinco secciones en una sola respuesta: cabe de sobra en 4000,
+// pero los modelos de la generación 3 razonan antes de escribir y ese texto
+// también gasta presupuesto. Con 4000 la respuesta llegaba VACÍA y el error era
+// un escueto "respuesta sin JSON".
+const MAX_TOKENS = 12000;
+
+// Se pide sin razonamiento (no hace falta para rellenar una plantilla) y con
+// salida JSON. Son campos del dialecto OpenAI que no todos los proveedores
+// entienden: si contestan 400, se reintenta la misma llamada sin ellos.
+const OPENAI_EXTRAS = {
+  reasoning_effort: 'none',
+  response_format: { type: 'json_object' },
+};
+let sendExtras = true;
+
 /** Tope duro por sección. El texto viene de un modelo y va directo a la app. */
 const MAX_SECTION_CHARS = 400;
 
@@ -229,26 +244,43 @@ function rankModels(ids) {
     .map(m => m.id);
 }
 
-async function callModel(prompt) {
+async function callModel(prompt, extras = true) {
   const isAnthropic = PROVIDER === 'anthropic';
   const headers = { 'content-type': 'application/json', ...authHeaders() };
   const body = isAnthropic
-    ? { model: MODEL, max_tokens: 4000, messages: [{ role: 'user', content: prompt }] }
-    : { model: MODEL, max_tokens: 4000, messages: [{ role: 'user', content: prompt }] };
+    ? { model: MODEL, max_tokens: MAX_TOKENS, messages: [{ role: 'user', content: prompt }] }
+    : {
+        model: MODEL,
+        max_tokens: MAX_TOKENS,
+        messages: [{ role: 'user', content: prompt }],
+        ...(extras ? OPENAI_EXTRAS : {}),
+      };
 
   const res = await fetch(CFG.base(), { method: 'POST', headers, body: JSON.stringify(body) });
   if (!res.ok) {
     const err = new Error(`HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
     err.status = res.status;
+    err.usedExtras = !isAnthropic && extras;
     throw err;
   }
   const data = await res.json();
+  const choice = (data.choices || [])[0] || {};
   const text = isAnthropic
     ? (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('')
-    : ((data.choices || [])[0] || {}).message?.content || '';
+    : choice.message?.content || '';
   // El modelo puede envolver el JSON en un bloque de código pese a lo pedido.
   const match = String(text).match(/\{[\s\S]*\}/);
-  if (!match) throw new Error('respuesta sin JSON');
+  if (!match) {
+    // "respuesta sin JSON" a secas no decía nada. La causa habitual es que el
+    // modelo agotó el presupuesto razonando y devolvió contenido vacío, y eso
+    // solo se ve en finish_reason.
+    const why = isAnthropic ? (data.stop_reason || '?') : (choice.finish_reason || '?');
+    const err = new Error(
+      `respuesta sin JSON (finish=${why}, ${String(text).length} chars: ${String(text).slice(0, 120) || '—vacía—'})`,
+    );
+    err.usedExtras = !isAnthropic && extras;
+    throw err;
+  }
   return JSON.parse(match[0]);
 }
 
@@ -292,8 +324,15 @@ function validate(parsed) {
 async function callModelWithFallback(prompt) {
   for (;;) {
     try {
-      return await callModel(prompt);
+      return await callModel(prompt, sendExtras);
     } catch (err) {
+      // El proveedor no entiende reasoning_effort / response_format: se repite
+      // sin ellos y ya no se vuelven a mandar en toda la ejecución.
+      if (err.status === 400 && err.usedExtras && sendExtras) {
+        sendExtras = false;
+        console.warn('   ↻ El proveedor rechaza reasoning_effort/response_format; se repite sin ellos.');
+        continue;
+      }
       if (!FATAL_STATUS.has(err.status) || fallbackModels.length === 0) throw err;
       const next = fallbackModels.shift();
       console.warn(`   ↻ "${MODEL}" no vale (HTTP ${err.status}); se prueba "${next}".`);
