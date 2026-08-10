@@ -38459,6 +38459,28 @@
       }
     ]
   },
+  "cff704ab-8098-4f65-899e-50adaf908e59": {
+    "mission": {
+      "type": "Unknown",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      },
+      "description": "Details TBD."
+    },
+    "rocket_full_name": "Long March 7A",
+    "pad_lat": 19.618452,
+    "pad_lon": 110.955356,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=cwy5FbgI7n8"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=cZjlQq4JcBM"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
