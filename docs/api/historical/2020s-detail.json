@@ -38481,6 +38481,33 @@
       }
     ]
   },
+  "b89ab080-66c3-4831-85a9-38d85da71d30": {
+    "mission": {
+      "type": "Navigation",
+      "orbit": {
+        "abbrev": "GTO",
+        "name": "Geostationary Transfer Orbit"
+      },
+      "description": "QZSS (Quasi Zenith Satellite System) is a Japanese satellite navigation system operating from inclined, elliptical geosynchronous orbits to achieve optimal high-elevation visibility in urban canyons and mountainous areas. The navigation system objective is to broadcast GPS-interoperable and augment…"
+    },
+    "rocket_full_name": "H3-22",
+    "pad_lat": 30.400938,
+    "pad_lon": 130.97564,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/qzs-252052520_mission_patch_20250203070402.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=fH9hQn8ebp4"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=V5Xx1gXtcr8"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
