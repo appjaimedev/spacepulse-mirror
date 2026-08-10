@@ -4,9 +4,9 @@
     "name": "H3-22 | Michibiki 7 (QZS-7)",
     "net": "2026-08-10T19:23:31Z",
     "status": {
-      "id": 9,
-      "name": "Payload Deployed",
-      "abbrev": "Deployed"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 98,
