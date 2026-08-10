@@ -1,7 +1,7 @@
 [
   {
     "id": "cff704ab-8098-4f65-899e-50adaf908e59",
-    "name": "Long March 7A | Unknown Payload",
+    "name": "Long March 7A | ChinaSat 4B",
     "net": "2026-08-10T12:02:00Z",
     "status": {
       "id": 4,
@@ -25,7 +25,7 @@
       }
     },
     "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_20251206093324.jpeg"
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_7a_e_image_20260810162338.jpg"
     }
   },
   {
