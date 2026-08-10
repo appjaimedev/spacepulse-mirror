@@ -1,156 +1,5 @@
 [
   {
-    "id": "36ab6924-bb36-416a-b71d-cda9e88004be",
-    "name": "Falcon 9 Block 5 | Starlink Group 10-19",
-    "net": "2026-08-10T16:20:09Z",
-    "net_precision": {
-      "id": 0,
-      "name": "Second",
-      "abbrev": "SEC"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Starlink Group 10-19",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 40",
-      "latitude": 28.56194122,
-      "longitude": -80.57735736,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 7,
-        "source": "youtube.com",
-        "publisher": "SPACE AFFAIRS",
-        "title": "GO! - SpaceX - Falcon 9 - Starlink 10-19 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
-        "description": "Launch Date:  August 10, 2026\nLaunch Time: 12:20 p.m. EDT, 16:20 UTC, 18:20 CEST\nLaunch Window:  Open until 2:49 p.m.  EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Northeast\nLaunch Status: Scheduled and announced \n\nMission: Starlink 10-19\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1085 - Turnaround 42 days)\nFlight for the Booster: 18\nPrevious Flights of the Booster: 17 - Crew-9, RRT-1, Firefly Blue Ghost Mission 1, Fram2, SXM-10, MTG-S1, EchoStar XXV, SXM-11, and nine Starlink missions\nDroneship: A Shortfall Of Gravitas\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters /...",
-        "feature_image": "https://i.ytimg.com/vi/x6FNFhI98xw/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=x6FNFhI98xw",
-        "type": {
-          "id": 4,
-          "name": "Unofficial Re-stream"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-08-10T16:10:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 9,
-        "source": "youtube.com",
-        "publisher": "NASASpaceflight",
-        "title": "SpaceX Launches Falcon 9 with  Starlink 10-19",
-        "description": "Launch Window: August 10th from 10:49AM to 2:49PM EDT (14:49-18:49 UTC)\nCurrent T0: August 10th at 10:49AM EDT (14:49 UTC).\n\nMission: Falcon 9 launch of 29 Starlink v2 Mini satellites into orbit.\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Low-Earth Orbit (LEO); 244x257km 53.16º\nBooster: B1085-18; 42d 12h 24min turnaround\nPast customer missions: Crew-9, GPS-III SV07, Hakuto-R M2/Blue Ghost M1, Fram2, SXM-10, MTG-S1, Exhostar XXV, SXM-11.\nPast Starlink missions: 10-5, 6-77, 6-93, 10-20, 10-27, 6-94, 6-98, 10-58, 10-53.\nSatellites launched: 254, will be 283 after this mission.\nBooster recovery: A Shortfall Of Gravitas (ASOG)\nFairing recovery: Doug\nRocket trajectory: Northeast flying parallel to the US east coast\nPayload mas...",
-        "feature_image": "https://i.ytimg.com/vi/LMsqa3xGQTo/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=LMsqa3xGQTo",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-08-10T15:20:09Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "Starlink Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HOP0yawWwAAaFUs.jpg",
-        "url": "https://x.com/i/broadcasts/1nxeLLRRMQWJX",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-08-11T14:16:00Z",
-        "end_time": "2026-08-12T14:16:00Z",
-        "live": false
-      }
-    ],
-    "mission_patches": [
-      {
-        "id": 7,
-        "name": "Space X Starlink Mission Patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 121,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-          "name": "SpaceX",
-          "abbrev": "SpX",
-          "type": {
-            "id": 3,
-            "name": "Commercial"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "b89ab080-66c3-4831-85a9-38d85da71d30",
     "name": "H3-22 | Michibiki 7 (QZS-7)",
     "net": "2026-08-10T19:23:31Z",
@@ -347,6 +196,157 @@
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
+  },
+  {
+    "id": "36ab6924-bb36-416a-b71d-cda9e88004be",
+    "name": "Falcon 9 Block 5 | Starlink Group 10-19",
+    "net": "2026-08-11T14:26:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Starlink Group 10-19",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 40",
+      "latitude": 28.56194122,
+      "longitude": -80.57735736,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png"
+    },
+    "webcast_live": false,
+    "vid_urls": [
+      {
+        "priority": 7,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Falcon 9 - Starlink 10-19 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+        "description": "Launch Date:  August 11, 2026\nLaunch Time: 10:26 a.m. EDT, 14:26 UTC, 16:26 CEST\nLaunch Window:  Open until 2:26 p.m.  EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Northeast\nLaunch Status: Scheduled and announced \n\nMission: Starlink 10-19\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1085 - Turnaround 42 days)\nFlight for the Booster: 18\nPrevious Flights of the Booster: 17 - Crew-9, RRT-1, Firefly Blue Ghost Mission 1, Fram2, SXM-10, MTG-S1, EchoStar XXV, SXM-11, and nine Starlink missions\nDroneship: A Shortfall Of Gravitas\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters /...",
+        "feature_image": "https://i.ytimg.com/vi/x6FNFhI98xw/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=x6FNFhI98xw",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-11T14:16:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "NASASpaceflight",
+        "title": "SpaceX Launches Falcon 9 with  Starlink 10-19",
+        "description": "Launch Window: August 10th from 10:49AM to 2:49PM EDT (14:49-18:49 UTC)\nCurrent T0: August 10th at 10:49AM EDT (14:49 UTC).\n\nMission: Falcon 9 launch of 29 Starlink v2 Mini satellites into orbit.\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Low-Earth Orbit (LEO); 244x257km 53.16º\nBooster: B1085-18; 42d 12h 24min turnaround\nPast customer missions: Crew-9, GPS-III SV07, Hakuto-R M2/Blue Ghost M1, Fram2, SXM-10, MTG-S1, Exhostar XXV, SXM-11.\nPast Starlink missions: 10-5, 6-77, 6-93, 10-20, 10-27, 6-94, 6-98, 10-58, 10-53.\nSatellites launched: 254, will be 283 after this mission.\nBooster recovery: A Shortfall Of Gravitas (ASOG)\nFairing recovery: Doug\nRocket trajectory: Northeast flying parallel to the US east coast\nPayload mas...",
+        "feature_image": "https://i.ytimg.com/vi/LMsqa3xGQTo/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=LMsqa3xGQTo",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-11T13:26:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "SpaceX",
+        "title": "Starlink Mission",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HOP0yawWwAAaFUs.jpg",
+        "url": "https://x.com/i/broadcasts/1nxeLLRRMQWJX",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-11T14:16:00Z",
+        "end_time": "2026-08-12T14:16:00Z",
+        "live": false
+      }
+    ],
+    "mission_patches": [
+      {
+        "id": 7,
+        "name": "Space X Starlink Mission Patch",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 121,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
+          "name": "SpaceX",
+          "abbrev": "SpX",
+          "type": {
+            "id": 3,
+            "name": "Commercial"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
   },
   {
     "id": "6f94dbe4-1318-4ffb-a53d-351bbdcba733",
