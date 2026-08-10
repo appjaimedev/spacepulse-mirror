@@ -7989,7 +7989,7 @@
         "abbrev": "SSO",
         "name": "Sun-Synchronous Orbit"
       },
-      "description": "Unknown satellite(s) for the Russian military."
+      "description": "4 classified satellites for the Russian military, presumably for optical reconnaissance purposes."
     },
     "rocket_full_name": "Angara 1.2",
     "pad_lat": 62.927319,
@@ -8176,7 +8176,7 @@
         "abbrev": "SSO",
         "name": "Sun-Synchronous Orbit"
       },
-      "description": "Unknown satellite(s) for the Russian military."
+      "description": "6 classified satellites for the Russian military."
     },
     "rocket_full_name": "Soyuz 2.1b Volga",
     "pad_lat": 62.92883,
