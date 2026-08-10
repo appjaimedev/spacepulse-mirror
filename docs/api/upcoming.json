@@ -261,7 +261,7 @@
   },
   {
     "id": "55b79515-ddbf-4198-8a59-29a12ed21330",
-    "name": "Falcon 9 Block 5 | R-1",
+    "name": "Falcon 9 Block 5 | USSF-366",
     "net": "2026-08-15T21:52:00Z",
     "net_precision": {
       "id": 1,
@@ -269,9 +269,9 @@
       "abbrev": "MIN"
     },
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 121,
@@ -296,8 +296,8 @@
       }
     },
     "mission": {
-      "name": "R-1",
-      "type": "Unknown",
+      "name": "USSF-366",
+      "type": "Government/Top Secret",
       "orbit": {
         "abbrev": "LEO",
         "name": "Low Earth Orbit"
@@ -324,7 +324,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "SpaceX",
+        "title": "USSF-366 Mission",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HPYEORTXcAA1G2z.jpg",
+        "url": "https://x.com/i/broadcasts/1DxleVErQBdKL",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-15T21:40:00Z",
+        "end_time": "2026-08-16T21:40:00Z",
+        "live": false
+      }
+    ],
     "mission_patches": []
   },
   {
@@ -880,7 +902,7 @@
   {
     "id": "521f3a1c-f977-4306-9b7f-495858719adf",
     "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
-    "net": "2026-08-30T11:25:00Z",
+    "net": "2026-08-30T11:26:00Z",
     "net_precision": {
       "id": 1,
       "name": "Minute",
@@ -2660,6 +2682,14 @@
           "nationality_name_composed": "Swedo"
         },
         {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
+        },
+        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -2762,14 +2792,6 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
-        },
-        {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
@@ -7022,74 +7044,6 @@
     "mission_patches": []
   },
   {
-    "id": "a96ece1c-c745-43cc-a08a-b623e7b93957",
-    "name": "Neutron | Maiden Flight",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 11,
-      "name": "Quarter 4",
-      "abbrev": "Q4"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 147,
-      "name": "Rocket Lab",
-      "abbrev": "RL",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Neutron",
-        "full_name": "Neutron",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Maiden Flight",
-      "type": "Test Flight",
-      "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
-      }
-    },
-    "pad": {
-      "name": "Rocket Lab Launch Complex 3 (Launch Area 0 D)",
-      "latitude": 37.8321693,
-      "longitude": -75.4899046,
-      "location": {
-        "name": "Wallops Flight Facility, Virginia, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/neutron_image_20230727171443.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193800.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "bf5c6fa2-3add-49ff-aad6-c6450148cd89",
     "name": "Falcon 9 Block 5 | Rivada 12",
     "net": "2026-12-31T00:00:00Z",
@@ -7421,6 +7375,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "1fa3741c-3339-4954-a026-2cd9d36161c0",
+    "name": "Falcon 9 Block 5 | Rivada 7",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Rivada 7",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
