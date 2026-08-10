@@ -1,135 +1,5 @@
 [
   {
-    "id": "b89ab080-66c3-4831-85a9-38d85da71d30",
-    "name": "H3-22 | Michibiki 7 (QZS-7)",
-    "net": "2026-08-10T19:23:31Z",
-    "net_precision": {
-      "id": 0,
-      "name": "Second",
-      "abbrev": "SEC"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 98,
-      "name": "Mitsubishi Heavy Industries",
-      "abbrev": "MHI",
-      "country": [
-        {
-          "id": 28,
-          "name": "Japan",
-          "alpha_2_code": "JP",
-          "alpha_3_code": "JPN",
-          "nationality_name": "Japanese",
-          "nationality_name_composed": "Nippo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "H3-22",
-        "full_name": "H3-22",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Michibiki 7 (QZS-7)",
-      "type": "Navigation",
-      "orbit": {
-        "abbrev": "GTO",
-        "name": "Geostationary Transfer Orbit"
-      }
-    },
-    "pad": {
-      "name": "Yoshinobu Launch Complex LP-2",
-      "latitude": 30.400938,
-      "longitude": 130.97564,
-      "location": {
-        "name": "Tanegashima Space Center, Japan",
-        "country": {
-          "id": 28,
-          "name": "Japan",
-          "alpha_2_code": "JP",
-          "alpha_3_code": "JPN",
-          "nationality_name": "Japanese",
-          "nationality_name_composed": "Nippo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_liftoff__image_20251028183835.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_liftoff__image_thumbnail_20251028183835.jpeg"
-    },
-    "webcast_live": true,
-    "vid_urls": [
-      {
-        "priority": 10,
-        "source": "youtube.com",
-        "publisher": "JAXA | 宇宙航空研究開発機構",
-        "title": "準天頂衛星システム「みちびき7号機」/H3ロケット9号機打上げライブ中継",
-        "description": "準天頂衛星システム「みちびき7号機」を搭載したH3ロケット9号機の打上げの様子を、種子島宇宙センターよりライブ配信します。\nThe live coverage of the launch of H3 Launch Vehicle flight No.9 (H3 F9: Flight No.9) with MICHIBIKI No.7, Quasi-Zenith Satellite System (QZS-7) onboard from Tanegashima Space Center.\n \n配信予定：2026年8月11日3時25分頃～\n打上げ時間帯：4時23分31秒～5時23分31秒（日本標準時、24時間表記）\n場所：種子島宇宙センター\nBroadcast Start: around 3:25 (JST)* on Aug 11/ 18:25 (UTC)* on Aug 10\nLaunch Window: 4:23:31-5:23:31 (JST)*\nLaunch Site: JAXA Tanegashima Space Center\n(*)The time is the 24-hour clock\n\n▼JAXA公式チャンネルはこちら\nhttps://www.youtube.com/user/jaxachannel\nhttps://www.youtube.com/@JAXA-LiveEvent\n\n▼JAXA（国立研究開発法人宇宙航空研究開発機構/Japan Aerospace Exploration Agency）\nhttps://www.jaxa.jp/\nhttps://global.jaxa.jp/",
-        "feature_image": "https://i.ytimg.com/vi/fH9hQn8ebp4/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=fH9hQn8ebp4",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 6,
-          "name": "Japanese",
-          "code": "jp"
-        },
-        "start_time": "2026-08-10T18:25:12Z",
-        "end_time": null,
-        "live": true
-      },
-      {
-        "priority": 11,
-        "source": "youtube.com",
-        "publisher": "NVS",
-        "title": "2026.8.11　3:30～ H３ロケット9号機 「みちびき7号機」打上げ　H3 Rocket F9 QZS-7 Launch",
-        "description": "H3ロケット9号機の打上げの様子を現地、種子島宇宙センターからライブ配信します。\nThe launch of H3 Rocket F9 will be broadcast live from the Tanegashima Space Center.\n\n打上げ予定日（Launch Date）：　2026.8.11\n打上げ予定時刻（Launch Time）：4:23’31”　+0900 (JST)\n打上げ時間帯（Launch Window）：4:23'31\"～5:23'31\"　(JST)\n予備期間（Preliminary duration）：2026.08.12～2026.08.31　2026.09.03～2026.09.30\nペイロード衛星（Payload）：準天頂衛星システム「みちびき7号機」「QZS-7」\n\n打上げ前会見　Pre-Launch Briefing\n　https://www.youtube.com/watch?v=d50igv-fgms\n\n機体移動　transfer operation\n　https://www.youtube.com/live/xCQKtDDyXss\n　\n見守る配信　watch over the rocket before launch\n　https://www.youtube.com/live/8zqiax_6mHQ\n\n打上げ　Launch\n　https://www.youtube.com/live/V5Xx1gXtcr8\n\n打上げ後会見　Post-Press Conference\n　https://www.youtube.com/live/hcm7m2BjZTk\n\nNVS配信スケジュール　Our Streaming Schedule\n　http://blog.nvs-live.com/?eid=874\n\nこのチャンネルのメンバ...",
-        "feature_image": "https://i.ytimg.com/vi/V5Xx1gXtcr8/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=V5Xx1gXtcr8",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 6,
-          "name": "Japanese",
-          "code": "jp"
-        },
-        "start_time": "2026-08-10T18:30:00Z",
-        "end_time": null,
-        "live": false
-      }
-    ],
-    "mission_patches": [
-      {
-        "id": 1095,
-        "name": "QZS-5 to 7 Patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/qzs-252052520_mission_patch_20250203070402.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 37,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/37/",
-          "name": "Japan Aerospace Exploration Agency",
-          "abbrev": "JAXA",
-          "type": {
-            "id": 1,
-            "name": "Government"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "36ab6924-bb36-416a-b71d-cda9e88004be",
     "name": "Falcon 9 Block 5 | Starlink Group 10-19",
     "net": "2026-08-11T14:26:00Z",
@@ -2790,14 +2660,6 @@
           "nationality_name_composed": "Swedo"
         },
         {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
-        },
-        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -2900,6 +2762,14 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
+        },
+        {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
@@ -7483,6 +7353,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_20251028184029.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_thumbnail_20251028184029.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "b48e32c5-3776-4684-a956-5ea4df032e90",
+    "name": "Spectrum | ΣYNDEO-3",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 1046,
+      "name": "Isar Aerospace",
+      "abbrev": "ISAR",
+      "country": [
+        {
+          "id": 4,
+          "name": "Germany",
+          "alpha_2_code": "DE",
+          "alpha_3_code": "DEU",
+          "nationality_name": "German",
+          "nationality_name_composed": "Germano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Spectrum",
+        "full_name": "Spectrum",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "ΣYNDEO-3",
+      "type": "Technology",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Orbital Launch Pad",
+      "latitude": 69.1084,
+      "longitude": 15.5895,
+      "location": {
+        "name": "Andøya Spaceport",
+        "country": {
+          "id": 49,
+          "name": "Norway",
+          "alpha_2_code": "NO",
+          "alpha_3_code": "NOR",
+          "nationality_name": "Norwegian",
+          "nationality_name_composed": "Norwegian"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
