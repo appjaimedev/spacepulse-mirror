@@ -2,11 +2,11 @@
   {
     "id": "36ab6924-bb36-416a-b71d-cda9e88004be",
     "name": "Falcon 9 Block 5 | Starlink Group 10-19",
-    "net": "2026-08-11T14:26:00Z",
+    "net": "2026-08-11T14:54:41Z",
     "net_precision": {
-      "id": 1,
-      "name": "Minute",
-      "abbrev": "MIN"
+      "id": 0,
+      "name": "Second",
+      "abbrev": "SEC"
     },
     "status": {
       "id": 1,
@@ -87,6 +87,27 @@
         "live": false
       },
       {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "Live: SpaceX Falcon 9 rocket launches from Cape Canaveral with 29 Starlink satellites",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for the company's Starlink internet service plus a test flight for two prototype semiconductor manufacturing devices. Liftoff of the Starlink 10-45 mission from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled during a window that opens on Tuesday, August 11 at 10:26 a.m. EDT (1426 UTC).\n\nThe first-stage Falcon 9 booster, serial number B1085, launching for a 18th time, will take a north-easterly trajectory on departure from Florida's Space Coast. About 8.5 minutes into flight it will land on SpaceX's drone ship 'A Shortfall of Gravitas', stationed in the Atlantic Ocean.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to...",
+        "feature_image": "https://i.ytimg.com/vi/grXTQnopJ80/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=grXTQnopJ80",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-11T13:26:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
         "priority": 9,
         "source": "youtube.com",
         "publisher": "NASASpaceflight",
@@ -103,7 +124,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-08-11T13:26:00Z",
+        "start_time": "2026-08-11T13:54:00Z",
         "end_time": null,
         "live": false
       },
