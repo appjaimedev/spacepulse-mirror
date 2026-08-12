@@ -182,16 +182,16 @@
   {
     "id": "b0e7d1cc-24dd-4da4-bb60-b15b6791d08e",
     "name": "Long March 12 | Unknown Payload",
-    "net": "2026-08-17T02:00:00Z",
+    "net": "2026-08-16T04:10:00Z",
     "net_precision": {
       "id": 2,
       "name": "Hour",
       "abbrev": "HR"
     },
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 88,
@@ -242,6 +242,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_20241128132937.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "cb6f4df1-c045-423b-904c-e63bf1ee5168",
+    "name": "Long March 2C | Unknown Payload",
+    "net": "2026-08-17T03:00:00Z",
+    "net_precision": {
+      "id": 2,
+      "name": "Hour",
+      "abbrev": "HR"
+    },
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "abbrev": "CASC",
+      "country": [
+        {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 2C",
+        "full_name": "Long March 2C",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Unknown Payload",
+      "type": "Unknown",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      }
+    },
+    "pad": {
+      "name": "Launch Complex 9",
+      "latitude": 38.863128,
+      "longitude": 111.589567,
+      "location": {
+        "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+        "country": {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20230803100234.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193713.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -7292,74 +7360,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193953.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "b48e32c5-3776-4684-a956-5ea4df032e90",
-    "name": "Spectrum | ΣYNDEO-3",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 11,
-      "name": "Quarter 4",
-      "abbrev": "Q4"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 1046,
-      "name": "Isar Aerospace",
-      "abbrev": "ISAR",
-      "country": [
-        {
-          "id": 4,
-          "name": "Germany",
-          "alpha_2_code": "DE",
-          "alpha_3_code": "DEU",
-          "nationality_name": "German",
-          "nationality_name_composed": "Germano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Spectrum",
-        "full_name": "Spectrum",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "ΣYNDEO-3",
-      "type": "Technology",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Orbital Launch Pad",
-      "latitude": 69.1084,
-      "longitude": 15.5895,
-      "location": {
-        "name": "Andøya Spaceport",
-        "country": {
-          "id": 49,
-          "name": "Norway",
-          "alpha_2_code": "NO",
-          "alpha_3_code": "NOR",
-          "nationality_name": "Norwegian",
-          "nationality_name_composed": "Norwegian"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
