@@ -2175,9 +2175,9 @@
     "name": "Starship | Flight 14",
     "net": "2026-09-30T00:00:00Z",
     "net_precision": {
-      "id": 10,
-      "name": "Quarter 3",
-      "abbrev": "Q3"
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
     },
     "status": {
       "id": 2,
