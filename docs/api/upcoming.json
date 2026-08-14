@@ -611,9 +611,9 @@
       "abbrev": "MIN"
     },
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 121,
@@ -666,7 +666,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "SpaceX",
+        "title": "Starlink Mission",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HPsY5bwb0AAtPZn.jpg",
+        "url": "https://x.com/i/broadcasts/1PKqrNNknkZGb",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-22T07:15:00Z",
+        "end_time": "2026-08-23T07:15:00Z",
+        "live": false
+      }
+    ],
     "mission_patches": [
       {
         "id": 7,
