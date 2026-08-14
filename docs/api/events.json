@@ -1,18 +1,5 @@
 [
   {
-    "id": 1454,
-    "name": "Total Solar Eclipse in Europe",
-    "type": {
-      "id": 11,
-      "name": "Celestial Event"
-    },
-    "date": "2026-08-12T15:35:23Z",
-    "description": "On 12 August 2026, a solar eclipse will be visible across parts of Europe and the north Atlantic. The path of totality will cross Greenland, Iceland, Spain and a small area of northeastern Portugal. Other parts of Europe will see a partial solar eclipse.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1505,
     "name": "US EVA-97",
     "type": {
