@@ -2258,6 +2258,74 @@
     ]
   },
   {
+    "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
+    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
+    "net": "2026-09-30T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 31,
+      "name": "Indian Space Research Organization",
+      "abbrev": "ISRO",
+      "country": [
+        {
+          "id": 9,
+          "name": "India",
+          "alpha_2_code": "IN",
+          "alpha_3_code": "IND",
+          "nationality_name": "Indian",
+          "nationality_name_composed": "Indo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "GSLV Mk II",
+        "full_name": "GSLV Mk. II",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "IRNSS-1L (NVS-03)",
+      "type": "Navigation",
+      "orbit": {
+        "abbrev": "GTO",
+        "name": "Geostationary Transfer Orbit"
+      }
+    },
+    "pad": {
+      "name": "Satish Dhawan Space Centre Second Launch Pad",
+      "latitude": 13.7199,
+      "longitude": 80.2304,
+      "location": {
+        "name": "Satish Dhawan Space Centre, India",
+        "country": {
+          "id": 9,
+          "name": "India",
+          "alpha_2_code": "IN",
+          "alpha_3_code": "IND",
+          "nationality_name": "Indian",
+          "nationality_name_composed": "Indo"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk252_image_20240101090337.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192851.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
     "net": "2026-09-30T00:00:00Z",
@@ -5270,74 +5338,6 @@
         "response_mode": "normal"
       }
     ]
-  },
-  {
-    "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
-    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 14,
-      "name": "Year",
-      "abbrev": "Y"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 31,
-      "name": "Indian Space Research Organization",
-      "abbrev": "ISRO",
-      "country": [
-        {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "GSLV Mk II",
-        "full_name": "GSLV Mk. II",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "IRNSS-1L (NVS-03)",
-      "type": "Navigation",
-      "orbit": {
-        "abbrev": "GTO",
-        "name": "Geostationary Transfer Orbit"
-      }
-    },
-    "pad": {
-      "name": "Satish Dhawan Space Centre Second Launch Pad",
-      "latitude": 13.7199,
-      "longitude": 80.2304,
-      "location": {
-        "name": "Satish Dhawan Space Centre, India",
-        "country": {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk252_image_20240101090337.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192851.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
   },
   {
     "id": "ce1317de-ec94-4479-9b28-38ebf11f13ae",
