@@ -1,158 +1,5 @@
 [
   {
-    "id": "55b79515-ddbf-4198-8a59-29a12ed21330",
-    "name": "Falcon 9 Block 5 | USSF-366",
-    "net": "2026-08-15T23:47:12Z",
-    "net_precision": {
-      "id": 0,
-      "name": "Second",
-      "abbrev": "SEC"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "USSF-366",
-      "type": "Government/Top Secret",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 7,
-        "source": "youtube.com",
-        "publisher": "SPACE AFFAIRS",
-        "title": "GO! - SpaceX - Falcon 9 - USSF-366 - SLC-4E - Vandenberg Space Force Base, CA - Space Affairs Live",
-        "description": "Launch Date: August 15, 2026 PDT\nLaunch Time: 4:47 p.m. PDT, 2347 UTC (August 15, 01:47 CEST\nLaunch Window: Open until 6:52 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced \n\nMission: USSF-366\nLaunch Provider: SpaceX\nContractor: US Space Force\nLauncher System: Falcon 9 (Booster 1088 - Turnaround time 48 days)\nFlight for the Booster: 18\nPrevious Flights of the Booster: 17 - NROL-126, Transporter-12, SPHEREx, NROL-57, and 13 Starlink missions.\nDroneship: Of Course I Still Love You (OCISLY)\n\nSpaceX is targeting Saturday, August 15 for a Falcon 9 launch of the USSF-366 mission from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base in California. Liftof...",
-        "feature_image": "https://i.ytimg.com/vi/kHEJHhUndgk/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=kHEJHhUndgk",
-        "type": {
-          "id": 4,
-          "name": "Unofficial Re-stream"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-08-15T23:34:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 8,
-        "source": "youtube.com",
-        "publisher": "Spaceflight Now",
-        "title": "Live: SpaceX Falcon 9 rocket launches secretive mission for U.S. Space Force",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California carrying a classified payload for the U.S. Space Force. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Saturday, August 15, at 2:52 p.m. PDT (5:52 p.m. EDT / 2152 UTC).\n\nThe first-stage booster, serial number B1088, launching for an 18th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe USSF-366 mission will take a south-easterly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.yout...",
-        "feature_image": "https://i.ytimg.com/vi/hBRXDnr-b_0/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=hBRXDnr-b_0",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-08-15T21:22:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 9,
-        "source": "youtube.com",
-        "publisher": "NASASpaceflight",
-        "title": "SpaceX Launches Falcon 9 with USSF-366",
-        "description": "Launch Window: August 15th from 2:52PM to 6:52PM PDT (21:52-01:52 UTC)\nCurrent T0: August 15th at 2:52PM PDT (21:52 UTC)\n\nMission: Falcon 9 launch of the USSF-366 mission for the US Space Force\nLaunch location: Space Launch Complex 4 East (SLC-4E), Vandenberg Space Force Base, Earth.\nTarget orbit: Low-Earth Orbit (LEO)\nBooster: B1088-18; 48d 5h 42min 42s turnaround\nPast customer missions: NROL-126, Transporter-12, SPHEREx and PUNCH, NROL-57.\nPast Starlink missions: 11-13, 15-4, 15-8, 15-7, 17-5, 17-12, 11-19, 11-15, 17-33, 17-24, 17-16, 17-47, 17-40.\nBooster recovery: Of Course I Still Love You (OCISLY)\nFairing recovery: GO Beyond\nRocket trajectory: South-Southeast\nPayload mass: Unknown\nStats:\n  - SpaceX's 707th launch overall.\n  - SpaceX's 98th launch of the year.\n  - SpaceX's 7th la...",
-        "feature_image": "https://i.ytimg.com/vi/MfkUzz93xZQ/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=MfkUzz93xZQ",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-08-15T22:47:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "USSF-366 Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HPYEORTXcAA1G2z.jpg",
-        "url": "https://x.com/i/broadcasts/1DxleVErQBdKL",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-08-15T23:33:00Z",
-        "end_time": "2026-08-16T23:33:00Z",
-        "live": false
-      }
-    ],
-    "mission_patches": []
-  },
-  {
     "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
     "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
     "net": "2026-08-16T01:12:00Z",
@@ -300,6 +147,159 @@
         },
         "start_time": "2026-08-16T00:58:00Z",
         "end_time": "2026-08-16T03:58:00Z",
+        "live": false
+      }
+    ],
+    "mission_patches": []
+  },
+  {
+    "id": "55b79515-ddbf-4198-8a59-29a12ed21330",
+    "name": "Falcon 9 Block 5 | USSF-366",
+    "net": "2026-08-16T01:50:45Z",
+    "net_precision": {
+      "id": 0,
+      "name": "Second",
+      "abbrev": "SEC"
+    },
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "USSF-366",
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [
+      {
+        "priority": 7,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Falcon 9 - USSF-366 - SLC-4E - Vandenberg Space Force Base, CA - Space Affairs Live",
+        "description": "Launch Date: August 15, 2026 PDT\nLaunch Time: 4:47 p.m. PDT, 2347 UTC (August 15, 01:47 CEST\nLaunch Window: Open until 6:52 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced \n\nMission: USSF-366\nLaunch Provider: SpaceX\nContractor: US Space Force\nLauncher System: Falcon 9 (Booster 1088 - Turnaround time 48 days)\nFlight for the Booster: 18\nPrevious Flights of the Booster: 17 - NROL-126, Transporter-12, SPHEREx, NROL-57, and 13 Starlink missions.\nDroneship: Of Course I Still Love You (OCISLY)\n\nSpaceX is targeting Saturday, August 15 for a Falcon 9 launch of the USSF-366 mission from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base in California. Liftof...",
+        "feature_image": "https://i.ytimg.com/vi/kHEJHhUndgk/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=kHEJHhUndgk",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-15T23:34:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "Live: SpaceX Falcon 9 rocket launches secretive mission for U.S. Space Force",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California carrying a classified payload for the U.S. Space Force. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Saturday, August 15, at 6:50 p.m. PDT / 9:50 p.m. EDT (Sunday, August 16, at 0150 UTC).\n\nThe first-stage booster, serial number B1088, launching for an 18th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe USSF-366 mission will take a south-easterly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to p...",
+        "feature_image": "https://i.ytimg.com/vi/hBRXDnr-b_0/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=hBRXDnr-b_0",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-16T01:20:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "NASASpaceflight",
+        "title": "SpaceX Launches Falcon 9 with USSF-366",
+        "description": "Launch Window: August 15th from 2:52PM to 6:52PM PDT (21:52-01:52 UTC)\nCurrent T0: August 15th at 2:52PM PDT (21:52 UTC)\n\nMission: Falcon 9 launch of the USSF-366 mission for the US Space Force\nLaunch location: Space Launch Complex 4 East (SLC-4E), Vandenberg Space Force Base, Earth.\nTarget orbit: Low-Earth Orbit (LEO)\nBooster: B1088-18; 48d 5h 42min 42s turnaround\nPast customer missions: NROL-126, Transporter-12, SPHEREx and PUNCH, NROL-57.\nPast Starlink missions: 11-13, 15-4, 15-8, 15-7, 17-5, 17-12, 11-19, 11-15, 17-33, 17-24, 17-16, 17-47, 17-40.\nBooster recovery: Of Course I Still Love You (OCISLY)\nFairing recovery: GO Beyond\nRocket trajectory: South-Southeast\nPayload mass: Unknown\nStats:\n  - SpaceX's 707th launch overall.\n  - SpaceX's 98th launch of the year.\n  - SpaceX's 7th la...",
+        "feature_image": "https://i.ytimg.com/vi/MfkUzz93xZQ/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=MfkUzz93xZQ",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-15T22:47:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "SpaceX",
+        "title": "USSF-366 Mission",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HPYEORTXcAA1G2z.jpg",
+        "url": "https://x.com/i/broadcasts/1DxleVErQBdKL",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-15T23:33:00Z",
+        "end_time": "2026-08-16T23:33:00Z",
         "live": false
       }
     ],
