@@ -33,9 +33,9 @@
     "name": "Falcon 9 Block 5 | USSF-366",
     "net": "2026-08-16T01:50:45Z",
     "status": {
-      "id": 9,
-      "name": "Payload Deployed",
-      "abbrev": "Deployed"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 121,
