@@ -38629,12 +38629,12 @@
   },
   "b0e7d1cc-24dd-4da4-bb60-b15b6791d08e": {
     "mission": {
-      "type": "Unknown",
+      "type": "Communications",
       "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
       },
-      "description": "Details TBD."
+      "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group. The constellation will eventually consists of 13000 satellites."
     },
     "rocket_full_name": "Long March 12",
     "pad_lat": 19.59755,

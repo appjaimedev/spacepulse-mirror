@@ -1,12 +1,12 @@
 [
   {
     "id": "b0e7d1cc-24dd-4da4-bb60-b15b6791d08e",
-    "name": "Long March 12 | Unknown Payload",
+    "name": "Long March 12 | SatNet LEO Group 24",
     "net": "2026-08-16T04:10:00Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 88,
