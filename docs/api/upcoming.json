@@ -4462,7 +4462,7 @@
   },
   {
     "id": "e61d353c-db55-4a57-8184-0fab187231e6",
-    "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 8)",
+    "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 9)",
     "net": "2026-12-31T00:00:00Z",
     "net_precision": {
       "id": 13,
@@ -4497,7 +4497,7 @@
       }
     },
     "mission": {
-      "name": "Globalstar 2-R Mission 2 (x 8)",
+      "name": "Globalstar 2-R Mission 2 (x 9)",
       "type": "Communications",
       "orbit": {
         "abbrev": "LEO",
