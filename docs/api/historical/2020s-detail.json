@@ -38571,6 +38571,62 @@
       }
     ]
   },
+  "55b79515-ddbf-4198-8a59-29a12ed21330": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "USSF-366 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites for a US government entity based on SpaceX’s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches."
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 34.632,
+    "pad_lon": -120.611,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=kHEJHhUndgk"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=hBRXDnr-b_0"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=2lJyYhaRcZM"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1DxleVErQBdKL"
+      }
+    ]
+  },
+  "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "The Globalstar global mobile communications network offers global, digital real time voice, data and fax services via its Low Earth Orbit satellite constellation. The constellation operates in a 1410 km orbit inclined at 52 degrees. In early 2022, Globalstar contracted with MDA for the construction…"
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 28.56194122,
+    "pad_lon": -80.57735736,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=f760SB4MWjg"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=nRnjNthHtSU"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=2lJyYhaRcZM"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1pJkOOkmyQyJj"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
