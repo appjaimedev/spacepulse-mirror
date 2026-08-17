@@ -38651,12 +38651,12 @@
   },
   "cb6f4df1-c045-423b-904c-e63bf1ee5168": {
     "mission": {
-      "type": "Unknown",
+      "type": "Earth Science",
       "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
       },
-      "description": "Details TBD."
+      "description": "Satellite for Earth Observation (SEO) is an Earth observation satellite project of the United Arab Emirates (UAE) by the National Space Science and Technology Center (NSSTC) at the United Arab Emirates University. The SEO mission aims to develop advanced space technologies and represents an ambitio…"
     },
     "rocket_full_name": "Long March 2C",
     "pad_lat": 38.863128,

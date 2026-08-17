@@ -1,12 +1,12 @@
 [
   {
     "id": "cb6f4df1-c045-423b-904c-e63bf1ee5168",
-    "name": "Long March 2C | Unknown Payload",
-    "net": "2026-08-17T03:00:00Z",
+    "name": "Long March 2C | Satellite for Earth Observation (SEO)",
+    "net": "2026-08-17T03:02:00Z",
     "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 88,
