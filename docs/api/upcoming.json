@@ -3361,6 +3361,74 @@
     ]
   },
   {
+    "id": "bff2fc91-eddd-4dfc-af26-ac0674cfab4d",
+    "name": "Soyuz 2.1a/Fregat-M | MKA Kinosputnik, KOEN and others",
+    "net": "2026-11-19T00:00:00Z",
+    "net_precision": {
+      "id": 5,
+      "name": "Day",
+      "abbrev": "DAY"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 63,
+      "name": "Russian Federal Space Agency (ROSCOSMOS)",
+      "abbrev": "RFSA",
+      "country": [
+        {
+          "id": 5,
+          "name": "Russia",
+          "alpha_2_code": "RU",
+          "alpha_3_code": "RUS",
+          "nationality_name": "Russian",
+          "nationality_name_composed": "Russo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Soyuz 2.1a/Fregat-M",
+        "full_name": "Soyuz 2.1a Fregat-M",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "MKA Kinosputnik, KOEN and others",
+      "type": "Technology",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      }
+    },
+    "pad": {
+      "name": "Cosmodrome Site 1S",
+      "latitude": 51.884395,
+      "longitude": 128.333932,
+      "location": {
+        "name": "Vostochny Cosmodrome, Siberia, Russian Federation",
+        "country": {
+          "id": 5,
+          "name": "Russia",
+          "alpha_2_code": "RU",
+          "alpha_3_code": "RUS",
+          "nationality_name": "Russian",
+          "nationality_name_composed": "Russo"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1a_image_20190726062341.png",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193859.png"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
     "name": "Soyuz 2.1b | Progress MS-36 (97P)",
     "net": "2026-11-24T05:03:00Z",
@@ -4610,74 +4678,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/z25c325a9phyr_image_20251116181217.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/z25c325a9phyr_image_thumbnail_20251116181217.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "bff2fc91-eddd-4dfc-af26-ac0674cfab4d",
-    "name": "Soyuz 2.1a/Fregat-M | MKA Kinosputnik, KOEN and others",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 11,
-      "name": "Quarter 4",
-      "abbrev": "Q4"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 63,
-      "name": "Russian Federal Space Agency (ROSCOSMOS)",
-      "abbrev": "RFSA",
-      "country": [
-        {
-          "id": 5,
-          "name": "Russia",
-          "alpha_2_code": "RU",
-          "alpha_3_code": "RUS",
-          "nationality_name": "Russian",
-          "nationality_name_composed": "Russo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Soyuz 2.1a/Fregat-M",
-        "full_name": "Soyuz 2.1a Fregat-M",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "MKA Kinosputnik, KOEN and others",
-      "type": "Technology",
-      "orbit": {
-        "abbrev": "SSO",
-        "name": "Sun-Synchronous Orbit"
-      }
-    },
-    "pad": {
-      "name": "Cosmodrome Site 1S",
-      "latitude": 51.884395,
-      "longitude": 128.333932,
-      "location": {
-        "name": "Vostochny Cosmodrome, Siberia, Russian Federation",
-        "country": {
-          "id": 5,
-          "name": "Russia",
-          "alpha_2_code": "RU",
-          "alpha_3_code": "RUS",
-          "nationality_name": "Russian",
-          "nationality_name_composed": "Russo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1a_image_20190726062341.png",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193859.png"
     },
     "webcast_live": false,
     "vid_urls": [],
