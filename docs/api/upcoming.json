@@ -2895,11 +2895,11 @@
   {
     "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
     "name": "H3-24 | Martian Moon eXplorer (MMX)",
-    "net": "2026-10-31T00:00:00Z",
+    "net": "2026-10-20T00:00:00Z",
     "net_precision": {
-      "id": 7,
-      "name": "Month",
-      "abbrev": "M"
+      "id": 5,
+      "name": "Day",
+      "abbrev": "DAY"
     },
     "status": {
       "id": 2,
