@@ -1,5 +1,34 @@
 [
   {
+    "id": "ef02e2cf-e617-4b38-a526-951ac9204b0a",
+    "name": "Zhuque-3 | Honghu-03",
+    "net": "2026-08-18T23:35:20Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 259,
+      "name": "LandSpace",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Zhuque-3"
+      }
+    },
+    "pad": {
+      "name": "Launch Area 96B",
+      "location": {
+        "name": "Jiuquan Satellite Launch Center, People's Republic of China"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zq-3_flight_1_l_image_20251203064230.jpg"
+    }
+  },
+  {
     "id": "cb6f4df1-c045-423b-904c-e63bf1ee5168",
     "name": "Long March 2C | Satellite for Earth Observation (SEO)",
     "net": "2026-08-17T03:02:00Z",
