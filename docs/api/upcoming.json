@@ -2,11 +2,11 @@
   {
     "id": "bbdc4d47-1de3-428e-9fe1-bbf45d9b1e04",
     "name": "Falcon 9 Block 5 | Starlink Group 10-39",
-    "net": "2026-08-21T14:57:00Z",
+    "net": "2026-08-21T15:14:16Z",
     "net_precision": {
-      "id": 1,
-      "name": "Minute",
-      "abbrev": "MIN"
+      "id": 0,
+      "name": "Second",
+      "abbrev": "SEC"
     },
     "status": {
       "id": 1,
@@ -2708,6 +2708,14 @@
           "nationality_name_composed": "Swedo"
         },
         {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
+        },
+        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -2810,14 +2818,6 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
-        },
-        {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
