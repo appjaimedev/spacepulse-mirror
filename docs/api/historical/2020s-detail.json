@@ -37821,7 +37821,7 @@
         "abbrev": "LEO",
         "name": "Low Earth Orbit"
       },
-      "description": "First launch of the Long March 10B rocket and first ever successful rocket booster recovery of a Chinese launch vehicle. Payloads on board is TBD."
+      "description": "First launch of the Long March 10B rocket and first ever successful rocket booster recovery of a Chinese launch vehicle. This launch also deployed a SatNet LEO constellation test satellite named Chuangxin-26 (CX-26) to LEO."
     },
     "rocket_full_name": "Long March 10B",
     "pad_lat": 19.59755,
@@ -38075,7 +38075,7 @@
         "abbrev": "SSO",
         "name": "Sun-Synchronous Orbit"
       },
-      "description": "Carried 9 satellites on a share-ride to sun-synchronous orbit. Details TBD."
+      "description": "Carried 9 satellites on a share-ride to sun-synchronous orbit: * Dongpo 13 & 14 * Dongpo 17 to 20 * Tianyi 49 (Beiyou-4) * Xiguang-2-01 * Zidingxiang-3 (Kaiyun-3)"
     },
     "rocket_full_name": "Gravity-1",
     "pad_lat": 31.2,
@@ -38124,7 +38124,7 @@
         "abbrev": "SSO",
         "name": "Sun-Synchronous Orbit"
       },
-      "description": "Share-ride of 5 commercial Earth observation and technology demonstration satellites to SSO, including SpaceTY's TY-48. Details TBD."
+      "description": "Share-ride of 5 commercial Earth observation and technology demonstration satellites to SSO, including SpaceTY's Tianyi-48: * Yinglong Fengguang-1 * Zhonghang Hongwai 1/Xiguang 2-03 * Tianyi-48 (Chenguang-1) * Gande 1-01 * Jitianxing A-04"
     },
     "rocket_full_name": "Kinetica 1",
     "pad_lat": 40.8182,
