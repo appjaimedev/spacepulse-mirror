@@ -91,7 +91,7 @@
         "source": "youtube.com",
         "publisher": "NASASpaceflight",
         "title": "SpaceX Launches Falcon 9 Starlink 10-39",
-        "description": "Launch Window 11:19AM Eastern to 3:19PM Eastern\n\n\n⚡ Become a member of NASASpaceflight's channel for exclusive discord access, fast turnaround clips, and other exclusive benefits. Your support helps us continue our 24/7 coverage. ⚡\n\n🔍 If you are interested in using footage captured by this stream, please review our content use policy: https://www.nasaspaceflight.com/content-use-policy/\n\n#SpaceX #Starlink #Falcon9 #Starlink1223 #LEO #SatelliteInternet #SpaceXLaunch #GlobalInternet #HighSpeedInternet #RocketLaunch #StarlinkMission #NextGenSatellites #SpaceTechnology\n\n LDAPAABJRG2UMCU3 🎵 Intro song: New Way Out by Denis. Licensed via PremiumBeat. LDAPAABJRG2UMCU3\n🎵 Music used on streams and in videos is licensed via EpidemicSound: https://share.epidemicsound.com/qvh38e\n\nAll content copyr...",
+        "description": "Launch Window: August 20th from 11:19AM to 3:19PM EDT (15:19-19:19 UTC)\nCurrent T0: August 20th at 11:38:44AM EDT (15:38:44 UTC)\n\nMission: Falcon 9 launch of 29 Starlink v2 Mini satellites into orbit.\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Low-Earth Orbit (LEO); 243x254km 53.16º\nBooster: B1078-30; 58d 4h 45min 44s turnaround\nPast customer missions: Crew-6, O3b mPOWER B, USSF-124, AST BlueBird 1-5, Nusantara Lima, Starfall Demo.\nPast Starlink missions: 6-4, 6-8, 6-16, 6-31, 6-46, 6-53, 6-60, 10-2, 10-6, 10-13, 6-76, 12-6, 12-9, 12-16, 6-72, 6-84, 12-26, 10-26, 6-85, 6-97, 10-41, 10-62, 10-47.\nSatellites launched: 584, will be 613 after this mission.\nBooster recovery: A Shortfall Of Gravitas (ASOG)\nFairing recovery: Do...",
         "feature_image": "https://i.ytimg.com/vi/PjtnTIjDUys/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=PjtnTIjDUys",
         "type": {
@@ -124,8 +124,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-08-20T15:09:00Z",
-        "end_time": "2026-08-21T15:09:00Z",
+        "start_time": "2026-08-20T15:28:00Z",
+        "end_time": "2026-08-20T17:28:00Z",
         "live": false
       }
     ],
