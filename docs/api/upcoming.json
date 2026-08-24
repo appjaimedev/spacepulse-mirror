@@ -70,11 +70,11 @@
   {
     "id": "ad501ebd-a357-4305-90c1-c46c6feb2ecf",
     "name": "Falcon 9 Block 5 | Starlink Group 10-49",
-    "net": "2026-08-25T05:49:00Z",
+    "net": "2026-08-25T09:33:17Z",
     "net_precision": {
-      "id": 1,
-      "name": "Minute",
-      "abbrev": "MIN"
+      "id": 0,
+      "name": "Second",
+      "abbrev": "SEC"
     },
     "status": {
       "id": 1,
@@ -875,74 +875,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/south2520korea_image_20231204145331.png",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192440.png"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "458e2e52-87b0-4707-96d8-6899f92e53ee",
-    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
-    "net": "2026-08-31T00:00:00Z",
-    "net_precision": {
-      "id": 7,
-      "name": "Month",
-      "abbrev": "M"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 193,
-      "name": "Russian Space Forces",
-      "abbrev": "VKS",
-      "country": [
-        {
-          "id": 5,
-          "name": "Russia",
-          "alpha_2_code": "RU",
-          "alpha_3_code": "RUS",
-          "nationality_name": "Russian",
-          "nationality_name_composed": "Russo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Soyuz 2.1b/Fregat",
-        "full_name": "Soyuz 2.1b Fregat",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Glonass-K1 No. 19",
-      "type": "Navigation",
-      "orbit": {
-        "abbrev": "MEO",
-        "name": "Medium Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Unknown Pad",
-      "latitude": 62.925556,
-      "longitude": 40.577778,
-      "location": {
-        "name": "Plesetsk Cosmodrome, Russian Federation",
-        "country": {
-          "id": 5,
-          "name": "Russia",
-          "alpha_2_code": "RU",
-          "alpha_3_code": "RUS",
-          "nationality_name": "Russian",
-          "nationality_name_composed": "Russo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -7391,6 +7323,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193953.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "cb0c27fd-496c-4f74-aa04-9c0e5af33e3c",
+    "name": "Epsilon S | JV-LOTUSat-1",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 37,
+      "name": "Japan Aerospace Exploration Agency",
+      "abbrev": "JAXA",
+      "country": [
+        {
+          "id": 28,
+          "name": "Japan",
+          "alpha_2_code": "JP",
+          "alpha_3_code": "JPN",
+          "nationality_name": "Japanese",
+          "nationality_name_composed": "Nippo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Epsilon S",
+        "full_name": "Epsilon S",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "JV-LOTUSat-1",
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      }
+    },
+    "pad": {
+      "name": "Mu Center",
+      "latitude": 31.2509794,
+      "longitude": 131.0821319,
+      "location": {
+        "name": "Uchinoura Space Center, Japan",
+        "country": {
+          "id": 28,
+          "name": "Japan",
+          "alpha_2_code": "JP",
+          "alpha_3_code": "JPN",
+          "nationality_name": "Japanese",
+          "nationality_name_composed": "Nippo"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/epsilon_image_20190207032600.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193620.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
