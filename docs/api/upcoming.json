@@ -134,6 +134,69 @@
     "webcast_live": false,
     "vid_urls": [
       {
+        "priority": 7,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Falcon 9 - Starlink 10-49 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+        "description": "Launch Date:  August 25, 2026\nLaunch Time: 5:33 a.m. EDT, 0933 UTC, 11:33 CEST\nLaunch Window:  Open until 5:49 EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Northeast\nLaunch Status: Scheduled and announced\n\nMission: Starlink 10-49\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1067 - Turnaround 47 days)\nFlight for the Booster: 37\nPrevious Flights of the Booster: 36 - CRS-22, Crew-3, Turksat 5B, Crew-4, CRS-25, Eutelsat HOTBIRD 13G, SES O3B mPOWER-A, PSN SATRIA, Telkomsat Merah Putih 2, Galileo, Koreasat-6A, and 25 Starlink missions\nDroneship: A Shortfall Of Gravitas\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 ...",
+        "feature_image": "https://i.ytimg.com/vi/6uhVimd_l2s/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=6uhVimd_l2s",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-25T09:20:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "Live: SpaceX Falcon 9 rocket launches from Cape Canaveral on Starlink mission",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for the company's Starlink internet service. Liftoff of the Starlink 10-49 mission from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Tuesday, August 25, at 5:33 a.m. EDT (0933 UTC).\n\nThe first-stage Falcon 9 booster, serial number B1067, launching for a 37th time, will take a north-easterly trajectory on departure from Florida's Space Coast. About 8.5 minutes into flight it will land on SpaceX's drone ship 'A Shortfall of Gravitas', stationed in the Atlantic Ocean.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to ge...",
+        "feature_image": "https://i.ytimg.com/vi/QMm5d54Xrbo/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=QMm5d54Xrbo",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-25T08:33:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "NASASpaceflight",
+        "title": "SpaceX Launches Falcon 9 Starlink 10-49",
+        "description": "Launch Window: August 25th from 01:49AM to 5:49AM EDT (05:49-09:49 UTC)\nCurrent T0: August 25th at 05:33:17AM EDT (09:33:17 UTC)\n\nMission: Falcon 9 launch of 29 Starlink v2 Mini satellites into orbit.\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Low-Earth Orbit (LEO); 242x254km 53.16º orbit\nBooster: B1067-37; 47d 7min 34s turnaround\nPast customer missions: CRS-22, Crew-3, Türksat 5B, Crew-4, CRS-25, Hotbird 13G, O3b mPOWER A, Satria, Merah Putih 2, Galileo FM26 & FM32, Koreasat 6A.\nPast Starlink missions: 4-34, 5-2, 5-5, 5-9, 6-10, 6-22, 6-29, 6-35, 6-45, 6-55, 8-5, 8-3, 6-70, 12-12, 12-8, 6-73, 6-83, 10-25, 10-11, 10-17, 6-92, 6-104, 10-44, 10-35, 10-42.\nSatellites launched: 772, will be 801 after this mission.\nBooster re...",
+        "feature_image": "https://i.ytimg.com/vi/m5c9Gn5DH0o/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=m5c9Gn5DH0o",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-25T04:49:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
         "priority": 10,
         "source": "x.com",
         "publisher": "SpaceX",
