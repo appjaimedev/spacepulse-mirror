@@ -70,7 +70,7 @@
   {
     "id": "ad501ebd-a357-4305-90c1-c46c6feb2ecf",
     "name": "Falcon 9 Block 5 | Starlink Group 10-49",
-    "net": "2026-08-25T09:33:17Z",
+    "net": "2026-08-25T09:33:38Z",
     "net_precision": {
       "id": 0,
       "name": "Second",
@@ -213,8 +213,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-08-25T10:50:00Z",
-        "end_time": "2026-08-26T10:50:00Z",
+        "start_time": "2026-08-25T09:23:00Z",
+        "end_time": "2026-08-25T14:17:00Z",
         "live": false
       }
     ],
