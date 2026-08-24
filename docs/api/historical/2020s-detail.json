@@ -38799,6 +38799,21 @@
       }
     ]
   },
+  "458e2e52-87b0-4707-96d8-6899f92e53ee": {
+    "mission": {
+      "type": "Navigation",
+      "orbit": {
+        "abbrev": "MEO",
+        "name": "Medium Earth Orbit"
+      },
+      "description": "Note: Payload identity not confirmed. Glonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and des…"
+    },
+    "rocket_full_name": "Soyuz 2.1b Fregat",
+    "pad_lat": 62.9273,
+    "pad_lon": 40.45,
+    "mission_patches": [],
+    "vid_urls": []
+  },
   "__years__": [
     2020,
     2021,

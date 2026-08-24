@@ -1,5 +1,34 @@
 [
   {
+    "id": "458e2e52-87b0-4707-96d8-6899f92e53ee",
+    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
+    "net": "2026-08-24T02:40:00Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 193,
+      "name": "Russian Space Forces",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Soyuz 2.1b/Fregat"
+      }
+    },
+    "pad": {
+      "name": "43/3 (43L)",
+      "location": {
+        "name": "Plesetsk Cosmodrome, Russian Federation"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg"
+    }
+  },
+  {
     "id": "6208f972-18ec-490f-bbe5-6f5c6cfcd48c",
     "name": "Falcon 9 Block 5 | Starlink Group 15-20",
     "net": "2026-08-22T07:25:16Z",
