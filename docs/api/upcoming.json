@@ -345,7 +345,50 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "Arianespace",
+        "title": "Flight VA270 | MTG-I2 | Ariane 6 | Arianespace",
+        "description": "On August 27 2026, Arianespace will launch the MTG-I2 meteorological satellite with the Ariane 62 configuration from Europe's Spaceport in French Guiana.\nThe mission is expected to last approximatively 36 minutes from lift-off to satellite separation.\nThe mission MTG-I2 will mark the fourth Ariane 6 launch of the year and the first to a geostationary orbit.\n \nLiftoff is scheduled for August 27, 2026, from Europe’s Spaceport in French Guiana, within the following window:\n \n16:10 – 18:40 (Washington, D.C.)\n17:10 – 19:40  (Kourou)\n20:10-22:40 (UTC)\n22:10 – 00:40 (Paris/Berlin)\n\n► Subscribe to our channel to keep on touch on our futur contents: https://www.youtube.com/c/arianespace/featured\n\n► Arianespace is the world’s leading satellite launch company. Founded in 1980, it provides launch...",
+        "feature_image": "https://i.ytimg.com/vi/CLTbPdGfMJw/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=CLTbPdGfMJw",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-08-27T19:45:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 11,
+        "source": "youtube.com",
+        "publisher": "Arianespace",
+        "title": "Vol VA270 | MTG-I2 | Ariane 6 | Arianespace",
+        "description": "Le 27 août 2026, Arianespace lancera le satellite météorologique MTG-I2 à bord d'une Ariane 62 depuis le port spatial européen de Kourou, en Guyane française.\nLe vol durera approximativement 36 minutes entre le décollage et la séparation du satellite.\nLe lancement de MTG-I2 représentera la quatrième mission de l'année pour Ariane 6 et sa première mission vers l'orbite de transfert géostationnaire (GTO).\n \nLe décollage est prévu le 27 août 2026 depuis le Centre spatial guyanais, au cours de la fenêtre suivante :\n \n16:10 – 18:40 (Washington, D.C.)\n17:10 – 19:40  (Kourou)\n20:10-22:40 (UTC)\n22:10 – 00:40 (Paris)\n\n► Subscribe to our channel to keep on touch on our futur contents: https://www.youtube.com/c/arianespace/featured\n\n► Arianespace is the world’s leading satellite launch company. ...",
+        "feature_image": "https://i.ytimg.com/vi/bEB-VbMwBuY/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=bEB-VbMwBuY",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 4,
+          "name": "French",
+          "code": "fr"
+        },
+        "start_time": "2026-08-27T19:45:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
     "mission_patches": [
       {
         "id": 1333,
