@@ -63,7 +63,7 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png"
     },
-    "webcast_live": false,
+    "webcast_live": true,
     "vid_urls": [
       {
         "priority": 7,
@@ -103,9 +103,9 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-08-25T08:33:00Z",
+        "start_time": "2026-08-25T08:33:28Z",
         "end_time": null,
-        "live": false
+        "live": true
       },
       {
         "priority": 9,
@@ -124,9 +124,9 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-08-25T08:33:00Z",
+        "start_time": "2026-08-25T08:36:55Z",
         "end_time": null,
-        "live": false
+        "live": true
       },
       {
         "priority": 10,
