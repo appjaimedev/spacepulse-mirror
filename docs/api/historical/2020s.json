@@ -1,5 +1,34 @@
 [
   {
+    "id": "48c449c2-3c09-4d36-9c2a-d853b3a39289",
+    "name": "Long March 6C | 7 satellites",
+    "net": "2026-08-25T03:21:00Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 6C"
+      }
+    },
+    "pad": {
+      "name": "Launch Complex 9A",
+      "location": {
+        "name": "Taiyuan Satellite Launch Center, People's Republic of China"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-6c_on_the_la_image_20240507065151.jpg"
+    }
+  },
+  {
     "id": "458e2e52-87b0-4707-96d8-6899f92e53ee",
     "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
     "net": "2026-08-24T02:40:00Z",
