@@ -789,16 +789,16 @@
   {
     "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
     "name": "Soyuz 2.1b | Progress MS-35 (96P)",
-    "net": "2026-09-09T16:10:00Z",
+    "net": "2026-09-09T16:15:03Z",
     "net_precision": {
-      "id": 1,
-      "name": "Minute",
-      "abbrev": "MIN"
+      "id": 0,
+      "name": "Second",
+      "abbrev": "SEC"
     },
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 63,
