@@ -1,5 +1,34 @@
 [
   {
+    "id": "a57aed97-b94f-42e1-905e-9421dbd96ac8",
+    "name": "Ariane 62 | MTG-I2",
+    "net": "2026-08-27T20:11:00Z",
+    "status": {
+      "id": 6,
+      "name": "Launch in Flight",
+      "abbrev": "In Flight"
+    },
+    "launch_service_provider": {
+      "id": 115,
+      "name": "Arianespace",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Ariane 62"
+      }
+    },
+    "pad": {
+      "name": "Ariane Launch Area 4",
+      "location": {
+        "name": "Guiana Space Centre, French Guiana"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_20240711132056.jpeg"
+    }
+  },
+  {
     "id": "95653d52-bb77-4860-a815-dd7141778d17",
     "name": "Falcon 9 Block 5 | Starlink Group 15-22",
     "net": "2026-08-26T09:35:11Z",

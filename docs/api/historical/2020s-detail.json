@@ -38892,6 +38892,39 @@
       }
     ]
   },
+  "a57aed97-b94f-42e1-905e-9421dbd96ac8": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "GTO",
+        "name": "Geostationary Transfer Orbit"
+      },
+      "description": "Third of EUMETSAT's third generation of weather satellite."
+    },
+    "rocket_full_name": "Ariane 62",
+    "pad_lat": 5.256319,
+    "pad_lon": -52.786838,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/va2702520patch_mission_patch_20260720115333.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=CLTbPdGfMJw"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=bEB-VbMwBuY"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=vzytcrGSqUU"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=eF4s2Zga3uw"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
