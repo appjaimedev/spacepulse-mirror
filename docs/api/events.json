@@ -1,26 +1,26 @@
 [
   {
-    "id": 1506,
-    "name": "US EVA-98",
+    "id": 1510,
+    "name": "US EVA-99",
     "type": {
       "id": 3,
       "name": "EVA"
     },
-    "date": "2026-08-25T12:35:00Z",
-    "description": "NASA astronaut Anil Menon and ESA astronaut Sophie Adenot will install a Space-to-Ground antenna on the orbital complex. The antenna is a critical communication system NASA uses to transmit data and high‑speed communication between the Mission Control Center in Houston and the space station. The astronauts also will replace a retroreflector used for spacecraft docking on the Harmony module’s forward port.",
+    "date": "2026-09-01T12:30:00Z",
+    "description": "NASA astronaut Jessica Meir and ESA astronaut Sophie Adenot will replace a retroreflector on the forward port of the space station’s Harmony module to support spacecraft navigation during rendezvous and docking operations. After installing the reflector, the crew will work to install jumper cables for the data-relay systems, prepare the Alpha Magnetic Spectrometer’s radiator for future maintenance, and replace a high-definition camera on the station’s truss.",
     "video_url": null,
     "launch": null,
     "feature_image": null
   },
   {
-    "id": 1509,
-    "name": "Booster 21 Rollout to the Launch Site",
+    "id": 1511,
+    "name": "Progress MS-33 Undocking",
     "type": {
-      "id": 27,
-      "name": "Rollout"
+      "id": 8,
+      "name": "Spacecraft Undocking"
     },
-    "date": "2026-08-25T17:20:00Z",
-    "description": "Booster 21 is rolling out to the Launch site at Starbase ahead of testing.",
+    "date": "2026-09-07T15:15:00Z",
+    "description": "The Progress MS-33 spacecraft will undock from the Poisk module of the International Space Station.\r\nIt will then de-orbit and burn up in the atmosphere.",
     "video_url": null,
     "launch": null,
     "feature_image": null
