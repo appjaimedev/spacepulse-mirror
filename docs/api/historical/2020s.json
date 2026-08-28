@@ -4,9 +4,9 @@
     "name": "Ariane 62 | MTG-I2",
     "net": "2026-08-27T20:11:00Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 115,
