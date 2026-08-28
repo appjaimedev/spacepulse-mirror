@@ -132,74 +132,6 @@
     "mission_patches": []
   },
   {
-    "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
-    "name": "Angara 1.2 | Kosmos (Unknown Payload)",
-    "net": "2026-08-31T00:00:00Z",
-    "net_precision": {
-      "id": 7,
-      "name": "Month",
-      "abbrev": "M"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 193,
-      "name": "Russian Space Forces",
-      "abbrev": "VKS",
-      "country": [
-        {
-          "id": 5,
-          "name": "Russia",
-          "alpha_2_code": "RU",
-          "alpha_3_code": "RUS",
-          "nationality_name": "Russian",
-          "nationality_name_composed": "Russo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Angara 1.2",
-        "full_name": "Angara 1.2",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Kosmos (Unknown Payload)",
-      "type": "Government/Top Secret",
-      "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
-      }
-    },
-    "pad": {
-      "name": "35/1",
-      "latitude": 62.927319,
-      "longitude": 40.574897,
-      "location": {
-        "name": "Plesetsk Cosmodrome, Russian Federation",
-        "country": {
-          "id": 5,
-          "name": "Russia",
-          "alpha_2_code": "RU",
-          "alpha_3_code": "RUS",
-          "nationality_name": "Russian",
-          "nationality_name_composed": "Russo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/angara25201.2_image_20190224012254.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193449.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "9f5a4cb6-63f9-47e1-9512-b468bae2a8e6",
     "name": "Electron | Owl Around The World (StriX Launch 11)",
     "net": "2026-08-31T12:05:00Z",
@@ -680,7 +612,7 @@
   {
     "id": "153ef8ef-b12b-43f4-a4bf-05b225c0cd37",
     "name": "Falcon 9 Block 5 | Starlink Group 15-24",
-    "net": "2026-09-05T11:13:00Z",
+    "net": "2026-09-06T10:59:00Z",
     "net_precision": {
       "id": 1,
       "name": "Minute",
@@ -4034,6 +3966,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
+    "name": "Angara 1.2 | Kosmos (Unknown Payload)",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 193,
+      "name": "Russian Space Forces",
+      "abbrev": "VKS",
+      "country": [
+        {
+          "id": 5,
+          "name": "Russia",
+          "alpha_2_code": "RU",
+          "alpha_3_code": "RUS",
+          "nationality_name": "Russian",
+          "nationality_name_composed": "Russo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Angara 1.2",
+        "full_name": "Angara 1.2",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Kosmos (Unknown Payload)",
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      }
+    },
+    "pad": {
+      "name": "35/1",
+      "latitude": 62.927319,
+      "longitude": 40.574897,
+      "location": {
+        "name": "Plesetsk Cosmodrome, Russian Federation",
+        "country": {
+          "id": 5,
+          "name": "Russia",
+          "alpha_2_code": "RU",
+          "alpha_3_code": "RUS",
+          "nationality_name": "Russian",
+          "nationality_name_composed": "Russo"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/angara25201.2_image_20190224012254.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193449.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
