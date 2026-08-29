@@ -1,5 +1,44 @@
 [
   {
+    "id": 1512,
+    "name": "SpaceX Starship Booster B21 Static Fire",
+    "type": {
+      "id": 5,
+      "name": "Static Fire"
+    },
+    "date": "2026-08-28T18:10:00Z",
+    "description": "Booster 21 will be static fired as preparation for Starship Flight 14-",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1514,
+    "name": "Roman Space Telescope Mission and Science Briefing",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-08-29T13:00:00Z",
+    "description": "The pre-launch mission and science briefing for the Nancy Grace Roman Space Telescope will take place in the NASA Kennedy Press Site auditorium with the following participants:\r\n\r\n* Shawn Domagal-Goldman, director, Astrophysics Division, NASA Headquarters\r\n* Julie McEnery, Roman telescope senior project scientist, NASA Goddard Space Flight Center\r\n* Vanessa Bailey, Roman Coronagraph Instrument scientist, NASA Jet Propulsion Laboratory\r\n* Kristen McQuinn, Roman Science Operations Center lead, Space Telescope Science Institute\r\n* Lee Armus, Roman Science Support Center lead, Caltech/IPAC",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1515,
+    "name": "Roman Space Telescope Prelaunch News Conference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-08-29T14:30:00Z",
+    "description": "The prelaunch news conference will take place in the NASA Kennedy Press Site auditorium with the following participants:\r\n\r\n* Nicky Fox, associate administrator, Science Mission Directorate, NASA Headquarters\r\n* Lucas Paganini, Roman telescope program executive, NASA Headquarters\r\n* Jackie Townsend, Roman telescope project manager, NASA Goddard\r\n* Denton Gibson, launch director, NASA’s Launch Services Program, NASA Kennedy\r\n* Julianna Scheiman, director, NASA Science and Dragon Programs, SpaceX\r\n* Justin McReynolds, launch weather officer, 45th Weather Squadron, U.S. Space Force",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1510,
     "name": "US EVA-99",
     "type": {
@@ -21,6 +60,19 @@
     },
     "date": "2026-09-07T15:15:00Z",
     "description": "The Progress MS-33 spacecraft will undock from the Poisk module of the International Space Station.\r\nIt will then de-orbit and burn up in the atmosphere.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1513,
+    "name": "Progress MS-35 Docking",
+    "type": {
+      "id": 2,
+      "name": "Docking"
+    },
+    "date": "2026-09-11T18:36:18Z",
+    "description": "The Progress MS-35 spacecraft is scheduled to autonomously dock to the Poisk module of the ISS.",
     "video_url": null,
     "launch": null,
     "feature_image": null
@@ -333,32 +385,6 @@
     },
     "date": "2033-03-03T00:00:00Z",
     "description": "Flyby of the Trojan binary asteroid pair (617) Patroclus and Menoetius by NASA's Lucy mission.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1281,
-    "name": "Juice Ganymede Orbit Insertion",
-    "type": {
-      "id": 16,
-      "name": "Orbital Insertion"
-    },
-    "date": "2034-12-31T00:00:00Z",
-    "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Ganymede.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1282,
-    "name": "Juice Ganymede Impact",
-    "type": {
-      "id": 6,
-      "name": "Spacecraft Event"
-    },
-    "date": "2035-12-31T00:00:00Z",
-    "description": "After running out of propellant to maintain its trajectory, ESA's Jupiter Icy Moons Explorer (Juice) spacecraft will impact Ganymede due to orbital perturbations.",
     "video_url": null,
     "launch": null,
     "feature_image": null
