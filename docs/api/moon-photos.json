@@ -1,61 +1,5 @@
 [
   {
-    "id": "art001e001714",
-    "title": "Flight Day 14: Orion's Solar Array Divides Earth and Moon",
-    "img_src": "https://images-assets.nasa.gov/image/art001e001714/art001e001714~medium.jpg",
-    "date": "2022-11-29T00:00:00Z",
-    "center": "JSC",
-    "credit": null
-  },
-  {
-    "id": "art001e001823",
-    "title": "Flight Day 13: Earth, Array, and Moon",
-    "img_src": "https://images-assets.nasa.gov/image/art001e001823/art001e001823~medium.jpg",
-    "date": "2022-11-28T00:00:00Z",
-    "center": "JSC",
-    "credit": null
-  },
-  {
-    "id": "art001e001822",
-    "title": "Flight Day 13: Earth, Array, and Moon",
-    "img_src": "https://images-assets.nasa.gov/image/art001e001822/art001e001822~medium.jpg",
-    "date": "2022-11-28T00:00:00Z",
-    "center": "JSC",
-    "credit": null
-  },
-  {
-    "id": "art001e000672",
-    "title": "Artemis I Flight Day 13: Orion, Earth, and Moon",
-    "img_src": "https://images-assets.nasa.gov/image/art001e000672/art001e000672~medium.jpg",
-    "date": "2022-11-28T00:00:00Z",
-    "center": "JSC",
-    "credit": null
-  },
-  {
-    "id": "art001e000673",
-    "title": "Artemis I Flight Day 13: Orion, Earth, and Moon",
-    "img_src": "https://images-assets.nasa.gov/image/art001e000673/art001e000673~medium.jpg",
-    "date": "2022-11-28T00:00:00Z",
-    "center": "JSC",
-    "credit": null
-  },
-  {
-    "id": "art001e000674",
-    "title": "Artemis I Flight Day 13: Orion, Earth, and Moon",
-    "img_src": "https://images-assets.nasa.gov/image/art001e000674/art001e000674~medium.jpg",
-    "date": "2022-11-28T00:00:00Z",
-    "center": "JSC",
-    "credit": null
-  },
-  {
-    "id": "art001e000669",
-    "title": "Flight Day 12: Orion and Our Moon",
-    "img_src": "https://images-assets.nasa.gov/image/art001e000669/art001e000669~medium.jpg",
-    "date": "2022-11-27T00:00:00Z",
-    "center": "JSC",
-    "credit": null
-  },
-  {
     "id": "art001e000670",
     "title": "Flight Day 12: Orion and Our Moon",
     "img_src": "https://images-assets.nasa.gov/image/art001e000670/art001e000670~medium.jpg",
@@ -158,5 +102,61 @@
     "date": "2022-11-04T00:00:00Z",
     "center": "KSC",
     "credit": "NASA/Isaac Watson"
+  },
+  {
+    "id": "KSC-20221104-PH-ILW01_0195",
+    "title": "Artemis I Rollout for Launch",
+    "img_src": "https://images-assets.nasa.gov/image/KSC-20221104-PH-ILW01_0195/KSC-20221104-PH-ILW01_0195~medium.jpg",
+    "date": "2022-11-04T00:00:00Z",
+    "center": "KSC",
+    "credit": "NASA/Isaac Watson"
+  },
+  {
+    "id": "KSC-20221104-PH-ILW01_0169",
+    "title": "Artemis I Rollout for Launch",
+    "img_src": "https://images-assets.nasa.gov/image/KSC-20221104-PH-ILW01_0169/KSC-20221104-PH-ILW01_0169~medium.jpg",
+    "date": "2022-11-04T00:00:00Z",
+    "center": "KSC",
+    "credit": "NASA/Isaac Watson"
+  },
+  {
+    "id": "KSC-20221104-PH-ILW01_0312",
+    "title": "Artemis I Rollout for Launch",
+    "img_src": "https://images-assets.nasa.gov/image/KSC-20221104-PH-ILW01_0312/KSC-20221104-PH-ILW01_0312~medium.jpg",
+    "date": "2022-11-04T00:00:00Z",
+    "center": "KSC",
+    "credit": "NASA/Isaac Watson"
+  },
+  {
+    "id": "KSC-20221104-PH-KLS01_0250",
+    "title": "Artemis I Rollout for Launch",
+    "img_src": "https://images-assets.nasa.gov/image/KSC-20221104-PH-KLS01_0250/KSC-20221104-PH-KLS01_0250~medium.jpg",
+    "date": "2022-11-04T00:00:00Z",
+    "center": "KSC",
+    "credit": "NASA/Kim Shiflett"
+  },
+  {
+    "id": "KSC-20221104-PH-KLS01_0232",
+    "title": "Artemis I Rollout for Launch",
+    "img_src": "https://images-assets.nasa.gov/image/KSC-20221104-PH-KLS01_0232/KSC-20221104-PH-KLS01_0232~medium.jpg",
+    "date": "2022-11-04T00:00:00Z",
+    "center": "KSC",
+    "credit": "NASA/Kim Shiflett"
+  },
+  {
+    "id": "KSC-20220816-PH-FMX01_0067",
+    "title": "Artemis I Launch Rollout",
+    "img_src": "https://images-assets.nasa.gov/image/KSC-20220816-PH-FMX01_0067/KSC-20220816-PH-FMX01_0067~medium.jpg",
+    "date": "2022-08-16T00:00:00Z",
+    "center": "KSC",
+    "credit": "NASA/Frank Michaux"
+  },
+  {
+    "id": "KSC-20220816-PH-FMX01_0012",
+    "title": "Artemis I Launch Rollout",
+    "img_src": "https://images-assets.nasa.gov/image/KSC-20220816-PH-FMX01_0012/KSC-20220816-PH-FMX01_0012~medium.jpg",
+    "date": "2022-08-16T00:00:00Z",
+    "center": "KSC",
+    "credit": "NASA/Frank Michaux"
   }
 ]

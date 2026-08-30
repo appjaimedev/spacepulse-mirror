@@ -1,18 +1,5 @@
 [
   {
-    "id": 1512,
-    "name": "SpaceX Starship Booster B21 Static Fire",
-    "type": {
-      "id": 5,
-      "name": "Static Fire"
-    },
-    "date": "2026-08-28T18:10:00Z",
-    "description": "Booster 21 will be static fired as preparation for Starship Flight 14-",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1514,
     "name": "Roman Space Telescope Mission and Science Briefing",
     "type": {
@@ -385,6 +372,19 @@
     },
     "date": "2033-03-03T00:00:00Z",
     "description": "Flyby of the Trojan binary asteroid pair (617) Patroclus and Menoetius by NASA's Lucy mission.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1281,
+    "name": "Juice Ganymede Orbit Insertion",
+    "type": {
+      "id": 16,
+      "name": "Orbital Insertion"
+    },
+    "date": "2034-12-31T00:00:00Z",
+    "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Ganymede.",
     "video_url": null,
     "launch": null,
     "feature_image": null
