@@ -38925,6 +38925,36 @@
       }
     ]
   },
+  "521f3a1c-f977-4306-9b7f-495858719adf": {
+    "mission": {
+      "type": "Astrophysics",
+      "orbit": {
+        "abbrev": "L2",
+        "name": "Sun-Earth L2"
+      },
+      "description": "The Nancy Grace Roman Space Telescope is a NASA infrared space telescope with a 2.4 m (7.9 ft) wide field of view primary mirror and two scientific instruments. The Wide-Field Instrument (WFI) is a 300.8-megapixel multi-band visible and near-infrared camera, providing a sharpness of images comparab…"
+    },
+    "rocket_full_name": "Falcon Heavy",
+    "pad_lat": 28.60822681,
+    "pad_lon": -80.60428186,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/roman_mission_patch_20260830094614.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=9wq3VHsL_bE"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1jxXgBanvZeJZ"
+      },
+      {
+        "url": "https://plus.nasa.gov/scheduled-video/nancy-grace-roman-space-telescope-launch/"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
