@@ -655,6 +655,74 @@
     "mission_patches": []
   },
   {
+    "id": "63063b9d-ade9-4448-8717-6f910aa81188",
+    "name": "Long March 8A | Unknown Payload",
+    "net": "2026-09-11T16:00:00Z",
+    "net_precision": {
+      "id": 2,
+      "name": "Hour",
+      "abbrev": "HR"
+    },
+    "status": {
+      "id": 8,
+      "name": "To Be Confirmed",
+      "abbrev": "TBC"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "abbrev": "CASC",
+      "country": [
+        {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 8A",
+        "full_name": "Long March 8A",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Unknown Payload",
+      "type": "Unknown",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      }
+    },
+    "pad": {
+      "name": "Commercial LC-1",
+      "latitude": 19.597275,
+      "longitude": 110.930753,
+      "location": {
+        "name": "Wenchang Space Launch Site, People's Republic of China",
+        "country": {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
     "name": "Vega-C | Sentinel-3C & FLEX",
     "net": "2026-09-15T01:21:07Z",
@@ -7181,74 +7249,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "912a8aee-8fc2-47b4-81a5-040fa0e0a36f",
-    "name": "Vega-C | IRIDE 1",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 14,
-      "name": "Year",
-      "abbrev": "Y"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 159,
-      "name": "Avio S.p.A",
-      "abbrev": "Avio",
-      "country": [
-        {
-          "id": 3,
-          "name": "Italy",
-          "alpha_2_code": "IT",
-          "alpha_3_code": "ITA",
-          "nationality_name": "Italian",
-          "nationality_name_composed": "Italo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Vega-C",
-        "full_name": "Vega-C",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "IRIDE 1",
-      "type": "Earth Science",
-      "orbit": {
-        "abbrev": "SSO",
-        "name": "Sun-Synchronous Orbit"
-      }
-    },
-    "pad": {
-      "name": "Ariane Launch Area 1 (ELV)",
-      "latitude": 5.236,
-      "longitude": -52.775,
-      "location": {
-        "name": "Guiana Space Centre, French Guiana",
-        "country": {
-          "id": 50,
-          "name": "French Guiana",
-          "alpha_2_code": "GF",
-          "alpha_3_code": "GUF",
-          "nationality_name": "French Guianan",
-          "nationality_name_composed": "Franco-Guiano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega-c_image_20220713154437.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193950.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
