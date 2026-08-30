@@ -1,137 +1,5 @@
 [
   {
-    "id": "521f3a1c-f977-4306-9b7f-495858719adf",
-    "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
-    "net": "2026-08-30T11:25:49Z",
-    "net_precision": {
-      "id": 0,
-      "name": "Second",
-      "abbrev": "SEC"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon Heavy",
-        "full_name": "Falcon Heavy",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Nancy Grace Roman Space Telescope",
-      "type": "Astrophysics",
-      "orbit": {
-        "abbrev": "L2",
-        "name": "Sun-Earth L2"
-      }
-    },
-    "pad": {
-      "name": "Launch Complex 39A",
-      "latitude": 28.60822681,
-      "longitude": -80.60428186,
-      "location": {
-        "name": "Kennedy Space Center, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 9,
-        "source": "youtube.com",
-        "publisher": "NASA",
-        "title": "Nancy Grace Roman Space Telescope Launch",
-        "description": "Tune in to watch our newest orbiting observatory launch to space. Our Roman Space Telescope is scheduled to lift off at 7:26 a.m. EDT (1126 UTC) on a SpaceX Falcon Heavy rocket from Launch Complex 39A at NASA's Kennedy Space Center in Florida.\n\nNamed after NASA’s first chief astronomer, the Nancy Grace Roman Space Telescope will have a deep, panoramic view of the cosmos, producing images over 100 times larger than our Hubble Space Telescope, but with the same crisp resolution. With its wide view and sophisticated host of tools, Roman will help us discover new exoplanets and untangle cosmic mysteries such as the nature of dark matter and dark energy.\n\nIt will make its home in orbit 1 million miles away from Earth at the second Sun-Earth Lagrange point, where gravitational forces balanc...",
-        "feature_image": "https://i.ytimg.com/vi/9wq3VHsL_bE/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=9wq3VHsL_bE",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-08-30T10:20:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "Roman Space Telescope Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HQLUbKEWQAA57v3.jpg",
-        "url": "https://x.com/i/broadcasts/1jxXgBanvZeJZ",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-08-30T10:18:00Z",
-        "end_time": "2026-08-30T14:16:00Z",
-        "live": false
-      },
-      {
-        "priority": 11,
-        "source": "plus.nasa.gov",
-        "publisher": "NASA",
-        "title": "Nancy Grace Roman Space Telescope Launch",
-        "description": "Watch the launch of the Nancy Grace Roman Space Telescope, which is equipped with tools to detect and study exoplanets orbiting distant stars.",
-        "feature_image": "https://plus.nasa.gov/wp-content/uploads/2026/08/roman-launch-day-option-key-art-r2-horizontal-program-tile-16-9-without-title.jpg",
-        "url": "https://plus.nasa.gov/scheduled-video/nancy-grace-roman-space-telescope-launch/",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-08-30T10:20:00Z",
-        "end_time": "2026-08-30T15:00:00Z",
-        "live": false
-      }
-    ],
-    "mission_patches": []
-  },
-  {
     "id": "9f5a4cb6-63f9-47e1-9512-b468bae2a8e6",
     "name": "Electron | Owl Around The World (StriX Launch 11)",
     "net": "2026-08-31T12:05:00Z",
@@ -1588,14 +1456,6 @@
           "nationality_name_composed": "Swedo"
         },
         {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
-        },
-        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -1698,6 +1558,14 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
+        },
+        {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
@@ -7313,6 +7181,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "912a8aee-8fc2-47b4-81a5-040fa0e0a36f",
+    "name": "Vega-C | IRIDE 1",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 159,
+      "name": "Avio S.p.A",
+      "abbrev": "Avio",
+      "country": [
+        {
+          "id": 3,
+          "name": "Italy",
+          "alpha_2_code": "IT",
+          "alpha_3_code": "ITA",
+          "nationality_name": "Italian",
+          "nationality_name_composed": "Italo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Vega-C",
+        "full_name": "Vega-C",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "IRIDE 1",
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      }
+    },
+    "pad": {
+      "name": "Ariane Launch Area 1 (ELV)",
+      "latitude": 5.236,
+      "longitude": -52.775,
+      "location": {
+        "name": "Guiana Space Centre, French Guiana",
+        "country": {
+          "id": 50,
+          "name": "French Guiana",
+          "alpha_2_code": "GF",
+          "alpha_3_code": "GUF",
+          "nationality_name": "French Guianan",
+          "nationality_name_composed": "Franco-Guiano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega-c_image_20220713154437.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193950.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
