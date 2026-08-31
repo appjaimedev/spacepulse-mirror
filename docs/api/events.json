@@ -1,26 +1,13 @@
 [
   {
-    "id": 1514,
-    "name": "Roman Space Telescope Mission and Science Briefing",
+    "id": 1516,
+    "name": "Roman Space Telescope Postlaunch News Conference",
     "type": {
       "id": 20,
       "name": "Press Event"
     },
-    "date": "2026-08-29T13:00:00Z",
-    "description": "The pre-launch mission and science briefing for the Nancy Grace Roman Space Telescope will take place in the NASA Kennedy Press Site auditorium with the following participants:\r\n\r\n* Shawn Domagal-Goldman, director, Astrophysics Division, NASA Headquarters\r\n* Julie McEnery, Roman telescope senior project scientist, NASA Goddard Space Flight Center\r\n* Vanessa Bailey, Roman Coronagraph Instrument scientist, NASA Jet Propulsion Laboratory\r\n* Kristen McQuinn, Roman Science Operations Center lead, Space Telescope Science Institute\r\n* Lee Armus, Roman Science Support Center lead, Caltech/IPAC",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1515,
-    "name": "Roman Space Telescope Prelaunch News Conference",
-    "type": {
-      "id": 20,
-      "name": "Press Event"
-    },
-    "date": "2026-08-29T14:30:00Z",
-    "description": "The prelaunch news conference will take place in the NASA Kennedy Press Site auditorium with the following participants:\r\n\r\n* Nicky Fox, associate administrator, Science Mission Directorate, NASA Headquarters\r\n* Lucas Paganini, Roman telescope program executive, NASA Headquarters\r\n* Jackie Townsend, Roman telescope project manager, NASA Goddard\r\n* Denton Gibson, launch director, NASA’s Launch Services Program, NASA Kennedy\r\n* Julianna Scheiman, director, NASA Science and Dragon Programs, SpaceX\r\n* Justin McReynolds, launch weather officer, 45th Weather Squadron, U.S. Space Force",
+    "date": "2026-08-30T13:30:00Z",
+    "description": "The Post Launch news conference will take place in the NASA Kennedy Press Site auditorium with the following participants:\r\n\r\n- NASA Administrator Jared Isaacman\r\n- Nicky Fox, associate administrator, Science Mission Directorate, NASA Headquarters\r\n- Jackie Townsend, Roman telescope project manager, NASA Goddard\r\n- Julie McEnery, Roman telescope senior project scientist, NASA Goddard\r\n- Denton Gibson, launch director, NASA’s Launch Services Program, NASA Kennedy",
     "video_url": null,
     "launch": null,
     "feature_image": null
@@ -385,6 +372,19 @@
     },
     "date": "2034-12-31T00:00:00Z",
     "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Ganymede.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1282,
+    "name": "Juice Ganymede Impact",
+    "type": {
+      "id": 6,
+      "name": "Spacecraft Event"
+    },
+    "date": "2035-12-31T00:00:00Z",
+    "description": "After running out of propellant to maintain its trajectory, ESA's Jupiter Icy Moons Explorer (Juice) spacecraft will impact Ganymede due to orbital perturbations.",
     "video_url": null,
     "launch": null,
     "feature_image": null
