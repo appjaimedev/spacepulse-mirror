@@ -344,7 +344,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193640.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "ISRO Official",
+        "title": "GSLV-F17/EOS-05 MISSION",
+        "description": "GSLV-F17/EOS-05 MISSION\n\nGSLV-F17/EOS-05 Mission is scheduled for launch on 04 Sept 2026 at 02:55 AM IST from Satish Dhawan Space Centre, SHAR, Sriharikota.\nGSLV-F17 is the 19th flight of India’s Geosynchronous Satellite Launch Vehicle (GSLV) and the configuration of GSLV-F17 Payload Fairing is 4 m dia Ogive (composite) version. The GSLV-F17 vehicle will place EOS-05 satellite into a Sub-Geosynchronous Transfer Orbit (Sub- GTO). Launch is planned from the Second Launch Pad (SLP) at Satish Dhawan Space Centre, SHAR.\nEOS-05 is a state-of-the-art Earth observation spacecraft. It is India’s first ever imaging satellite from Geosynchronous orbit.",
+        "feature_image": "https://i.ytimg.com/vi/Q9OdYc3KpEw/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=Q9OdYc3KpEw",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-09-03T20:55:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
     "mission_patches": []
   },
   {
