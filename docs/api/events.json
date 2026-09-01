@@ -1,18 +1,5 @@
 [
   {
-    "id": 1516,
-    "name": "Roman Space Telescope Postlaunch News Conference",
-    "type": {
-      "id": 20,
-      "name": "Press Event"
-    },
-    "date": "2026-08-30T13:30:00Z",
-    "description": "The Post Launch news conference will take place in the NASA Kennedy Press Site auditorium with the following participants:\r\n\r\n- NASA Administrator Jared Isaacman\r\n- Nicky Fox, associate administrator, Science Mission Directorate, NASA Headquarters\r\n- Jackie Townsend, Roman telescope project manager, NASA Goddard\r\n- Julie McEnery, Roman telescope senior project scientist, NASA Goddard\r\n- Denton Gibson, launch director, NASA’s Launch Services Program, NASA Kennedy",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1510,
     "name": "US EVA-99",
     "type": {
