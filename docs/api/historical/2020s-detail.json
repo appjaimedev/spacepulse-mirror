@@ -38955,6 +38955,26 @@
       }
     ]
   },
+  "a927b2f9-f9a5-4196-9abb-2e275e4a6b96": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "First test launch of Galactic Energy’s Pallas-1 rocket, with a dummy payload on board."
+    },
+    "rocket_full_name": "Pallas-1",
+    "pad_lat": 40.775962,
+    "pad_lon": 100.107214,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/pallas-12520y1_mission_patch_20260805001638.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": []
+  },
   "__years__": [
     2020,
     2021,
