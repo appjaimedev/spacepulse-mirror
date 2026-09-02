@@ -38975,6 +38975,63 @@
     ],
     "vid_urls": []
   },
+  "9f5a4cb6-63f9-47e1-9512-b468bae2a8e6": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective."
+    },
+    "rocket_full_name": "Electron",
+    "pad_lat": -39.262833,
+    "pad_lon": 177.864469,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/owl2520around_mission_patch_20260824014350.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=oLovbBQFxI8"
+      }
+    ]
+  },
+  "63181269-b125-4c36-951c-c9bd9bbc4b55": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system."
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 34.632,
+    "pad_lon": -120.611,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=d-uqfWcK6no"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=bwGo6lIW3rQ"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=msp_aXGeB0I"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1yKAPwXpMlqxb"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
