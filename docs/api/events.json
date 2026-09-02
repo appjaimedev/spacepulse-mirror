@@ -13,6 +13,19 @@
     "feature_image": null
   },
   {
+    "id": 1517,
+    "name": "BepiColombo Mercury Arrival",
+    "type": {
+      "id": 6,
+      "name": "Spacecraft Event"
+    },
+    "date": "2026-09-03T12:00:00Z",
+    "description": "Arrival at Mercury of the ESA-JAXA BepiColombo mission, starting with the Mercury Transfer Module (MTM) separation.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1511,
     "name": "Progress MS-33 Undocking",
     "type": {
