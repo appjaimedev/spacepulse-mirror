@@ -466,7 +466,7 @@
   },
   {
     "id": "3e0456da-14b1-4ac3-b59e-35fefb1d1530",
-    "name": "Falcon 9 Block 5 | USSF-xxx (\"R-2\")",
+    "name": "Falcon 9 Block 5 | USSF-153",
     "net": "2026-09-10T15:37:00Z",
     "net_precision": {
       "id": 1,
@@ -474,9 +474,9 @@
       "abbrev": "MIN"
     },
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 121,
@@ -501,7 +501,7 @@
       }
     },
     "mission": {
-      "name": "USSF-xxx (\"R-2\")",
+      "name": "USSF-153",
       "type": "Government/Top Secret",
       "orbit": {
         "abbrev": "LEO",
@@ -529,7 +529,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "SpaceX",
+        "title": "USSF-153 Mission",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HQ05mJQX0AAGga1.jpg",
+        "url": "https://x.com/i/broadcasts/1nxnRBWejLOxO",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-09-10T15:25:00Z",
+        "end_time": "2026-09-10T17:26:00Z",
+        "live": false
+      }
+    ],
     "mission_patches": []
   },
   {
