@@ -2,7 +2,7 @@
   {
     "id": "63181269-b125-4c36-951c-c9bd9bbc4b55",
     "name": "Falcon 9 Block 5 | Starlink Group 15-23",
-    "net": "2026-09-02T08:18:09Z",
+    "net": "2026-09-02T08:42:12Z",
     "net_precision": {
       "id": 0,
       "name": "Second",
@@ -70,7 +70,7 @@
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Falcon 9 - Starlink 15-23 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
-        "description": "Launch Date: September 2, 2026 \nLaunch Time:  01:18 a.m. PDT, 0818 UTC, 10:18 CEST \nLaunch Window: Open until 4:46 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Announced and scheduled \n\nMission: Starlink Group 15-23\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1063 - Turnaround time 29 days)\nFlight for the Booster: 35\nPrevious Flights of the Booster: 34 - Sentinel-6 Michael Freilich, DART, Transporter-7, Iridium OneWeb, SDA-0B, NROL-113, NROL-167, NROL-149, NAOS, and 25 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7...",
+        "description": "Launch Date: September 2, 2026 \nLaunch Time:  01:42 a.m. PDT, 0842 UTC, 10:42 CEST \nLaunch Window: Open until 4:46 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Announced and scheduled \n\nMission: Starlink Group 15-23\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1063 - Turnaround time 29 days)\nFlight for the Booster: 35\nPrevious Flights of the Booster: 34 - Sentinel-6 Michael Freilich, DART, Transporter-7, Iridium OneWeb, SDA-0B, NROL-113, NROL-167, NROL-149, NAOS, and 25 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7...",
         "feature_image": "https://i.ytimg.com/vi/C2M8CpEjHJk/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=C2M8CpEjHJk",
         "type": {
@@ -82,7 +82,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-09-02T08:06:00Z",
+        "start_time": "2026-09-02T08:30:00Z",
         "end_time": null,
         "live": false
       },
@@ -91,7 +91,7 @@
         "source": "youtube.com",
         "publisher": "Spaceflight Now",
         "title": "Live: SpaceX Falcon 9 rocket from West Coast with 27 satellites for Starlink internet service",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 27 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Wednesday, September 2, 2026, at 1:18 a.m. PDT (4:18 a.m. EDT / 0818 UTC).\n\nThe first-stage booster, serial number B1063, launching for a 35th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 15-23 mission will take a southeasterly trajectory upon departure from Vandenberg. \n\nLive coverage will start about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCoLdERT4-T...",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 27 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Wednesday, September 2, 2026, at 1:42 a.m. PDT (4:42 a.m. EDT / 0842 UTC).\n\nThe first-stage booster, serial number B1063, launching for a 35th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 15-23 mission will take a southeasterly trajectory upon departure from Vandenberg. \n\nLive coverage will start about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCoLdERT4-T...",
         "feature_image": "https://i.ytimg.com/vi/bwGo6lIW3rQ/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=bwGo6lIW3rQ",
         "type": {
@@ -103,7 +103,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-09-02T07:48:00Z",
+        "start_time": "2026-09-02T08:12:00Z",
         "end_time": null,
         "live": false
       },
@@ -124,7 +124,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-09-02T07:18:00Z",
+        "start_time": "2026-09-02T07:42:00Z",
         "end_time": null,
         "live": false
       },
@@ -145,8 +145,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-09-02T08:08:00Z",
-        "end_time": "2026-09-02T10:09:00Z",
+        "start_time": "2026-09-02T08:32:00Z",
+        "end_time": "2026-09-03T08:32:00Z",
         "live": false
       }
     ],
@@ -236,7 +236,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "Rocket Lab",
+        "title": "Rocket Lab - 'Owl Around The World' Launch",
+        "description": "",
+        "feature_image": "https://i.ytimg.com/vi/oLovbBQFxI8/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=oLovbBQFxI8",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-09-02T10:45:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
     "mission_patches": [
       {
         "id": 1340,
