@@ -1,18 +1,5 @@
 [
   {
-    "id": 1510,
-    "name": "US EVA-99",
-    "type": {
-      "id": 3,
-      "name": "EVA"
-    },
-    "date": "2026-09-01T12:30:00Z",
-    "description": "NASA astronaut Jessica Meir and ESA astronaut Sophie Adenot will replace a retroreflector on the forward port of the space station’s Harmony module to support spacecraft navigation during rendezvous and docking operations. After installing the reflector, the crew will work to install jumper cables for the data-relay systems, prepare the Alpha Magnetic Spectrometer’s radiator for future maintenance, and replace a high-definition camera on the station’s truss.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1517,
     "name": "BepiColombo Mercury Arrival",
     "type": {
