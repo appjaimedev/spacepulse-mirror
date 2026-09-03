@@ -63,7 +63,7 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk2520ii_image_20190825171642.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193640.jpeg"
     },
-    "webcast_live": false,
+    "webcast_live": true,
     "vid_urls": [
       {
         "priority": 10,
@@ -82,9 +82,9 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-09-03T20:55:00Z",
+        "start_time": "2026-09-03T20:55:07Z",
         "end_time": null,
-        "live": false
+        "live": true
       }
     ],
     "mission_patches": []
