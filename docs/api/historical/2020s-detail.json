@@ -39032,6 +39032,25 @@
       }
     ]
   },
+  "17d0ec68-f466-4916-9dc5-16123eda6484": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "GTO",
+        "name": "Geostationary Transfer Orbit"
+      },
+      "description": "GISAT-1A (GEO Imaging Satellite) is an Indian earth observing satellite operating from geostationary orbit to facilitate continuous observation of Indian sub-continent, quick monitoring of natural hazards and disaster. EOS-05/GISAT-1A will replace EOS-03/GISAT-1 lost in launch failure in 2021."
+    },
+    "rocket_full_name": "GSLV Mk. II",
+    "pad_lat": 13.7199,
+    "pad_lon": 80.2304,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=Q9OdYc3KpEw"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
