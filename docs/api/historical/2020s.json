@@ -1,5 +1,34 @@
 [
   {
+    "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
+    "name": "Spectrum | Onward and Upward",
+    "net": "2026-09-05T20:12:00Z",
+    "status": {
+      "id": 6,
+      "name": "Launch in Flight",
+      "abbrev": "In Flight"
+    },
+    "launch_service_provider": {
+      "id": 1046,
+      "name": "Isar Aerospace",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Spectrum"
+      }
+    },
+    "pad": {
+      "name": "Orbital Launch Pad",
+      "location": {
+        "name": "Andøya Spaceport"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg"
+    }
+  },
+  {
     "id": "17d0ec68-f466-4916-9dc5-16123eda6484",
     "name": "GSLV Mk II | GISAT-1A (EOS-05)",
     "net": "2026-09-03T21:25:00Z",

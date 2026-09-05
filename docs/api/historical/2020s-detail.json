@@ -39051,6 +39051,33 @@
       }
     ]
   },
+  "1b23eb18-e06e-4058-9b42-e95ca0980511": {
+    "mission": {
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "Second test flight of the Isar Spectrum launch vehicle. This launch will carry 5 cubesats and 1 non-separable experiment as part of European Space Agency (ESA)'s “Boost!” program: * CyBEEsat (TU Berlin) * TriSat-S (University of Maribor) * Platform 6 (EnduroSat) * FramSat-1 (NTNU) * SpaceTeamSat1 (…"
+    },
+    "rocket_full_name": "Spectrum",
+    "pad_lat": 69.1084,
+    "pad_lon": 15.5895,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/onward2520and_mission_patch_20260120112758.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=Ss1DUqLjecc"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=uUc2d_NPBN0"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
