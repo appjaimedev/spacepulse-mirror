@@ -2,7 +2,7 @@
   {
     "id": "153ef8ef-b12b-43f4-a4bf-05b225c0cd37",
     "name": "Falcon 9 Block 5 | Starlink Group 15-24",
-    "net": "2026-09-06T14:26:28Z",
+    "net": "2026-09-06T14:26:54Z",
     "net_precision": {
       "id": 0,
       "name": "Second",
@@ -63,7 +63,7 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png"
     },
-    "webcast_live": false,
+    "webcast_live": true,
     "vid_urls": [
       {
         "priority": 8,
@@ -82,9 +82,9 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-09-06T14:14:00Z",
+        "start_time": "2026-09-06T14:14:05Z",
         "end_time": null,
-        "live": false
+        "live": true
       },
       {
         "priority": 9,
@@ -103,9 +103,9 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-09-06T13:56:00Z",
+        "start_time": "2026-09-06T13:56:33Z",
         "end_time": null,
-        "live": false
+        "live": true
       },
       {
         "priority": 10,
@@ -124,9 +124,9 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-09-06T14:16:00Z",
+        "start_time": "2026-09-06T14:16:05Z",
         "end_time": "2026-09-07T14:16:00Z",
-        "live": false
+        "live": true
       }
     ],
     "mission_patches": [
