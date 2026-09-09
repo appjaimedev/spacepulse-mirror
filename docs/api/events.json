@@ -1,18 +1,5 @@
 [
   {
-    "id": 1511,
-    "name": "Progress MS-33 Undocking",
-    "type": {
-      "id": 8,
-      "name": "Spacecraft Undocking"
-    },
-    "date": "2026-09-07T15:17:30Z",
-    "description": "The Progress MS-33 spacecraft will undock from the Poisk module of the International Space Station.\r\nIt will then de-orbit and burn up in the atmosphere.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1513,
     "name": "Progress MS-35 Docking",
     "type": {
