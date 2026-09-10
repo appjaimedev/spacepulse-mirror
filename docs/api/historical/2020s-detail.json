@@ -39123,6 +39123,31 @@
     "mission_patches": [],
     "vid_urls": []
   },
+  "3e0456da-14b1-4ac3-b59e-35fefb1d1530": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "USSF-153 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX’s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches."
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 34.632,
+    "pad_lon": -120.611,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=mPxbkR0BFS0"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=hHjWLWxhjqk"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1nxnRBWejLOxO"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
