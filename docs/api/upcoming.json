@@ -1,73 +1,5 @@
 [
   {
-    "id": "95eb9265-bdbe-43ad-b08c-6be7eb4e58f4",
-    "name": "Long March 2D/YZ-3 | Unknown Payload",
-    "net": "2026-09-10T09:00:00Z",
-    "net_precision": {
-      "id": 2,
-      "name": "Hour",
-      "abbrev": "HR"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 88,
-      "name": "China Aerospace Science and Technology Corporation",
-      "abbrev": "CASC",
-      "country": [
-        {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Long March 2D/YZ-3",
-        "full_name": "Long March 2D/YZ-3",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Unknown Payload",
-      "type": "Unknown",
-      "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
-      }
-    },
-    "pad": {
-      "name": "Launch Area 94 (SLS-2 / 603)",
-      "latitude": 40.960482,
-      "longitude": 100.298059,
-      "location": {
-        "name": "Jiuquan Satellite Launch Center, People's Republic of China",
-        "country": {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2d2_image_20231123203521.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193720.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "3e0456da-14b1-4ac3-b59e-35fefb1d1530",
     "name": "Falcon 9 Block 5 | USSF-153",
     "net": "2026-09-10T15:42:00Z",
@@ -138,7 +70,7 @@
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Falcon 9 - USSF-153 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
-        "description": "Launch Date: September 10, 2026 \nLaunch Time:  08:37 a.m. PDT, 1537 UTC, 17:37 CEST \nLaunch Window: Open until 11:37 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and Announced \n\nMission: USSF-153\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1081 - Turnaround time 41 days)\nFlight for the Booster: 27\nPrevious Flights of the Booster: 26 - Crew-7, CRS-29, PACE, Transporter-10, EarthCARE, NROL-186, Transporter-13, TRACERS, NROL-48, COSMO-SkyMED Second Generation FM3, and 16 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off ...",
+        "description": "Launch Date: September 10, 2026 \nLaunch Time:  08:42 a.m. PDT, 1542 UTC, 17:42 CEST \nLaunch Window: Open until 11:37 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and Announced \n\nMission: USSF-153\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1081 - Turnaround time 41 days)\nFlight for the Booster: 27\nPrevious Flights of the Booster: 26 - Crew-7, CRS-29, PACE, Transporter-10, EarthCARE, NROL-186, Transporter-13, TRACERS, NROL-48, COSMO-SkyMED Second Generation FM3, and 16 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off ...",
         "feature_image": "https://i.ytimg.com/vi/UboPGsLWIBI/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=UboPGsLWIBI",
         "type": {
@@ -150,7 +82,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-09-10T15:25:00Z",
+        "start_time": "2026-09-10T15:30:00Z",
         "end_time": null,
         "live": false
       },
@@ -462,6 +394,74 @@
         "response_mode": "normal"
       }
     ]
+  },
+  {
+    "id": "de446468-057f-4c9d-a6a1-af99c93b541e",
+    "name": "Zhuque-2E Block 2 | Unknown Payload",
+    "net": "2026-09-15T06:25:00Z",
+    "net_precision": {
+      "id": 2,
+      "name": "Hour",
+      "abbrev": "HR"
+    },
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 259,
+      "name": "LandSpace",
+      "abbrev": "LS",
+      "country": [
+        {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Zhuque-2E Block 2",
+        "full_name": "Zhuque-2E Block 2",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Unknown Payload",
+      "type": "Unknown",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      }
+    },
+    "pad": {
+      "name": "Launch Area 96A",
+      "latitude": 40.91491,
+      "longitude": 100.245488,
+      "location": {
+        "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+        "country": {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_y6_la_image_20260609122825.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_y6_la_image_thumbnail_20260609122826.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
   },
   {
     "id": "767f7827-53d8-4621-803b-f456a1e6b512",
