@@ -39148,6 +39148,26 @@
       }
     ]
   },
+  "b81156da-c0b8-46c8-aebd-8af8d2be83cd": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Note: Payload and customer identities were not publicly announced. 5th of the BlackSky Gen-3 high resolution Earth-imaging satellites."
+    },
+    "rocket_full_name": "Electron",
+    "pad_lat": -39.262833,
+    "pad_lon": 177.864469,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/happily2520eve_mission_patch_20260911050613.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": []
+  },
   "__years__": [
     2020,
     2021,

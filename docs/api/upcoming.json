@@ -625,6 +625,74 @@
     "mission_patches": []
   },
   {
+    "id": "71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84",
+    "name": "Kuaizhou 11 | Unknown Payload",
+    "net": "2026-09-17T02:35:00Z",
+    "net_precision": {
+      "id": 2,
+      "name": "Hour",
+      "abbrev": "HR"
+    },
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 194,
+      "name": "ExPace",
+      "abbrev": "EP",
+      "country": [
+        {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Kuaizhou 11",
+        "full_name": "Kuaizhou 11",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Unknown Payload",
+      "type": "Unknown",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      }
+    },
+    "pad": {
+      "name": "Launch Area 95A",
+      "latitude": 40.969117,
+      "longitude": 100.343333,
+      "location": {
+        "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+        "country": {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_11_lif_image_20240520155835.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_11_lif_image_thumbnail_20240520155835.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
     "name": "Starship | Flight 14",
     "net": "2026-09-18T00:00:00Z",
@@ -710,6 +778,74 @@
         "response_mode": "normal"
       }
     ]
+  },
+  {
+    "id": "a527b585-f01f-4ecc-9230-711dcef72ef1",
+    "name": "Long March 2D | Unknown Payload",
+    "net": "2026-09-19T10:50:00Z",
+    "net_precision": {
+      "id": 2,
+      "name": "Hour",
+      "abbrev": "HR"
+    },
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "abbrev": "CASC",
+      "country": [
+        {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 2D",
+        "full_name": "Long March 2D",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Unknown Payload",
+      "type": "Unknown",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      }
+    },
+    "pad": {
+      "name": "Launch Complex 9",
+      "latitude": 38.863128,
+      "longitude": 111.589567,
+      "location": {
+        "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+        "country": {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
   },
   {
     "id": "d1471f9d-e9d0-4146-8e97-90863e48bfc8",
@@ -1130,74 +1266,6 @@
     },
     "mission": {
       "name": "BlackSky Gen-3 6",
-      "type": "Earth Science",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Unknown Pad",
-      "latitude": -39.260881,
-      "longitude": 177.865826,
-      "location": {
-        "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-        "country": {
-          "id": 51,
-          "name": "New Zealand",
-          "alpha_2_code": "NZ",
-          "alpha_3_code": "NZL",
-          "nationality_name": "Kiwi",
-          "nationality_name_composed": "Kiwi"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "b81156da-c0b8-46c8-aebd-8af8d2be83cd",
-    "name": "Electron | BlackSky Gen-3 5",
-    "net": "2026-09-30T00:00:00Z",
-    "net_precision": {
-      "id": 10,
-      "name": "Quarter 3",
-      "abbrev": "Q3"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 147,
-      "name": "Rocket Lab",
-      "abbrev": "RL",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Electron",
-        "full_name": "Electron",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "BlackSky Gen-3 5",
       "type": "Earth Science",
       "orbit": {
         "abbrev": "LEO",
@@ -7187,74 +7255,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "c1bd775a-2fff-45bb-9726-765b69817c19",
-    "name": "Falcon Heavy | USSF-75",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 14,
-      "name": "Year",
-      "abbrev": "Y"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon Heavy",
-        "full_name": "Falcon Heavy",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "USSF-75",
-      "type": "Government/Top Secret",
-      "orbit": {
-        "abbrev": "Direct-GEO",
-        "name": "Geostationary Orbit"
-      }
-    },
-    "pad": {
-      "name": "Launch Complex 39A",
-      "latitude": 28.60822681,
-      "longitude": -80.60428186,
-      "location": {
-        "name": "Kennedy Space Center, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
