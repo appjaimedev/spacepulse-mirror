@@ -4,9 +4,9 @@
     "name": "Falcon 9 Block 5 | USSF-153",
     "net": "2026-09-10T15:42:30Z",
     "status": {
-      "id": 9,
-      "name": "Payload Deployed",
-      "abbrev": "Deployed"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 121,
