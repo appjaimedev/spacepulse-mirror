@@ -154,7 +154,50 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193950.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "Avio SpA",
+        "title": "Vega C | Flight VV30 | Sentinel-3C - FLEX | Avio",
+        "description": "On September 14th at 10.21 PM Kourou time (01.21 UTC; 03.21 AM CEST on September 15th), Avio will launch two Earth observation satellites: the Sentinel-3C of the Copernicus programme for the European Commission and the FLEX Earth Explorer for the European Space Agency (ESA). The mission, designated “VV30”, will be carried out by a Vega C launcher, the second operated by Avio, lifting off from the European Spaceport in French Guiana.\n \nThe satellites will be released into Sun-Synchronous Orbit at an altitude of about 820 km with an inclination of 98.6°. The duration of the launch (from lift-off to separation of the last satellite) is 116 minutes.\n \nCopernicus Sentinel-3C is the third satellite of the Sentinel-3 mission, dedicated to monitoring the health of our planet by observing ocea...",
+        "feature_image": "https://i.ytimg.com/vi/Rb4CN2avz90/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=Rb4CN2avz90",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-09-15T00:45:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 11,
+        "source": "youtube.com",
+        "publisher": "European Space Agency, ESA",
+        "title": "FLEX and Sentinel-3C launch (Official broadcast)",
+        "description": "ESA’s FLEX satellite and the Copernicus Sentinel-3C satellite are set to launch on 15 September at 03:21 CEST (14 September at 22:21 local time). Watch the launch programme live from Europe’s Spaceport in French Guiana, with streaming starting at 02:50 CEST and continuing until 05:36 CEST.\n\nFLEX will provide new insights into how plants function by measuring the faint fluorescence they emit as they capture sunlight during photosynthesis. This unique measurement will help scientists better understand plant health and productivity, as well as how vegetation responds to a changing environment.\n\nSentinel-3C is the third satellite in the Sentinel-3 mission, which systematically monitors Earth’s oceans, land, ice and atmosphere. The mission as a whole contributes to a better understanding o...",
+        "feature_image": "https://i.ytimg.com/vi/fmrgyh5s-is/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=fmrgyh5s-is",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-09-15T00:50:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
     "mission_patches": [
       {
         "id": 603,
@@ -1405,6 +1448,14 @@
           "nationality_name_composed": "Swedo"
         },
         {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
+        },
+        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -1507,14 +1558,6 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
-        },
-        {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
