@@ -39168,6 +39168,34 @@
     ],
     "vid_urls": []
   },
+  "ad358a4d-c541-409b-9366-9c2f2da4aeb9": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "MEO",
+        "name": "Medium Earth Orbit"
+      },
+      "description": "3 high-throughput communications satellites in Medium Earth Orbit (MEO) built by Boeing and operated by SES."
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 28.56194122,
+    "pad_lon": -80.57735736,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=zZHnf8QB5ok"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=r0avdYfJO2Q"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=FgKKtSsyYD4"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1RKjpbVdykQJw"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
