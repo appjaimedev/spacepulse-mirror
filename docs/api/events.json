@@ -1,5 +1,18 @@
 [
   {
+    "id": 1518,
+    "name": "Crew-12 Pre-Departure On-Orbit News Conference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-09-16T18:45:00Z",
+    "description": "The Crew-12 astronauts will give a news conference from the International Space Station before their return to Earth.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1513,
     "name": "Progress MS-35 Docking",
     "type": {
