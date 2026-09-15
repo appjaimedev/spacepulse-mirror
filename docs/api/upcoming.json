@@ -228,7 +228,7 @@
         "source": "youtube.com",
         "publisher": "NASA",
         "title": "Progress 96 Cargo Ship Launch",
-        "description": "A spacecraft carrying food, fuel, and supplies is launching to the International Space Station. Watch along with us.\n\nThe unpiloted Progress 96 resupply spacecraft is scheduled to lift off at 12:15 p.m. EDT (1615 UTC) on Wednesday, Sept. 9, on a Soyuz rocket from the Baikonur Cosmodrome in Kazakhstan. After liftoff, Progress 96 will travel to the station, a trip that is scheduled to take two days. Once there, it will dock autonomously to the orbiting laboratory. \n\nFor more than 25 years, people have lived and worked continuously aboard the International Space Station, advancing scientific knowledge and making research breakthroughs that aren’t possible on Earth. \n\nThe space station helps NASA understand and overcome the challenges of human spaceflight, expand commercial opportunities ...",
+        "description": "A spacecraft carrying food, fuel, and supplies is launching to the International Space Station. Watch along with us.\n\nThe unpiloted Progress 96 resupply spacecraft is scheduled to lift off at 9:33 a.m. EDT (1333 UTC) on Wednesday, Sept. 16, on a Soyuz rocket from the Baikonur Cosmodrome in Kazakhstan. After liftoff, Progress 96 will travel to the station, a trip that is scheduled to take two days. Once there, it will dock autonomously to the orbiting laboratory. \n\nFor more than 25 years, people have lived and worked continuously aboard the International Space Station, advancing scientific knowledge and making research breakthroughs that aren’t possible on Earth. \n\nThe space station helps NASA understand and overcome the challenges of human spaceflight, expand commercial opportunities ...",
         "feature_image": "https://i.ytimg.com/vi/cCpf0BOjlLE/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=cCpf0BOjlLE",
         "type": {
@@ -240,7 +240,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-09-09T16:00:00Z",
+        "start_time": "2026-09-16T13:15:00Z",
         "end_time": null,
         "live": false
       },
@@ -619,7 +619,7 @@
     },
     "mission": {
       "name": "Flight 14",
-      "type": "Test Flight",
+      "type": "Communications",
       "orbit": {
         "abbrev": "LEO",
         "name": "Low Earth Orbit"
@@ -1228,14 +1228,6 @@
           "nationality_name_composed": "Swedo"
         },
         {
-          "id": 20,
-          "name": "Belgium",
-          "alpha_2_code": "BE",
-          "alpha_3_code": "BEL",
-          "nationality_name": "Belgian",
-          "nationality_name_composed": "Belgo"
-        },
-        {
           "id": 23,
           "name": "Portugal",
           "alpha_2_code": "PT",
@@ -1338,6 +1330,14 @@
           "alpha_3_code": "LUX",
           "nationality_name": "Luxembourger",
           "nationality_name_composed": "Luxembourgish"
+        },
+        {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
         },
         {
           "id": 86,
