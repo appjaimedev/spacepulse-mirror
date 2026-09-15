@@ -1,5 +1,34 @@
 [
   {
+    "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
+    "name": "Vega-C | Sentinel-3C & FLEX",
+    "net": "2026-09-15T01:21:07Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 159,
+      "name": "Avio S.p.A",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Vega-C"
+      }
+    },
+    "pad": {
+      "name": "Ariane Launch Area 1 (ELV)",
+      "location": {
+        "name": "Guiana Space Centre, French Guiana"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega-c_image_20220713154437.jpg"
+    }
+  },
+  {
     "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
     "name": "Falcon 9 Block 5 | O3b mPower 11-13",
     "net": "2026-09-13T18:49:00Z",

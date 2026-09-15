@@ -39196,6 +39196,36 @@
       }
     ]
   },
+  "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "Sentinel-3C is the third satellite in the Sentinel-3 constellation, which provides high-accuracy optical, radar and altimetry data for marine and land services. The Fluorescence Explorer (FLEX) satellite is a part of ESA's Earth Explorer program. The satellite will map vegetation fluorescence to qu…"
+    },
+    "rocket_full_name": "Vega-C",
+    "pad_lat": 5.236,
+    "pad_lon": -52.775,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/flex2520missio_mission_patch_20220108093914.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=Rb4CN2avz90"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=fmrgyh5s-is"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=_7nBPHF-hAE"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
