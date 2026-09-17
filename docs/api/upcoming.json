@@ -332,9 +332,9 @@
     "mission_patches": []
   },
   {
-    "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
-    "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
-    "net": "2026-09-22T12:15:00Z",
+    "id": "7330d83b-c478-426c-8859-f9e3a335876d",
+    "name": "Falcon 9 Block 5 | USSF-385",
+    "net": "2026-09-26T11:56:00Z",
     "net_precision": {
       "id": 1,
       "name": "Minute",
@@ -344,6 +344,96 @@
       "id": 1,
       "name": "Go for Launch",
       "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "USSF-385",
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20260816171423.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "SpaceX",
+        "title": "USSF-385 Mission",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HSWc991WsAAk0HH.jpg",
+        "url": "https://x.com/i/broadcasts/1mxPaZqBEDjKN",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-09-26T11:44:00Z",
+        "end_time": "2026-09-26T13:44:00Z",
+        "live": false
+      }
+    ],
+    "mission_patches": []
+  },
+  {
+    "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
+    "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+    "net": "2026-09-28T12:15:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
+    "status": {
+      "id": 8,
+      "name": "To Be Confirmed",
+      "abbrev": "TBC"
     },
     "launch_service_provider": {
       "id": 121,
@@ -460,96 +550,6 @@
         "response_mode": "normal"
       }
     ]
-  },
-  {
-    "id": "7330d83b-c478-426c-8859-f9e3a335876d",
-    "name": "Falcon 9 Block 5 | USSF-385",
-    "net": "2026-09-26T11:56:00Z",
-    "net_precision": {
-      "id": 1,
-      "name": "Minute",
-      "abbrev": "MIN"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "USSF-385",
-      "type": "Government/Top Secret",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20260816171423.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "USSF-385 Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HSWc991WsAAk0HH.jpg",
-        "url": "https://x.com/i/broadcasts/1mxPaZqBEDjKN",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-09-26T11:44:00Z",
-        "end_time": "2026-09-26T13:44:00Z",
-        "live": false
-      }
-    ],
-    "mission_patches": []
   },
   {
     "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
