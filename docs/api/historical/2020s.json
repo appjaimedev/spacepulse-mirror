@@ -1,7 +1,7 @@
 [
   {
     "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
-    "name": "Soyuz 2.1b/Fregat | Kosmos (Unknown Payload)",
+    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 20 (?)",
     "net": "2026-09-17T16:50:00Z",
     "status": {
       "id": 3,
@@ -668,7 +668,7 @@
   },
   {
     "id": "458e2e52-87b0-4707-96d8-6899f92e53ee",
-    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
+    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19 (?)",
     "net": "2026-08-24T02:40:00Z",
     "status": {
       "id": 3,
