@@ -64,7 +64,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "Rocket Lab",
+        "title": "Rocket Lab - 'Owl By The Dozen' Launch",
+        "description": "",
+        "feature_image": "https://i.ytimg.com/vi/AnN8Pj8WvSo/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=AnN8Pj8WvSo",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-09-19T03:00:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
     "mission_patches": [
       {
         "id": 1343,
