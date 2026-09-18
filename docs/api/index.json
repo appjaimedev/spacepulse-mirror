@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-18T07:22:59.525Z",
+  "generatedAt": "2026-09-18T08:30:14.061Z",
   "decades": {
-    "2020s": 1555,
+    "2020s": 1556,
     "1950s": 59,
     "1960s": 1060,
     "1970s": 1239,
@@ -12,7 +12,7 @@
   },
   "upcomingCount": 100,
   "astronautCount": 10,
-  "eventCount": 28,
+  "eventCount": 27,
   "marsPhotos": true,
   "moonPhotoCount": 20,
   "astronautCatalogCount": 848

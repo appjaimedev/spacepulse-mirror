@@ -39340,6 +39340,21 @@
       }
     ]
   },
+  "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      },
+      "description": "Note: Launch vehicle and payload identities not confirmed. Launch time is approximate. Unknown classified satellite(s) for the Russian military."
+    },
+    "rocket_full_name": "Soyuz 2.1b Fregat-M",
+    "pad_lat": 62.9273,
+    "pad_lon": 40.45,
+    "mission_patches": [],
+    "vid_urls": []
+  },
   "__years__": [
     2020,
     2021,
