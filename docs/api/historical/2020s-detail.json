@@ -38806,7 +38806,7 @@
         "abbrev": "MEO",
         "name": "Medium Earth Orbit"
       },
-      "description": "Note: Satellite serial number and Cosmos designation not confirmed. Glonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accur…"
+      "description": "Glonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite is unpressuri…"
     },
     "rocket_full_name": "Soyuz 2.1b Fregat",
     "pad_lat": 62.9273,
@@ -39354,6 +39354,30 @@
     "pad_lon": 40.45,
     "mission_patches": [],
     "vid_urls": []
+  },
+  "f4c720ce-0cfd-43e6-b8dd-00273073bc01": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective."
+    },
+    "rocket_full_name": "Electron",
+    "pad_lat": -39.262833,
+    "pad_lon": 177.864469,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/owl2520by2520_mission_patch_20260915214247.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=AnN8Pj8WvSo"
+      }
+    ]
   },
   "__years__": [
     2020,

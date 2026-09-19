@@ -1,5 +1,34 @@
 [
   {
+    "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
+    "name": "Electron | Owl By The Dozen (StriX Launch 12)",
+    "net": "2026-09-19T03:22:00Z",
+    "status": {
+      "id": 9,
+      "name": "Payload Deployed",
+      "abbrev": "Deployed"
+    },
+    "launch_service_provider": {
+      "id": 147,
+      "name": "Rocket Lab",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Electron"
+      }
+    },
+    "pad": {
+      "name": "Rocket Lab Launch Complex 1B",
+      "location": {
+        "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg"
+    }
+  },
+  {
     "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
     "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 20 (?)",
     "net": "2026-09-17T16:50:00Z",
@@ -668,7 +697,7 @@
   },
   {
     "id": "458e2e52-87b0-4707-96d8-6899f92e53ee",
-    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19 (?)",
+    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 23 (Kosmos 2619)",
     "net": "2026-08-24T02:40:00Z",
     "status": {
       "id": 3,
