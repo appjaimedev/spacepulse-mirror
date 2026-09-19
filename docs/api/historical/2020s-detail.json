@@ -8783,10 +8783,10 @@
     "mission_patches": [],
     "vid_urls": [
       {
-        "url": "https://www.youtube.com/watch?v=O1OaCfLTPnw"
+        "url": "https://plus.nasa.gov/scheduled-video/progress-94-cargo-ship-launch/"
       },
       {
-        "url": "https://plus.nasa.gov/scheduled-video/progress-94-cargo-ship-launch/"
+        "url": "https://www.youtube.com/watch?v=O1OaCfLTPnw"
       },
       {
         "url": "https://www.youtube.com/watch?v=IlCZbwnYW5o"
@@ -39378,6 +39378,21 @@
         "url": "https://www.youtube.com/watch?v=AnN8Pj8WvSo"
       }
     ]
+  },
+  "a527b585-f01f-4ecc-9230-711dcef72ef1": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "4 X-band synthetic-aperture radar Earth observation satellites for the Chinese Earth observation satellite company PIESAT."
+    },
+    "rocket_full_name": "Long March 2D",
+    "pad_lat": 38.863128,
+    "pad_lon": 111.589567,
+    "mission_patches": [],
+    "vid_urls": []
   },
   "__years__": [
     2020,
