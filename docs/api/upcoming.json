@@ -1,73 +1,5 @@
 [
   {
-    "id": "a527b585-f01f-4ecc-9230-711dcef72ef1",
-    "name": "Long March 2D | Unknown Payload",
-    "net": "2026-09-19T10:50:00Z",
-    "net_precision": {
-      "id": 2,
-      "name": "Hour",
-      "abbrev": "HR"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 88,
-      "name": "China Aerospace Science and Technology Corporation",
-      "abbrev": "CASC",
-      "country": [
-        {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Long March 2D",
-        "full_name": "Long March 2D",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Unknown Payload",
-      "type": "Unknown",
-      "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
-      }
-    },
-    "pad": {
-      "name": "Launch Complex 9",
-      "latitude": 38.863128,
-      "longitude": 111.589567,
-      "location": {
-        "name": "Taiyuan Satellite Launch Center, People's Republic of China",
-        "country": {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "d1471f9d-e9d0-4146-8e97-90863e48bfc8",
     "name": "Falcon 9 Block 5 | Starlink Group 15-27",
     "net": "2026-09-20T01:47:00Z",
@@ -7043,6 +6975,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_alpha_l_image_20240605174156.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_alpha_l_image_thumbnail_20240605174157.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "91b13c6c-4525-496d-997b-3521bb6a4cd8",
+    "name": "RFA One | Maiden Flight",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 1045,
+      "name": "Rocket Factory Augsburg",
+      "abbrev": "RFA",
+      "country": [
+        {
+          "id": 4,
+          "name": "Germany",
+          "alpha_2_code": "DE",
+          "alpha_3_code": "DEU",
+          "nationality_name": "German",
+          "nationality_name_composed": "Germano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "RFA One",
+        "full_name": "RFA One",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Maiden Flight",
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      }
+    },
+    "pad": {
+      "name": "Launch Pad Fredo",
+      "latitude": 60.81736038715111,
+      "longitude": -0.7626391593025057,
+      "location": {
+        "name": "SaxaVord Spaceport",
+        "country": {
+          "id": 10,
+          "name": "United Kingdom",
+          "alpha_2_code": "GB",
+          "alpha_3_code": "GBR",
+          "nationality_name": "British",
+          "nationality_name_composed": "Brito"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rfa_one_image_20230117001619.png",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193837.png"
     },
     "webcast_live": false,
     "vid_urls": [],
