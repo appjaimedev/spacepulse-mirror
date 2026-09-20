@@ -8783,10 +8783,10 @@
     "mission_patches": [],
     "vid_urls": [
       {
-        "url": "https://plus.nasa.gov/scheduled-video/progress-94-cargo-ship-launch/"
+        "url": "https://www.youtube.com/watch?v=O1OaCfLTPnw"
       },
       {
-        "url": "https://www.youtube.com/watch?v=O1OaCfLTPnw"
+        "url": "https://plus.nasa.gov/scheduled-video/progress-94-cargo-ship-launch/"
       },
       {
         "url": "https://www.youtube.com/watch?v=IlCZbwnYW5o"
@@ -39393,6 +39393,51 @@
     "pad_lon": 111.589567,
     "mission_patches": [],
     "vid_urls": []
+  },
+  "5af31461-bce5-4cfb-a0ee-b527cf285d90": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "Share-ride of 9 commercial Earth observation and technology demonstration satellites to SSO, details TBD."
+    },
+    "rocket_full_name": "Kinetica 1",
+    "pad_lat": 40.8182,
+    "pad_lon": 100.22514,
+    "mission_patches": [],
+    "vid_urls": []
+  },
+  "d1471f9d-e9d0-4146-8e97-90863e48bfc8": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system."
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 34.632,
+    "pad_lon": -120.611,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=gOcigcsXtHk"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=GjBMPqhEBTg"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1nxnRBXEladxO"
+      }
+    ]
   },
   "__years__": [
     2020,
