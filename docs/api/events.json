@@ -1,25 +1,12 @@
 [
   {
-    "id": 1513,
-    "name": "Progress MS-35 Docking",
-    "type": {
-      "id": 2,
-      "name": "Docking"
-    },
-    "date": "2026-09-19T13:46:00Z",
-    "description": "The Progress MS-35 spacecraft is scheduled to autonomously dock to the Poisk module of the ISS.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1017,
     "name": "Juice Earth Flyby",
     "type": {
       "id": 23,
       "name": "Flyby"
     },
-    "date": "2026-09-30T00:00:00Z",
+    "date": "2026-09-28T11:45:11Z",
     "description": "Third flyby of ESA's Jupiter Icy Moons Explorer (Juice) mission on its way to the Jovian system.",
     "video_url": null,
     "launch": null,
