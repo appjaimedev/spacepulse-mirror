@@ -1,5 +1,34 @@
 [
   {
+    "id": "63063b9d-ade9-4448-8717-6f910aa81188",
+    "name": "Long March 8A | Unknown Payload",
+    "net": "2026-09-23T13:30:00Z",
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 8A"
+      }
+    },
+    "pad": {
+      "name": "Commercial LC-1",
+      "location": {
+        "name": "Wenchang Space Launch Site, People's Republic of China"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg"
+    }
+  },
+  {
     "id": "5af31461-bce5-4cfb-a0ee-b527cf285d90",
     "name": "Kinetica 1 | 9 satellites",
     "net": "2026-09-20T04:03:00Z",
