@@ -1,12 +1,12 @@
 [
   {
     "id": "63063b9d-ade9-4448-8717-6f910aa81188",
-    "name": "Long March 8A | Unknown Payload",
-    "net": "2026-09-23T13:30:00Z",
+    "name": "Long March 8A | SatNet LEO Group 26",
+    "net": "2026-09-23T13:32:00Z",
     "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 88,
