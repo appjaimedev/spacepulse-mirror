@@ -6643,8 +6643,8 @@
     "mission": {
       "type": "Government/Top Secret",
       "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
       },
       "description": "Fourteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities."
     },
@@ -7617,8 +7617,8 @@
     "mission": {
       "type": "Government/Top Secret",
       "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
       },
       "description": "Thirteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities."
     },
@@ -10138,8 +10138,8 @@
     "mission": {
       "type": "Government/Top Secret",
       "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
       },
       "description": "Twelfth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities."
     },
@@ -10168,8 +10168,8 @@
     "mission": {
       "type": "Test Flight",
       "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
       },
       "description": "First test launch of Galactic Energy’s Ceres-2 rocket."
     },
@@ -38243,8 +38243,8 @@
     "mission": {
       "type": "Government/Top Secret",
       "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
       },
       "description": "Classified payload for the US National Reconnaissance Office."
     },
