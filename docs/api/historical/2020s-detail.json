@@ -38228,8 +38228,8 @@
     "mission": {
       "type": "Government/Top Secret",
       "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
       },
       "description": "2 Chinese classified satellites claimed to be for communication technology test purposes. Actual mission not known."
     },
@@ -39460,12 +39460,12 @@
   },
   "aed67837-b567-43e0-8071-c3ccc24aa496": {
     "mission": {
-      "type": "Unknown",
+      "type": "Government/Top Secret",
       "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
+        "abbrev": "PO",
+        "name": "Polar Orbit"
       },
-      "description": "Details TBD."
+      "description": "3 Chinese reconnaissance satellites of unknown purposes, officially reported as for \"Electromagnetic environment probing\"."
     },
     "rocket_full_name": "Long March 6A",
     "pad_lat": 38.8583,
