@@ -13,6 +13,19 @@
     "feature_image": null
   },
   {
+    "id": 1520,
+    "name": "International Space Station Operations Update Media Teleconference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-09-28T19:00:00Z",
+    "description": "During a news conference at 3 p.m. EDT on Monday, Sept. 28, NASA and Boeing leadership will discuss Starliner’s development and plans for regular crew flights to and from the International Space Station.\r\n\r\nThe briefing participants include:\r\n\r\n* NASA Administrator Jared Isaacman\r\n* Dana Weigel, manager, NASA’s Low Earth Orbit Program\r\n* Woody Hoburg, NASA astronaut\r\n* John Mulholland, vice president and program manager, Boeing Commercial Crew",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1519,
     "name": "SpaceX Crew-13 Crew Dragon Docking",
     "type": {
