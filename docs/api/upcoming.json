@@ -1,95 +1,5 @@
 [
   {
-    "id": "7330d83b-c478-426c-8859-f9e3a335876d",
-    "name": "Falcon 9 Block 5 | USSF-385",
-    "net": "2026-09-26T14:00:54Z",
-    "net_precision": {
-      "id": 0,
-      "name": "Second",
-      "abbrev": "SEC"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "USSF-385",
-      "type": "Government/Top Secret",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20260816171423.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "USSF-385 Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HSWc991WsAAk0HH.jpg",
-        "url": "https://x.com/i/broadcasts/1mxPaZqBEDjKN",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-09-26T13:48:00Z",
-        "end_time": "2026-09-27T13:48:00Z",
-        "live": false
-      }
-    ],
-    "mission_patches": []
-  },
-  {
     "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
     "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
     "net": "2026-09-28T12:15:00Z",
@@ -977,6 +887,74 @@
     "mission_patches": []
   },
   {
+    "id": "e59ff9a4-f72f-4841-8546-3c94346ecdba",
+    "name": "SSLV | AayulSAT-1A & others",
+    "net": "2026-10-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 31,
+      "name": "Indian Space Research Organization",
+      "abbrev": "ISRO",
+      "country": [
+        {
+          "id": 9,
+          "name": "India",
+          "alpha_2_code": "IN",
+          "alpha_3_code": "IND",
+          "nationality_name": "Indian",
+          "nationality_name_composed": "Indo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "SSLV",
+        "full_name": "SSLV",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "AayulSAT-1A & others",
+      "type": "Technology",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Satish Dhawan Space Centre First Launch Pad",
+      "latitude": 13.733,
+      "longitude": 80.235,
+      "location": {
+        "name": "Satish Dhawan Space Centre, India",
+        "country": {
+          "id": 9,
+          "name": "India",
+          "alpha_2_code": "IN",
+          "alpha_3_code": "IND",
+          "nationality_name": "Indian",
+          "nationality_name_composed": "Indo"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sslv_image_20220912001724.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193926.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
     "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
     "net": "2026-10-31T00:00:00Z",
@@ -1515,6 +1493,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
+    "name": "PSLV-XL | TDS-01",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 31,
+      "name": "Indian Space Research Organization",
+      "abbrev": "ISRO",
+      "country": [
+        {
+          "id": 9,
+          "name": "India",
+          "alpha_2_code": "IN",
+          "alpha_3_code": "IND",
+          "nationality_name": "Indian",
+          "nationality_name_composed": "Indo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "PSLV-XL",
+        "full_name": "PSLV XL",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "TDS-01",
+      "type": "Technology",
+      "orbit": {
+        "abbrev": "GTO",
+        "name": "Geostationary Transfer Orbit"
+      }
+    },
+    "pad": {
+      "name": "Satish Dhawan Space Centre First Launch Pad",
+      "latitude": 13.733,
+      "longitude": 80.235,
+      "location": {
+        "name": "Satish Dhawan Space Centre, India",
+        "country": {
+          "id": 9,
+          "name": "India",
+          "alpha_2_code": "IN",
+          "alpha_3_code": "IND",
+          "nationality_name": "Indian",
+          "nationality_name_composed": "Indo"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv_image_20190224012254.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193829.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -2233,74 +2279,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_20251129175823.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_thumbnail_20251129175823.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "9c377972-9088-401f-bd63-c324c6941981",
-    "name": "PSLV | ConnectedCosmos",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 14,
-      "name": "Year",
-      "abbrev": "Y"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 31,
-      "name": "Indian Space Research Organization",
-      "abbrev": "ISRO",
-      "country": [
-        {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "PSLV",
-        "full_name": "PSLV",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "ConnectedCosmos",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Satish Dhawan Space Centre First Launch Pad",
-      "latitude": 13.733,
-      "longitude": 80.235,
-      "location": {
-        "name": "Satish Dhawan Space Centre, India",
-        "country": {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv_image_20190508083736.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193826.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -4149,74 +4127,6 @@
     "mission_patches": []
   },
   {
-    "id": "c101b9da-2165-4d7b-aa9e-12a965ef8cd2",
-    "name": "GSLV Mk II | IDRSS-1",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 14,
-      "name": "Year",
-      "abbrev": "Y"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 31,
-      "name": "Indian Space Research Organization",
-      "abbrev": "ISRO",
-      "country": [
-        {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "GSLV Mk II",
-        "full_name": "GSLV Mk. II",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "IDRSS-1",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "GTO",
-        "name": "Geostationary Transfer Orbit"
-      }
-    },
-    "pad": {
-      "name": "Satish Dhawan Space Centre Second Launch Pad",
-      "latitude": 13.7199,
-      "longitude": 80.2304,
-      "location": {
-        "name": "Satish Dhawan Space Centre, India",
-        "country": {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk2520ii_image_20190825171642.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193640.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "a8c191e1-b231-4b2e-aefd-5e8ad55c7a82",
     "name": "Miura 5 | Maiden Flight",
     "net": "2026-12-31T00:00:00Z",
@@ -4817,74 +4727,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
-    "name": "PSLV | TDS-01",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 14,
-      "name": "Year",
-      "abbrev": "Y"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 31,
-      "name": "Indian Space Research Organization",
-      "abbrev": "ISRO",
-      "country": [
-        {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "PSLV",
-        "full_name": "PSLV",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "TDS-01",
-      "type": "Technology",
-      "orbit": {
-        "abbrev": "GTO",
-        "name": "Geostationary Transfer Orbit"
-      }
-    },
-    "pad": {
-      "name": "Satish Dhawan Space Centre First Launch Pad",
-      "latitude": 13.733,
-      "longitude": 80.235,
-      "location": {
-        "name": "Satish Dhawan Space Centre, India",
-        "country": {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv_image_20190508083736.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193826.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -7083,6 +6925,142 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "2e37a196-f5f8-4496-96ae-63f4b6b27912",
+    "name": "Terran R | Intelsat-1",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 266,
+      "name": "Relativity Space",
+      "abbrev": "RS",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Terran R",
+        "full_name": "Terran R",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Intelsat-1",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      }
+    },
+    "pad": {
+      "name": "Launch Complex 16",
+      "latitude": 28.501626,
+      "longitude": -80.5518,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/terran_r_image_20220912002151.png",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193934.png"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "2d0472b9-463d-49c8-afb1-7925e49a3368",
+    "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "SDA Tranche 1 Tracking Layer A",
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
