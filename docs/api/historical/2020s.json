@@ -1,5 +1,34 @@
 [
   {
+    "id": "9e24bef7-c44b-4fdc-ba52-68545ce9457e",
+    "name": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
+    "net": "2026-09-26T00:39:00Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 147,
+      "name": "Rocket Lab",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Electron"
+      }
+    },
+    "pad": {
+      "name": "Rocket Lab Launch Complex 1B",
+      "location": {
+        "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg"
+    }
+  },
+  {
     "id": "aed67837-b567-43e0-8071-c3ccc24aa496",
     "name": "Long March 6A | Yaogan 40 Group 04",
     "net": "2026-09-24T08:46:00Z",
