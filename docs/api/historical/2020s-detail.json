@@ -39451,7 +39451,12 @@
     "rocket_full_name": "Long March 8A",
     "pad_lat": 19.597275,
     "pad_lon": 110.930753,
-    "mission_patches": [],
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/cz-8a2520haina_mission_patch_20260927173148.png",
+        "priority": 10
+      }
+    ],
     "vid_urls": [
       {
         "url": "https://www.youtube.com/watch?v=vRrITqt9Ttg"
