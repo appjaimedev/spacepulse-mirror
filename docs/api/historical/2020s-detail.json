@@ -39253,7 +39253,12 @@
     "rocket_full_name": "Gravity-1",
     "pad_lat": 31.2,
     "pad_lon": 123.7,
-    "mission_patches": [],
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/gravity-12520_mission_patch_20260927183948.png",
+        "priority": 10
+      }
+    ],
     "vid_urls": []
   },
   "d793ba47-faf5-4bab-a386-39a9ccc49c90": {
