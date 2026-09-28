@@ -63,14 +63,14 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20260724044615.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg"
     },
-    "webcast_live": false,
+    "webcast_live": true,
     "vid_urls": [
       {
         "priority": 9,
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Starship - Starship Flight 14 - Pad 2 - Starbase, TX - Space Affairs Live",
-        "description": "Launch Date: September 28, 2026, pending regulatory approval. \nLaunch Time: 7:15 a.m. CDT, 1215 UTC, 14:15 CEST\nLaunch Window: 8:30 a.m. CDT\nStatus: Starship Test Flight 14 - Super Heavy Booster 21 and Starship 41 are in testing\nLaunch Provider: SpaceX\nLauncher System: Starship-Super Heavy (Prototype) - (Vehicles: Starship 41 & Booster 21)\nMission: Starship Test Flight 14 - Starship Test Flight 14 is the first orbital mission for Starship\nFlight: 1st flight for Super Heavy Booster 21 - 1st flight for Starship 41\nLaunch Location: Pad 2, Starbase, Texas, USA\nStatus: Scheduled and announced. \n\n\nStarship's 14th flight is preparing to launch as soon as Monday, September 28, pending regulatory approval. The 75-minute launch window will open at 7:15 a.m. CDT, 1215 UTC, 14:15 CEST. \n\nThe upco...",
+        "description": "Launch Date: September 28, 2026\nLaunch Time: 7:15 a.m. CDT, 1215 UTC, 14:15 CEST\nLaunch Window: Open until 8:30 a.m. CDT\nStatus: Starship Test Flight 14 - Super Heavy Booster 21 and Starship 41 stacked on Pad 2 Starbase, awaiting lift-off \nLaunch Provider: SpaceX\nLauncher System: Starship-Super Heavy (Prototype) - (Vehicles: Starship 41 & Booster 21)\nMission: Starship Test Flight 14 - Starship Test Flight 14 is the first orbital mission for Starship\nFlight: 1st flight for Super Heavy Booster 21 - 1st flight for Starship 41\nLaunch Location: Pad 2, Starbase, Texas, USA\nStatus: Scheduled and announced. \n\n\nStarship's 14th flight is set to launch on Monday, September 28; the FAA released regulatory approval on September 26. The 75-minute launch window will open at  5:15 a.m. PDT, 7:15 a.m....",
         "feature_image": "https://i.ytimg.com/vi/SqSGeLDIG-0/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=SqSGeLDIG-0",
         "type": {
@@ -82,7 +82,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-09-28T11:45:00Z",
+        "start_time": "2026-09-28T11:33:00Z",
         "end_time": null,
         "live": false
       },
@@ -145,9 +145,9 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-09-28T08:15:00Z",
+        "start_time": "2026-09-28T08:24:15Z",
         "end_time": null,
-        "live": false
+        "live": true
       },
       {
         "priority": 13,
