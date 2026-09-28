@@ -39532,6 +39532,42 @@
       }
     ]
   },
+  "7d1afb26-6f9c-429b-9ccf-29012fd1e519": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-1) into stable Low Earth Orbit. The ship is expected to fly at an altitude approximately 275 km above Ea…"
+    },
+    "rocket_full_name": "Starship V3",
+    "pad_lat": 25.99677,
+    "pad_lon": -97.15799,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/starship2520if_mission_patch_20230414221655.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=SqSGeLDIG-0"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1qxvvenMPMQxB"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=FyQU5NdpfXQ"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=9gDxG-pm1Zo"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=LeKY53pwArw"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
