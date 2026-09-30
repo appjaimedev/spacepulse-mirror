@@ -66,6 +66,48 @@
     "webcast_live": false,
     "vid_urls": [
       {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "NASA",
+        "title": "NASA's SpaceX Crew-13 Launch",
+        "description": "Four new crew members are heading to the International Space Station!\n\nNASA astronauts Jessica Watkins and Luke Delaney, CSA (Canadian Space Agency) astronaut Joshua Kutryk, and Roscosmos cosmonaut Sergey Teteryatnikov are lifting off aboard a SpaceX Dragon spacecraft to spend several months living, working, and conducting scientific research in low Earth orbit.\n\nNASA's SpaceX Crew-13 mission is scheduled to lift off from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida at 11:10 a.m. EDT (1510 UTC) on Thursday, Oct. 1. The four members of Crew-13 will arrive at the space station later that day.\n\nLearn more about the Crew-13 mission: https://www.nasa.gov/mission/nasas-spacex-crew-13/\nGet daily updates from the station: https://www.nasa.gov/blogs/spacestation/",
+        "feature_image": "https://i.ytimg.com/vi/7ZiUbT1-djA/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=7ZiUbT1-djA",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-01T13:20:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "plus.nasa.gov",
+        "publisher": "NASA",
+        "title": "NASA’s SpaceX Crew-13 Launch",
+        "description": "Coverage of the Launch of the NASA/SpaceX Crew-13 Crew to the International Space Station.",
+        "feature_image": "https://plus.nasa.gov/wp-content/uploads/2026/09/crew-13-launch-key-art-r1-horizontal-program-tile-16-9-without-title.jpg",
+        "url": "https://plus.nasa.gov/scheduled-video/nasas-spacex-crew-13-launch/",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-01T13:20:00Z",
+        "end_time": "2026-10-01T18:58:00Z",
+        "live": false
+      },
+      {
         "priority": 10,
         "source": "x.com",
         "publisher": "SpaceX",
@@ -84,6 +126,48 @@
         },
         "start_time": "2026-10-01T14:00:00Z",
         "end_time": "2026-10-02T14:00:00Z",
+        "live": false
+      },
+      {
+        "priority": 11,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "SpaceX Falcon 9 rocket launches NASA's Crew 13 mission to the space station",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 carrying a crew of four on a mission to the International Space Station. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 11:10 a.m. EDT (1510 UTC) on Thursday,  Oct. 1, 2026. The first-stage booster making its third flight, will return to Landing Zone 40 adjacent to the launch pad about seven-and-a-half minutes after launch.\n\nAboard Dragon 'Grace' for the Crew 13 mission are commander Jessica Watkins and pilot Luke Delaney, both from NASA. Mission Specialists are Joshua Kutryk of CSA (Canadian Space Agency) and cosmonaut Sergey Teteryatnikov of Roscosmos. They are due to dock with the space station less than nine hours after launch to begin a six-month stay.\n\nCommentary will be provided by Sp...",
+        "feature_image": "https://i.ytimg.com/vi/6_Vbc21msHU/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=6_Vbc21msHU",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-01T11:00:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 12,
+        "source": "youtube.com",
+        "publisher": "NASASpaceflight",
+        "title": "SpaceX Launches Crew-13 Dragon to the International Space Station",
+        "description": "Instantaneous launch window: October 1st at 11:10:06 EDT (15:10:06 UTC)\n\nMission: Falcon 9 launch of Crew-13 to the International Space Station\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Low-Earth Orbit (LEO) - 51.6º orbital inclination\nBooster: B1101-3; 230d 4h 54min 11s turnaround\nBooster history: Starlink Group 6-88 and Crew-12\nBooster recovery: Landing Zone 40 (LZ-40)\nDragon capsule: C213-2 (Grace); 443d 5h 38min 25s turnaround\nCapsule history: Axiom-4\nTotal time in flight: 20d 2h 59min 49s\nCapsule recovery: Shannon off the coast of California.\nRocket trajectory: Northeast hugging the east coast of the United States.\nMission Commander: Jessica Watkins (United States) - 2nd spaceflight.\nMission Pilot: Luke Delaney (Un...",
+        "feature_image": "https://i.ytimg.com/vi/jxLT_ckNbIs/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=jxLT_ckNbIs",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-01T11:10:00Z",
+        "end_time": null,
         "live": false
       }
     ],
@@ -155,6 +239,48 @@
     },
     "webcast_live": false,
     "vid_urls": [
+      {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Falcon 9 - Transporter-18 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
+        "description": "Launch Date: October 1, 2026 (PDT) \nLaunch Time:  11:18 a.m. PDT, 1818 UTC, 20:18 CEST \nLaunch Window: Open until 12:16 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Transporter-18\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1082 - Turnaround time 36 days)\nFlight for the Booster: 25\nPrevious Flights of the Booster: 24 - USSF-62, OneWeb Launch 20, NROL-145, and 21 Starlink missions\nBooster Landing: Landing Zone 4 (LZ-4), Vandenberg Space Force Base, CA\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height ...",
+        "feature_image": "https://i.ytimg.com/vi/9tmgAlQ33AM/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=9tmgAlQ33AM",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-01T18:00:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "SpaceX Falcon 9 rocket launches 130 payloads from California on Transporter 18 mission",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California carrying 130 payloads as part of its smallsat rideshare program called Transporter. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Thursday, Oct. 1, at 11:18 a.m. PDT (2:18 a.m. EDT / 1818 UTC).\n\nThe mission will use the Falcon 9 first-stage booster, tail number B1082, launching for a 25th time. The booster will return to Vandenberg for a landing at LZ-4.\n\nThe Transporter 18 mission will follow a southerly trajectory upon departure from Vandenberg.\n\nSpaceflight Now will have live coverage with commentary from Will Robinson-Smith starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get acces...",
+        "feature_image": "https://i.ytimg.com/vi/AT_7CY5brRo/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=AT_7CY5brRo",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-01T17:48:00Z",
+        "end_time": null,
+        "live": false
+      },
       {
         "priority": 10,
         "source": "x.com",
@@ -264,6 +390,69 @@
     },
     "webcast_live": false,
     "vid_urls": [
+      {
+        "priority": 7,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Falcon Heavy - NROL-97 - LC-39A - Kennedy Space Center - Space Affairs Live",
+        "description": "Launch Date:  October 1, 2026 (EDT)\nLaunch Time: 11:53 p.m. EDT (October 2, 0353 UTC, 05:53 CEST)\nLaunch Window:  October 2, 12:42 a.m. EDT\nLaunch Site: LC-39A - Kennedy Space Center\nTargeted Orbit: Classified \nLaunch Inclination: TBD\nLaunch Status: Scheduled and announced\n\nMission: NROL-97\nLaunch Provider: SpaceX\nOperator: NROL (National Reconnaissance Office USA)\n\nLauncher System: Falcon Heavy\nSide Booster 1 (B1072 - Turnaround 33 days) \nFlight for the Booster: 4\nLanding Zone: Landing Zone 2 - Cape Canaveral Space Force Station\nSide Booster 2 (B1104 - Turnaround 33 days)\nFlight for the Booster: 2\nLanding Zone: Landing Zone 1 - Cape Canaveral Space Force Station\nPrivious Flights for both boosters: GOES-U, Viasat-3 F3, and Roman Space Telescope\nCenter Booster: B1106\nFlight for the boo...",
+        "feature_image": "https://i.ytimg.com/vi/0ugtQtSNh4w/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=0ugtQtSNh4w",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-02T03:40:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "SpaceX Falcon Heavy launches its first mission for U.S. spy satellite agency",
+        "description": "Watch live coverage as SpaceX launches a Falcon Heavy rocket from Kennedy Space Center on a classified mission for the National Reconnaissance Office. Liftoff from Launch Complex 39A is scheduled for Thursday, Oct. 1, 2026, at 11:53 p.m. EDT (0353 UTC on Oct. 2).\n\nThe Falcon Heavy's side boosters will return to land at Cape Canaveral just under eight minutes after launch. The rocket will take an north-easterly trajectory upon departure from Florida's Space Coast. \n\nLive commentary will be provided by Spaceflight Now’s Will Robinson-Smith starting about 2 hours prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCoLdERT4-TJ82PJOHSrsZLQ/join",
+        "feature_image": "https://i.ytimg.com/vi/4KZtaO-VtrI/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=4KZtaO-VtrI",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-02T01:53:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "NASASpaceflight",
+        "title": "SpaceX Falcon Heavy Launches NROL-97",
+        "description": "Launch Window: October 1st from 23:53 to 00:42 EDT (03:53-04:42 UTC on the 2nd)\nCurrent T0: October 1st at 23:53 EDT (03:53 UTC on the 2nd)\n\nMission: Falcon Heavy launch of NROL-97 for the National Reconnaissance Office\nLaunch location: Launch Complex 39A, Kennedy Space Center, Earth.\nTarget orbit: Classified - But suspected to be Medium Earth Orbit\nCenter Core: B1106-1\nCenter Core history: New Booster\nCenter Core Recovery: None, will be expended\nMY Side Booster: B1072-4; 32d 16h 26min 56s turnaround\nMY Side Booster history: GOES-U, Viasat-3 F3, NASA's Roman\nPY Side Booster: B1104-2; 32d 16h 26min 56s turnaround\nPY Side Booster history: NASA's Roman\nSide boosters recovery: Landing Zone 1 (LZ-1) and Landing Zone 2 (LZ-2)\nFairing halves: SN240-4 (passive) and SN241-5 (active)\nFairing re...",
+        "feature_image": "https://i.ytimg.com/vi/aqYtiH1UduQ/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=aqYtiH1UduQ",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-02T01:53:00Z",
+        "end_time": null,
+        "live": false
+      },
       {
         "priority": 10,
         "source": "x.com",
