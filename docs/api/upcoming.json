@@ -1,351 +1,5 @@
 [
   {
-    "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
-    "name": "Falcon 9 Block 5 | Crew-13",
-    "net": "2026-10-01T15:10:06Z",
-    "net_precision": {
-      "id": 0,
-      "name": "Second",
-      "abbrev": "SEC"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Crew-13",
-      "type": "Human Exploration",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 40",
-      "latitude": 28.56194122,
-      "longitude": -80.57735736,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20220301072106.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192609.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 8,
-        "source": "youtube.com",
-        "publisher": "NASA",
-        "title": "NASA's SpaceX Crew-13 Launch",
-        "description": "Four new crew members are heading to the International Space Station!\n\nNASA astronauts Jessica Watkins and Luke Delaney, CSA (Canadian Space Agency) astronaut Joshua Kutryk, and Roscosmos cosmonaut Sergey Teteryatnikov are lifting off aboard a SpaceX Dragon spacecraft to spend several months living, working, and conducting scientific research in low Earth orbit.\n\nNASA's SpaceX Crew-13 mission is scheduled to lift off from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida at 11:10 a.m. EDT (1510 UTC) on Thursday, Oct. 1. The four members of Crew-13 will arrive at the space station later that day.\n\nLearn more about the Crew-13 mission: https://www.nasa.gov/mission/nasas-spacex-crew-13/\nGet daily updates from the station: https://www.nasa.gov/blogs/spacestation/",
-        "feature_image": "https://i.ytimg.com/vi/7ZiUbT1-djA/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=7ZiUbT1-djA",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-01T13:20:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 9,
-        "source": "plus.nasa.gov",
-        "publisher": "NASA",
-        "title": "NASA’s SpaceX Crew-13 Launch",
-        "description": "Coverage of the Launch of the NASA/SpaceX Crew-13 Crew to the International Space Station.",
-        "feature_image": "https://plus.nasa.gov/wp-content/uploads/2026/09/crew-13-launch-key-art-r1-horizontal-program-tile-16-9-without-title.jpg",
-        "url": "https://plus.nasa.gov/scheduled-video/nasas-spacex-crew-13-launch/",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-01T13:20:00Z",
-        "end_time": "2026-10-01T18:58:00Z",
-        "live": false
-      },
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "Crew-13 Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HS2miUMXAAAoAiS.jpg",
-        "url": "https://x.com/i/broadcasts/1qxvvepEVdRxB",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-01T14:18:00Z",
-        "end_time": "2026-10-02T14:18:00Z",
-        "live": false
-      },
-      {
-        "priority": 11,
-        "source": "youtube.com",
-        "publisher": "Spaceflight Now",
-        "title": "SpaceX Falcon 9 rocket launches NASA's Crew 13 mission to the space station",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 carrying a crew of four on a mission to the International Space Station. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 11:10 a.m. EDT (1510 UTC) on Thursday,  Oct. 1, 2026. The first-stage booster making its third flight, will return to Landing Zone 40 adjacent to the launch pad about seven-and-a-half minutes after launch.\n\nAboard Dragon 'Grace' for the Crew 13 mission are commander Jessica Watkins and pilot Luke Delaney, both from NASA. Mission Specialists are Joshua Kutryk of CSA (Canadian Space Agency) and cosmonaut Sergey Teteryatnikov of Roscosmos. They are due to dock with the space station less than nine hours after launch to begin a six-month stay.\n\nCommentary will be provided by Sp...",
-        "feature_image": "https://i.ytimg.com/vi/6_Vbc21msHU/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=6_Vbc21msHU",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-01T11:00:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 12,
-        "source": "youtube.com",
-        "publisher": "NASASpaceflight",
-        "title": "SpaceX Launches Crew-13 Dragon to the International Space Station",
-        "description": "Instantaneous launch window: October 1st at 11:10:06 EDT (15:10:06 UTC)\n\nMission: Falcon 9 launch of Crew-13 to the International Space Station\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Low-Earth Orbit (LEO) - 51.6º orbital inclination\nBooster: B1101-3; 230d 4h 54min 11s turnaround\nBooster history: Starlink Group 6-88 and Crew-12\nBooster recovery: Landing Zone 40 (LZ-40)\nDragon capsule: C213-2 (Grace); 443d 5h 38min 25s turnaround\nCapsule history: Axiom-4\nTotal time in flight: 20d 2h 59min 49s\nCapsule recovery: Shannon off the coast of California.\nRocket trajectory: Northeast hugging the east coast of the United States.\nMission Commander: Jessica Watkins (United States) - 2nd spaceflight.\nMission Pilot: Luke Delaney (Un...",
-        "feature_image": "https://i.ytimg.com/vi/jxLT_ckNbIs/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=jxLT_ckNbIs",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-01T11:10:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 13,
-        "source": "youtube.com",
-        "publisher": "Роскосмос ТВ",
-        "title": "Трансляция запуска экипажа Crew-13 c космонавтом Роскосмоса Сергеем Тетерятниковым",
-        "description": "1 октября в 18:10 по московскому времени с космодрома на мысе Канаверал запланирован старт ракеты-носителя Falcon-9 с пилотируемым кораблем Crew Dragon, которому предстоит доставить на Международную космическую станцию экипаж миссии Crew-13.\n\nВ составе экипажа — космонавт Роскосмоса Сергей Тетерятников и астронавты NASA Джессика Уоткинс и Люк Дилейни, а также астронавт Канадского космического агентства Джошуа Кутрик.\n\nСайт Роскосмоса: https://www.roscosmos.ru/\nРоскосмос в социальных сетях: \nVk: https://vk.com/roscosmos\nOk: https://ok.ru/roscosmos  \nTelegram: https://t.me/roscosmos_gk \nRutube: https://rutube.ru/channel/770606/\n\nНовый telegram-канал о путешествиях на космодромы: https://t.me/cosmotours\n\n#Роскосмос  #РоскосмосТВ",
-        "feature_image": "https://i.ytimg.com/vi/Mkf_wAw8kLc/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=Mkf_wAw8kLc",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-01T14:20:00Z",
-        "end_time": null,
-        "live": false
-      }
-    ],
-    "mission_patches": []
-  },
-  {
-    "id": "67213393-7983-4c06-8b44-b8c785a5ed79",
-    "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
-    "net": "2026-10-01T18:18:00Z",
-    "net_precision": {
-      "id": 1,
-      "name": "Minute",
-      "abbrev": "MIN"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Transporter 18 (Dedicated SSO Rideshare)",
-      "type": "Dedicated Rideshare",
-      "orbit": {
-        "abbrev": "SSO",
-        "name": "Sun-Synchronous Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 8,
-        "source": "youtube.com",
-        "publisher": "SPACE AFFAIRS",
-        "title": "GO! - SpaceX - Falcon 9 - Transporter-18 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
-        "description": "Launch Date: October 1, 2026 (PDT) \nLaunch Time:  11:18 a.m. PDT, 1818 UTC, 20:18 CEST \nLaunch Window: Open until 12:16 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Transporter-18\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1082 - Turnaround time 36 days)\nFlight for the Booster: 25\nPrevious Flights of the Booster: 24 - USSF-62, OneWeb Launch 20, NROL-145, and 21 Starlink missions\nBooster Landing: Landing Zone 4 (LZ-4), Vandenberg Space Force Base, CA\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height ...",
-        "feature_image": "https://i.ytimg.com/vi/9tmgAlQ33AM/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=9tmgAlQ33AM",
-        "type": {
-          "id": 4,
-          "name": "Unofficial Re-stream"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-01T18:00:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 9,
-        "source": "youtube.com",
-        "publisher": "Spaceflight Now",
-        "title": "SpaceX Falcon 9 rocket launches 130 payloads from California on Transporter 18 mission",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California carrying 130 payloads as part of its smallsat rideshare program called Transporter. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Thursday, Oct. 1, at 11:18 a.m. PDT (2:18 a.m. EDT / 1818 UTC).\n\nThe mission will use the Falcon 9 first-stage booster, tail number B1082, launching for a 25th time. The booster will return to Vandenberg for a landing at LZ-4.\n\nThe Transporter 18 mission will follow a southerly trajectory upon departure from Vandenberg.\n\nSpaceflight Now will have live coverage with commentary from Will Robinson-Smith starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get acces...",
-        "feature_image": "https://i.ytimg.com/vi/AT_7CY5brRo/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=AT_7CY5brRo",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-01T17:48:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "Transporter-18 Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HSbuGrNWsAA7Ne1.jpg",
-        "url": "https://x.com/i/broadcasts/1RJjpbyQpOBKw",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-01T18:06:00Z",
-        "end_time": "2026-10-02T18:06:00Z",
-        "live": false
-      }
-    ],
-    "mission_patches": [
-      {
-        "id": 761,
-        "name": "SpaceX Transporter Patch v2",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/spacex2520tran_mission_patch_20230102202140.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 121,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-          "name": "SpaceX",
-          "abbrev": "SpX",
-          "type": {
-            "id": 3,
-            "name": "Commercial"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
     "name": "Falcon Heavy | NROL-97",
     "net": "2026-10-02T03:53:00Z",
@@ -499,96 +153,9 @@
     "mission_patches": []
   },
   {
-    "id": "6b89cfc8-8880-4b5b-856c-0e547d45b639",
-    "name": "SR75 | Flight 2",
-    "net": "2026-10-05T00:00:00Z",
-    "net_precision": {
-      "id": 5,
-      "name": "Day",
-      "abbrev": "DAY"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 1066,
-      "name": "HyImpulse",
-      "abbrev": "HYI",
-      "country": [
-        {
-          "id": 4,
-          "name": "Germany",
-          "alpha_2_code": "DE",
-          "alpha_3_code": "DEU",
-          "nationality_name": "German",
-          "nationality_name_composed": "Germano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "SR75",
-        "full_name": "SR75",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Flight 2",
-      "type": "Test Flight",
-      "orbit": {
-        "abbrev": "Sub",
-        "name": "Suborbital"
-      }
-    },
-    "pad": {
-      "name": "Unknown Pad",
-      "latitude": 60.8184,
-      "longitude": -0.7692,
-      "location": {
-        "name": "SaxaVord Spaceport",
-        "country": {
-          "id": 10,
-          "name": "United Kingdom",
-          "alpha_2_code": "GB",
-          "alpha_3_code": "GBR",
-          "nationality_name": "British",
-          "nationality_name_composed": "Brito"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sr-75_liftoff__image_20240503065630.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sr-75_liftoff__image_thumbnail_20240503065630.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": [
-      {
-        "id": 1002,
-        "name": "SR75 Maiden Flight",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/sr752520maiden_mission_patch_20240403121326.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 1066,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/1066/",
-          "name": "HyImpulse",
-          "abbrev": "HYI",
-          "type": {
-            "id": 5,
-            "name": "Private"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-    "net": "2026-10-05T08:16:00Z",
+    "net": "2026-10-05T08:17:00Z",
     "net_precision": {
       "id": 1,
       "name": "Minute",
@@ -919,6 +486,74 @@
         "response_mode": "normal"
       }
     ]
+  },
+  {
+    "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
+    "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+    "net": "2026-10-13T00:00:00Z",
+    "net_precision": {
+      "id": 5,
+      "name": "Day",
+      "abbrev": "DAY"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Dragon CRS-2 SpX-35",
+      "type": "Resupply",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 40",
+      "latitude": 28.56194122,
+      "longitude": -80.57735736,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20210520085648.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192619.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
   },
   {
     "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
@@ -1261,74 +896,6 @@
     "mission_patches": []
   },
   {
-    "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
-    "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-    "net": "2026-10-31T00:00:00Z",
-    "net_precision": {
-      "id": 7,
-      "name": "Month",
-      "abbrev": "M"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Dragon CRS-2 SpX-35",
-      "type": "Resupply",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 40",
-      "latitude": 28.56194122,
-      "longitude": -80.57735736,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20210520085648.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192619.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
     "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
     "net": "2026-10-31T00:00:00Z",
@@ -1527,74 +1094,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
-    "name": "Falcon Heavy | Griffin Mission One",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": {
-      "id": 7,
-      "name": "Month",
-      "abbrev": "M"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon Heavy",
-        "full_name": "Falcon Heavy",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Griffin Mission One",
-      "type": "Lunar Exploration",
-      "orbit": {
-        "abbrev": "LO",
-        "name": "Lunar Orbit"
-      }
-    },
-    "pad": {
-      "name": "Launch Complex 39A",
-      "latitude": 28.60822681,
-      "longitude": -80.60428186,
-      "location": {
-        "name": "Kennedy Space Center, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -2107,6 +1606,74 @@
       }
     },
     "image": null,
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
+    "name": "Falcon Heavy | Griffin Mission One",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon Heavy",
+        "full_name": "Falcon Heavy",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Griffin Mission One",
+      "type": "Lunar Exploration",
+      "orbit": {
+        "abbrev": "LO",
+        "name": "Lunar Orbit"
+      }
+    },
+    "pad": {
+      "name": "Launch Complex 39A",
+      "latitude": 28.60822681,
+      "longitude": -80.60428186,
+      "location": {
+        "name": "Kennedy Space Center, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg"
+    },
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
@@ -7231,6 +6798,210 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193953.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "46d6822b-82aa-452c-aa34-80b6f052de84",
+    "name": "Falcon 9 Block 5 | Rivada 6",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Rivada 6",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "60f4ba6c-4201-4727-94aa-0015a5a0023f",
+    "name": "Spectrum | 1 x Pelican satellite",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 1046,
+      "name": "Isar Aerospace",
+      "abbrev": "ISAR",
+      "country": [
+        {
+          "id": 4,
+          "name": "Germany",
+          "alpha_2_code": "DE",
+          "alpha_3_code": "DEU",
+          "nationality_name": "German",
+          "nationality_name_composed": "Germano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Spectrum",
+        "full_name": "Spectrum",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "1 x Pelican satellite",
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      }
+    },
+    "pad": {
+      "name": "Orbital Launch Pad",
+      "latitude": 69.1084,
+      "longitude": 15.5895,
+      "location": {
+        "name": "Andøya Spaceport",
+        "country": {
+          "id": 49,
+          "name": "Norway",
+          "alpha_2_code": "NO",
+          "alpha_3_code": "NOR",
+          "nationality_name": "Norwegian",
+          "nationality_name_composed": "Norwegian"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "1b11f81e-cdbf-49aa-a7ce-aa79f609046c",
+    "name": "Orbex Prime | Maiden Flight",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 1033,
+      "name": "Orbex",
+      "abbrev": "Orbex",
+      "country": [
+        {
+          "id": 10,
+          "name": "United Kingdom",
+          "alpha_2_code": "GB",
+          "alpha_3_code": "GBR",
+          "nationality_name": "British",
+          "nationality_name_composed": "Brito"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Prime",
+        "full_name": "Orbex Prime",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Maiden Flight",
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "latitude": 60.8184,
+      "longitude": -0.7692,
+      "location": {
+        "name": "SaxaVord Spaceport",
+        "country": {
+          "id": 10,
+          "name": "United Kingdom",
+          "alpha_2_code": "GB",
+          "alpha_3_code": "GBR",
+          "nationality_name": "British",
+          "nationality_name_composed": "Brito"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/prime_image_20220511125637.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193814.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
