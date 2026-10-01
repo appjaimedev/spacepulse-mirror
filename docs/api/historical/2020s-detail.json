@@ -39580,7 +39580,12 @@
     "rocket_full_name": "Falcon 9 Block 5",
     "pad_lat": 28.56194122,
     "pad_lon": -80.57735736,
-    "mission_patches": [],
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/crew-132520pat_mission_patch_20261001222243.png",
+        "priority": 10
+      }
+    ],
     "vid_urls": [
       {
         "url": "https://www.youtube.com/watch?v=7ZiUbT1-djA"
@@ -39602,6 +39607,36 @@
       },
       {
         "url": "https://www.youtube.com/watch?v=Mkf_wAw8kLc"
+      }
+    ]
+  },
+  "67213393-7983-4c06-8b44-b8c785a5ed79": {
+    "mission": {
+      "type": "Dedicated Rideshare",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers."
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 34.632,
+    "pad_lon": -120.611,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/spacex2520tran_mission_patch_20230102202140.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=pjEhZcddNgc"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=AT_7CY5brRo"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1RJjpbyQpOBKw"
       }
     ]
   },
