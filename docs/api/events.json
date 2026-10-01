@@ -1,13 +1,52 @@
 [
   {
+    "id": 1521,
+    "name": "SpaceX Crew-13 Pre-Launch News Conference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-09-30T22:00:00Z",
+    "description": "NASA, CSA, and SpaceX will host a press conference ahead of Crew-13 launch to the International Space Station with the following participants:\r\n- Dr. Lori Glaze, associate administrator, Human Spaceflight Mission Directorate, NASA Headquarters\r\n- Dana Weigel, manager, Low Earth Orbit Program, NASA’s Johnson Space Center in Houston\r\n- Mathieu Caron, director, Astronauts, Life Sciences, and Space Medicine, CSA\r\n- William Gerstenmaier, vice president, Build and Flight Reliability, SpaceX\r\n- Arlena Moses, launch weather officer, Cape Canaveral Space Force Station’s 45th Weather Squadron",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1522,
+    "name": "SpaceX Crew-13 Post-Launch News Conference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-10-01T16:45:00Z",
+    "description": "NASA, CSA, and SpaceX will hold a news conference following the launch of the Crew-13 mission towards the International Space Station.\r\n\r\nParticipants include:\r\n- NASA Administrator Jared Isaacman\r\n- Dr. Lori Glaze, associate administrator, Human Spaceflight Mission Directorate, NASA Headquarters\r\nDana Weigel, manager, Low Earth Orbit Program, NASA Johnson\r\n- Mathieu Caron, director, Astronauts, Life Sciences, and Space Medicine, CSA\r\n- Julianna Scheiman, director, NASA Science and Dragon Programs, SpaceX",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1519,
     "name": "SpaceX Crew-13 Crew Dragon Docking",
     "type": {
       "id": 2,
       "name": "Docking"
     },
-    "date": "2026-10-02T00:00:00Z",
+    "date": "2026-10-01T23:00:00Z",
     "description": "The Crew-13 Crew Dragon will dock autonomously to the International Space Station, carrying four astronauts to the International Space Station.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1523,
+    "name": "NG-24 Cygnus Release",
+    "type": {
+      "id": 13,
+      "name": "Spacecraft Release"
+    },
+    "date": "2026-10-09T00:00:00Z",
+    "description": "The Northrop Grumman NG-24 Cygnus will be unberthed from the ISS before initiating a destructive reentry into the Earth's atmosphere taking waste along with it.",
     "video_url": null,
     "launch": null,
     "feature_image": null

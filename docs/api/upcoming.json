@@ -169,6 +169,27 @@
         "start_time": "2026-10-01T11:10:00Z",
         "end_time": null,
         "live": false
+      },
+      {
+        "priority": 13,
+        "source": "youtube.com",
+        "publisher": "Роскосмос ТВ",
+        "title": "Трансляция запуска экипажа Crew-13 c космонавтом Роскосмоса Сергеем Тетерятниковым",
+        "description": "1 октября в 18:10 по московскому времени с космодрома на мысе Канаверал запланирован старт ракеты-носителя Falcon-9 с пилотируемым кораблем Crew Dragon, которому предстоит доставить на Международную космическую станцию экипаж миссии Crew-13.\n\nВ составе экипажа — космонавт Роскосмоса Сергей Тетерятников и астронавты NASA Джессика Уоткинс и Люк Дилейни, а также астронавт Канадского космического агентства Джошуа Кутрик.\n\nСайт Роскосмоса: https://www.roscosmos.ru/\nРоскосмос в социальных сетях: \nVk: https://vk.com/roscosmos\nOk: https://ok.ru/roscosmos  \nTelegram: https://t.me/roscosmos_gk \nRutube: https://rutube.ru/channel/770606/\n\nНовый telegram-канал о путешествиях на космодромы: https://t.me/cosmotours\n\n#Роскосмос  #РоскосмосТВ",
+        "feature_image": "https://i.ytimg.com/vi/Mkf_wAw8kLc/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=Mkf_wAw8kLc",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-01T14:20:00Z",
+        "end_time": null,
+        "live": false
       }
     ],
     "mission_patches": []
