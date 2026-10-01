@@ -39568,6 +39568,43 @@
       }
     ]
   },
+  "18441371-8b2e-457c-afb5-1ec1b11ab630": {
+    "mission": {
+      "type": "Human Exploration",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "SpaceX Crew-13 is the thirteenth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program."
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 28.56194122,
+    "pad_lon": -80.57735736,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=7ZiUbT1-djA"
+      },
+      {
+        "url": "https://plus.nasa.gov/scheduled-video/nasas-spacex-crew-13-launch/"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1qxvvepEVdRxB"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=6_Vbc21msHU"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=jxLT_ckNbIs"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gxR5eK8JE_I"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Mkf_wAw8kLc"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
