@@ -356,16 +356,16 @@
   {
     "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
     "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-    "net": "2026-10-13T10:33:00Z",
+    "net": "2026-10-13T10:33:44Z",
     "net_precision": {
-      "id": 1,
-      "name": "Minute",
-      "abbrev": "MIN"
+      "id": 0,
+      "name": "Second",
+      "abbrev": "SEC"
     },
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 121,
