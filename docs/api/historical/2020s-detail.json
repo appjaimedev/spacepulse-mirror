@@ -39640,6 +39640,39 @@
       }
     ]
   },
+  "4651fd8a-43de-4166-bf8f-c168b3bd1d2c": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      },
+      "description": "Classified payload for the US National Reconnaissance Office."
+    },
+    "rocket_full_name": "Falcon Heavy",
+    "pad_lat": 28.60822681,
+    "pad_lon": -80.60428186,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-972520pat_mission_patch_20261001222358.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=5ypJLI6uwNs"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=4KZtaO-VtrI"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=aqYtiH1UduQ"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1oJMvNkPPXlxQ"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
