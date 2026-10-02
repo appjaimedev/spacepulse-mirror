@@ -4,9 +4,9 @@
     "name": "Falcon Heavy | NROL-97",
     "net": "2026-10-02T03:54:00Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 121,

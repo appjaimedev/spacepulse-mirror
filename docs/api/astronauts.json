@@ -29,11 +29,83 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190924.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Jessica_Meir",
     "in_space": true,
-    "time_in_space": "P434DT6H2M54S",
+    "time_in_space": "P435DT6H27S",
     "eva_time": "P1DT18H29M",
     "flights_count": 2,
     "spacewalks_count": 6,
     "bio": "Jessica Ulrika Meir is Assistant Professor of Anesthesia at Harvard Medical School, Massachusetts General Hospital, Boston, following postdoctoral research in comparative physiology at the University of British Columbia. She has studied the diving physiology and behavior of emperor penguins in Antarctica, and the physiology of bar-headed geese, which are able to migrate over the Himalayas. In 2000, Meir graduated with a Master of Space Studies from the International Space University in Strasbourg, France. In September 2002, Meir served as an aquanaut on the NASA Extreme Environment Mission Operations 4 (NEEMO 4) crew. In June 2013 she was named an astronaut candidate by NASA, becoming one of the eight members of NASA Astronaut Group 21. She is from Caribou, Maine."
+  },
+  {
+    "id": 582,
+    "name": "Jessica Watkins",
+    "type": {
+      "id": 2,
+      "name": "Government"
+    },
+    "nationality": [
+      {
+        "id": 2,
+        "name": "United States of America",
+        "alpha_2_code": "US",
+        "alpha_3_code": "USA",
+        "nationality_name": "American",
+        "nationality_name_composed": "Americano"
+      }
+    ],
+    "agency": {
+      "id": 44,
+      "name": "National Aeronautics and Space Administration",
+      "abbrev": "NASA"
+    },
+    "status": "Active",
+    "last_flight": "2026-10-01T15:10:06Z",
+    "first_flight": "2022-04-27T07:52:55Z",
+    "date_of_birth": "1988-05-14",
+    "date_of_death": null,
+    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190244.jpeg",
+    "wiki": "https://en.wikipedia.org/wiki/Jessica_Watkins",
+    "in_space": true,
+    "time_in_space": "P170DT22H49M26S",
+    "eva_time": "P0D",
+    "flights_count": 2,
+    "spacewalks_count": 0,
+    "bio": "Jessica Andrea Watkins is an American geologist, former international rugby player, and a NASA astronaut of the class of 2017."
+  },
+  {
+    "id": 642,
+    "name": "Joshua Kutryk",
+    "type": {
+      "id": 2,
+      "name": "Government"
+    },
+    "nationality": [
+      {
+        "id": 26,
+        "name": "Canada",
+        "alpha_2_code": "CA",
+        "alpha_3_code": "CAN",
+        "nationality_name": "Canadian",
+        "nationality_name_composed": "Canado"
+      }
+    ],
+    "agency": {
+      "id": 16,
+      "name": "Canadian Space Agency",
+      "abbrev": "CSA"
+    },
+    "status": "Active",
+    "last_flight": "2026-10-01T15:10:06Z",
+    "first_flight": "2026-10-01T15:10:06Z",
+    "date_of_birth": "1982-03-21",
+    "date_of_death": null,
+    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185947.jpeg",
+    "wiki": "https://en.wikipedia.org/wiki/Joshua_Kutryk",
+    "in_space": true,
+    "time_in_space": "PT9H47M33S",
+    "eva_time": "P0D",
+    "flights_count": 1,
+    "spacewalks_count": 0,
+    "bio": "Joshua Kutryk, a Royal Canadian Air Force lieutenant colonel, is from Beauvallon, Alberta. He has a bachelor’s degree in mechanical engineering, as well as master’s degrees in space studies, flight test engineering, and defense studies. Prior to joining CSA, Kutryk worked as an experimental test pilot and a fighter pilot in Cold Lake, Alberta, where he led the unit responsible for the operational flight-testing of fighter aircraft in Canada."
   },
   {
     "id": 649,
@@ -65,7 +137,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185904.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Anna_Kikina",
     "in_space": true,
-    "time_in_space": "P235DT20H13M37S",
+    "time_in_space": "P236DT20H11M1S",
     "eva_time": "P0D",
     "flights_count": 2,
     "spacewalks_count": 0,
@@ -101,11 +173,47 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185922.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Pyotr_Dubrov",
     "in_space": true,
-    "time_in_space": "P433DT13H57M53S",
+    "time_in_space": "P434DT13H55M17S",
     "eva_time": "P1DT5H49M",
     "flights_count": 2,
     "spacewalks_count": 4,
     "bio": "Dubrov was selected by Roscosmos as a cosmonaut on 8 October 2012, as one of eight cosmonauts selected as part of Roscosmos's 2012 selection group.\r\nIn 2020 he was assigned to the backup crew of Soyuz MS-17, backing up Russian cosmonaut Sergey Kud-Sverchkov as Flight Engineer on ISS Expedition 63/64"
+  },
+  {
+    "id": 710,
+    "name": "Luke Delaney",
+    "type": {
+      "id": 2,
+      "name": "Government"
+    },
+    "nationality": [
+      {
+        "id": 2,
+        "name": "United States of America",
+        "alpha_2_code": "US",
+        "alpha_3_code": "USA",
+        "nationality_name": "American",
+        "nationality_name_composed": "Americano"
+      }
+    ],
+    "agency": {
+      "id": 44,
+      "name": "National Aeronautics and Space Administration",
+      "abbrev": "NASA"
+    },
+    "status": "Active",
+    "last_flight": "2026-10-01T15:10:06Z",
+    "first_flight": "2026-10-01T15:10:06Z",
+    "date_of_birth": "1979-01-01",
+    "date_of_death": null,
+    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190723.jpeg",
+    "wiki": "https://en.wikipedia.org/wiki/Luke_Delaney_(astronaut)",
+    "in_space": true,
+    "time_in_space": "PT9H47M58S",
+    "eva_time": "P0D",
+    "flights_count": 1,
+    "spacewalks_count": 0,
+    "bio": "Luke Delaney is a retired US Marine Corps major who grew up in Debary, Florida. He holds a degree in mechanical engineering from University of North Florida and a master’s degree in aerospace engineering from the Naval Postgraduate School. He is a distinguished naval aviator who participated in exercises throughout the Asia Pacific region and conducted combat missions in support of Operation Enduring Freedom. As a test pilot, he executed numerous flights evaluating weapon systems integration, and he served as a test pilot instructor. Delaney most recently worked as a research pilot at NASA’s Langley Research Center, in Hampton, Virginia, where he supported airborne science missions. Including his NASA career, Delaney logged more than 3,700 flight hours on 48 models of jet, propeller, and rotary wing aircraft.\r\n\r\nExact date of birth unknown."
   },
   {
     "id": 712,
@@ -137,7 +245,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190331.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Jack_Hathaway",
     "in_space": true,
-    "time_in_space": "P229DT14H44M52S",
+    "time_in_space": "P230DT14H42M9S",
     "eva_time": "P0D",
     "flights_count": 1,
     "spacewalks_count": 0,
@@ -173,7 +281,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190559.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Anil_Menon_(astronaut)",
     "in_space": true,
-    "time_in_space": "P78DT10H13M5S",
+    "time_in_space": "P79DT10H10M22S",
     "eva_time": "PT19H29M",
     "flights_count": 1,
     "spacewalks_count": 3,
@@ -209,7 +317,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190412.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Andrey_Fedyaev",
     "in_space": true,
-    "time_in_space": "P415DT13H28M9S",
+    "time_in_space": "P416DT13H25M24S",
     "eva_time": "P0D",
     "flights_count": 2,
     "spacewalks_count": 0,
@@ -245,7 +353,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185354.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Sophie_Adenot",
     "in_space": true,
-    "time_in_space": "P229DT14H45M5S",
+    "time_in_space": "P230DT14H42M19S",
     "eva_time": "PT19H42M",
     "flights_count": 1,
     "spacewalks_count": 3,
@@ -281,11 +389,47 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185258.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Zhu_Yangzhu",
     "in_space": true,
-    "time_in_space": "P283DT8H33M21S",
+    "time_in_space": "P284DT8H30M34S",
     "eva_time": "PT13H24M",
     "flights_count": 2,
     "spacewalks_count": 2,
     "bio": "Zhu Yangzhu is a Chinese pilot and astronaut selected as part of the Shenzhou program. He enlisted in the People's Liberation Army (PLA) in September 2005, and joined the Chinese Communist Party (CCP) in December 2006."
+  },
+  {
+    "id": 915,
+    "name": "Sergey Teteryatnikov",
+    "type": {
+      "id": 2,
+      "name": "Government"
+    },
+    "nationality": [
+      {
+        "id": 5,
+        "name": "Russia",
+        "alpha_2_code": "RU",
+        "alpha_3_code": "RUS",
+        "nationality_name": "Russian",
+        "nationality_name_composed": "Russo"
+      }
+    ],
+    "agency": {
+      "id": 63,
+      "name": "Russian Federal Space Agency (ROSCOSMOS)",
+      "abbrev": "RFSA"
+    },
+    "status": "Active",
+    "last_flight": "2026-10-01T15:10:06Z",
+    "first_flight": "2026-10-01T15:10:06Z",
+    "date_of_birth": "1988-12-19",
+    "date_of_death": null,
+    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sergey_teteryat_image_thumbnail_20260424073411.jpeg",
+    "wiki": null,
+    "in_space": true,
+    "time_in_space": "PT9H48M46S",
+    "eva_time": "P0D",
+    "flights_count": 1,
+    "spacewalks_count": 0,
+    "bio": "Sergey Teteryatnikov graduated from the Naval Academy, St. Petersburg, Russia, in 2011 as an engineer specializing in ship power plant operations. Before his selection as a test cosmonaut, Teteryatnikov served in various naval engineering roles, including undersea vessels and specialized engine room operations. He was selected for the Gagarin Research and Test Cosmonaut Training Center Cosmonaut Corps in 2021 and has served as a test cosmonaut since 2023."
   },
   {
     "id": 916,
@@ -317,7 +461,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhang_zhiyuan_o_image_thumbnail_20260524125922.png",
     "wiki": null,
     "in_space": true,
-    "time_in_space": "P129DT9H53M12S",
+    "time_in_space": "P130DT9H50M16S",
     "eva_time": "PT5H29M",
     "flights_count": 1,
     "spacewalks_count": 1,
@@ -353,7 +497,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lai_ka-ying_off_image_thumbnail_20260524130423.png",
     "wiki": null,
     "in_space": true,
-    "time_in_space": "P129DT9H53M12S",
+    "time_in_space": "P130DT9H50M16S",
     "eva_time": "P0D",
     "flights_count": 1,
     "spacewalks_count": 0,
