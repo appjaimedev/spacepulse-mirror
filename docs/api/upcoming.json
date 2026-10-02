@@ -1,177 +1,5 @@
 [
   {
-    "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
-    "name": "Falcon Heavy | NROL-97",
-    "net": "2026-10-02T03:53:00Z",
-    "net_precision": {
-      "id": 1,
-      "name": "Minute",
-      "abbrev": "MIN"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon Heavy",
-        "full_name": "Falcon Heavy",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "NROL-97",
-      "type": "Government/Top Secret",
-      "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
-      }
-    },
-    "pad": {
-      "name": "Launch Complex 39A",
-      "latitude": 28.60822681,
-      "longitude": -80.60428186,
-      "location": {
-        "name": "Kennedy Space Center, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 7,
-        "source": "youtube.com",
-        "publisher": "SPACE AFFAIRS",
-        "title": "GO! - SpaceX - Falcon Heavy - NROL-97 - LC-39A - Kennedy Space Center - Space Affairs Live",
-        "description": "Launch Date:  October 1, 2026 (EDT)\nLaunch Time: 11:53 p.m. EDT (October 2, 0353 UTC, 05:53 CEST)\nLaunch Window:  October 2, 12:42 a.m. EDT\nLaunch Site: LC-39A - Kennedy Space Center\nTargeted Orbit: Classified \nLaunch Inclination: TBD\nLaunch Status: Scheduled and announced\n\nMission: NROL-97\nLaunch Provider: SpaceX\nOperator: NROL (National Reconnaissance Office USA)\n\nLauncher System: Falcon Heavy\nSide Booster 1 (B1072 - Turnaround 33 days) \nFlight for the Booster: 4\nLanding Zone: Landing Zone 2 - Cape Canaveral Space Force Station\nSide Booster 2 (B1104 - Turnaround 33 days)\nFlight for the Booster: 2\nLanding Zone: Landing Zone 1 - Cape Canaveral Space Force Station\nPrivious Flights for both boosters: GOES-U, Viasat-3 F3, and Roman Space Telescope\nCenter Booster: B1106\nFlight for the boo...",
-        "feature_image": "https://i.ytimg.com/vi/0ugtQtSNh4w/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=0ugtQtSNh4w",
-        "type": {
-          "id": 4,
-          "name": "Unofficial Re-stream"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-02T03:40:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 8,
-        "source": "youtube.com",
-        "publisher": "Spaceflight Now",
-        "title": "SpaceX Falcon Heavy launches its first mission for U.S. spy satellite agency",
-        "description": "Watch live coverage as SpaceX launches a Falcon Heavy rocket from Kennedy Space Center on a classified mission for the National Reconnaissance Office. Liftoff from Launch Complex 39A is scheduled for Thursday, Oct. 1, 2026, at 11:53 p.m. EDT (0353 UTC on Oct. 2).\n\nThe Falcon Heavy's side boosters will return to land at Cape Canaveral just under eight minutes after launch. The rocket will take an north-easterly trajectory upon departure from Florida's Space Coast. \n\nLive commentary will be provided by Spaceflight Now’s Will Robinson-Smith starting about 2 hours prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCoLdERT4-TJ82PJOHSrsZLQ/join",
-        "feature_image": "https://i.ytimg.com/vi/4KZtaO-VtrI/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=4KZtaO-VtrI",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-02T01:53:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 9,
-        "source": "youtube.com",
-        "publisher": "NASASpaceflight",
-        "title": "SpaceX Falcon Heavy Launches NROL-97",
-        "description": "Launch Window: October 1st from 23:53 to 00:42 EDT (03:53-04:42 UTC on the 2nd)\nCurrent T0: October 1st at 23:53 EDT (03:53 UTC on the 2nd)\n\nMission: Falcon Heavy launch of NROL-97 for the National Reconnaissance Office\nLaunch location: Launch Complex 39A, Kennedy Space Center, Earth.\nTarget orbit: Classified - But suspected to be Medium Earth Orbit\nCenter Core: B1106-1\nCenter Core history: New Booster\nCenter Core Recovery: None, will be expended\nMY Side Booster: B1072-4; 32d 16h 26min 56s turnaround\nMY Side Booster history: GOES-U, Viasat-3 F3, NASA's Roman\nPY Side Booster: B1104-2; 32d 16h 26min 56s turnaround\nPY Side Booster history: NASA's Roman\nSide boosters recovery: Landing Zone 1 (LZ-1) and Landing Zone 2 (LZ-2)\nFairing halves: SN240-4 (passive) and SN241-5 (active)\nFairing re...",
-        "feature_image": "https://i.ytimg.com/vi/aqYtiH1UduQ/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=aqYtiH1UduQ",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-02T01:53:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "NROL-97 Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HS6leNzXIAAeUXh.jpg",
-        "url": "https://x.com/i/broadcasts/1oJMvNkPPXlxQ",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-02T03:41:00Z",
-        "end_time": "2026-10-03T03:41:00Z",
-        "live": false
-      }
-    ],
-    "mission_patches": [
-      {
-        "id": 1348,
-        "name": "NROL-97 Patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-972520pat_mission_patch_20261001222358.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 181,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/181/",
-          "name": "National Reconnaissance Office",
-          "abbrev": "NRO",
-          "type": {
-            "id": 1,
-            "name": "Government"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
     "net": "2026-10-05T08:17:00Z",
@@ -1272,93 +1100,6 @@
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
-  },
-  {
-    "id": "7c891a0b-7194-4425-8cfd-2e8c75af2924",
-    "name": "HANBIT-Nano | InnoSat-0",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": {
-      "id": 7,
-      "name": "Month",
-      "abbrev": "M"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 1098,
-      "name": "Innospace",
-      "abbrev": "IS",
-      "country": [
-        {
-          "id": 35,
-          "name": "South Korea",
-          "alpha_2_code": "KR",
-          "alpha_3_code": "KOR",
-          "nationality_name": "South Korean",
-          "nationality_name_composed": "South Korean"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "HANBIT-Nano",
-        "full_name": "HANBIT-Nano",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "InnoSat-0",
-      "type": "Technology",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "HANBIT Pad",
-      "latitude": -2.31698,
-      "longitude": -44.36873,
-      "location": {
-        "name": "Alcântara Space Center, Federative Republic of Brazil",
-        "country": {
-          "id": 24,
-          "name": "Brazil",
-          "alpha_2_code": "BR",
-          "alpha_3_code": "BRA",
-          "nationality_name": "Brazilian",
-          "nationality_name_composed": "Brazilian"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hanbit-nano_spa_image_20251224011159.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hanbit-nano_spa_image_thumbnail_20251224011200.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": [
-      {
-        "id": 1194,
-        "name": "Spaceward Patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/spaceward2520p_mission_patch_20251021115940.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 1098,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/1098/",
-          "name": "Innospace",
-          "abbrev": "IS",
-          "type": {
-            "id": 5,
-            "name": "Private"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
   },
   {
     "id": "22e117bf-041c-49d5-9d09-7b180036e143",
@@ -7040,6 +6781,142 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193953.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "428edcbe-bbd7-4475-8eb1-3dd90b39ad75",
+    "name": "Falcon 9 Block 5 | Telesat Lightspeed 2",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Telesat Lightspeed 2",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "latitude": 28.458,
+      "longitude": -80.528,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
+    "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "SDA Tranche 2 Transport Layer E",
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
