@@ -1,26 +1,13 @@
 [
   {
-    "id": 1522,
-    "name": "SpaceX Crew-13 Post-Launch News Conference",
+    "id": 1526,
+    "name": "SpaceX Crew-12 Farewell and Change of Command Ceremony",
     "type": {
-      "id": 20,
-      "name": "Press Event"
+      "id": 15,
+      "name": "Change of Command"
     },
-    "date": "2026-10-01T17:10:00Z",
-    "description": "NASA, CSA, and SpaceX will hold a news conference following the launch of the Crew-13 mission towards the International Space Station.\r\n\r\nParticipants include:\r\n- NASA Administrator Jared Isaacman\r\n- Dr. Lori Glaze, associate administrator, Human Spaceflight Mission Directorate, NASA Headquarters\r\nDana Weigel, manager, Low Earth Orbit Program, NASA Johnson\r\n- Mathieu Caron, director, Astronauts, Life Sciences, and Space Medicine, CSA\r\n- Julianna Scheiman, director, NASA Science and Dragon Programs, SpaceX",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1519,
-    "name": "SpaceX Crew-13 Crew Dragon Docking",
-    "type": {
-      "id": 2,
-      "name": "Docking"
-    },
-    "date": "2026-10-01T23:00:00Z",
-    "description": "The Crew-13 Crew Dragon will dock autonomously to the International Space Station, carrying four astronauts to the International Space Station.",
+    "date": "2026-10-04T14:20:00Z",
+    "description": "Before Crew-12 astronauts return to Earth, NASA astronaut Jessica Meir will hand over command of the International Space Station to ROSCOSMOS cosmonaut Pyotr Dubrov.",
     "video_url": null,
     "launch": null,
     "feature_image": null
@@ -32,7 +19,7 @@
       "id": 8,
       "name": "Spacecraft Undocking"
     },
-    "date": "2026-10-05T00:00:00Z",
+    "date": "2026-10-05T12:00:00Z",
     "description": "The Crew-12 Crew Dragon will undock from the International Space Station, carrying four astronauts. It will then reenter the Earth's atmosphere and splashdown in the Pacific Ocean.",
     "video_url": null,
     "launch": null,
@@ -45,8 +32,21 @@
       "id": 13,
       "name": "Spacecraft Release"
     },
-    "date": "2026-10-09T00:00:00Z",
+    "date": "2026-10-09T16:45:00Z",
     "description": "The Northrop Grumman NG-24 Cygnus will be unberthed from the ISS before initiating a destructive reentry into the Earth's atmosphere taking waste along with it.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1525,
+    "name": "SpaceX CRS-35 Dragon Docking",
+    "type": {
+      "id": 2,
+      "name": "Docking"
+    },
+    "date": "2026-10-15T15:00:00Z",
+    "description": "Following its launch atop a Falcon 9, the CRS-35 Dragon will autonomously dock to the ISS, bringing crew supplies as well as experiments.",
     "video_url": null,
     "launch": null,
     "feature_image": null
