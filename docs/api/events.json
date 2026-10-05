@@ -26,6 +26,19 @@
     "feature_image": null
   },
   {
+    "id": 1559,
+    "name": "SpaceX Crew-12 Crew Dragon Splashdown",
+    "type": {
+      "id": 9,
+      "name": "Spacecraft Landing"
+    },
+    "date": "2026-10-08T15:25:00Z",
+    "description": "The Crew-12 Crew Dragon will splashdown in the Pacific Ocean, bringing four astronauts back to Earth after spending six months on the International Space Station.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1523,
     "name": "NG-24 Cygnus Release",
     "type": {
