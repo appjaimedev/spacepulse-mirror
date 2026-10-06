@@ -64,7 +64,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_liftoff_2_image_thumbnail_20240820080542.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "한국항공우주연구원 KARI TV",
+        "title": "[LIVE] 누리호 5차 발사 공식 생중계 🚀 2026.10.07.",
+        "description": "대한민국 독자 개발 우주발사체 누리호(KSLV-II)가 다섯 번째 비행에 나섭니다. 🚀\n\n이번 누리호 5차 발사에는 주탑재위성인 초소형군집위성 2~6호 5기와 큐브위성 10기 등 총 15기의 위성이 탑재됩니다.\n\n누리호가 우주로 향하는 순간을 한국항공우주연구원 공식 유튜브 생중계로 함께해 주세요.\n\n📅 발사 예정일 : 2026년 10월 7일(수)\n🚀 발사체 : 누리호(KSLV-II)\n🛰️ 탑재위성 : 총 15기\n\n※ 발사 일정 및 시각은 기상 상황과 발사 준비 상황 등에 따라 변경될 수 있습니다.\n\n#한국항공우주연구원 #항우연 #KARI #누리호 #누리호5차발사 #KSLVII #누리호생중계",
+        "feature_image": "https://i.ytimg.com/vi/v9gY7VkVT0w/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=v9gY7VkVT0w",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 9,
+          "name": "Korean",
+          "code": "ko"
+        },
+        "start_time": "2026-10-07T01:30:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
     "mission_patches": []
   },
   {
