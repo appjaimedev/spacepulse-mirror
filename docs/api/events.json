@@ -1,13 +1,13 @@
 [
   {
-    "id": 1526,
-    "name": "SpaceX Crew-12 Farewell and Change of Command Ceremony",
+    "id": 1560,
+    "name": "SpaceX Crew-12 Crew Dragon Hatch Closure",
     "type": {
-      "id": 15,
-      "name": "Change of Command"
+      "id": 6,
+      "name": "Spacecraft Event"
     },
-    "date": "2026-10-04T14:20:00Z",
-    "description": "Before Crew-12 astronauts return to Earth, NASA astronaut Jessica Meir will hand over command of the International Space Station to ROSCOSMOS cosmonaut Pyotr Dubrov.",
+    "date": "2026-10-07T10:20:00Z",
+    "description": "The hatch to the Crew-12 Dragon spacecraft will be closed in preparation for departure from the International Space Station.",
     "video_url": null,
     "launch": null,
     "feature_image": null
@@ -19,7 +19,7 @@
       "id": 8,
       "name": "Spacecraft Undocking"
     },
-    "date": "2026-10-07T05:05:00Z",
+    "date": "2026-10-07T12:05:00Z",
     "description": "The Crew-12 Crew Dragon will undock from the International Space Station, carrying four astronauts. It will then reenter the Earth's atmosphere and splashdown in the Pacific Ocean.",
     "video_url": null,
     "launch": null,
@@ -32,7 +32,7 @@
       "id": 9,
       "name": "Spacecraft Landing"
     },
-    "date": "2026-10-08T15:25:00Z",
+    "date": "2026-10-08T15:34:00Z",
     "description": "The Crew-12 Crew Dragon will splashdown in the Pacific Ocean, bringing four astronauts back to Earth after spending six months on the International Space Station.",
     "video_url": null,
     "launch": null,
