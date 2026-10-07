@@ -39673,6 +39673,33 @@
       }
     ]
   },
+  "e0741415-6c63-4236-9736-24a6c04485bc": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "NeonSat-2 to 6 are part of the South Korean government's Earth observation micro-satellite constellation NeonSat (New-space Earth Observation Satellite). The NeonSat constellation is the first satellite system developed by the government using a mass-production approach for precise monitoring of th…"
+    },
+    "rocket_full_name": "KSLV-2 Nuri",
+    "pad_lat": 34.431867,
+    "pad_lon": 127.535069,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nuri2520f5252_mission_patch_20261007015251.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=pA96fyDkqMw"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=v9gY7VkVT0w"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
