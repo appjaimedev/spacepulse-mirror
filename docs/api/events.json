@@ -1,18 +1,5 @@
 [
   {
-    "id": 1560,
-    "name": "SpaceX Crew-12 Crew Dragon Hatch Closure",
-    "type": {
-      "id": 6,
-      "name": "Spacecraft Event"
-    },
-    "date": "2026-10-07T10:20:00Z",
-    "description": "The hatch to the Crew-12 Dragon spacecraft will be closed in preparation for departure from the International Space Station.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1524,
     "name": "SpaceX Crew-12 Crew Dragon Undocking",
     "type": {
@@ -34,6 +21,19 @@
     },
     "date": "2026-10-08T15:34:00Z",
     "description": "The Crew-12 Crew Dragon will splashdown in the Pacific Ocean, bringing four astronauts back to Earth after spending six months on the International Space Station.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1561,
+    "name": "ISS Crew-12 Return & SpaceX CRS-35 Briefing",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-10-08T17:15:00Z",
+    "description": "International Space Station briefing for Crew-12 return, and SpaceX’s 35th Commercial Resupply Services launch with the following participants:\r\n- Bill Spetch, deputy manager of Commercial, Low Earth Orbit Program\r\n- Dr. Liz Warren, deputy chief scientist, NASA’s International Space Station Office\r\n- Lee Echerd, senior mission manager, Customer Operations and Integration, SpaceX\r\n- Andreas Mogensen, leader, Human Exploration Group, ESA (European Space Agency)",
     "video_url": null,
     "launch": null,
     "feature_image": null
