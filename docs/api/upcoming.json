@@ -394,6 +394,27 @@
     "webcast_live": false,
     "vid_urls": [
       {
+        "priority": 9,
+        "source": "plus.nasa.gov",
+        "publisher": "NASA",
+        "title": "NASA’s SpaceX 35th Commercial Resupply Services Launch",
+        "description": "Coverage of the Launch of NASA’s SpaceX 35th Cargo Resupply Mission to the International Space Station",
+        "feature_image": "https://plus.nasa.gov/wp-content/uploads/2026/10/crs-35-day-launch-key-art-r2-horizontal-program-tile-16-9-without-title.jpg",
+        "url": "https://plus.nasa.gov/scheduled-video/nasas-spacex-35th-commercial-resupply-services-launch/",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-13T10:15:00Z",
+        "end_time": "2026-10-13T11:30:00Z",
+        "live": false
+      },
+      {
         "priority": 10,
         "source": "x.com",
         "publisher": "SpaceX",
@@ -1296,6 +1317,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_20240711132056.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "c5783e2b-d458-4b99-9936-4043c236190b",
+    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer F",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "SDA Tranche 1 Transport Layer F",
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -3497,74 +3586,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "c5783e2b-d458-4b99-9936-4043c236190b",
-    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer F",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 11,
-      "name": "Quarter 4",
-      "abbrev": "Q4"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "SDA Tranche 1 Transport Layer F",
-      "type": "Government/Top Secret",
-      "orbit": {
-        "abbrev": "PO",
-        "name": "Polar Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
