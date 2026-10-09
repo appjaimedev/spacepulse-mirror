@@ -1,18 +1,5 @@
 [
   {
-    "id": 1524,
-    "name": "SpaceX Crew-12 Crew Dragon Undocking",
-    "type": {
-      "id": 8,
-      "name": "Spacecraft Undocking"
-    },
-    "date": "2026-10-07T12:05:00Z",
-    "description": "The Crew-12 Crew Dragon will undock from the International Space Station, carrying four astronauts. It will then reenter the Earth's atmosphere and splashdown in the Pacific Ocean.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1559,
     "name": "SpaceX Crew-12 Crew Dragon Splashdown",
     "type": {
@@ -60,6 +47,32 @@
     },
     "date": "2026-10-15T15:00:00Z",
     "description": "Following its launch atop a Falcon 9, the CRS-35 Dragon will autonomously dock to the ISS, bringing crew supplies as well as experiments.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1563,
+    "name": "SpaceX Crew-12 Post-Flight News Conference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-10-15T19:30:00Z",
+    "description": "After more than seven months aboard the International Space Station, NASA’s SpaceX Crew-12 mission safely splashed down in the Pacific Ocean off the coast of Los Angeles. The crew members will discuss their science mission during a news conference at the agency’s Johnson Space Center in Houston.\r\n\r\nNASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev will answer questions about their mission.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1562,
+    "name": "NASA JAXA MMX Media Teleconference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-10-15T20:00:00Z",
+    "description": "NASA will hold a media teleconference to preview the agency’s contributions to JAXA’s (Japan Aerospace Exploration Agency) Martian Moons eXploration (MMX) mission. The mission is scheduled to launch from JAXA’s Tanegashima Space Center in Japan on Monday, Oct. 19 EDT (Tuesday, Oct. 20 JST).\r\n\r\nParticipants in the briefing, who will provide an overview of the mission and NASA’s contributions, include:\r\n- Lindsay Hays, acting director, Planetary Science Division, NASA Headquarters in Washington\r\n- Tom Statler, MMX program executive and scientist, Planetary Science Division, NASA Headquarters\r\n- David Lawrence, MEGANE (Mars-moon Exploration with Gamma-rays and Neutrons) principal investigator, Johns Hopkins Applied Physics Laboratory\r\n- Kris Zacny, vice president, Blue Origin’s Honeybee Robotics",
     "video_url": null,
     "launch": null,
     "feature_image": null
@@ -372,19 +385,6 @@
     },
     "date": "2034-12-31T00:00:00Z",
     "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Ganymede.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1282,
-    "name": "Juice Ganymede Impact",
-    "type": {
-      "id": 6,
-      "name": "Spacecraft Event"
-    },
-    "date": "2035-12-31T00:00:00Z",
-    "description": "After running out of propellant to maintain its trajectory, ESA's Jupiter Icy Moons Explorer (Juice) spacecraft will impact Ganymede due to orbital perturbations.",
     "video_url": null,
     "launch": null,
     "feature_image": null

@@ -1,41 +1,5 @@
 [
   {
-    "id": 573,
-    "name": "Jessica Meir",
-    "type": {
-      "id": 2,
-      "name": "Government"
-    },
-    "nationality": [
-      {
-        "id": 2,
-        "name": "United States of America",
-        "alpha_2_code": "US",
-        "alpha_3_code": "USA",
-        "nationality_name": "American",
-        "nationality_name_composed": "Americano"
-      }
-    ],
-    "agency": {
-      "id": 44,
-      "name": "National Aeronautics and Space Administration",
-      "abbrev": "NASA"
-    },
-    "status": "Active",
-    "last_flight": "2026-02-13T10:15:56Z",
-    "first_flight": "2019-09-25T13:57:42Z",
-    "date_of_birth": "1977-07-01",
-    "date_of_death": null,
-    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190924.jpeg",
-    "wiki": "https://en.wikipedia.org/wiki/Jessica_Meir",
-    "in_space": true,
-    "time_in_space": "P441DT6H24M54S",
-    "eva_time": "P1DT18H29M",
-    "flights_count": 2,
-    "spacewalks_count": 6,
-    "bio": "Jessica Ulrika Meir is Assistant Professor of Anesthesia at Harvard Medical School, Massachusetts General Hospital, Boston, following postdoctoral research in comparative physiology at the University of British Columbia. She has studied the diving physiology and behavior of emperor penguins in Antarctica, and the physiology of bar-headed geese, which are able to migrate over the Himalayas. In 2000, Meir graduated with a Master of Space Studies from the International Space University in Strasbourg, France. In September 2002, Meir served as an aquanaut on the NASA Extreme Environment Mission Operations 4 (NEEMO 4) crew. In June 2013 she was named an astronaut candidate by NASA, becoming one of the eight members of NASA Astronaut Group 21. She is from Caribou, Maine."
-  },
-  {
     "id": 582,
     "name": "Jessica Watkins",
     "type": {
@@ -65,7 +29,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190244.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Jessica_Watkins",
     "in_space": true,
-    "time_in_space": "P176DT23H13M56S",
+    "time_in_space": "P177DT23H19M24S",
     "eva_time": "P0D",
     "flights_count": 2,
     "spacewalks_count": 0,
@@ -101,7 +65,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185947.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Joshua_Kutryk",
     "in_space": true,
-    "time_in_space": "P6DT10H12M13S",
+    "time_in_space": "P7DT10H17M42S",
     "eva_time": "P0D",
     "flights_count": 1,
     "spacewalks_count": 0,
@@ -137,7 +101,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185904.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Anna_Kikina",
     "in_space": true,
-    "time_in_space": "P242DT20H35M42S",
+    "time_in_space": "P243DT20H41M11S",
     "eva_time": "P0D",
     "flights_count": 2,
     "spacewalks_count": 0,
@@ -173,7 +137,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185922.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Pyotr_Dubrov",
     "in_space": true,
-    "time_in_space": "P440DT14H19M59S",
+    "time_in_space": "P441DT14H25M27S",
     "eva_time": "P1DT5H49M",
     "flights_count": 2,
     "spacewalks_count": 4,
@@ -209,47 +173,11 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190723.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Luke_Delaney_(astronaut)",
     "in_space": true,
-    "time_in_space": "P6DT10H12M50S",
+    "time_in_space": "P7DT10H18M20S",
     "eva_time": "P0D",
     "flights_count": 1,
     "spacewalks_count": 0,
     "bio": "Luke Delaney is a retired US Marine Corps major who grew up in Debary, Florida. He holds a degree in mechanical engineering from University of North Florida and a master’s degree in aerospace engineering from the Naval Postgraduate School. He is a distinguished naval aviator who participated in exercises throughout the Asia Pacific region and conducted combat missions in support of Operation Enduring Freedom. As a test pilot, he executed numerous flights evaluating weapon systems integration, and he served as a test pilot instructor. Delaney most recently worked as a research pilot at NASA’s Langley Research Center, in Hampton, Virginia, where he supported airborne science missions. Including his NASA career, Delaney logged more than 3,700 flight hours on 48 models of jet, propeller, and rotary wing aircraft.\r\n\r\nExact date of birth unknown."
-  },
-  {
-    "id": 712,
-    "name": "Jack Hathaway",
-    "type": {
-      "id": 2,
-      "name": "Government"
-    },
-    "nationality": [
-      {
-        "id": 2,
-        "name": "United States of America",
-        "alpha_2_code": "US",
-        "alpha_3_code": "USA",
-        "nationality_name": "American",
-        "nationality_name_composed": "Americano"
-      }
-    ],
-    "agency": {
-      "id": 44,
-      "name": "National Aeronautics and Space Administration",
-      "abbrev": "NASA"
-    },
-    "status": "Active",
-    "last_flight": "2026-02-13T10:15:56Z",
-    "first_flight": "2026-02-13T10:15:56Z",
-    "date_of_birth": "1982-01-01",
-    "date_of_death": null,
-    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190331.jpeg",
-    "wiki": "https://en.wikipedia.org/wiki/Jack_Hathaway",
-    "in_space": true,
-    "time_in_space": "P236DT15H7M",
-    "eva_time": "P0D",
-    "flights_count": 1,
-    "spacewalks_count": 0,
-    "bio": "Jack Hathaway is a US Navy commander from Connecticut. He earned bachelors’ degrees in physics and history from the U.S. Naval Academy and completed graduate studies at Cranfield University in England and the U.S. Naval War College. A distinguished naval aviator, Hathaway flew and deployed with Navy’s Strike Fighter Squadron 14 aboard the USS Nimitz and Strike Fighter Squadron 136 aboard the USS Truman. He graduated from Empire Test Pilots’ School, supported the Joint Chiefs of Staff at the Pentagon, and was most recently assigned as the prospective executive officer for Strike Fighter Squadron 81. He has more than 2,500 flight hours in 30 types of aircraft, more than 500 carrier arrested landings, and flew 39 combat missions.\r\n\r\nExact date of birth unknown."
   },
   {
     "id": 713,
@@ -281,83 +209,11 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190559.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Anil_Menon_(astronaut)",
     "in_space": true,
-    "time_in_space": "P85DT10H35M14S",
+    "time_in_space": "P86DT10H40M44S",
     "eva_time": "PT19H29M",
     "flights_count": 1,
     "spacewalks_count": 3,
     "bio": "Anil Menon is a US Air Force lieutenant colonel from Minneapolis, Minnesota. He was SpaceX’s first flight surgeon, helping to launch the company’s first humans to space during NASA’s SpaceX Demo-2 mission and building a medical organization to support the human system during future missions. Prior to that, he served NASA as the crew flight surgeon for various expeditions taking astronauts to the International Space Station. Menon is an actively practicing emergency medicine physician with fellowship training in wilderness and aerospace medicine. As a physician, he was a first responder during the 2010 earthquake in Haiti, 2015 earthquake in Nepal, and the 2011 Reno Air Show accident. In the Air Force, Menon supported the 45th Space Wing as a flight surgeon and the 173rd Fighter Wing, where he logged over 100 sorties in the F-15 fighter jet and transported over 100 patients as part of the critical care air transport team.\r\n\r\nExact date of birth unknown."
-  },
-  {
-    "id": 732,
-    "name": "Andrei Fedyaev",
-    "type": {
-      "id": 2,
-      "name": "Government"
-    },
-    "nationality": [
-      {
-        "id": 5,
-        "name": "Russia",
-        "alpha_2_code": "RU",
-        "alpha_3_code": "RUS",
-        "nationality_name": "Russian",
-        "nationality_name_composed": "Russo"
-      }
-    ],
-    "agency": {
-      "id": 63,
-      "name": "Russian Federal Space Agency (ROSCOSMOS)",
-      "abbrev": "RFSA"
-    },
-    "status": "Active",
-    "last_flight": "2026-02-13T10:15:56Z",
-    "first_flight": "2023-03-02T05:34:14Z",
-    "date_of_birth": "1981-02-26",
-    "date_of_death": null,
-    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190412.jpeg",
-    "wiki": "https://en.wikipedia.org/wiki/Andrey_Fedyaev",
-    "in_space": true,
-    "time_in_space": "P422DT13H50M20S",
-    "eva_time": "P0D",
-    "flights_count": 2,
-    "spacewalks_count": 0,
-    "bio": "Andrei Valerievich Fedyaev (Андрей Валерьевич Федяев) is a Russian cosmonaut. He was a military pilot prior to retiring from Air Force in 2013, and was selected as a cosmonaut in 2012. \r\n\r\nISS-69 expedition will be Fedyaev's first spaceflight."
-  },
-  {
-    "id": 747,
-    "name": "Sophie Adenot",
-    "type": {
-      "id": 2,
-      "name": "Government"
-    },
-    "nationality": [
-      {
-        "id": 1,
-        "name": "France",
-        "alpha_2_code": "FR",
-        "alpha_3_code": "FRA",
-        "nationality_name": "French",
-        "nationality_name_composed": "Franco"
-      }
-    ],
-    "agency": {
-      "id": 27,
-      "name": "European Space Agency",
-      "abbrev": "ESA"
-    },
-    "status": "Active",
-    "last_flight": "2026-02-13T10:15:56Z",
-    "first_flight": "2026-02-13T10:15:56Z",
-    "date_of_birth": "1982-07-05",
-    "date_of_death": null,
-    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185354.jpeg",
-    "wiki": "https://en.wikipedia.org/wiki/Sophie_Adenot",
-    "in_space": true,
-    "time_in_space": "P236DT15H7M19S",
-    "eva_time": "PT19H42M",
-    "flights_count": 1,
-    "spacewalks_count": 3,
-    "bio": "Between 2001 and 2003, Sophie studied engineering and graduated from ISAE-SUPAERO in Toulouse, France, where she specialised in spacecraft and aircraft flight dynamics. She then completed a Master of Science in human factors engineering at MIT – Massachusetts Institute of Technology in Boston, USA, in 2004.\r\nIn 2005, Sophie joined the French Air Force for her basic military training and initial flying training to become a helicopter pilot.  \r\n\r\nIn 2018, she graduated with honours as a helicopter test pilot from the Empire Test Pilots’ School in Boscombe Down, UK. She was awarded the Mac Kenna trophy and the Patuxtent Shield.\r\nBetween 2019 and 2022, Sophie worked as a helicopter experimental test pilot in Cazaux Flight Test Center with DGA (Direction Générale de l’Armement – the French Defence Procurement Agency). She has logged 3000 hours and flew on 22 different helicopter types. She also holds a military parachute license, a light aircraft pilot license and a glider pilot license."
   },
   {
     "id": 764,
@@ -389,7 +245,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185258.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Zhu_Yangzhu",
     "in_space": true,
-    "time_in_space": "P290DT8H55M37S",
+    "time_in_space": "P291DT9H1M4S",
     "eva_time": "PT13H24M",
     "flights_count": 2,
     "spacewalks_count": 2,
@@ -425,7 +281,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sergey_teteryat_image_thumbnail_20260424073411.jpeg",
     "wiki": null,
     "in_space": true,
-    "time_in_space": "P6DT10H14M12S",
+    "time_in_space": "P7DT10H19M39S",
     "eva_time": "P0D",
     "flights_count": 1,
     "spacewalks_count": 0,
@@ -461,7 +317,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhang_zhiyuan_o_image_thumbnail_20260524125922.png",
     "wiki": null,
     "in_space": true,
-    "time_in_space": "P136DT10H15M42S",
+    "time_in_space": "P137DT10H21M9S",
     "eva_time": "PT5H29M",
     "flights_count": 1,
     "spacewalks_count": 1,
@@ -497,7 +353,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lai_ka-ying_off_image_thumbnail_20260524130423.png",
     "wiki": null,
     "in_space": true,
-    "time_in_space": "P136DT10H15M43S",
+    "time_in_space": "P137DT10H21M10S",
     "eva_time": "P0D",
     "flights_count": 1,
     "spacewalks_count": 0,
