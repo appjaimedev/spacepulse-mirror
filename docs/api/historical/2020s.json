@@ -4,9 +4,9 @@
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
     "net": "2026-10-10T07:39:44Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 121,
