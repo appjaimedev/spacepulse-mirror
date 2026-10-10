@@ -1,31 +1,5 @@
 [
   {
-    "id": 1559,
-    "name": "SpaceX Crew-12 Crew Dragon Splashdown",
-    "type": {
-      "id": 9,
-      "name": "Spacecraft Landing"
-    },
-    "date": "2026-10-08T15:34:00Z",
-    "description": "The Crew-12 Crew Dragon will splashdown in the Pacific Ocean, bringing four astronauts back to Earth after spending six months on the International Space Station.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1561,
-    "name": "ISS Crew-12 Return & SpaceX CRS-35 Briefing",
-    "type": {
-      "id": 20,
-      "name": "Press Event"
-    },
-    "date": "2026-10-08T17:15:00Z",
-    "description": "International Space Station briefing for Crew-12 return, and SpaceX’s 35th Commercial Resupply Services launch with the following participants:\r\n- Bill Spetch, deputy manager of Commercial, Low Earth Orbit Program\r\n- Dr. Liz Warren, deputy chief scientist, NASA’s International Space Station Office\r\n- Lee Echerd, senior mission manager, Customer Operations and Integration, SpaceX\r\n- Andreas Mogensen, leader, Human Exploration Group, ESA (European Space Agency)",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1523,
     "name": "NG-24 Cygnus Release",
     "type": {
@@ -385,6 +359,19 @@
     },
     "date": "2034-12-31T00:00:00Z",
     "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Ganymede.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1282,
+    "name": "Juice Ganymede Impact",
+    "type": {
+      "id": 6,
+      "name": "Spacecraft Event"
+    },
+    "date": "2035-12-31T00:00:00Z",
+    "description": "After running out of propellant to maintain its trajectory, ESA's Jupiter Icy Moons Explorer (Juice) spacecraft will impact Ganymede due to orbital perturbations.",
     "video_url": null,
     "launch": null,
     "feature_image": null

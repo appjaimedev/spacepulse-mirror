@@ -1,156 +1,5 @@
 [
   {
-    "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
-    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-    "net": "2026-10-10T07:39:44Z",
-    "net_precision": {
-      "id": 0,
-      "name": "Second",
-      "abbrev": "SEC"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "SDA Tranche 1 Transport Layer A",
-      "type": "Government/Top Secret",
-      "orbit": {
-        "abbrev": "PO",
-        "name": "Polar Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 8,
-        "source": "youtube.com",
-        "publisher": "SPACE AFFAIRS",
-        "title": "SpaceX - Falcon 9 - Tranche 1 Transport Layer A - SLC-4E - VSFB, CA - Space Affairs Live",
-        "description": "Launch Date: October 9, 2026 \nLaunch Time:  12:29 a.m. PDT, 0729 UTC, 09:29 CEST \nLaunch Window: Open until 2:11 a.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Polar Orbit\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Tranche 1 Transport Layer A\nClient: United States Space Force Development Agency (SDA)\nLaunch Provider: SpaceX\n\nLauncher System: Falcon 9 (Booster 1103 - Turnaround time 54 days)\nFlight for the Booster: 6\nPrevious Flights of the Booster: 5 - NROL-179, SDA-T1TL-E, and three Starlink missions\nBooster Landing: Landing Zone 4 (LZ-4) Vandenberg Space Force Base\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nF...",
-        "feature_image": "https://i.ytimg.com/vi/g2zSmp6e2Vs/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=g2zSmp6e2Vs",
-        "type": {
-          "id": 4,
-          "name": "Unofficial Re-stream"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-10T07:17:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 9,
-        "source": "youtube.com",
-        "publisher": "Spaceflight Now",
-        "title": "Live: SpaceX Falcon 9 rocket launches from California for U.S. Military's Space Development Agency",
-        "description": "Watch a live coverage as SpaceX launches a Falcon 9 rocket from California carrying satellites for the Space Development Agency's Proliferated Warfighter Space Architecture satellite constellation. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is currently is now scheduled for 12:39 a.m. PDT (3:39 a.m. EDT (0739 UTC) on Saturday, Oct. 10.\n\nThe first-stage booster, serial number B1103, making its sixth flight, will return to a land at LZ-4 at Vandenberg.\n\nThe SDA T1TL-A mission will head out across the Pacific Ocean on a southerly trajectory upon departure from Vandenberg.\n\nLive commentary will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:...",
-        "feature_image": "https://i.ytimg.com/vi/ntJhonUlUlc/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=ntJhonUlUlc",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-10T07:09:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "SDA's Fourth Tranche 1 Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HUCyF5VWoAAE14n.jpg",
-        "url": "https://x.com/i/broadcasts/1jGXgBoBYkRKZ",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-10T07:27:00Z",
-        "end_time": "2026-10-11T07:27:00Z",
-        "live": false
-      }
-    ],
-    "mission_patches": [
-      {
-        "id": 1349,
-        "name": "SDA-T1TL-A",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/sda-t1tl-a_mission_patch_20261001222536.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 121,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-          "name": "SpaceX",
-          "abbrev": "SpX",
-          "type": {
-            "id": 3,
-            "name": "Commercial"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
     "name": "Falcon 9 Block 5 | Starlink Group 15-25",
     "net": "2026-10-12T23:00:00Z",
@@ -483,7 +332,7 @@
   },
   {
     "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
-    "name": "H3-24 | Martian Moon eXplorer (MMX)",
+    "name": "H3-24 | Martian Moons eXploration (MMX)",
     "net": "2026-10-19T19:41:03Z",
     "net_precision": {
       "id": 0,
@@ -518,7 +367,7 @@
       }
     },
     "mission": {
-      "name": "Martian Moon eXplorer (MMX)",
+      "name": "Martian Moons eXploration (MMX)",
       "type": "Planetary Science",
       "orbit": {
         "abbrev": "Mars",
@@ -7030,5 +6879,92 @@
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
+  },
+  {
+    "id": "06201706-da6b-467e-83b2-ef2ff8596e05",
+    "name": "Vulcan | USSF-23",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 124,
+      "name": "United Launch Alliance",
+      "abbrev": "ULA",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Vulcan",
+        "full_name": "Vulcan",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "USSF-23",
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 41",
+      "latitude": 28.58341025,
+      "longitude": -80.58303644,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193953.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": [
+      {
+        "id": 743,
+        "name": "US Space Force Patch",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/us2520space25_mission_patch_20221102113104.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 1041,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/1041/",
+          "name": "United States Space Force",
+          "abbrev": "USSF",
+          "type": {
+            "id": 1,
+            "name": "Government"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
   }
 ]
