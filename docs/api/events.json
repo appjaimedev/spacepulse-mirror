@@ -1,18 +1,5 @@
 [
   {
-    "id": 1523,
-    "name": "NG-24 Cygnus Release",
-    "type": {
-      "id": 13,
-      "name": "Spacecraft Release"
-    },
-    "date": "2026-10-09T16:45:00Z",
-    "description": "The Northrop Grumman NG-24 Cygnus will be unberthed from the ISS before initiating a destructive reentry into the Earth's atmosphere taking waste along with it.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1525,
     "name": "SpaceX CRS-35 Dragon Docking",
     "type": {
