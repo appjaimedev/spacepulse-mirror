@@ -70,7 +70,7 @@
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Falcon 9 - Starlink 15-25 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
-        "description": "Launch Date: October 12, 2026 (PDT)\nLaunch Time:  4:00 p.m. PDT, 2300 UTC (October 13, 01:00 CEST)\nLaunch Window: Open until 8:00 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 15-25\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1082 - Turnaround time 35 days)\nFlight for the Booster: 25\nPrevious Flights of the Booster: 24 - USSF-62, OneWeb Launch 20, NROL-145, and 21 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 me...",
+        "description": "Launch Date: October 12, 2026 (PDT)\nLaunch Time:  5:11 p.m. (October 13, 0011 UTC, 02:11 CEST)\nLaunch Window: Open until 8:00 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 15-25\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1082 - Turnaround time 36 days)\nFlight for the Booster: 25\nPrevious Flights of the Booster: 24 - USSF-62, OneWeb Launch 20, NROL-145, and 21 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters...",
         "feature_image": "https://i.ytimg.com/vi/tnX-_tmsNgU/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=tnX-_tmsNgU",
         "type": {
@@ -82,7 +82,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-10-12T22:48:00Z",
+        "start_time": "2026-10-12T23:59:00Z",
         "end_time": null,
         "live": false
       },
@@ -298,6 +298,48 @@
         },
         "start_time": "2026-10-13T10:11:00Z",
         "end_time": "2026-10-14T10:11:00Z",
+        "live": false
+      },
+      {
+        "priority": 11,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "Live: SpaceX Falcon 9 rocket launches NASA Space Station cargo mission from Cape Canaveral",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket with a Cargo Dragon on a space station resupply mission for NASA. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Tuesday, October 13, at 6:33 a.m. EDT (1033 UTC). The first-stage booster, which is making its eighth flight, will return to land at Cape Canaveral Space Force Station at SpaceX's LZ-40, adjacent to the launch pad, less than eight minutes into flight.\n\nThe mission, designated CRS-35,  will carry cargo to the International Space Station for NASA. The Falcon 9 will head away from Florida's Space Coast on a north-easterly trajectory.\n\nCommentary will be provided by Spaceflight Now's Will Robinson-Smith, starting approximately on hour prior to liftoff.\n\nVideos like this are mad...",
+        "feature_image": "https://i.ytimg.com/vi/qYXjwonSquQ/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=qYXjwonSquQ",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-13T09:33:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 12,
+        "source": "youtube.com",
+        "publisher": "NASASpaceflight",
+        "title": "SpaceX Laumches CRS-35 Dragon to the International Space Station",
+        "description": "Instantaneous window opens at 6:33:44 AM\n\n⚡ Become a member of NASASpaceflight's channel for exclusive discord access, fast turnaround clips, and other exclusive benefits. Your support helps us continue our 24/7 coverage. ⚡\n\n🔍 If you are interested in using footage captured by this stream, please review our content use policy: https://www.nasaspaceflight.com/content-use-policy/\n\n#SpaceX #Starlink #Falcon9 #Starlink1223 #LEO #SatelliteInternet #SpaceXLaunch #GlobalInternet #HighSpeedInternet #RocketLaunch #StarlinkMission #NextGenSatellites #SpaceTechnology\n\n LDAPAABJRG2UMCU3 🎵 Intro song: New Way Out by Denis. Licensed via PremiumBeat. LDAPAABJRG2UMCU3\n🎵 Music used on streams and in videos is licensed via EpidemicSound: https://share.epidemicsound.com/qvh38e\n\nAll content copyright NAS...",
+        "feature_image": "https://i.ytimg.com/vi/_gdbS1AAkq0/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=_gdbS1AAkq0",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-13T09:33:00Z",
+        "end_time": null,
         "live": false
       }
     ],
