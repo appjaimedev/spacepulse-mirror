@@ -39785,6 +39785,37 @@
       }
     ]
   },
+  "bf2c3027-a314-403e-a416-2bfd5d165ad1": {
+    "mission": {
+      "type": "Resupply",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "35th commercial resupply services mission to the International Space Station operated by SpaceX. The flight will be conducted under the second Commercial Resupply Services contract with NASA. Cargo Dragon 2 brings supplies and payloads, including critical materials to directly support science and r…"
+    },
+    "rocket_full_name": "Falcon 9 Block 5",
+    "pad_lat": 28.56194122,
+    "pad_lon": -80.57735736,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=f8FE2R7esZ0"
+      },
+      {
+        "url": "https://plus.nasa.gov/scheduled-video/nasas-spacex-35th-commercial-resupply-services-launch/"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/1aJbdEzoAvYKX"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=qYXjwonSquQ"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=_gdbS1AAkq0"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
