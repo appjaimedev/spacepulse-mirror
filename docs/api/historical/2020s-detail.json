@@ -39816,6 +39816,21 @@
       }
     ]
   },
+  "dfcabb3c-078b-4f5b-a47c-0161f248cee9": {
+    "mission": {
+      "type": "Technology",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "Ride-share of 10 satellites to sun-synchronous orbit, including LandSpace's own Guangchuan-03 & 04 for testing and demonstrating LEO communication satellite constellation technologies. Details TBD."
+    },
+    "rocket_full_name": "Zhuque-2E Block 2",
+    "pad_lat": 40.91491,
+    "pad_lon": 100.245488,
+    "mission_patches": [],
+    "vid_urls": []
+  },
   "__years__": [
     2020,
     2021,

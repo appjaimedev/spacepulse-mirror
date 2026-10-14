@@ -1,5 +1,34 @@
 [
   {
+    "id": "dfcabb3c-078b-4f5b-a47c-0161f248cee9",
+    "name": "Zhuque-2E Block 2 | 10 satellites",
+    "net": "2026-10-14T11:40:00Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 259,
+      "name": "LandSpace",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Zhuque-2E Block 2"
+      }
+    },
+    "pad": {
+      "name": "Launch Area 96A",
+      "location": {
+        "name": "Jiuquan Satellite Launch Center, People's Republic of China"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_y6_la_image_20260609122825.jpeg"
+    }
+  },
+  {
     "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
     "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
     "net": "2026-10-13T10:33:44Z",
