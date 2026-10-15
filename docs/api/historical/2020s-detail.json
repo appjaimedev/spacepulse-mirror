@@ -39823,7 +39823,7 @@
         "abbrev": "SSO",
         "name": "Sun-Synchronous Orbit"
       },
-      "description": "Ride-share of 10 satellites to sun-synchronous orbit, including LandSpace's own Guangchuan-03 & 04 for testing and demonstrating LEO communication satellite constellation technologies. Details TBD."
+      "description": "Ride-share of 10 satellites to sun-synchronous orbit, including: * Guangchuan-03 & 04 (LT-03/04) from LandSpace's subsidiary LandTower for testing and demonstrating LEO communication satellite constellation technologies, including high-speed laser communication nodes/terminals and new-type solar ar…"
     },
     "rocket_full_name": "Zhuque-2E Block 2",
     "pad_lat": 40.91491,
