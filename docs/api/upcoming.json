@@ -1064,7 +1064,26 @@
     },
     "webcast_live": false,
     "vid_urls": [],
-    "mission_patches": []
+    "mission_patches": [
+      {
+        "id": 1354,
+        "name": "VA271 Patch",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/va2712520patch_mission_patch_20261015053511.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 115,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/115/",
+          "name": "Arianespace",
+          "abbrev": "ASA",
+          "type": {
+            "id": 3,
+            "name": "Commercial"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
   },
   {
     "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
