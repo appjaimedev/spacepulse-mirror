@@ -39,6 +39,32 @@
     "feature_image": null
   },
   {
+    "id": 1565,
+    "name": "Artemis Acceleration Press Conference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-10-23T18:00:00Z",
+    "description": "Participants include:\r\n- NASA Administrator Jared Isaacman\r\n- NASA Associate Administrator Amit Kshatriya\r\n- Jeremy Parsons, NASA’s Artemis program manager",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1564,
+    "name": "RS-25 Engine Test",
+    "type": {
+      "id": 5,
+      "name": "Static Fire"
+    },
+    "date": "2026-10-31T00:00:00Z",
+    "description": "NASA is conducting a hot fire of an RS-25 engine as part of certification testing for future SLS (Space Launch System) rockets. The test of developmental RS-25 engine No. 10001 is planned to run for almost eight-and-a-half minutes (500 seconds) and throttle up to 111% of its rated power level.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 394,
     "name": "BepiColombo Mercury Orbit Insertion",
     "type": {
