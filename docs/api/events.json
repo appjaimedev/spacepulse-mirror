@@ -39,6 +39,19 @@
     "feature_image": null
   },
   {
+    "id": 1568,
+    "name": "US EVA-100/101 Preview News Conference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-10-20T18:00:00Z",
+    "description": "NASA will preview two upcoming spacewalks to complete solar array installation and power augmentation of the International Space Station during a news conference at 2 p.m. EDT, Tuesday, Oct. 20, from NASA’s Johnson Space Center in Houston.\r\n\r\nNASA participants include:\r\n- Gaurang Patel, operations integration manager, Low Earth Orbit Program\r\n- Garrett Hehn, spacewalk flight director, Flight Operations Directorate",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1565,
     "name": "Artemis Acceleration Press Conference",
     "type": {
@@ -52,6 +65,19 @@
     "feature_image": null
   },
   {
+    "id": 1566,
+    "name": "US EVA-100",
+    "type": {
+      "id": 3,
+      "name": "EVA"
+    },
+    "date": "2026-10-29T12:00:00Z",
+    "description": "NASA astronaut Anil Menon and CSA astronaut Joshua Kutryk will exit the station’s Quest airlock to install and deploy an International Space Station Roll-Out Solar Array (IROSA) on the 2A electrical power channel. The solar array will be the seventh IROSA and will provide additional power to support critical station operations, including its safe and controlled deorbit.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 1564,
     "name": "RS-25 Engine Test",
     "type": {
@@ -60,6 +86,19 @@
     },
     "date": "2026-10-31T00:00:00Z",
     "description": "NASA is conducting a hot fire of an RS-25 engine as part of certification testing for future SLS (Space Launch System) rockets. The test of developmental RS-25 engine No. 10001 is planned to run for almost eight-and-a-half minutes (500 seconds) and throttle up to 111% of its rated power level.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1567,
+    "name": "US EVA-101",
+    "type": {
+      "id": 3,
+      "name": "EVA"
+    },
+    "date": "2026-11-05T12:00:00Z",
+    "description": "NASA astronaut Anil Menon and CSA astronaut Joshua Kutryk will install and deploy the eighth and final IROSA on the 3B channel of the space station, completing the power augmentation upgrades.\r\n\r\nThe final two roll-out solar arrays will complete the space station’s power system augmentation. Together, the eight roll-out arrays will increase available power by up to 30%, boosting the station’s electric power generation capacity from 160 kilowatts to approximately 215 kilowatts.",
     "video_url": null,
     "launch": null,
     "feature_image": null
@@ -346,45 +385,6 @@
     },
     "date": "2031-07-31T00:00:00Z",
     "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Jupiter, using a Ganymede gravity assist flyby to reduce its velocity, followed by two engine burns.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 403,
-    "name": "Lucy Trojan Asteroids (617) Patroclus & Menoetius Flyby",
-    "type": {
-      "id": 23,
-      "name": "Flyby"
-    },
-    "date": "2033-03-03T00:00:00Z",
-    "description": "Flyby of the Trojan binary asteroid pair (617) Patroclus and Menoetius by NASA's Lucy mission.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1281,
-    "name": "Juice Ganymede Orbit Insertion",
-    "type": {
-      "id": 16,
-      "name": "Orbital Insertion"
-    },
-    "date": "2034-12-31T00:00:00Z",
-    "description": "Orbital insertion of ESA's Jupiter Icy Moons Explorer (Juice) mission around Ganymede.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1282,
-    "name": "Juice Ganymede Impact",
-    "type": {
-      "id": 6,
-      "name": "Spacecraft Event"
-    },
-    "date": "2035-12-31T00:00:00Z",
-    "description": "After running out of propellant to maintain its trajectory, ESA's Jupiter Icy Moons Explorer (Juice) spacecraft will impact Ganymede due to orbital perturbations.",
     "video_url": null,
     "launch": null,
     "feature_image": null
