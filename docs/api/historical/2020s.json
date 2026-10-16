@@ -4,9 +4,9 @@
     "name": "Falcon 9 Block 5 | USSF-481",
     "net": "2026-10-16T00:01:05Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 121,
