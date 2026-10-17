@@ -87,7 +87,26 @@
         "live": false
       }
     ],
-    "mission_patches": []
+    "mission_patches": [
+      {
+        "id": 1355,
+        "name": "Bandwagon 5",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/bandwagon25205_mission_patch_20261017042118.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 121,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
+          "name": "SpaceX",
+          "abbrev": "SpX",
+          "type": {
+            "id": 3,
+            "name": "Commercial"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
   },
   {
     "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
