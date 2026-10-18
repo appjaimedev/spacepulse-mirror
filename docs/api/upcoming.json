@@ -173,8 +173,70 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_thumbnail_20251028184029.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "JAXA | 宇宙航空研究開発機構",
+        "title": "Launch live streaming of Martian Moons eXploration (MMX)/H3 Launch Vehicle flight No.10(English)",
+        "description": "JAXA will livestream the launch of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10).\n\nBroadcast Start Time: October 20, 2026, around 03:45 JST \nLaunch Time: October 20, 2026, at 04:41:03 JST \nLaunch Site: Tanegashima Space Center, Yoshinobu Launch Complex \nAll times are in Japan Standard Time (24-hour format). \n\n▼Japanese Live Stream（日本語の配信はこちら） \nLaunch live streaming of Martian Moons eXploration (MMX)/H3 Launch Vehicle flight No.10(English)\nhttps://www.youtube.com/live/sZGyK9jfoy4\n\n▼Related Links \nhttps://www.youtube.com/user/jaxachannel\nhttps://www.youtube.com/@JAXA-LiveEvent\nhttps://www.jaxa.jp/\nhttps://global.jaxa.jp/",
+        "feature_image": "https://i.ytimg.com/vi/Fn6gzuGa-6c/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=Fn6gzuGa-6c",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-19T18:45:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 11,
+        "source": "youtube.com",
+        "publisher": "JAXA | 宇宙航空研究開発機構",
+        "title": "火星衛星探査機(MMX)/H3ロケット10号機打上げライブ中継",
+        "description": "火星衛星探査機(MMX)/H3ロケット10号機の打上げライブ中継です。 \n\n番組放送開始予定：2026年10月20日 3時45分頃 \n打上げ日時：2026年10月20日 4時41分03秒\n打上げ場所：種子島宇宙センター　大型ロケット発射場 \n※日本標準時、24時間表記  \n\n▼英語同時通訳付き配信はこちら（English Live Stream） \nLaunch live streaming of Martian Moons eXploration (MMX)/H3 Launch Vehicle flight No.10(English)\nhttps://www.youtube.com/live/Fn6gzuGa-6c\n\n▼JAXA公式チャンネルはこちら\nhttps://www.youtube.com/user/jaxachannel\nhttps://www.youtube.com/@JAXA-LiveEvent\n\n▼JAXA（国立研究開発法人宇宙航空研究開発機構/Japan Aerospace Exploration Agency）\nhttps://www.jaxa.jp/\nhttps://global.jaxa.jp/",
+        "feature_image": "https://i.ytimg.com/vi/sZGyK9jfoy4/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=sZGyK9jfoy4",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 6,
+          "name": "Japanese",
+          "code": "jp"
+        },
+        "start_time": "2026-10-19T18:45:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
+    "mission_patches": [
+      {
+        "id": 1356,
+        "name": "MMX Mission Patch",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/mmx2520mission_mission_patch_20261018180025.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 37,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/37/",
+          "name": "Japan Aerospace Exploration Agency",
+          "abbrev": "JAXA",
+          "type": {
+            "id": 1,
+            "name": "Government"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
   },
   {
     "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
