@@ -39352,7 +39352,7 @@
         "abbrev": "MEO",
         "name": "Medium Earth Orbit"
       },
-      "description": "Note: Satellite serial number and Cosmos designation not confirmed. Glonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accur…"
+      "description": "Note: Cosmos designation not confirmed. Glonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and d…"
     },
     "rocket_full_name": "Soyuz 2.1b Fregat-M",
     "pad_lat": 62.9273,
