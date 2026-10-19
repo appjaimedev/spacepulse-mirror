@@ -1,156 +1,5 @@
 [
   {
-    "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
-    "name": "H3-24 | Martian Moons eXploration (MMX)",
-    "net": "2026-10-19T19:41:03Z",
-    "net_precision": {
-      "id": 0,
-      "name": "Second",
-      "abbrev": "SEC"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 98,
-      "name": "Mitsubishi Heavy Industries",
-      "abbrev": "MHI",
-      "country": [
-        {
-          "id": 28,
-          "name": "Japan",
-          "alpha_2_code": "JP",
-          "alpha_3_code": "JPN",
-          "nationality_name": "Japanese",
-          "nationality_name_composed": "Nippo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "H3-24",
-        "full_name": "H3-24",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Martian Moons eXploration (MMX)",
-      "type": "Planetary Science",
-      "orbit": {
-        "abbrev": "Mars",
-        "name": "Mars Orbit"
-      }
-    },
-    "pad": {
-      "name": "Yoshinobu Launch Complex LP-2",
-      "latitude": 30.400938,
-      "longitude": 130.97564,
-      "location": {
-        "name": "Tanegashima Space Center, Japan",
-        "country": {
-          "id": 28,
-          "name": "Japan",
-          "alpha_2_code": "JP",
-          "alpha_3_code": "JPN",
-          "nationality_name": "Japanese",
-          "nationality_name_composed": "Nippo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_20251028184029.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_thumbnail_20251028184029.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 10,
-        "source": "youtube.com",
-        "publisher": "JAXA | 宇宙航空研究開発機構",
-        "title": "Launch live streaming of Martian Moons eXploration (MMX)/H3 Launch Vehicle flight No.10(English)",
-        "description": "JAXA will livestream the launch of the Martian Moons eXploration (MMX) spacecraft aboard H3 Launch Vehicle flight No.10 (H3 F10).\n\nBroadcast Start Time: October 20, 2026, around 03:45 JST \nLaunch Time: October 20, 2026, at 04:41:03 JST \nLaunch Site: Tanegashima Space Center, Yoshinobu Launch Complex \nAll times are in Japan Standard Time (24-hour format). \n\n▼Japanese Live Stream（日本語の配信はこちら） \nLaunch live streaming of Martian Moons eXploration (MMX)/H3 Launch Vehicle flight No.10(English)\nhttps://www.youtube.com/live/sZGyK9jfoy4\n\n▼Related Links \nhttps://www.youtube.com/user/jaxachannel\nhttps://www.youtube.com/@JAXA-LiveEvent\nhttps://www.jaxa.jp/\nhttps://global.jaxa.jp/",
-        "feature_image": "https://i.ytimg.com/vi/Fn6gzuGa-6c/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=Fn6gzuGa-6c",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-19T18:45:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 11,
-        "source": "youtube.com",
-        "publisher": "JAXA | 宇宙航空研究開発機構",
-        "title": "火星衛星探査機(MMX)/H3ロケット10号機打上げライブ中継",
-        "description": "火星衛星探査機(MMX)/H3ロケット10号機の打上げライブ中継です。 \n\n番組放送開始予定：2026年10月20日 3時45分頃 \n打上げ日時：2026年10月20日 4時41分03秒\n打上げ場所：種子島宇宙センター　大型ロケット発射場 \n※日本標準時、24時間表記  \n\n▼英語同時通訳付き配信はこちら（English Live Stream） \nLaunch live streaming of Martian Moons eXploration (MMX)/H3 Launch Vehicle flight No.10(English)\nhttps://www.youtube.com/live/Fn6gzuGa-6c\n\n▼JAXA公式チャンネルはこちら\nhttps://www.youtube.com/user/jaxachannel\nhttps://www.youtube.com/@JAXA-LiveEvent\n\n▼JAXA（国立研究開発法人宇宙航空研究開発機構/Japan Aerospace Exploration Agency）\nhttps://www.jaxa.jp/\nhttps://global.jaxa.jp/",
-        "feature_image": "https://i.ytimg.com/vi/sZGyK9jfoy4/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=sZGyK9jfoy4",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 6,
-          "name": "Japanese",
-          "code": "jp"
-        },
-        "start_time": "2026-10-19T18:45:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 12,
-        "source": "youtube.com",
-        "publisher": "NVS",
-        "title": "2026.10.20　3:30～ H３ロケット10号機 「火星衛星探査機（MMX）」打上げ　H3 Rocket F10 Launch",
-        "description": "H3ロケット10号機の打上げの様子を現地、種子島宇宙センターからライブ配信します。\nThe launch of H3 Rocket F10 will be broadcast live from the Tanegashima Space Center.\n\n打上げ予定日（Launch Date）：　2026.10.20\n打上げ予定時刻（Launch Time）：4:41’03”　+0900 (JST)\n予備期間（Preliminary duration）：2026.10.21～2026.11.7\nペイロード（Payload）：火星衛星探査機（MMX）\n\n打上げ前会見　Pre-Launch Briefing\n　https://www.youtube.com/live/uYfYCWStDGY\n\n機体移動　transfer operation\n　https://www.youtube.com/live/kI8Escaf9-g\n　\n見守る配信　watch over the rocket before launch\n　https://www.youtube.com/live/5NJ9smSXP5s\n\n打上げ　Launch\n　https://www.youtube.com/live/ghSpAe_gx6k\n\n打上げ後会見　Post-Press Conference\n　https://www.youtube.com/live/6ePIiHm2Nm8\n\nNVS配信スケジュール　Our Streaming Schedule\n　http://blog.nvs-live.com/?eid=883\n\nこのチャンネルのメンバーになって特典にアクセスしてください:\nhttps://www.youtube.com/channel/UCDkGOo9VQFjijIDZJidoNmg/join",
-        "feature_image": "https://i.ytimg.com/vi/ghSpAe_gx6k/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=ghSpAe_gx6k",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 6,
-          "name": "Japanese",
-          "code": "jp"
-        },
-        "start_time": "2026-10-19T18:30:00Z",
-        "end_time": null,
-        "live": false
-      }
-    ],
-    "mission_patches": [
-      {
-        "id": 1356,
-        "name": "MMX Mission Patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/mmx2520mission_mission_patch_20261018180025.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 37,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/37/",
-          "name": "Japan Aerospace Exploration Agency",
-          "abbrev": "JAXA",
-          "type": {
-            "id": 1,
-            "name": "Government"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
     "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
     "net": "2026-10-20T10:30:00Z",
@@ -7181,6 +7030,74 @@
     },
     "mission": {
       "name": "Telesat Lightspeed 7",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "latitude": 28.458,
+      "longitude": -80.528,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "428edcbe-bbd7-4475-8eb1-3dd90b39ad75",
+    "name": "Falcon 9 Block 5 | Telesat Lightspeed 2",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Telesat Lightspeed 2",
       "type": "Communications",
       "orbit": {
         "abbrev": "LEO",
