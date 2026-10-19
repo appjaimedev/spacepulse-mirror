@@ -4,9 +4,9 @@
     "name": "H3-24 | Martian Moons eXploration (MMX)",
     "net": "2026-10-19T19:41:03Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 98,
