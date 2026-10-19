@@ -39856,6 +39856,36 @@
       }
     ]
   },
+  "69ebbcd2-b257-4070-9ef9-21e7d1f8a883": {
+    "mission": {
+      "type": "Planetary Science",
+      "orbit": {
+        "abbrev": "Mars",
+        "name": "Mars Orbit"
+      },
+      "description": "MMX is a Japanese scientific mission to land on Phobos, one of the two moons of Mars, to collect samples before bringing them back to Earth. The mission includes a small French/German rover to explore the surface of Phobos."
+    },
+    "rocket_full_name": "H3-24",
+    "pad_lat": 30.400938,
+    "pad_lon": 130.97564,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/mmx2520mission_mission_patch_20261018180025.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=Fn6gzuGa-6c"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=sZGyK9jfoy4"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ghSpAe_gx6k"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,

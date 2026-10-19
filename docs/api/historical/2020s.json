@@ -1,5 +1,34 @@
 [
   {
+    "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
+    "name": "H3-24 | Martian Moons eXploration (MMX)",
+    "net": "2026-10-19T19:41:03Z",
+    "status": {
+      "id": 6,
+      "name": "Launch in Flight",
+      "abbrev": "In Flight"
+    },
+    "launch_service_provider": {
+      "id": 98,
+      "name": "Mitsubishi Heavy Industries",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "H3-24"
+      }
+    },
+    "pad": {
+      "name": "Yoshinobu Launch Complex LP-2",
+      "location": {
+        "name": "Tanegashima Space Center, Japan"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_20251028184029.jpeg"
+    }
+  },
+  {
     "id": "df88cfbf-f504-4e11-8370-e33dd6280b5b",
     "name": "Falcon 9 Block 5 | USSF-481",
     "net": "2026-10-16T00:01:05Z",
