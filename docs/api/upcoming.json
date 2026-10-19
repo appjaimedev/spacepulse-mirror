@@ -106,6 +106,27 @@
         "start_time": "2026-10-19T18:45:00Z",
         "end_time": null,
         "live": false
+      },
+      {
+        "priority": 12,
+        "source": "youtube.com",
+        "publisher": "NVS",
+        "title": "2026.10.20　3:30～ H３ロケット10号機 「火星衛星探査機（MMX）」打上げ　H3 Rocket F10 Launch",
+        "description": "H3ロケット10号機の打上げの様子を現地、種子島宇宙センターからライブ配信します。\nThe launch of H3 Rocket F10 will be broadcast live from the Tanegashima Space Center.\n\n打上げ予定日（Launch Date）：　2026.10.20\n打上げ予定時刻（Launch Time）：4:41’03”　+0900 (JST)\n予備期間（Preliminary duration）：2026.10.21～2026.11.7\nペイロード（Payload）：火星衛星探査機（MMX）\n\n打上げ前会見　Pre-Launch Briefing\n　https://www.youtube.com/live/uYfYCWStDGY\n\n機体移動　transfer operation\n　https://www.youtube.com/live/kI8Escaf9-g\n　\n見守る配信　watch over the rocket before launch\n　https://www.youtube.com/live/5NJ9smSXP5s\n\n打上げ　Launch\n　https://www.youtube.com/live/ghSpAe_gx6k\n\n打上げ後会見　Post-Press Conference\n　https://www.youtube.com/live/6ePIiHm2Nm8\n\nNVS配信スケジュール　Our Streaming Schedule\n　http://blog.nvs-live.com/?eid=883\n\nこのチャンネルのメンバーになって特典にアクセスしてください:\nhttps://www.youtube.com/channel/UCDkGOo9VQFjijIDZJidoNmg/join",
+        "feature_image": "https://i.ytimg.com/vi/ghSpAe_gx6k/maxresdefault_live.jpg",
+        "url": "https://www.youtube.com/watch?v=ghSpAe_gx6k",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 6,
+          "name": "Japanese",
+          "code": "jp"
+        },
+        "start_time": "2026-10-19T18:30:00Z",
+        "end_time": null,
+        "live": false
       }
     ],
     "mission_patches": [
