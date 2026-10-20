@@ -1,177 +1,5 @@
 [
   {
-    "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
-    "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-    "net": "2026-10-20T10:30:00Z",
-    "net_precision": {
-      "id": 0,
-      "name": "Second",
-      "abbrev": "SEC"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-      "type": "Dedicated Rideshare",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 40",
-      "latitude": 28.56194122,
-      "longitude": -80.57735736,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20251102082912.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20251102082912.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 7,
-        "source": "youtube.com",
-        "publisher": "SPACE AFFAIRS",
-        "title": "GO! - SpaceX/NASA - Falcon 9 - Bandwagon-5 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
-        "description": "Launch Date: October 20, 2026\nLaunch Time:  6:30 a.m. EDT, 1030 UTC, 12:30 CEST\nLaunch Window: Open until 7:30 a.m. EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station, Florida, USA\nTargeted Orbit: LEO (Low Earth Orbit - International Space Station ISS)\nLaunch Inclination: South East\nLaunch Status: Scheduled and announced\n\nMission: Bandwagon-5 - SmallSat Rideshare \nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1085 - Turnaround time 69 days) \nFlight for the Booster: 19\nPrevious Flights of the Booster: 18 -  Crew-9, RRT-1, Firefly Blue Ghost Mission 1, Fram2, SXM-10, MTG-S1, EchoStar XXV, SXM-11, and 10 Starlink missions\nBooster landing: Droneship A Shortfall Of Gravitas, Atlantic Ocean\n\nSpaceX is targeting Monday, October 19 for a Falcon 9 launch of the Bandwagon...",
-        "feature_image": "https://i.ytimg.com/vi/GxvZk5YHfR4/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=GxvZk5YHfR4",
-        "type": {
-          "id": 4,
-          "name": "Unofficial Re-stream"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-20T10:13:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 8,
-        "source": "youtube.com",
-        "publisher": "Spaceflight Now",
-        "title": "Live: SpaceX Falcon 9 rocket launches Bandwagon-5 rideshare mission from Cape Canaveral",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying multiple payloads on the Bandwagon-5 ride-share mission. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Tuesday, Oct. 20, at 6:30 a.m. EDT (1030 UTC). \n\nThe first stage booster, tail number B1085, launching for a 19th time, will target a landing on the drone ship 'A Shortfall of Gravitas'.\n\nThe mission will take a south-easterly trajectory on departure from Florida's Space Coast.\n\nCommentary will be provided by Spaceflight Now's Will Robinson-Smith, starting approximately an hour prior to liftoff.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCoLdERT4-TJ82PJOHSrsZLQ/join",
-        "feature_image": "https://i.ytimg.com/vi/WtuZaR5vryo/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=WtuZaR5vryo",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-20T09:30:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 9,
-        "source": "youtube.com",
-        "publisher": "NASASpaceflight",
-        "title": "SpaceX Launches Falcon 9 with Bandwagon-5",
-        "description": "Launch Window: October 20th 06:30-07:30 EDT (10:30-11:30 UTC)\nCurrent T0: October 20th at 06:30 EDT (10:30 UTC)\n\nMission: Falcon 9 launch of Bandwagon-5 as part of SpaceX's Smallsat Rideshare Program\nLaunch location: Space Launch Complex 40, Cape Canaveral Space Force Station, Earth. \nTarget orbit: Low-Earth Orbit (LEO), 45º inclination\nBooster: B1085-19; 68d 17h 31min 34s turnaround\nPast customer missions: Crew-9, GPS-III SV07, Hakuto-R M2 and Blue Ghost M1, Fram2, SXM-10, MTG-S1, Echostar XXV, SXM-11.\nPast Starlink missions: 10-5, 6-77, 6-93, 10-20, 10-27, 6-94, 6-98, 10-58, 10-53, 10-19.\nSatellites launched: 283, will be 315 after this mission\nBooster recovery: A Shortfall Of Gravitas (ASOG)\nFairing recovery: Bob\nRocket trajectory: Southeast passing north of Bahamas\nPayload mass: U...",
-        "feature_image": "https://i.ytimg.com/vi/8t6CQp9-bpk/maxresdefault_live.jpg",
-        "url": "https://www.youtube.com/watch?v=8t6CQp9-bpk",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-20T09:30:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "SpaceX",
-        "title": "Bandwagon-5 Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HUhnl7NWoAAts9l.jpg",
-        "url": "https://x.com/i/broadcasts/1nxeLMddZlEJX",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-10-20T10:13:00Z",
-        "end_time": "2026-10-21T10:13:00Z",
-        "live": false
-      }
-    ],
-    "mission_patches": [
-      {
-        "id": 1355,
-        "name": "Bandwagon 5",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/bandwagon25205_mission_patch_20261017042118.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 121,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/121/",
-          "name": "SpaceX",
-          "abbrev": "SpX",
-          "type": {
-            "id": 3,
-            "name": "Commercial"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
     "name": "Falcon 9 Block 5 | Starlink Group 15-15",
     "net": "2026-10-20T23:10:02Z",
@@ -7207,6 +7035,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "5aa3575e-f3ff-48ec-969f-e7e4c669f866",
+    "name": "Electron | BlackSky Gen-3 7",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 147,
+      "name": "Rocket Lab",
+      "abbrev": "RL",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Electron",
+        "full_name": "Electron",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "BlackSky Gen-3 7",
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "latitude": -39.260881,
+      "longitude": 177.865826,
+      "location": {
+        "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+        "country": {
+          "id": 51,
+          "name": "New Zealand",
+          "alpha_2_code": "NZ",
+          "alpha_3_code": "NZL",
+          "nationality_name": "Kiwi",
+          "nationality_name_composed": "Kiwi"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
