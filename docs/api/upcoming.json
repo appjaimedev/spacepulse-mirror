@@ -242,7 +242,7 @@
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Falcon 9 - Starlink 15-15 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
-        "description": "Launch Date: October 20, 2026 (PDT)\nLaunch Time:  3:14 p.m. PDT, 2214 UTC (October 21, 00:14 CEST)\nLaunch Window: Open until 7:14 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced \n\nMission: Starlink Group 15-15\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1063 - Turnaround time 49 days)\nFlight for the Booster: 36\nPrevious Flights of the Booster: 35 - Sentinel-6 Michael Freilich, DART, Transporter-7, Iridium OneWeb, SDA-0B, NROL-113, NROL-167, NROL-149, NAOS, and 26 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift...",
+        "description": "Launch Date: October 20, 2026 (PDT)\nLaunch Time:  4:10 p.m. PDT, 2310 UTC (October 21, 01:10 CEST)\nLaunch Window: Open until 7:14 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced \n\nMission: Starlink Group 15-15\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1063 - Turnaround time 49 days)\nFlight for the Booster: 36\nPrevious Flights of the Booster: 35 - Sentinel-6 Michael Freilich, DART, Transporter-7, Iridium OneWeb, SDA-0B, NROL-113, NROL-167, NROL-149, NAOS, and 26 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift...",
         "feature_image": "https://i.ytimg.com/vi/k-TFfeJD8T4/maxresdefault_live.jpg",
         "url": "https://www.youtube.com/watch?v=k-TFfeJD8T4",
         "type": {
@@ -254,7 +254,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-10-20T21:52:00Z",
+        "start_time": "2026-10-20T22:58:00Z",
         "end_time": null,
         "live": false
       },
