@@ -1,5 +1,34 @@
 [
   {
+    "id": "c6f8b6b0-6bae-460a-99bb-c12a3d29effd",
+    "name": "Ceres-1S | Xiguang-4 01",
+    "net": "2026-10-21T03:39:00Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 1021,
+      "name": "Galactic Energy",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Ceres-1S"
+      }
+    },
+    "pad": {
+      "name": "Rizhao offshore launch location",
+      "location": {
+        "name": "Haiyang Oriental Spaceport"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-1s_image_20230905114324.jpeg"
+    }
+  },
+  {
     "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
     "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
     "net": "2026-10-20T11:04:00Z",
