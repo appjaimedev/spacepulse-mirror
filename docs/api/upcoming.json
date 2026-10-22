@@ -2,7 +2,7 @@
   {
     "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
     "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-    "net": "2026-10-22T22:40:24Z",
+    "net": "2026-10-22T22:51:18Z",
     "net_precision": {
       "id": 0,
       "name": "Second",
@@ -70,7 +70,7 @@
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Falcon 9 - Starlink 15-15 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
-        "description": "Launch Date: October 22, 2026 (PDT)\nLaunch Time:  3:40 p.m. PDT, 2240 UTC (October 23, 00:40 CEST)\nLaunch Window: 6:45 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced \n\nMission: Starlink Group 15-15\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1063 - Turnaround time 50 days)\nFlight for the Booster: 36\nPrevious Flights of the Booster: 35 - Sentinel-6 Michael Freilich, DART, Transporter-7, Iridium OneWeb, SDA-0B, NROL-113, NROL-167, NROL-149, NAOS, and 26 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust...",
+        "description": "Launch Date: October 22, 2026 (PDT)\nLaunch Time:  3:51 p.m. PDT, 2251 UTC (October 23, 00:51 CEST)\nLaunch Window: 6:45 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced \n\nMission: Starlink Group 15-15\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1063 - Turnaround time 50 days)\nFlight for the Booster: 36\nPrevious Flights of the Booster: 35 - Sentinel-6 Michael Freilich, DART, Transporter-7, Iridium OneWeb, SDA-0B, NROL-113, NROL-167, NROL-149, NAOS, and 26 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust...",
         "feature_image": "https://i.ytimg.com/vi/k-TFfeJD8T4/maxresdefault.jpg?v=6acf2c6f",
         "url": "https://www.youtube.com/watch?v=k-TFfeJD8T4",
         "type": {
@@ -82,7 +82,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-10-22T22:27:00Z",
+        "start_time": "2026-10-22T22:38:00Z",
         "end_time": null,
         "live": false
       },
@@ -91,7 +91,7 @@
         "source": "youtube.com",
         "publisher": "Spaceflight Now",
         "title": "SpaceX Falcon 9 rocket launches from California with 27 Starlink satellites",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 27 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Thursday, October 22, 2026, during a window that opens at 2:45 p.m. PDT (5:45 p.m. EDT / 2145 UTC).\n\nThe first-stage booster, serial number B1063, launching for a 36th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 15-15 mission will take a southeasterly trajectory upon departure from Vandenberg. \n\nLive coverage with commentary will start about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nht...",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 27 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Thursday, October 22, 2026, at 3:51 p.m. PDT (6:51 p.m. EDT / 2251 UTC).\n\nThe first-stage booster, serial number B1063, launching for a 36th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 15-15 mission will take a southeasterly trajectory upon departure from Vandenberg. \n\nLive coverage with commentary will start about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/chann...",
         "feature_image": "https://i.ytimg.com/vi/d4zn2Tth8O0/maxresdefault.jpg?v=6ad78575",
         "url": "https://www.youtube.com/watch?v=d4zn2Tth8O0",
         "type": {
@@ -103,7 +103,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-10-22T21:45:00Z",
+        "start_time": "2026-10-22T22:21:00Z",
         "end_time": null,
         "live": false
       },
@@ -124,8 +124,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-10-22T23:28:00Z",
-        "end_time": "2026-10-23T23:28:00Z",
+        "start_time": "2026-10-22T22:41:00Z",
+        "end_time": "2026-10-23T22:41:00Z",
         "live": false
       }
     ],
@@ -750,13 +750,13 @@
     ]
   },
   {
-    "id": "e59ff9a4-f72f-4841-8546-3c94346ecdba",
-    "name": "SSLV | AayulSAT-1A & others",
-    "net": "2026-10-31T00:00:00Z",
+    "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
+    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
+    "net": "2026-10-30T00:00:00Z",
     "net_precision": {
-      "id": 7,
-      "name": "Month",
-      "abbrev": "M"
+      "id": 5,
+      "name": "Day",
+      "abbrev": "DAY"
     },
     "status": {
       "id": 2,
@@ -780,23 +780,23 @@
     },
     "rocket": {
       "configuration": {
-        "name": "SSLV",
-        "full_name": "SSLV",
+        "name": "GSLV Mk II",
+        "full_name": "GSLV Mk. II",
         "reusable": false
       }
     },
     "mission": {
-      "name": "AayulSAT-1A & others",
-      "type": "Technology",
+      "name": "IRNSS-1L (NVS-03)",
+      "type": "Navigation",
       "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
+        "abbrev": "GTO",
+        "name": "Geostationary Transfer Orbit"
       }
     },
     "pad": {
-      "name": "Satish Dhawan Space Centre First Launch Pad",
-      "latitude": 13.733,
-      "longitude": 80.235,
+      "name": "Satish Dhawan Space Centre Second Launch Pad",
+      "latitude": 13.7199,
+      "longitude": 80.2304,
       "location": {
         "name": "Satish Dhawan Space Centre, India",
         "country": {
@@ -810,8 +810,8 @@
       }
     },
     "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sslv_image_20220912001724.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193926.jpeg"
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk252_image_20240101090337.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192851.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -880,74 +880,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_12a__image_20251224005749.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_12a__image_thumbnail_20251224005750.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
-    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-    "net": "2026-10-31T00:00:00Z",
-    "net_precision": {
-      "id": 7,
-      "name": "Month",
-      "abbrev": "M"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 31,
-      "name": "Indian Space Research Organization",
-      "abbrev": "ISRO",
-      "country": [
-        {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "GSLV Mk II",
-        "full_name": "GSLV Mk. II",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "IRNSS-1L (NVS-03)",
-      "type": "Navigation",
-      "orbit": {
-        "abbrev": "GTO",
-        "name": "Geostationary Transfer Orbit"
-      }
-    },
-    "pad": {
-      "name": "Satish Dhawan Space Centre Second Launch Pad",
-      "latitude": 13.7199,
-      "longitude": 80.2304,
-      "location": {
-        "name": "Satish Dhawan Space Centre, India",
-        "country": {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk252_image_20240101090337.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192851.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -1041,105 +973,18 @@
     ]
   },
   {
-    "id": "56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
-    "name": "Falcon 9 Block 5 | NROL-195",
-    "net": "2026-11-05T22:34:00Z",
+    "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+    "net": "2026-11-05T05:14:00Z",
     "net_precision": {
       "id": 1,
       "name": "Minute",
       "abbrev": "MIN"
     },
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "NROL-195",
-      "type": "Government/Top Secret",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241024165956.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": [
-      {
-        "id": 1057,
-        "name": "NROL-146",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-146_mission_patch_20241020111152.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 181,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/181/",
-          "name": "National Reconnaissance Office",
-          "abbrev": "NRO",
-          "type": {
-            "id": 1,
-            "name": "Government"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
-    "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-21",
-    "net": "2026-11-10T00:00:00Z",
-    "net_precision": {
-      "id": 5,
-      "name": "Day",
-      "abbrev": "DAY"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 121,
@@ -1230,6 +1075,93 @@
           "type": {
             "id": 3,
             "name": "Commercial"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
+  },
+  {
+    "id": "56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
+    "name": "Falcon 9 Block 5 | NROL-195",
+    "net": "2026-11-05T22:34:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
+    "status": {
+      "id": 8,
+      "name": "To Be Confirmed",
+      "abbrev": "TBC"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "NROL-195",
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241024165956.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": [
+      {
+        "id": 1057,
+        "name": "NROL-146",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-146_mission_patch_20241020111152.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 181,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/181/",
+          "name": "National Reconnaissance Office",
+          "abbrev": "NRO",
+          "type": {
+            "id": 1,
+            "name": "Government"
           }
         },
         "response_mode": "normal"
@@ -3548,6 +3480,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193953.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "e59ff9a4-f72f-4841-8546-3c94346ecdba",
+    "name": "SSLV | AayulSAT-1A & others",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 31,
+      "name": "Indian Space Research Organization",
+      "abbrev": "ISRO",
+      "country": [
+        {
+          "id": 9,
+          "name": "India",
+          "alpha_2_code": "IN",
+          "alpha_3_code": "IND",
+          "nationality_name": "Indian",
+          "nationality_name_composed": "Indo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "SSLV",
+        "full_name": "SSLV",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "AayulSAT-1A & others",
+      "type": "Technology",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Satish Dhawan Space Centre First Launch Pad",
+      "latitude": 13.733,
+      "longitude": 80.235,
+      "location": {
+        "name": "Satish Dhawan Space Centre, India",
+        "country": {
+          "id": 9,
+          "name": "India",
+          "alpha_2_code": "IN",
+          "alpha_3_code": "IND",
+          "nationality_name": "Indian",
+          "nationality_name_composed": "Indo"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sslv_image_20220912001724.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193926.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
