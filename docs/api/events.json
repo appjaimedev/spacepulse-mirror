@@ -1,13 +1,13 @@
 [
   {
-    "id": 1568,
-    "name": "US EVA-100/101 Preview News Conference",
+    "id": 1564,
+    "name": "RS-25 Engine Test",
     "type": {
-      "id": 20,
-      "name": "Press Event"
+      "id": 5,
+      "name": "Static Fire"
     },
-    "date": "2026-10-20T18:00:00Z",
-    "description": "NASA will preview two upcoming spacewalks to complete solar array installation and power augmentation of the International Space Station during a news conference at 2 p.m. EDT, Tuesday, Oct. 20, from NASA’s Johnson Space Center in Houston.\r\n\r\nNASA participants include:\r\n- Gaurang Patel, operations integration manager, Low Earth Orbit Program\r\n- Garrett Hehn, spacewalk flight director, Flight Operations Directorate",
+    "date": "2026-10-21T18:30:00Z",
+    "description": "NASA is conducting a hot fire of an RS-25 engine as part of certification testing for future SLS (Space Launch System) rockets. The test of developmental RS-25 engine No. 10001 is planned to run for almost eight-and-a-half minutes (500 seconds) and throttle up to 111% of its rated power level.",
     "video_url": null,
     "launch": null,
     "feature_image": null
@@ -34,19 +34,6 @@
     },
     "date": "2026-10-29T12:00:00Z",
     "description": "NASA astronaut Anil Menon and CSA astronaut Joshua Kutryk will exit the station’s Quest airlock to install and deploy an International Space Station Roll-Out Solar Array (IROSA) on the 2A electrical power channel. The solar array will be the seventh IROSA and will provide additional power to support critical station operations, including its safe and controlled deorbit.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1564,
-    "name": "RS-25 Engine Test",
-    "type": {
-      "id": 5,
-      "name": "Static Fire"
-    },
-    "date": "2026-10-31T00:00:00Z",
-    "description": "NASA is conducting a hot fire of an RS-25 engine as part of certification testing for future SLS (Space Launch System) rockets. The test of developmental RS-25 engine No. 10001 is planned to run for almost eight-and-a-half minutes (500 seconds) and throttle up to 111% of its rated power level.",
     "video_url": null,
     "launch": null,
     "feature_image": null
