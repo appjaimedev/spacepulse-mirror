@@ -39965,6 +39965,21 @@
       }
     ]
   },
+  "9648124f-8568-46d2-86d7-4b4d6f12187f": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "The Yaogan 50-03 is a Chinese military “remote sensing” satellite of unknown purposes."
+    },
+    "rocket_full_name": "Long March 6A",
+    "pad_lat": 38.8583,
+    "pad_lon": 111.5802,
+    "mission_patches": [],
+    "vid_urls": []
+  },
   "__years__": [
     2020,
     2021,

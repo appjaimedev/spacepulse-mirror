@@ -1,12 +1,41 @@
 [
   {
+    "id": "9648124f-8568-46d2-86d7-4b4d6f12187f",
+    "name": "Long March 6A | Yaogan 50-03",
+    "net": "2026-10-23T10:15:00Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 6A"
+      }
+    },
+    "pad": {
+      "name": "Launch Complex 9A",
+      "location": {
+        "name": "Taiyuan Satellite Launch Center, People's Republic of China"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_20251209050223.jpeg"
+    }
+  },
+  {
     "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
     "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
     "net": "2026-10-23T07:11:00Z",
     "status": {
-      "id": 9,
-      "name": "Payload Deployed",
-      "abbrev": "Deployed"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 147,
