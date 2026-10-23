@@ -4,9 +4,9 @@
     "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
     "net": "2026-10-23T07:11:00Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 9,
+      "name": "Payload Deployed",
+      "abbrev": "Deployed"
     },
     "launch_service_provider": {
       "id": 147,
