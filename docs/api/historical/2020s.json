@@ -1,5 +1,34 @@
 [
   {
+    "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
+    "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
+    "net": "2026-10-23T07:11:00Z",
+    "status": {
+      "id": 6,
+      "name": "Launch in Flight",
+      "abbrev": "In Flight"
+    },
+    "launch_service_provider": {
+      "id": 147,
+      "name": "Rocket Lab",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Electron"
+      }
+    },
+    "pad": {
+      "name": "Rocket Lab Launch Complex 1A",
+      "location": {
+        "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg"
+    }
+  },
+  {
     "id": "c6f8b6b0-6bae-460a-99bb-c12a3d29effd",
     "name": "Ceres-1S | Xiguang-4 01",
     "net": "2026-10-21T03:39:00Z",
