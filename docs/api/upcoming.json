@@ -138,7 +138,7 @@
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Falcon 9 - Starlink 15-15 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
-        "description": "Launch Date: October 23, 2026 (PDT)\nLaunch Time:  2:30 p.m. PDT, 2130 UTC, 23:30 CEST\nLaunch Window: 6:30 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced \n\nMission: Starlink Group 15-15\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1063 - Turnaround time 52 days)\nFlight for the Booster: 36\nPrevious Flights of the Booster: 35 - Sentinel-6 Michael Freilich, DART, Transporter-7, Iridium OneWeb, SDA-0B, NROL-113, NROL-167, NROL-149, NAOS, and 26 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilon...",
+        "description": "Launch Date: October 23, 2026 (PDT)\nLaunch Time:  3:28 p.m. PDT, 2228 UTC (October 24, 00:28 CEST)\nLaunch Window: 6:30 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced \n\nMission: Starlink Group 15-15\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1063 - Turnaround time 52 days)\nFlight for the Booster: 36\nPrevious Flights of the Booster: 35 - Sentinel-6 Michael Freilich, DART, Transporter-7, Iridium OneWeb, SDA-0B, NROL-113, NROL-167, NROL-149, NAOS, and 26 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust...",
         "feature_image": "https://i.ytimg.com/vi/zGZUw70ASg0/maxresdefault.jpg?v=6adaf6a5",
         "url": "https://www.youtube.com/watch?v=zGZUw70ASg0",
         "type": {
@@ -150,8 +150,50 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-10-23T21:18:00Z",
+        "start_time": "2026-10-23T22:15:00Z",
         "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "SpaceX Falcon 9 rocket launches from California with 27 Starlink satellites",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 27 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Friday, October 23, 2026, at 3:28 p.m. PDT (6:28 p.m. EDT / 2228 UTC).\n\nThe first-stage booster, serial number B1063, launching for a 36th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 15-15 mission will take a southeasterly trajectory upon departure from Vandenberg. \n\nLive coverage with commentary will start about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/channel...",
+        "feature_image": "https://i.ytimg.com/vi/hANSUkrKDwQ/maxresdefault.jpg?v=6adb79c2",
+        "url": "https://www.youtube.com/watch?v=hANSUkrKDwQ",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-23T21:58:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "SpaceX",
+        "title": "Starlink Mission",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HVUedcNWUAAMOB7.jpg",
+        "url": "https://x.com/i/broadcasts/1qKDzWkEraoJV",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-10-23T22:18:00Z",
+        "end_time": "2026-10-24T01:18:00Z",
         "live": false
       }
     ],
@@ -247,7 +289,7 @@
   {
     "id": "e2886a96-5ce9-4f45-872f-4e25a00be837",
     "name": "Falcon 9 Block 5 | Starlink Group 15-16",
-    "net": "2026-10-26T05:00:00Z",
+    "net": "2026-10-27T04:45:00Z",
     "net_precision": {
       "id": 1,
       "name": "Minute",
@@ -327,8 +369,8 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-10-25T04:50:00Z",
-        "end_time": "2026-10-26T04:50:00Z",
+        "start_time": "2026-10-27T04:35:00Z",
+        "end_time": "2026-10-28T04:35:00Z",
         "live": false
       }
     ],
@@ -424,7 +466,7 @@
   {
     "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
     "name": "Falcon 9 Block 5 | Starlink Group 15-18",
-    "net": "2026-10-29T04:17:00Z",
+    "net": "2026-10-30T04:02:00Z",
     "net_precision": {
       "id": 1,
       "name": "Minute",
@@ -4999,71 +5041,6 @@
     "mission_patches": []
   },
   {
-    "id": "a8c191e1-b231-4b2e-aefd-5e8ad55c7a82",
-    "name": "Miura 5 | Maiden Flight",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 14,
-      "name": "Year",
-      "abbrev": "Y"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 1051,
-      "name": "Payload Aerospace S.L.",
-      "abbrev": "PLD Space",
-      "country": [
-        {
-          "id": 7,
-          "name": "Spain",
-          "alpha_2_code": "ES",
-          "alpha_3_code": "ESP",
-          "nationality_name": "Spanish",
-          "nationality_name_composed": "Hispano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Miura 5",
-        "full_name": "Miura 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Maiden Flight",
-      "type": "Test Flight",
-      "orbit": {
-        "abbrev": "SSO",
-        "name": "Sun-Synchronous Orbit"
-      }
-    },
-    "pad": {
-      "name": "Diamant Launch Area",
-      "latitude": 5.2222222,
-      "longitude": -52.7758051,
-      "location": {
-        "name": "Guiana Space Centre, French Guiana",
-        "country": {
-          "id": 50,
-          "name": "French Guiana",
-          "alpha_2_code": "GF",
-          "alpha_3_code": "GUF",
-          "nationality_name": "French Guianan",
-          "nationality_name_composed": "Franco-Guiano"
-        }
-      }
-    },
-    "image": null,
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "581d1d85-bbe8-48f1-9dac-5b4e63503896",
     "name": "Unknown | VCLS Demo 2 Mission One",
     "net": "2026-12-31T00:00:00Z",
@@ -7079,6 +7056,250 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "3b94ad50-3505-496e-8a95-b0bc4c0dadc6",
+    "name": "Themis Demonstrator | T1H-1",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 27,
+      "name": "European Space Agency",
+      "abbrev": "ESA",
+      "country": [
+        {
+          "id": 1,
+          "name": "France",
+          "alpha_2_code": "FR",
+          "alpha_3_code": "FRA",
+          "nationality_name": "French",
+          "nationality_name_composed": "Franco"
+        },
+        {
+          "id": 3,
+          "name": "Italy",
+          "alpha_2_code": "IT",
+          "alpha_3_code": "ITA",
+          "nationality_name": "Italian",
+          "nationality_name_composed": "Italo"
+        },
+        {
+          "id": 4,
+          "name": "Germany",
+          "alpha_2_code": "DE",
+          "alpha_3_code": "DEU",
+          "nationality_name": "German",
+          "nationality_name_composed": "Germano"
+        },
+        {
+          "id": 7,
+          "name": "Spain",
+          "alpha_2_code": "ES",
+          "alpha_3_code": "ESP",
+          "nationality_name": "Spanish",
+          "nationality_name_composed": "Hispano"
+        },
+        {
+          "id": 8,
+          "name": "Switzerland",
+          "alpha_2_code": "CH",
+          "alpha_3_code": "CHE",
+          "nationality_name": "Swiss",
+          "nationality_name_composed": "Swiss"
+        },
+        {
+          "id": 10,
+          "name": "United Kingdom",
+          "alpha_2_code": "GB",
+          "alpha_3_code": "GBR",
+          "nationality_name": "British",
+          "nationality_name_composed": "Brito"
+        },
+        {
+          "id": 11,
+          "name": "Austria",
+          "alpha_2_code": "AT",
+          "alpha_3_code": "AUT",
+          "nationality_name": "Austrian",
+          "nationality_name_composed": "Austro"
+        },
+        {
+          "id": 15,
+          "name": "Sweden",
+          "alpha_2_code": "SE",
+          "alpha_3_code": "SWE",
+          "nationality_name": "Swedish",
+          "nationality_name_composed": "Swedo"
+        },
+        {
+          "id": 20,
+          "name": "Belgium",
+          "alpha_2_code": "BE",
+          "alpha_3_code": "BEL",
+          "nationality_name": "Belgian",
+          "nationality_name_composed": "Belgo"
+        },
+        {
+          "id": 23,
+          "name": "Portugal",
+          "alpha_2_code": "PT",
+          "alpha_3_code": "PRT",
+          "nationality_name": "Portuguese",
+          "nationality_name_composed": "Luso"
+        },
+        {
+          "id": 27,
+          "name": "Netherlands",
+          "alpha_2_code": "NL",
+          "alpha_3_code": "NLD",
+          "nationality_name": "Dutch",
+          "nationality_name_composed": "Dutch"
+        },
+        {
+          "id": 31,
+          "name": "Hungary",
+          "alpha_2_code": "HU",
+          "alpha_3_code": "HUN",
+          "nationality_name": "Hungarian",
+          "nationality_name_composed": "Hungarian"
+        },
+        {
+          "id": 39,
+          "name": "Poland",
+          "alpha_2_code": "PL",
+          "alpha_3_code": "POL",
+          "nationality_name": "Polish",
+          "nationality_name_composed": "Polono"
+        },
+        {
+          "id": 45,
+          "name": "Denmark",
+          "alpha_2_code": "DK",
+          "alpha_3_code": "DNK",
+          "nationality_name": "Danish",
+          "nationality_name_composed": "Dano"
+        },
+        {
+          "id": 46,
+          "name": "Czechia",
+          "alpha_2_code": "CZ",
+          "alpha_3_code": "CZE",
+          "nationality_name": "Czech",
+          "nationality_name_composed": "Czech"
+        },
+        {
+          "id": 47,
+          "name": "Romania",
+          "alpha_2_code": "RO",
+          "alpha_3_code": "ROU",
+          "nationality_name": "Romanian",
+          "nationality_name_composed": "Romanian"
+        },
+        {
+          "id": 49,
+          "name": "Norway",
+          "alpha_2_code": "NO",
+          "alpha_3_code": "NOR",
+          "nationality_name": "Norwegian",
+          "nationality_name_composed": "Norwegian"
+        },
+        {
+          "id": 77,
+          "name": "Finland",
+          "alpha_2_code": "FI",
+          "alpha_3_code": "FIN",
+          "nationality_name": "Finnish",
+          "nationality_name_composed": "Finno"
+        },
+        {
+          "id": 78,
+          "name": "Greece",
+          "alpha_2_code": "GR",
+          "alpha_3_code": "GRC",
+          "nationality_name": "Greek",
+          "nationality_name_composed": "Greco"
+        },
+        {
+          "id": 80,
+          "name": "Estonia",
+          "alpha_2_code": "EE",
+          "alpha_3_code": "EST",
+          "nationality_name": "Estonian",
+          "nationality_name_composed": "Estonian"
+        },
+        {
+          "id": 81,
+          "name": "Ireland",
+          "alpha_2_code": "IE",
+          "alpha_3_code": "IRL",
+          "nationality_name": "Irish",
+          "nationality_name_composed": "Irish"
+        },
+        {
+          "id": 85,
+          "name": "Luxembourg",
+          "alpha_2_code": "LU",
+          "alpha_3_code": "LUX",
+          "nationality_name": "Luxembourger",
+          "nationality_name_composed": "Luxembourgish"
+        },
+        {
+          "id": 86,
+          "name": "Slovenia",
+          "alpha_2_code": "SI",
+          "alpha_3_code": "SVN",
+          "nationality_name": "Slovenian",
+          "nationality_name_composed": "Slovenian"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Themis Demonstrator",
+        "full_name": "Themis Demonstrator",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "T1H-1",
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "Sub",
+        "name": "Suborbital"
+      }
+    },
+    "pad": {
+      "name": "Launch Complex 3B",
+      "latitude": 67.877368,
+      "longitude": 21.165001,
+      "location": {
+        "name": "Esrange Space Center",
+        "country": {
+          "id": 15,
+          "name": "Sweden",
+          "alpha_2_code": "SE",
+          "alpha_3_code": "SWE",
+          "nationality_name": "Swedish",
+          "nationality_name_composed": "Swedo"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/themis_t1h_on_t_image_20250919095336.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/themis_t1h_on_t_image_thumbnail_20250919095336.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
