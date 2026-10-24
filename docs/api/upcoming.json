@@ -177,74 +177,6 @@
     ]
   },
   {
-    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-    "net": "2026-10-29T00:00:00Z",
-    "net_precision": {
-      "id": 5,
-      "name": "Day",
-      "abbrev": "DAY"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 124,
-      "name": "United Launch Alliance",
-      "abbrev": "ULA",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Vulcan VC6L",
-        "full_name": "Vulcan VC6L",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Amazon Leo (LV-01)",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 41",
-      "latitude": 28.58341025,
-      "longitude": -80.58303644,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
     "name": "Falcon 9 Block 5 | Starlink Group 15-18",
     "net": "2026-10-30T04:02:00Z",
@@ -1015,6 +947,74 @@
     "mission_patches": []
   },
   {
+    "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
+    "name": "Long March 2F/G | Shenzhou 24",
+    "net": "2026-11-25T00:00:00Z",
+    "net_precision": {
+      "id": 5,
+      "name": "Day",
+      "abbrev": "DAY"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "abbrev": "CASC",
+      "country": [
+        {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 2F/G",
+        "full_name": "Long March 2F/G",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Shenzhou 24",
+      "type": "Human Exploration",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Launch Area 91 (SLS-1 / 921)",
+      "latitude": 40.957893,
+      "longitude": 100.290944,
+      "location": {
+        "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+        "country": {
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_20251129175823.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_thumbnail_20251129175823.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
     "name": "LVM-3 | Gaganyaan-1",
     "net": "2026-11-30T00:00:00Z",
@@ -1213,6 +1213,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/south2520korea_image_20231204145331.png",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192440.png"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": {
+      "id": 7,
+      "name": "Month",
+      "abbrev": "M"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 124,
+      "name": "United Launch Alliance",
+      "abbrev": "ULA",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Vulcan VC6L",
+        "full_name": "Vulcan VC6L",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Amazon Leo (LV-01)",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 41",
+      "latitude": 28.58341025,
+      "longitude": -80.58303644,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -3084,74 +3152,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193953.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
-    "name": "Long March 2F/G | Shenzhou 24",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 13,
-      "name": "Year Half 2",
-      "abbrev": "H2"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 88,
-      "name": "China Aerospace Science and Technology Corporation",
-      "abbrev": "CASC",
-      "country": [
-        {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Long March 2F/G",
-        "full_name": "Long March 2F/G",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Shenzhou 24",
-      "type": "Human Exploration",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Launch Area 91 (SLS-1 / 921)",
-      "latitude": 40.957893,
-      "longitude": 100.290944,
-      "location": {
-        "name": "Jiuquan Satellite Launch Center, People's Republic of China",
-        "country": {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_20251129175823.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_thumbnail_20251129175823.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
