@@ -1,5 +1,34 @@
 [
   {
+    "id": "6b95bcc8-1f88-4539-84fe-f63630138766",
+    "name": "Long March 8A | SatNet LEO Group 28",
+    "net": "2026-10-25T02:03:00Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 8A"
+      }
+    },
+    "pad": {
+      "name": "Commercial LC-1",
+      "location": {
+        "name": "Wenchang Space Launch Site, People's Republic of China"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg"
+    }
+  },
+  {
     "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
     "name": "Falcon 9 Block 5 | Starlink Group 15-15",
     "net": "2026-10-23T22:48:44Z",
