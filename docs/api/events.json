@@ -1,18 +1,5 @@
 [
   {
-    "id": 1565,
-    "name": "Artemis Acceleration Press Conference",
-    "type": {
-      "id": 20,
-      "name": "Press Event"
-    },
-    "date": "2026-10-23T18:00:00Z",
-    "description": "Participants include:\r\n- NASA Administrator Jared Isaacman\r\n- NASA Associate Administrator Amit Kshatriya\r\n- Jeremy Parsons, NASA’s Artemis program manager",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1566,
     "name": "US EVA-100",
     "type": {
