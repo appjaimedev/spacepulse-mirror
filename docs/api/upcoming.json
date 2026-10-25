@@ -1,73 +1,5 @@
 [
   {
-    "id": "6b95bcc8-1f88-4539-84fe-f63630138766",
-    "name": "Long March 8A | Unknown Payload",
-    "net": "2026-10-25T01:50:00Z",
-    "net_precision": {
-      "id": 2,
-      "name": "Hour",
-      "abbrev": "HR"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 88,
-      "name": "China Aerospace Science and Technology Corporation",
-      "abbrev": "CASC",
-      "country": [
-        {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Long March 8A",
-        "full_name": "Long March 8A",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Unknown Payload",
-      "type": "Unknown",
-      "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
-      }
-    },
-    "pad": {
-      "name": "Commercial LC-1",
-      "latitude": 19.597275,
-      "longitude": 110.930753,
-      "location": {
-        "name": "Wenchang Space Launch Site, People's Republic of China",
-        "country": {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "e2886a96-5ce9-4f45-872f-4e25a00be837",
     "name": "Falcon 9 Block 5 | Starlink Group 15-16",
     "net": "2026-10-27T04:45:00Z",
@@ -1693,12 +1625,12 @@
   },
   {
     "id": "a9ee8337-127d-4f17-9e3a-a07999f80099",
-    "name": "Vulcan | SDA Tranche 1 Tracking Layer D",
+    "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer D",
     "net": "2026-12-31T00:00:00Z",
     "net_precision": {
-      "id": 14,
-      "name": "Year",
-      "abbrev": "Y"
+      "id": 11,
+      "name": "Quarter 4",
+      "abbrev": "Q4"
     },
     "status": {
       "id": 2,
@@ -1706,9 +1638,9 @@
       "abbrev": "TBD"
     },
     "launch_service_provider": {
-      "id": 124,
-      "name": "United Launch Alliance",
-      "abbrev": "ULA",
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
       "country": [
         {
           "id": 2,
@@ -1722,9 +1654,9 @@
     },
     "rocket": {
       "configuration": {
-        "name": "Vulcan",
-        "full_name": "Vulcan",
-        "reusable": false
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
       }
     },
     "mission": {
@@ -1736,9 +1668,9 @@
       }
     },
     "pad": {
-      "name": "Space Launch Complex 3E",
-      "latitude": 34.64,
-      "longitude": -120.5895,
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
       "location": {
         "name": "Vandenberg SFB, CA, USA",
         "country": {
@@ -1752,8 +1684,8 @@
       }
     },
     "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193953.jpeg"
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -1965,12 +1897,12 @@
   },
   {
     "id": "fcbc4550-e69e-4458-a9e6-4a5b6b6b15a5",
-    "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer E",
+    "name": "Vulcan | SDA Tranche 1 Tracking Layer E",
     "net": "2026-12-31T00:00:00Z",
     "net_precision": {
-      "id": 11,
-      "name": "Quarter 4",
-      "abbrev": "Q4"
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
     },
     "status": {
       "id": 2,
@@ -1978,9 +1910,9 @@
       "abbrev": "TBD"
     },
     "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
+      "id": 124,
+      "name": "United Launch Alliance",
+      "abbrev": "ULA",
       "country": [
         {
           "id": 2,
@@ -1994,9 +1926,9 @@
     },
     "rocket": {
       "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
+        "name": "Vulcan",
+        "full_name": "Vulcan",
+        "reusable": false
       }
     },
     "mission": {
@@ -2008,9 +1940,9 @@
       }
     },
     "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
+      "name": "Space Launch Complex 3E",
+      "latitude": 34.64,
+      "longitude": -120.5895,
       "location": {
         "name": "Vandenberg SFB, CA, USA",
         "country": {
@@ -2024,8 +1956,8 @@
       }
     },
     "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193953.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -7217,6 +7149,67 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193953.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "04522dea-1450-48f5-bc9d-2d7f1e637f9b",
+    "name": "HASTE | Leidos-3",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 147,
+      "name": "Rocket Lab",
+      "abbrev": "RL",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Electron",
+        "full_name": "Electron",
+        "reusable": false
+      }
+    },
+    "mission": null,
+    "pad": {
+      "name": "Rocket Lab Launch Complex 2 (Launch Area 0 C)",
+      "latitude": 37.833262,
+      "longitude": -75.488235,
+      "location": {
+        "name": "Wallops Flight Facility, Virginia, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
