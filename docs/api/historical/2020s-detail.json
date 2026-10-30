@@ -40077,6 +40077,25 @@
       }
     ]
   },
+  "20d5676e-111b-40e3-8923-b218c3665ca2": {
+    "mission": {
+      "type": "Navigation",
+      "orbit": {
+        "abbrev": "GTO",
+        "name": "Geostationary Transfer Orbit"
+      },
+      "description": "This is a replacement satellite for the Indian Regional Navigation Satellite System. The constellation will provide India with an alternative to GPS and will be used for military and civilian use. Located at a geosynchronous orbit, the system will be operated by the Indian government."
+    },
+    "rocket_full_name": "GSLV Mk. II",
+    "pad_lat": 13.7199,
+    "pad_lon": 80.2304,
+    "mission_patches": [],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=qIiYr3tRSqE"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
