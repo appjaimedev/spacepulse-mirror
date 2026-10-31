@@ -1,18 +1,5 @@
 [
   {
-    "id": 1566,
-    "name": "US EVA-100",
-    "type": {
-      "id": 3,
-      "name": "EVA"
-    },
-    "date": "2026-10-29T12:00:00Z",
-    "description": "NASA astronaut Anil Menon and CSA astronaut Joshua Kutryk will exit the station’s Quest airlock to install and deploy an International Space Station Roll-Out Solar Array (IROSA) on the 2A electrical power channel. The solar array will be the seventh IROSA and will provide additional power to support critical station operations, including its safe and controlled deorbit.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1567,
     "name": "US EVA-101",
     "type": {
