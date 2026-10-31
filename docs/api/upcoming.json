@@ -2,16 +2,16 @@
   {
     "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
     "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
-    "net": "2026-11-02T16:00:00Z",
+    "net": "2026-11-02T16:41:00Z",
     "net_precision": {
-      "id": 2,
-      "name": "Hour",
-      "abbrev": "HR"
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
     },
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 147,
