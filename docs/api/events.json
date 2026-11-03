@@ -13,6 +13,19 @@
     "feature_image": null
   },
   {
+    "id": 1569,
+    "name": "NASA Moon Base: November 2026 Update (Nov. 7, 2026)",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-11-07T22:00:00Z",
+    "description": "Press conference at the MAX POWER aerospace expo that will provide an update on the upcoming Moon Base near the lunar South Pole.\r\n\r\nParticipants in this news conference, taking place at NASA's Kennedy Space Center, include:\r\n\r\n- NASA Administrator Jared Isaacman\r\n- Carlos García-Galán, manager, Moon Base Program\r\n- Nicky Fox, associate administrator for Science, NASA Headquarters\r\n- Dayna Ise, acting director, Utility and Infrastructure Office, Moon Base Program",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 394,
     "name": "BepiColombo Mercury Orbit Insertion",
     "type": {
