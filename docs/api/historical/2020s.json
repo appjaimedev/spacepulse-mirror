@@ -1,5 +1,34 @@
 [
   {
+    "id": "f3f201cd-0ff9-4ff7-9aaa-1d22c399c75a",
+    "name": "Kinetica 2 | SpaceSail Polar Group #17",
+    "net": "2026-11-03T00:15:00Z",
+    "status": {
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
+    },
+    "launch_service_provider": {
+      "id": 1040,
+      "name": "CAS Space",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Kinetica 2"
+      }
+    },
+    "pad": {
+      "name": "Launch Area 140",
+      "location": {
+        "name": "Jiuquan Satellite Launch Center, People's Republic of China"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kinetica_2_firs_image_20260330153456.jpg"
+    }
+  },
+  {
     "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
     "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
     "net": "2026-11-02T16:41:00Z",
