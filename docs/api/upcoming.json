@@ -70,11 +70,11 @@
   {
     "id": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
     "name": "Falcon 9 Block 5 | USSF-432",
-    "net": "2026-11-07T00:46:00Z",
+    "net": "2026-11-07T00:48:42Z",
     "net_precision": {
-      "id": 1,
-      "name": "Minute",
-      "abbrev": "MIN"
+      "id": 0,
+      "name": "Second",
+      "abbrev": "SEC"
     },
     "status": {
       "id": 1,
@@ -138,7 +138,7 @@
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "GO! - SpaceX - Falcon 9 - USSF-432 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
-        "description": "Launch Date: November 6, 2026 (PST)\nLaunch Time: 4:46 p.m. PST (November 7, 0046 UTC, 01:46 CET)\nLaunch Window: Open until 8:46 p.m. PST\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced\n\nMission: USSF-432\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1095 - Turnaround time 195 days)\nFlight for the Booster: 8\nPrevious Flights of the Booster: 7 - GPS III-8 and six Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\nSpaceX is targeting Novem...",
+        "description": "Launch Date: November 6, 2026 (PST)\nLaunch Time: 4:48 p.m. PST (November 7, 0048 UTC, 01:48 CET)\nLaunch Window: Open until 8:46 p.m. PST\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced\n\nMission: USSF-432\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1095 - Turnaround time 195 days)\nFlight for the Booster: 8\nPrevious Flights of the Booster: 7 - GPS III-8 and six Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\nSpaceX is targeting Novem...",
         "feature_image": "https://i.ytimg.com/vi/cANr44iNjd8/maxresdefault.jpg?v=6ae03eba",
         "url": "https://www.youtube.com/watch?v=cANr44iNjd8",
         "type": {
@@ -150,7 +150,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-11-07T00:34:00Z",
+        "start_time": "2026-11-07T00:36:00Z",
         "end_time": null,
         "live": false
       },
@@ -171,7 +171,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-11-07T00:34:00Z",
+        "start_time": "2026-11-07T00:36:00Z",
         "end_time": "2026-11-07T02:35:00Z",
         "live": false
       }
@@ -339,7 +339,7 @@
   {
     "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
     "name": "Mir | Demo Flight",
-    "net": "2026-11-10T06:00:00Z",
+    "net": "2026-11-11T05:00:00Z",
     "net_precision": {
       "id": 2,
       "name": "Hour",
@@ -714,7 +714,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "United Launch Alliance",
+        "title": "Rocket Launch: Vulcan Leo 1",
+        "description": "ULA's optimized Vulcan heavy-lifter is delivering spacecraft into low Earth orbit for Amazon Leo. The advanced broadband satellites are designed to deliver fast, reliable internet to customers beyond the reach of existing networks. The initial Amazon constellation will include more than 3,000 satellites working together in coordinated orbits around Earth.\n\nGO Vulcan! GO Centaur! GO Amazon Leo!",
+        "feature_image": "https://i.ytimg.com/vi/qM5A1ZO9oh8/maxresdefault.jpg?v=6ae88e98",
+        "url": "https://www.youtube.com/watch?v=qM5A1ZO9oh8",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-13T17:34:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
     "mission_patches": []
   },
   {
