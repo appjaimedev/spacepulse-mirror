@@ -720,16 +720,16 @@
   {
     "id": "db3500ac-965b-4ad8-b417-cb8d8d005586",
     "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
-    "net": "2026-11-14T00:00:00Z",
+    "net": "2026-11-14T05:30:00Z",
     "net_precision": {
-      "id": 5,
-      "name": "Day",
-      "abbrev": "DAY"
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
     },
     "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 147,
@@ -2534,6 +2534,74 @@
     "mission_patches": []
   },
   {
+    "id": "f9a8c9f6-5dc4-4e83-9876-2a51140ec806",
+    "name": "Electron | iQPS Launch 11",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 147,
+      "name": "Rocket Lab",
+      "abbrev": "RL",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Electron",
+        "full_name": "Electron",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "iQPS Launch 11",
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "latitude": -39.260881,
+      "longitude": 177.865826,
+      "location": {
+        "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+        "country": {
+          "id": 51,
+          "name": "New Zealand",
+          "alpha_2_code": "NZ",
+          "alpha_3_code": "NZL",
+          "nationality_name": "Kiwi",
+          "nationality_name_composed": "Kiwi"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "bf5c6fa2-3add-49ff-aad6-c6450148cd89",
     "name": "Falcon 9 Block 5 | Rivada 12",
     "net": "2026-12-31T00:00:00Z",
@@ -2755,74 +2823,6 @@
         "response_mode": "normal"
       }
     ]
-  },
-  {
-    "id": "f9a8c9f6-5dc4-4e83-9876-2a51140ec806",
-    "name": "Electron | iQPS Launch 11",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 14,
-      "name": "Year",
-      "abbrev": "Y"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 147,
-      "name": "Rocket Lab",
-      "abbrev": "RL",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Electron",
-        "full_name": "Electron",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "iQPS Launch 11",
-      "type": "Earth Science",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Unknown Pad",
-      "latitude": -39.260881,
-      "longitude": 177.865826,
-      "location": {
-        "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-        "country": {
-          "id": 51,
-          "name": "New Zealand",
-          "alpha_2_code": "NZ",
-          "alpha_3_code": "NZL",
-          "nationality_name": "Kiwi",
-          "nationality_name_composed": "Kiwi"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
   },
   {
     "id": "c703fab3-2ce4-4cf1-861d-754da3f3ad42",
@@ -3434,74 +3434,6 @@
     "mission_patches": []
   },
   {
-    "id": "e59ff9a4-f72f-4841-8546-3c94346ecdba",
-    "name": "SSLV | AayulSAT-1A & others",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 14,
-      "name": "Year",
-      "abbrev": "Y"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 31,
-      "name": "Indian Space Research Organization",
-      "abbrev": "ISRO",
-      "country": [
-        {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "SSLV",
-        "full_name": "SSLV",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "AayulSAT-1A & others",
-      "type": "Technology",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Satish Dhawan Space Centre First Launch Pad",
-      "latitude": 13.733,
-      "longitude": 80.235,
-      "location": {
-        "name": "Satish Dhawan Space Centre, India",
-        "country": {
-          "id": 9,
-          "name": "India",
-          "alpha_2_code": "IN",
-          "alpha_3_code": "IND",
-          "nationality_name": "Indian",
-          "nationality_name_composed": "Indo"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sslv_image_20220912001724.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193926.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "d47cbca4-48c1-455a-b357-f156833b189e",
     "name": "Firefly Alpha Block 2 | ConnectedCosmos Launch 2",
     "net": "2026-12-31T00:00:00Z",
@@ -3638,6 +3570,74 @@
     "mission_patches": []
   },
   {
+    "id": "e59ff9a4-f72f-4841-8546-3c94346ecdba",
+    "name": "SSLV | AayulSAT-1A & others",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 31,
+      "name": "Indian Space Research Organization",
+      "abbrev": "ISRO",
+      "country": [
+        {
+          "id": 9,
+          "name": "India",
+          "alpha_2_code": "IN",
+          "alpha_3_code": "IND",
+          "nationality_name": "Indian",
+          "nationality_name_composed": "Indo"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "SSLV",
+        "full_name": "SSLV",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "AayulSAT-1A & others",
+      "type": "Technology",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Satish Dhawan Space Centre First Launch Pad",
+      "latitude": 13.733,
+      "longitude": 80.235,
+      "location": {
+        "name": "Satish Dhawan Space Centre, India",
+        "country": {
+          "id": 9,
+          "name": "India",
+          "alpha_2_code": "IN",
+          "alpha_3_code": "IND",
+          "nationality_name": "Indian",
+          "nationality_name_composed": "Indo"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sslv_image_20220912001724.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193926.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
     "id": "b32689fe-b156-4ccd-b824-fd555d12ba24",
     "name": "Vulcan | USSF-57",
     "net": "2026-12-31T00:00:00Z",
@@ -3700,74 +3700,6 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193953.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
-    "id": "b97a54e5-5c6f-4f85-bcf3-69da17fa9682",
-    "name": "Terran R | Mars Lander",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 14,
-      "name": "Year",
-      "abbrev": "Y"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 266,
-      "name": "Relativity Space",
-      "abbrev": "RS",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Terran R",
-        "full_name": "Terran R",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "Mars Lander",
-      "type": "Planetary Science",
-      "orbit": {
-        "abbrev": "Mars",
-        "name": "Mars Orbit"
-      }
-    },
-    "pad": {
-      "name": "Launch Complex 16",
-      "latitude": 28.501626,
-      "longitude": -80.5518,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/terran2520r25_image_20220719142358.png",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192411.png"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -3972,6 +3904,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "b97a54e5-5c6f-4f85-bcf3-69da17fa9682",
+    "name": "Terran R | Mars Lander",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 266,
+      "name": "Relativity Space",
+      "abbrev": "RS",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Terran R",
+        "full_name": "Terran R",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Mars Lander",
+      "type": "Planetary Science",
+      "orbit": {
+        "abbrev": "Mars",
+        "name": "Mars Orbit"
+      }
+    },
+    "pad": {
+      "name": "Launch Complex 16",
+      "latitude": 28.501626,
+      "longitude": -80.5518,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/terran2520r25_image_20220719142358.png",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192411.png"
     },
     "webcast_live": false,
     "vid_urls": [],
@@ -5707,71 +5707,6 @@
     "mission_patches": []
   },
   {
-    "id": "581d1d85-bbe8-48f1-9dac-5b4e63503896",
-    "name": "Unknown | VCLS Demo 2 Mission One",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 14,
-      "name": "Year",
-      "abbrev": "Y"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 183,
-      "name": "Unknown",
-      "abbrev": "UNK",
-      "country": [
-        {
-          "id": 17,
-          "name": "Unknown",
-          "alpha_2_code": "??",
-          "alpha_3_code": "???",
-          "nationality_name": "Earthling",
-          "nationality_name_composed": "Earthling"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Unknown Launch Vehicle",
-        "full_name": "Unknown Launch Vehicle",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "VCLS Demo 2 Mission One",
-      "type": "Technology",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Unknown Pad",
-      "latitude": 28.458,
-      "longitude": -80.528,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": null,
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "3b94ad50-3505-496e-8a95-b0bc4c0dadc6",
     "name": "Themis Demonstrator | T1H-1",
     "net": "2026-12-31T00:00:00Z",
@@ -6011,6 +5946,71 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/themis_t1h_on_t_image_20250919095336.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/themis_t1h_on_t_image_thumbnail_20250919095336.jpeg"
     },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "581d1d85-bbe8-48f1-9dac-5b4e63503896",
+    "name": "Unknown | VCLS Demo 2 Mission One",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 183,
+      "name": "Unknown",
+      "abbrev": "UNK",
+      "country": [
+        {
+          "id": 17,
+          "name": "Unknown",
+          "alpha_2_code": "??",
+          "alpha_3_code": "???",
+          "nationality_name": "Earthling",
+          "nationality_name_composed": "Earthling"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Unknown Launch Vehicle",
+        "full_name": "Unknown Launch Vehicle",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "VCLS Demo 2 Mission One",
+      "type": "Technology",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "latitude": 28.458,
+      "longitude": -80.528,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": null,
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
