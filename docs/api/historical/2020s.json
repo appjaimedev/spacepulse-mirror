@@ -4,9 +4,9 @@
     "name": "Falcon 9 Block 5 | USSF-432",
     "net": "2026-11-07T00:48:42Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 121,
