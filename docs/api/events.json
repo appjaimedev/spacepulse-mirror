@@ -1,18 +1,5 @@
 [
   {
-    "id": 1567,
-    "name": "US EVA-101",
-    "type": {
-      "id": 3,
-      "name": "EVA"
-    },
-    "date": "2026-11-05T12:00:00Z",
-    "description": "NASA astronaut Anil Menon and CSA astronaut Joshua Kutryk will install and deploy the eighth and final IROSA on the 3B channel of the space station, completing the power augmentation upgrades.\r\n\r\nThe final two roll-out solar arrays will complete the space station’s power system augmentation. Together, the eight roll-out arrays will increase available power by up to 30%, boosting the station’s electric power generation capacity from 160 kilowatts to approximately 215 kilowatts.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1569,
     "name": "NASA Moon Base: November 2026 Update (Nov. 7, 2026)",
     "type": {
