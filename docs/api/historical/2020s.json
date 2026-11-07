@@ -1,5 +1,34 @@
 [
   {
+    "id": "c476fea7-7814-4adb-91d1-98918bc2cc57",
+    "name": "Soyuz 2.1b/Fregat | Glonass-K1? (Kosmos 2621?)",
+    "net": "2026-11-07T13:30:00Z",
+    "status": {
+      "id": 6,
+      "name": "Launch in Flight",
+      "abbrev": "In Flight"
+    },
+    "launch_service_provider": {
+      "id": 193,
+      "name": "Russian Space Forces",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Soyuz 2.1b/Fregat-M"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "location": {
+        "name": "Plesetsk Cosmodrome, Russian Federation"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg"
+    }
+  },
+  {
     "id": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
     "name": "Falcon 9 Block 5 | USSF-432",
     "net": "2026-11-07T00:48:42Z",
