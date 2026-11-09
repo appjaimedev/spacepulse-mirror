@@ -1,12 +1,12 @@
 [
   {
     "id": "a2423132-f965-423f-8b03-6891b775dc54",
-    "name": "Long March 12 | SatNet LEO Group TBD?",
+    "name": "Long March 12 | SatNet LEO Group 29",
     "net": "2026-11-08T20:24:00Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 88,
