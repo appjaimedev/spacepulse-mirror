@@ -40260,6 +40260,21 @@
       }
     ]
   },
+  "d66590ab-b273-47ff-b85a-608b62851b4b": {
+    "mission": {
+      "type": "Technology",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "The Chinese Academy of Science (CAS)' Pathfinder-1 satellites is built for in-orbit validation of critical technologies for the upcoming main missions of CAS' \"Origins” Space Science Program, which consists of 4 upcoming astronomical observatory missions to be launched by 2030: * Discovering the Sk…"
+    },
+    "rocket_full_name": "Long March 2D",
+    "pad_lat": 40.960482,
+    "pad_lon": 100.298059,
+    "mission_patches": [],
+    "vid_urls": []
+  },
   "__years__": [
     2020,
     2021,
