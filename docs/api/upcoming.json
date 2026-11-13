@@ -289,9 +289,9 @@
       }
     },
     "pad": {
-      "name": "Unknown Pad",
-      "latitude": -39.260881,
-      "longitude": 177.865826,
+      "name": "Rocket Lab Launch Complex 1A",
+      "latitude": -39.262833,
+      "longitude": 177.864469,
       "location": {
         "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
         "country": {
@@ -356,7 +356,7 @@
   {
     "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
     "name": "Falcon 9 Block 5 | USSF-317",
-    "net": "2026-11-15T03:55:00Z",
+    "net": "2026-11-18T03:14:00Z",
     "net_precision": {
       "id": 1,
       "name": "Minute",
@@ -436,7 +436,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-11-15T03:43:00Z",
+        "start_time": "2026-11-18T03:02:00Z",
         "end_time": null,
         "live": false
       }
