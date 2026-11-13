@@ -2,16 +2,16 @@
   {
     "id": "0f867f0c-5422-4d44-93b8-d7faaae7019b",
     "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
-    "net": "2026-11-13T22:45:00Z",
+    "net": "2026-11-13T22:47:36Z",
     "net_precision": {
-      "id": 1,
-      "name": "Minute",
-      "abbrev": "MIN"
+      "id": 0,
+      "name": "Second",
+      "abbrev": "SEC"
     },
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 121,
@@ -63,8 +63,114 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20260724044615.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg"
     },
-    "webcast_live": false,
-    "vid_urls": [],
+    "webcast_live": true,
+    "vid_urls": [
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "STREAM 1 - GO! - SpaceX - Starship - Starship Flight 15 - Pad 2 - Starbase, TX - Space Affairs Live",
+        "description": "This is Stream 1 of Starship Flight 15, which will show the countdown, the launch, orbital maneuvers and Starlink V3 satellite deployment. Also, high definition footage from Starships orbits powered by Starlink. \n\nIf the missions stays on schedule and plan, it is a 22 hour mission. \n\nThis stream will end some minutes before the 12h max. live stream recording time by YouTube.\n\nThe second stream til the mission's end, will start shortly after this stream and is here: https://youtube.com/live/IJKDRJ_GEM4\n\n\nLaunch Date: November 13, 2026 (Pending regulatory Approval)\nLaunch Time: 4:45 p.m. CST, 2245 UTC, 23:45 CET)\nLaunch Window: 6:00 p.m. CST\nStatus: Heavy Booster 22 and Ship 42 are up to be stacked for Test Flight 15 \nLaunch Provider: SpaceX\nLauncher System: Starship-Super Heavy (Protot...",
+        "feature_image": "https://i.ytimg.com/vi/dl4O6RqbvOs/maxresdefault.jpg?v=6aef6948",
+        "url": "https://www.youtube.com/watch?v=dl4O6RqbvOs",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-13T21:53:18Z",
+        "end_time": null,
+        "live": true
+      },
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "X",
+        "title": "Starship Flight 15",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HXBS_RyWMAAE_VR.jpg",
+        "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-13T21:58:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 11,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "Watch Live: SpaceX Starship launches on 15th flight with double catch planned",
+        "description": "Watch live as SpaceX launches its revolutionary Starship launcher into orbit with plans to catch both the booster and ship back at the launch site. Liftoff of the Version 3 integrated Starship vehicle from Starbase in Texas is scheduled during a launch window that opens at 4:45 p.m. CST / 5:45 p.m. EST / 2245 UTC on Friday, Nov. 13.\n\nFlight 15 will use the Ship 42 upper stage and Booster 22 for the first stage Super Heavy booster. SpaceX plans to deploy 26 Starlink Version 3 satellites from the ship. \n\nIf all goes according to plan the Ship will remain in orbit for 22.5 hours, before returning to Starbase and a catch by the launch pad 'chopstick' arms. Super Heavy booster will also return to the pad about 6.5 minutes after launch.\n\nOur live coverage, hosted by Will Robinson-Smith, wil...",
+        "feature_image": "https://i.ytimg.com/vi/QlR1agMLyMk/maxresdefault.jpg?v=6af628e0",
+        "url": "https://www.youtube.com/watch?v=QlR1agMLyMk",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-13T21:45:37Z",
+        "end_time": null,
+        "live": true
+      },
+      {
+        "priority": 12,
+        "source": "youtube.com",
+        "publisher": "NASASpaceflight",
+        "title": "SPACEX LAUNCHES STARSHIP FLIGHT 15 - Launch & Booster Catch",
+        "description": "Launch Window: November 13th from 16:45 to 18:00 CST (22:45-00:00 UTC)\nTarget T0: November 13th at 16:45 CST (22:45 UTC)\n\nMission: Starship launch of 26 Starlink v3 satellites into low-Earth orbit\nLaunch location: Pad 2, Starbase, Earth.\nTarget orbit: Low-Earth Orbit (LEO); 263x277km 30.5º orbit\nBooster: B22-1\nShip: S42-1\nBooster recovery: Pad 2, Starbase\nShip recovery: Pad 2, Starbase\nRocket trajectory: Southeast passing between Cuba and the Yucatan Peninsula\nPayload mass: Between 44 and 52 metric tons, depending on the exact mass of Starlink v3 satellites. \nStats: \n  - SpaceX's 736th launch overall.\n  - SpaceX's 127th launch this year.\n  - SpaceX's 3rd and last launch of this month. \n  - Earth's 264th orbital launch of the year. \n  - Starship's 15th launch and 2nd orbital flight. \n ...",
+        "feature_image": "https://i.ytimg.com/vi/9XM0lpVlvo0/maxresdefault.jpg?v=6af0fd21",
+        "url": "https://www.youtube.com/watch?v=9XM0lpVlvo0",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-13T17:01:30Z",
+        "end_time": null,
+        "live": true
+      },
+      {
+        "priority": 13,
+        "source": "youtube.com",
+        "publisher": "Everyday Astronaut",
+        "title": "[4K] Watch Starship's First DOUBLE CATCH!!!",
+        "description": "SpaceX is targeting Starship Flight 15 NET Friday, November 13, 2026 at 4:45 p.m. CT (22:45 UTC), with a 75-minute window. This will be the FIRST attempt to catch both stages of Starship, with Ship 42 and Booster 22, carrying 26 Starlink V3 satellites on a roughly 22.5-hour mission of about 14 orbits at around 275 km. \n\nBooster 22 will return to the tower for the first-ever catch of a V3 Super Heavy about 6.5 minutes after liftoff. \n\nIf all goes well Ship 42 will come back to Starbase for the first-ever Ship catch around 3:17 p.m. CT on Saturday, which would make it the first fully recovered orbital rocket in history and a huge step toward rapid, full reuse. \n\nWe will have a separate livestream for ship catch here - https://youtube.com/live/AQFrpZaOpcQ?feature=share\n\nWant to know why ...",
+        "feature_image": "https://i.ytimg.com/vi/QJFdKoKNn2M/maxresdefault.jpg?v=6af61ebd",
+        "url": "https://www.youtube.com/watch?v=QJFdKoKNn2M",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-13T21:45:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
     "mission_patches": [
       {
         "id": 773,
@@ -465,96 +571,6 @@
     "mission_patches": []
   },
   {
-    "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
-    "name": "Falcon 9 Block 5 | USSF-266",
-    "net": "2026-11-18T16:49:00Z",
-    "net_precision": {
-      "id": 1,
-      "name": "Minute",
-      "abbrev": "MIN"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 121,
-      "name": "SpaceX",
-      "abbrev": "SpX",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Falcon 9",
-        "full_name": "Falcon 9 Block 5",
-        "reusable": true
-      }
-    },
-    "mission": {
-      "name": "USSF-266",
-      "type": "Government/Top Secret",
-      "orbit": {
-        "abbrev": "PO",
-        "name": "Polar Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 4E",
-      "latitude": 34.632,
-      "longitude": -120.611,
-      "location": {
-        "name": "Vandenberg SFB, CA, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20260816171423.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 10,
-        "source": "x.com",
-        "publisher": "X",
-        "title": "USSF-266 Mission",
-        "description": "Livestream on X",
-        "feature_image": "https://pbs.twimg.com/media/HWsyPdOX0AAnSgF.jpg",
-        "url": "https://x.com/i/broadcasts/2JQXBjLyYOQrpX",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-11-16T16:55:00Z",
-        "end_time": null,
-        "live": false
-      }
-    ],
-    "mission_patches": []
-  },
-  {
     "id": "e0a11eb1-0bda-4872-b36b-140247fd5c60",
     "name": "Long March 2D | Unknown Payload",
     "net": "2026-11-18T22:50:00Z",
@@ -885,6 +901,96 @@
         "response_mode": "normal"
       }
     ]
+  },
+  {
+    "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
+    "name": "Falcon 9 Block 5 | USSF-266",
+    "net": "2026-11-23T16:04:00Z",
+    "net_precision": {
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
+    },
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 121,
+      "name": "SpaceX",
+      "abbrev": "SpX",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Falcon 9",
+        "full_name": "Falcon 9 Block 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "USSF-266",
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "PO",
+        "name": "Polar Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 4E",
+      "latitude": 34.632,
+      "longitude": -120.611,
+      "location": {
+        "name": "Vandenberg SFB, CA, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20260816171423.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "x.com",
+        "publisher": "X",
+        "title": "USSF-266 Mission",
+        "description": "Livestream on X",
+        "feature_image": "https://pbs.twimg.com/media/HWsyPdOX0AAnSgF.jpg",
+        "url": "https://x.com/i/broadcasts/2JQXBjLyYOQrpX",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-16T16:55:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
+    "mission_patches": []
   },
   {
     "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
