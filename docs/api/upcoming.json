@@ -1,95 +1,5 @@
 [
   {
-    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-    "net": "2026-11-13T17:54:00Z",
-    "net_precision": {
-      "id": 1,
-      "name": "Minute",
-      "abbrev": "MIN"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 124,
-      "name": "United Launch Alliance",
-      "abbrev": "ULA",
-      "country": [
-        {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Vulcan VC6L",
-        "full_name": "Vulcan VC6L",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Amazon Leo (LV-01)",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Space Launch Complex 41",
-      "latitude": 28.58341025,
-      "longitude": -80.58303644,
-      "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
-        "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 10,
-        "source": "youtube.com",
-        "publisher": "United Launch Alliance",
-        "title": "Rocket Launch: Vulcan Leo 1",
-        "description": "ULA's optimized Vulcan heavy-lifter is delivering spacecraft into low Earth orbit for Amazon Leo. The advanced broadband satellites are designed to deliver fast, reliable internet to customers beyond the reach of existing networks. The initial Amazon constellation will include more than 3,000 satellites working together in coordinated orbits around Earth.\n\nGO Vulcan! GO Centaur! GO Amazon Leo!",
-        "feature_image": "https://i.ytimg.com/vi/qM5A1ZO9oh8/maxresdefault.jpg?v=6ae88e98",
-        "url": "https://www.youtube.com/watch?v=qM5A1ZO9oh8",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-11-13T17:34:00Z",
-        "end_time": null,
-        "live": false
-      }
-    ],
-    "mission_patches": []
-  },
-  {
     "id": "0f867f0c-5422-4d44-93b8-d7faaae7019b",
     "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
     "net": "2026-11-13T22:45:00Z",
@@ -179,11 +89,11 @@
   {
     "id": "bff2fc91-eddd-4dfc-af26-ac0674cfab4d",
     "name": "Soyuz 2.1b/Fregat-M | MKA Kinosputnik, KOEN and others",
-    "net": "2026-11-14T00:50:00Z",
+    "net": "2026-11-14T01:16:00Z",
     "net_precision": {
-      "id": 2,
-      "name": "Hour",
-      "abbrev": "HR"
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
     },
     "status": {
       "id": 1,
@@ -352,6 +262,117 @@
         "response_mode": "normal"
       }
     ]
+  },
+  {
+    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+    "net": "2026-11-14T17:32:30Z",
+    "net_precision": {
+      "id": 0,
+      "name": "Second",
+      "abbrev": "SEC"
+    },
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 124,
+      "name": "United Launch Alliance",
+      "abbrev": "ULA",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Vulcan VC6L",
+        "full_name": "Vulcan VC6L",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Amazon Leo (LV-01)",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Space Launch Complex 41",
+      "latitude": 28.58341025,
+      "longitude": -80.58303644,
+      "location": {
+        "name": "Cape Canaveral SFS, FL, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_image_20220406123130.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "United Launch Alliance",
+        "title": "Rocket Launch: Vulcan Leo 1",
+        "description": "ULA's optimized Vulcan heavy-lifter is delivering spacecraft into low Earth orbit for Amazon Leo. The advanced broadband satellites are designed to deliver fast, reliable internet to customers beyond the reach of existing networks. The initial Amazon constellation will include more than 3,000 satellites working together in coordinated orbits around Earth.\n\nGO Vulcan! GO Centaur! GO Amazon Leo!",
+        "feature_image": "https://i.ytimg.com/vi/qM5A1ZO9oh8/maxresdefault.jpg?v=6ae88e98",
+        "url": "https://www.youtube.com/watch?v=qM5A1ZO9oh8",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-14T17:12:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 11,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "Watch live: ULA Vulcan rocket launches from Cape Canaveral with 40 satellites for Amazon Leo",
+        "description": "Watch live coverage from Cape Canaveral Space Force Station as United Launch Alliance (ULA) launches a Vulcan rocket carrying 40 satellites for Amazon’s Leo internet service.  Liftoff from pad 41 at Cape Canaveral Space Force Station is scheduled for 12:32 p.m. EST (1732 UTC) on Saturday.\n\nThis will be the fifth launch of a Vulcan rocket and the first flying in a VC6L configuration, using six Northrop Grumman Graphite Epoxy Motor (GEM) 63XL solid rocket boosters. It's the first flight for Vulcan in nine months as launches were paused after the failure of solid rocket motor nozzles on two previous missions.\n\nCommentary will be provided starting about 30 mins prior to liftoff.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nht...",
+        "feature_image": "https://i.ytimg.com/vi/qcA9uMBhTmo/maxresdefault.jpg?v=6af70d39",
+        "url": "https://www.youtube.com/watch?v=qcA9uMBhTmo",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-14T17:02:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
+    "mission_patches": []
   },
   {
     "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
@@ -1140,7 +1161,7 @@
   {
     "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
     "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-    "net": "2026-11-29T15:49:00Z",
+    "net": "2026-11-29T15:47:00Z",
     "net_precision": {
       "id": 1,
       "name": "Minute",
