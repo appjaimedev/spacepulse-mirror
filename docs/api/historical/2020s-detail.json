@@ -40300,6 +40300,42 @@
       }
     ]
   },
+  "0f867f0c-5422-4d44-93b8-d7faaae7019b": {
+    "mission": {
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "15th test flight of the two-stage Starship launch vehicle and 4th flight of Starship V3. Second Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-2) into stable Low Earth Orbit and first ever to attempt returning the Starship 2nd stage back to the launc…"
+    },
+    "rocket_full_name": "Starship V3",
+    "pad_lat": 25.99677,
+    "pad_lon": -97.15799,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/starship2520if_mission_patch_20230414221655.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=dl4O6RqbvOs"
+      },
+      {
+        "url": "https://x.com/i/broadcasts/2brajgZlOKRMka"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QlR1agMLyMk"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=9XM0lpVlvo0"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QJFdKoKNn2M"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
