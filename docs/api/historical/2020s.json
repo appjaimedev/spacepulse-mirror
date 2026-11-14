@@ -4,9 +4,9 @@
     "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
     "net": "2026-11-14T05:30:00Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 147,
@@ -33,9 +33,9 @@
     "name": "Soyuz 2.1b/Fregat-M | MKA Kinosputnik, KOEN and others",
     "net": "2026-11-14T01:16:00Z",
     "status": {
-      "id": 6,
-      "name": "Launch in Flight",
-      "abbrev": "In Flight"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 63,

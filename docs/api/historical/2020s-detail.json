@@ -40373,7 +40373,11 @@
     "pad_lat": 51.884395,
     "pad_lon": 128.333932,
     "mission_patches": [],
-    "vid_urls": []
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=ATvKzYP7CPw"
+      }
+    ]
   },
   "__years__": [
     2020,
