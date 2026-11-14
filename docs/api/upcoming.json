@@ -2,7 +2,7 @@
   {
     "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
     "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-    "net": "2026-11-14T17:32:30Z",
+    "net": "2026-11-15T17:11:30Z",
     "net_precision": {
       "id": 0,
       "name": "Second",
@@ -82,7 +82,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-11-14T17:12:00Z",
+        "start_time": "2026-11-15T16:51:00Z",
         "end_time": null,
         "live": false
       },
@@ -91,7 +91,7 @@
         "source": "youtube.com",
         "publisher": "Spaceflight Now",
         "title": "Watch live: ULA Vulcan rocket launches from Cape Canaveral with 40 satellites for Amazon Leo",
-        "description": "Watch live coverage from Cape Canaveral Space Force Station as United Launch Alliance (ULA) launches a Vulcan rocket carrying 40 satellites for Amazon’s Leo internet service.  Liftoff from pad 41 at Cape Canaveral Space Force Station is scheduled for 12:32 p.m. EST (1732 UTC) on Saturday.\n\nThis will be the fifth launch of a Vulcan rocket and the first flying in a VC6L configuration, using six Northrop Grumman Graphite Epoxy Motor (GEM) 63XL solid rocket boosters. It's the first flight for Vulcan in nine months as launches were paused after the failure of solid rocket motor nozzles on two previous missions.\n\nCommentary will be provided starting about 30 mins prior to liftoff.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nht...",
+        "description": "Watch live coverage from Cape Canaveral Space Force Station as United Launch Alliance (ULA) launches a Vulcan rocket carrying 40 satellites for Amazon’s Leo internet service.  Liftoff from pad 41 at Cape Canaveral Space Force Station is scheduled for 12:11 p.m. EST (1711 UTC) on Sunday.\n\nThis will be the fifth launch of a Vulcan rocket and the first flying in a VC6L configuration, using six Northrop Grumman Graphite Epoxy Motor (GEM) 63XL solid rocket boosters. It's the first flight for Vulcan in nine months as launches were paused after the failure of solid rocket motor nozzles on two previous missions.\n\nCommentary will be provided starting about 30 mins prior to liftoff.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttp...",
         "feature_image": "https://i.ytimg.com/vi/qcA9uMBhTmo/maxresdefault.jpg?v=6af70d39",
         "url": "https://www.youtube.com/watch?v=qcA9uMBhTmo",
         "type": {
@@ -103,7 +103,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-11-14T17:02:00Z",
+        "start_time": "2026-11-15T16:41:00Z",
         "end_time": null,
         "live": false
       }
