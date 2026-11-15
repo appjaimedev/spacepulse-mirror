@@ -62,9 +62,9 @@
     "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
     "net": "2026-11-13T22:47:36Z",
     "status": {
-      "id": 9,
-      "name": "Payload Deployed",
-      "abbrev": "Deployed"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 121,
