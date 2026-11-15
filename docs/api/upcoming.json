@@ -1,12 +1,12 @@
 [
   {
-    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-    "net": "2026-11-15T17:11:30Z",
+    "id": "e0a11eb1-0bda-4872-b36b-140247fd5c60",
+    "name": "Long March 2D | Unknown Payload",
+    "net": "2026-11-18T22:50:00Z",
     "net_precision": {
-      "id": 0,
-      "name": "Second",
-      "abbrev": "SEC"
+      "id": 2,
+      "name": "Hour",
+      "abbrev": "HR"
     },
     "status": {
       "id": 1,
@@ -14,106 +14,63 @@
       "abbrev": "Go"
     },
     "launch_service_provider": {
-      "id": 124,
-      "name": "United Launch Alliance",
-      "abbrev": "ULA",
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "abbrev": "CASC",
       "country": [
         {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
         }
       ]
     },
     "rocket": {
       "configuration": {
-        "name": "Vulcan VC6L",
-        "full_name": "Vulcan VC6L",
+        "name": "Long March 2D",
+        "full_name": "Long March 2D",
         "reusable": false
       }
     },
     "mission": {
-      "name": "Amazon Leo (LV-01)",
-      "type": "Communications",
+      "name": "Unknown Payload",
+      "type": "Unknown",
       "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
+        "abbrev": "N/A",
+        "name": "Unknown"
       }
     },
     "pad": {
-      "name": "Space Launch Complex 41",
-      "latitude": 28.58341025,
-      "longitude": -80.58303644,
+      "name": "Launch Complex 9",
+      "latitude": 38.863128,
+      "longitude": 111.589567,
       "location": {
-        "name": "Cape Canaveral SFS, FL, USA",
+        "name": "Taiyuan Satellite Launch Center, People's Republic of China",
         "country": {
-          "id": 2,
-          "name": "United States of America",
-          "alpha_2_code": "US",
-          "alpha_3_code": "USA",
-          "nationality_name": "American",
-          "nationality_name_composed": "Americano"
+          "id": 6,
+          "name": "China",
+          "alpha_2_code": "CN",
+          "alpha_3_code": "CHN",
+          "nationality_name": "Chinese",
+          "nationality_name_composed": "Sino"
         }
       }
     },
     "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_on__image_20261114102518.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_on__image_thumbnail_20261114102519.jpeg"
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 10,
-        "source": "youtube.com",
-        "publisher": "United Launch Alliance",
-        "title": "Rocket Launch: Vulcan Leo 1",
-        "description": "ULA's optimized Vulcan heavy-lifter is delivering spacecraft into low Earth orbit for Amazon Leo. The advanced broadband satellites are designed to deliver fast, reliable internet to customers beyond the reach of existing networks. The initial Amazon constellation will include more than 3,000 satellites working together in coordinated orbits around Earth.\n\nGO Vulcan! GO Centaur! GO Amazon Leo!",
-        "feature_image": "https://i.ytimg.com/vi/qM5A1ZO9oh8/maxresdefault.jpg?v=6ae88e98",
-        "url": "https://www.youtube.com/watch?v=qM5A1ZO9oh8",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-11-15T16:51:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 11,
-        "source": "youtube.com",
-        "publisher": "Spaceflight Now",
-        "title": "Watch live: ULA Vulcan rocket launches from Cape Canaveral with 40 satellites for Amazon Leo",
-        "description": "Watch live coverage from Cape Canaveral Space Force Station as United Launch Alliance (ULA) launches a Vulcan rocket carrying 40 satellites for Amazon’s Leo internet service.  Liftoff from pad 41 at Cape Canaveral Space Force Station is scheduled for 12:11 p.m. EST (1711 UTC) on Sunday.\n\nThis will be the fifth launch of a Vulcan rocket and the first flying in a VC6L configuration, using six Northrop Grumman Graphite Epoxy Motor (GEM) 63XL solid rocket boosters. It's the first flight for Vulcan in nine months as launches were paused after the failure of solid rocket motor nozzles on two previous missions.\n\nCommentary will be provided starting about 30 mins prior to liftoff.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttp...",
-        "feature_image": "https://i.ytimg.com/vi/qcA9uMBhTmo/maxresdefault.jpg?v=6af70d39",
-        "url": "https://www.youtube.com/watch?v=qcA9uMBhTmo",
-        "type": {
-          "id": 3,
-          "name": "Unofficial Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-11-15T16:41:00Z",
-        "end_time": null,
-        "live": false
-      }
-    ],
+    "vid_urls": [],
     "mission_patches": []
   },
   {
     "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
     "name": "Falcon 9 Block 5 | USSF-317",
-    "net": "2026-11-18T03:14:00Z",
+    "net": "2026-11-19T03:00:00Z",
     "net_precision": {
       "id": 1,
       "name": "Minute",
@@ -198,74 +155,6 @@
         "live": false
       }
     ],
-    "mission_patches": []
-  },
-  {
-    "id": "e0a11eb1-0bda-4872-b36b-140247fd5c60",
-    "name": "Long March 2D | Unknown Payload",
-    "net": "2026-11-18T22:50:00Z",
-    "net_precision": {
-      "id": 2,
-      "name": "Hour",
-      "abbrev": "HR"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 88,
-      "name": "China Aerospace Science and Technology Corporation",
-      "abbrev": "CASC",
-      "country": [
-        {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Long March 2D",
-        "full_name": "Long March 2D",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Unknown Payload",
-      "type": "Unknown",
-      "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
-      }
-    },
-    "pad": {
-      "name": "Launch Complex 9",
-      "latitude": 38.863128,
-      "longitude": 111.589567,
-      "location": {
-        "name": "Taiyuan Satellite Launch Center, People's Republic of China",
-        "country": {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
     "mission_patches": []
   },
   {
@@ -7216,6 +7105,74 @@
     "image": {
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv_image_20190224012254.jpeg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193829.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "3ac1bd74-bf9a-4afe-ae00-3e1d180142dd",
+    "name": "Astra Rocket 4 | Maiden Flight",
+    "net": "2027-01-31T00:00:00Z",
+    "net_precision": {
+      "id": 8,
+      "name": "Quarter 1",
+      "abbrev": "Q1"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 285,
+      "name": "Astra Space",
+      "abbrev": "AS",
+      "country": [
+        {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Astra Rocket 4",
+        "full_name": "Astra Rocket 4",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Maiden Flight",
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Unknown Pad",
+      "latitude": 37.9386111,
+      "longitude": -75.4594162,
+      "location": {
+        "name": "Wallops Flight Facility, Virginia, USA",
+        "country": {
+          "id": 2,
+          "name": "United States of America",
+          "alpha_2_code": "US",
+          "alpha_3_code": "USA",
+          "nationality_name": "American",
+          "nationality_name_composed": "Americano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astra_rocket_4_image_20250918165934.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astra_rocket_4_image_thumbnail_20250918165934.jpeg"
     },
     "webcast_live": false,
     "vid_urls": [],
