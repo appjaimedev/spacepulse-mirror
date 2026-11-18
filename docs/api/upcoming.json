@@ -150,7 +150,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-11-20T02:34:00Z",
+        "start_time": "2026-11-20T04:16:00Z",
         "end_time": null,
         "live": false
       }
@@ -468,6 +468,48 @@
     },
     "webcast_live": false,
     "vid_urls": [
+      {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "Arianespace",
+        "title": "Flight VA271 | Amazon Leo LE-04 | Ariane 6 | Arianespace",
+        "description": "The tenth flight of Ariane 6 will place 36 satellites for Amazon Leo into orbit using the launcher's most powerful configuration, Ariane 64, equipped with four advanced P160C solid-propellant boosters.\nDesignated VA271 by Arianespace and LE-04 (Leo Europe 4) by Amazon, the mission will mark the fourth Ariane 6 launch for Amazon Leo in 2026, bringing the total number of satellites deployed by Arianespace for the constellation to 136 upon successful deployment.\nVA271 will mark another milestone in Ariane 6's operational ramp-up, further demonstrating its ability to support large-scale satellite constellation deployments, including future European constellations. The mission is part of a partnership between Arianespace and Amazon, which was recently further strengthened by an order for s...",
+        "feature_image": "https://i.ytimg.com/vi/k2adMyxSoJE/maxresdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=k2adMyxSoJE",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-23T10:37:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "Arianespace",
+        "title": "Vol VA271 | Amazon Leo LE-04 | Ariane 6 | Arianespace",
+        "description": "Pour son dixième vol, Ariane 6 placera en orbite 36 satellites Amazon Leo dans sa configuration la plus puissante, Ariane 64, équipée de quatre nouveaux propulseurs d'appoint à propergol solide P160C.\nDésignée VA271 par Arianespace et LE-04 par Amazon, cette mission sera la quatrième d'Ariane 6 au profit d'Amazon Leo en 2026. Une fois réussie, elle portera à 136 le nombre total de satellites déployés par Arianespace à ce jour pour cette constellation.\nVA271 marquera un nouveau jalon dans la montée en cadence opérationnelle d'Ariane 6, en démontrant un peu plus encore son aptitude à soutenir le déploiement de mégaconstellations satellitaires, y compris de futures constellations européennes. Cette mission s'inscrit dans le cadre d'un partenariat entre Arianespace et Amazon, récemment re...",
+        "feature_image": "https://i.ytimg.com/vi/w9Wokj3rBH4/maxresdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=w9Wokj3rBH4",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 4,
+          "name": "French",
+          "code": "fr"
+        },
+        "start_time": "2026-11-23T10:37:00Z",
+        "end_time": null,
+        "live": false
+      },
       {
         "priority": 10,
         "source": "youtube.com",
