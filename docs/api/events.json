@@ -1,5 +1,31 @@
 [
   {
+    "id": 1571,
+    "name": "SpaceX CRS-35 Dragon Undocking",
+    "type": {
+      "id": 8,
+      "name": "Spacecraft Undocking"
+    },
+    "date": "2026-11-18T16:05:00Z",
+    "description": "The SpaceX CRS-35 Dragon spacecraft will undock from the International Space Station ahead of its reentry, splashdown and recovery.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1573,
+    "name": "Voyager 1 Light-Day Mission Update",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-11-19T17:00:00Z",
+    "description": "Launched nearly 50 years ago in 1977, NASA’s Voyager 1 on Wednesday, Nov. 18 will have traveled one light-day from Earth, which is more than 16 billion miles (25.9 billion kilometers). Voyager 1 is the most distant human-made object, and any light from Earth would take 24 hours to reach the spacecraft.\r\n\r\nNASA’s Jet Propulsion Laboratory (JPL) in Southern California will host a moderated discussion with mission members and NASA leadership about the status of Voyager 1 and 2, the unique science the twin probes continue to gather in interstellar space, and the challenges of keeping the spacecraft operating for so long over such vast distances. A Q&A with media and other audience members will follow. In addition, there also will be a preview of the upcoming NASA+ Voyager documentary, planned for release in 2027 for the mission’s 50th anniversary.\r\n\r\nThe participants will be:\r\n- Nicky Fox, associate administrator, Science Mission Directorate, Washington\r\n- Jonathan Lunine, chief scientist, NASA JPL, and professor of planetary science, Caltech\r\n- Suzanne Dodd, Voyager project manager, NASA JPL\r\n- Linda Spilker, Voyager project scientist, NASA JPL\r\n- Kareem Badaruddin, Voyager mission manager, NASA JPL\r\n- Jamie Rankin, Voyager deputy project scientist, Princeton University",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 394,
     "name": "BepiColombo Mercury Orbit Insertion",
     "type": {
@@ -8,6 +34,19 @@
     },
     "date": "2026-11-30T00:00:00Z",
     "description": "Orbital insertion around Mercury of the ESA-JAXA BepiColombo mission.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1572,
+    "name": "NASA Roman First Images Reveal",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-12-07T20:30:00Z",
+    "description": "NASA will release the first images from its Nancy Grace Roman Space Telescope during a live stream from the American Geophysical Union (AGU) Annual Meeting in San Francisco.\r\n\r\nThe images will showcase the unique scientific capabilities of Roman, which will soon capture deep, panoramic, never-before-seen views of the universe to explore the mysteries of dark energy, dark matter, and worlds outside our solar system.",
     "video_url": null,
     "launch": null,
     "feature_image": null
