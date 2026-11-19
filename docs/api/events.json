@@ -1,13 +1,13 @@
 [
   {
-    "id": 1571,
-    "name": "SpaceX CRS-35 Dragon Undocking",
+    "id": 1574,
+    "name": "RS-25 Engine Test",
     "type": {
-      "id": 8,
-      "name": "Spacecraft Undocking"
+      "id": 5,
+      "name": "Static Fire"
     },
-    "date": "2026-11-18T16:05:00Z",
-    "description": "The SpaceX CRS-35 Dragon spacecraft will undock from the International Space Station ahead of its reentry, splashdown and recovery.",
+    "date": "2026-11-18T19:15:00Z",
+    "description": "NASA is conducting a hot fire of an RS-25 engine as part of certification testing for future SLS (Space Launch System) rockets.",
     "video_url": null,
     "launch": null,
     "feature_image": null
@@ -21,6 +21,19 @@
     },
     "date": "2026-11-19T17:00:00Z",
     "description": "Launched nearly 50 years ago in 1977, NASA’s Voyager 1 on Wednesday, Nov. 18 will have traveled one light-day from Earth, which is more than 16 billion miles (25.9 billion kilometers). Voyager 1 is the most distant human-made object, and any light from Earth would take 24 hours to reach the spacecraft.\r\n\r\nNASA’s Jet Propulsion Laboratory (JPL) in Southern California will host a moderated discussion with mission members and NASA leadership about the status of Voyager 1 and 2, the unique science the twin probes continue to gather in interstellar space, and the challenges of keeping the spacecraft operating for so long over such vast distances. A Q&A with media and other audience members will follow. In addition, there also will be a preview of the upcoming NASA+ Voyager documentary, planned for release in 2027 for the mission’s 50th anniversary.\r\n\r\nThe participants will be:\r\n- Nicky Fox, associate administrator, Science Mission Directorate, Washington\r\n- Jonathan Lunine, chief scientist, NASA JPL, and professor of planetary science, Caltech\r\n- Suzanne Dodd, Voyager project manager, NASA JPL\r\n- Linda Spilker, Voyager project scientist, NASA JPL\r\n- Kareem Badaruddin, Voyager mission manager, NASA JPL\r\n- Jamie Rankin, Voyager deputy project scientist, Princeton University",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1571,
+    "name": "SpaceX CRS-35 Dragon Undocking",
+    "type": {
+      "id": 8,
+      "name": "Spacecraft Undocking"
+    },
+    "date": "2026-11-20T17:05:00Z",
+    "description": "The SpaceX CRS-35 Dragon spacecraft will undock from the International Space Station ahead of its reentry, splashdown and recovery.",
     "video_url": null,
     "launch": null,
     "feature_image": null
