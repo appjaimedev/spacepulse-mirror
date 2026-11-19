@@ -2,7 +2,7 @@
   {
     "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
     "name": "Falcon 9 Block 5 | USSF-317",
-    "net": "2026-11-20T04:28:55Z",
+    "net": "2026-11-20T04:32:55Z",
     "net_precision": {
       "id": 0,
       "name": "Second",
@@ -91,7 +91,7 @@
         "source": "youtube.com",
         "publisher": "Spaceflight Now",
         "title": "SpaceX Falcon 9 rocket launches from Vandenberg on classified U.S. Space Force mission",
-        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California carrying a classified payload for the U.S. Space Force. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Thursday, Nov. 19 at at 8:28 p.m. PST (11:28 p.m. EDT  / 0428 Friday UTC).\n\nThe first-stage booster, serial number B1101, launching for an 11th time, will land on the drone ship 'Of Course I Still Love You' about 8.5 minutes into the flight.\n\nThe USSF-317 mission will take a south-easterly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://...",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California carrying a classified payload for the U.S. Space Force. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Thursday, Nov. 19 at at 8:32 p.m. PST (11:23 p.m. EDT  / 0432 Friday UTC).\n\nThe first-stage booster, serial number B1101, launching for an 11th time, will land on the drone ship 'Of Course I Still Love You' about 8.5 minutes into the flight.\n\nThe USSF-317 mission will take a south-easterly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://...",
         "feature_image": "https://i.ytimg.com/vi/fk84K7QVWgw/maxresdefault.jpg?v=6afc00e1",
         "url": "https://www.youtube.com/watch?v=fk84K7QVWgw",
         "type": {
@@ -103,7 +103,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-11-20T03:58:00Z",
+        "start_time": "2026-11-20T04:02:00Z",
         "end_time": null,
         "live": false
       },
@@ -124,7 +124,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-11-20T04:16:00Z",
+        "start_time": "2026-11-20T04:20:00Z",
         "end_time": null,
         "live": false
       }
@@ -1044,7 +1044,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 11,
+        "source": "plus.nasa.gov",
+        "publisher": "NASA",
+        "title": "NASA’s Northrop Grumman Commercial Resupply Services 25 Launch",
+        "description": "",
+        "feature_image": "https://plus.nasa.gov/wp-content/uploads/2026/11/ng-25-launch-day-option-key-art-r1-horizontal-program-tile-16-9-without-title.jpg",
+        "url": "https://plus.nasa.gov/scheduled-video/nasas-northrop-grumman-commercial-resupply-services-25-launch/",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-29T15:25:00Z",
+        "end_time": "2026-11-29T18:00:00Z",
+        "live": false
+      }
+    ],
     "mission_patches": []
   },
   {
