@@ -40401,6 +40401,21 @@
       }
     ]
   },
+  "e0a11eb1-0bda-4872-b36b-140247fd5c60": {
+    "mission": {
+      "type": "Government/Top Secret",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      },
+      "description": "Experimental Chinese satellite of unknown purposes."
+    },
+    "rocket_full_name": "Long March 2D",
+    "pad_lat": 38.863128,
+    "pad_lon": 111.589567,
+    "mission_patches": [],
+    "vid_urls": []
+  },
   "__years__": [
     2020,
     2021,
