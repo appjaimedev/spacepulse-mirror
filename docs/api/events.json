@@ -1,18 +1,5 @@
 [
   {
-    "id": 1574,
-    "name": "RS-25 Engine Test",
-    "type": {
-      "id": 5,
-      "name": "Static Fire"
-    },
-    "date": "2026-11-18T19:15:00Z",
-    "description": "NASA is conducting a hot fire of an RS-25 engine as part of certification testing for future SLS (Space Launch System) rockets.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1573,
     "name": "Voyager 1 Light-Day Mission Update",
     "type": {
@@ -39,6 +26,19 @@
     "feature_image": null
   },
   {
+    "id": 1576,
+    "name": "NG-25 Prelaunch Media Teleconference",
+    "type": {
+      "id": 20,
+      "name": "Press Event"
+    },
+    "date": "2026-11-23T17:00:00Z",
+    "description": "NASA will host a prelaunch media teleconference  with the following participants:\r\n- Gaurang Patel, operations integration manager, NASA’s Low Earth Orbit Program\r\n- Jennifer Buchli, chief scientist, NASA’s Low Earth Orbit Program\r\n- Dave Schiller, vice president, civil space and sciences, Northrop Grumman\r\n- Jared Metter, director, flight reliability, SpaceX",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
     "id": 394,
     "name": "BepiColombo Mercury Orbit Insertion",
     "type": {
@@ -47,6 +47,19 @@
     },
     "date": "2026-11-30T00:00:00Z",
     "description": "Orbital insertion around Mercury of the ESA-JAXA BepiColombo mission.",
+    "video_url": null,
+    "launch": null,
+    "feature_image": null
+  },
+  {
+    "id": 1575,
+    "name": "NG-25 Cygnus Capture",
+    "type": {
+      "id": 29,
+      "name": "Spacecraft Capture"
+    },
+    "date": "2026-12-01T06:10:00Z",
+    "description": "NASA TV will livestream the rendezvous and capture of Northrop Grumman's NG-25 Cygnus cargo craft to the International Space Station.",
     "video_url": null,
     "launch": null,
     "feature_image": null
