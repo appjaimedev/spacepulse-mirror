@@ -1,5 +1,34 @@
 [
   {
+    "id": "a2975167-7c6f-4403-99e1-b40df17c8140",
+    "name": "Long March 8A | SatNet LEO Group TBD?",
+    "net": "2026-11-20T11:59:00Z",
+    "status": {
+      "id": 6,
+      "name": "Launch in Flight",
+      "abbrev": "In Flight"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 8A"
+      }
+    },
+    "pad": {
+      "name": "Commercial LC-1",
+      "location": {
+        "name": "Wenchang Space Launch Site, People's Republic of China"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg"
+    }
+  },
+  {
     "id": "e0a11eb1-0bda-4872-b36b-140247fd5c60",
     "name": "Long March 2D | Shijian 24",
     "net": "2026-11-18T22:51:00Z",
@@ -3853,7 +3882,7 @@
       }
     },
     "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-30_f6_cft_image_20251028183426.jpg"
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-30_f6_liftof_image_20261120032629.jpg"
     }
   },
   {
