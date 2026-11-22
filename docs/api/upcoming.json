@@ -87,6 +87,27 @@
         "live": false
       },
       {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "Spaceflight Now",
+        "title": "Live: SpaceX Falcon 9 rocket launches from California with satellites for U.S. spy satellite agency",
+        "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California on a mission for America's spy satellite agency, the National Reconnaissance Office. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Sunday, November 22, at 4:23 a.m. PST (7:23 a.m. EST / 1223 UTC).\n\nThe first-stage booster, The Falcon 9 first stage booster, tail number B1097, launching for a 14th time, will return for a landing at Landing Zone 4 less than eight minutes after liftoff.\n\nThe NROL-136 mission will take a south-easterly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join thi...",
+        "feature_image": "https://i.ytimg.com/vi/um48_-sSFrE/maxresdefault.jpg?v=6b0127b6",
+        "url": "https://www.youtube.com/watch?v=um48_-sSFrE",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-22T11:53:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
         "priority": 10,
         "source": "x.com",
         "publisher": "X",
@@ -103,7 +124,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-11-22T12:04:00Z",
+        "start_time": "2026-11-22T12:11:00Z",
         "end_time": null,
         "live": false
       }
