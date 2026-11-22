@@ -63,14 +63,14 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241024165956.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg"
     },
-    "webcast_live": false,
+    "webcast_live": true,
     "vid_urls": [
       {
         "priority": 8,
         "source": "youtube.com",
         "publisher": "SPACE AFFAIRS",
         "title": "SpaceX - Falcon 9 - NROL-136 - SLC-4E - Vandenberg Space Force Base, CA - Space Affairs Live",
-        "description": "Launch Date:  November 22, 2026 (PST)\nLaunch Time: 4:23 a.m. EDT, 1223 UTC, 13:23 CEST\nLaunch Window:  Open until 4:46 a.m. EDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced\nThe mission is currently scheduled to launch only 1 day, 7 minutes and 56 seconds after the launch of USSF-317 from the same pad, which will be their fastest pad tournaround at SLC-4E ever. \n\nMission: NROL-136\nLaunch Provider: SpaceX\nLaunch Contractor: National Reconnaissance Office, USA\nLauncher System: Falcon 9 (Booster 1097 - Turnaround 64 days)\nFlight for the Booster: 14\nPrevious Flights of the Booster: 13 - Sentinel-6B, Twilight, NROL-172, Transporter-17, USSF-259, and eight Starlink mis...",
+        "description": "Launch Date:  November 22, 2026 (PST)\nLaunch Time: 4:23 a.m. PST, 1223 UTC, 13:23 CEST\nLaunch Window:  Open until 4:46 a.m. EDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced\nThe mission is currently scheduled to launch only 1 day, 7 minutes and 56 seconds after the launch of USSF-317 from the same pad, which will be their fastest pad tournaround at SLC-4E ever. \n\nMission: NROL-136\nLaunch Provider: SpaceX\nLaunch Contractor: National Reconnaissance Office, USA\nLauncher System: Falcon 9 (Booster 1097 - Turnaround 64 days)\nFlight for the Booster: 14\nPrevious Flights of the Booster: 13 - Sentinel-6B, Twilight, NROL-172, Transporter-17, USSF-259, and eight Starlink mis...",
         "feature_image": "https://i.ytimg.com/vi/CjN4lPx7mD8/maxresdefault.jpg?v=6af87b78",
         "url": "https://www.youtube.com/watch?v=CjN4lPx7mD8",
         "type": {
@@ -103,9 +103,9 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-11-22T11:53:00Z",
+        "start_time": "2026-11-22T11:53:41Z",
         "end_time": null,
-        "live": false
+        "live": true
       },
       {
         "priority": 10,
@@ -124,7 +124,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-11-22T12:11:00Z",
+        "start_time": "2026-11-22T12:10:00Z",
         "end_time": null,
         "live": false
       }

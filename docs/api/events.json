@@ -1,18 +1,5 @@
 [
   {
-    "id": 1571,
-    "name": "SpaceX CRS-35 Dragon Undocking",
-    "type": {
-      "id": 8,
-      "name": "Spacecraft Undocking"
-    },
-    "date": "2026-11-20T17:05:00Z",
-    "description": "The SpaceX CRS-35 Dragon spacecraft will undock from the International Space Station ahead of its reentry, splashdown and recovery.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 394,
     "name": "BepiColombo Mercury Orbit Insertion",
     "type": {
