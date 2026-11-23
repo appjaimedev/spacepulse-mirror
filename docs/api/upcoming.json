@@ -70,16 +70,16 @@
   {
     "id": "7bdc412b-c965-4517-a131-f57a01189803",
     "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-    "net": "2026-11-24T11:09:00Z",
+    "net": "2026-11-24T10:45:00Z",
     "net_precision": {
-      "id": 2,
-      "name": "Hour",
-      "abbrev": "HR"
+      "id": 1,
+      "name": "Minute",
+      "abbrev": "MIN"
     },
     "status": {
-      "id": 8,
-      "name": "To Be Confirmed",
-      "abbrev": "TBC"
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
     },
     "launch_service_provider": {
       "id": 115,
@@ -180,7 +180,7 @@
         "source": "youtube.com",
         "publisher": "CNES",
         "title": "Lancement Ariane 6 pour la constellation Amazon LEO (VA271)",
-        "description": "Et de 10 ! Pour ce 10e lancement Ariane 6 depuis le Centre spatial guyanais, le lanceur européen emportera 36 satellites Amazon LEO. Ariane 6 décollera dans sa configuration à quatre boosters et sera équipée des propulseurs d'appoint à propergol solide P160C.\n\n🚀 *Zoom sur le lancement VA271*\n\nLe lancement, qui devait intervenir le 23 novembre 2026, a été reporté au 24 novembre « au plus tôt », précise Arianespace dans un communiqué, la chronologie ayant été interrompue. Plus d'informations à venir.\n\n🛰️ *Zoom sur le passager*\n\nCette mission marque le quatrième lancement pour soutenir le déploiement de la constellation Amazon LEO, avec 36 nouveaux satellites à bord. Amazon LEO est le réseau de satellites en orbite basse d'Amazon, dont la mission est de fournir un accès Internet rapide e...",
+        "description": "Et de 10 ! Pour ce 10e lancement Ariane 6 depuis le Centre spatial guyanais, le lanceur européen emportera 36 satellites Amazon LEO. Ariane 6 décollera dans sa configuration à quatre boosters et sera équipée des propulseurs d'appoint à propergol solide P160C.\n\n🚀 *Zoom sur le lancement VA271*\n\nLe lancement, qui devait intervenir le 23 novembre 2026, a été reporté au 24 novembre, précise Arianespace dans un communiqué, la chronologie ayant été interrompue. Le lanceur décollera dans une fenêtre de tir comprise entre 11h45 et 12h14 (heure de Paris), 7h45 et 8h14 (heure de Kourou). \n\n🛰️ *Zoom sur le passager*\n\nCette mission marque le quatrième lancement pour soutenir le déploiement de la constellation Amazon LEO, avec 36 nouveaux satellites à bord. Amazon LEO est le réseau de satellites en...",
         "feature_image": "https://i.ytimg.com/vi/F4xjWb4OEs4/maxresdefault.jpg?v=6afb2712",
         "url": "https://www.youtube.com/watch?v=F4xjWb4OEs4",
         "type": {

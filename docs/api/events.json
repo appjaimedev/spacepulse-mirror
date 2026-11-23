@@ -1,18 +1,5 @@
 [
   {
-    "id": 394,
-    "name": "BepiColombo Mercury Orbit Insertion",
-    "type": {
-      "id": 16,
-      "name": "Orbital Insertion"
-    },
-    "date": "2026-11-21T18:24:00Z",
-    "description": "Orbital insertion around Mercury of the ESA-JAXA BepiColombo mission.",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
     "id": 1576,
     "name": "NG-25 Prelaunch Media Teleconference",
     "type": {
