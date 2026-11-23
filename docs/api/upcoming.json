@@ -1,156 +1,5 @@
 [
   {
-    "id": "7bdc412b-c965-4517-a131-f57a01189803",
-    "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-    "net": "2026-11-23T11:09:00Z",
-    "net_precision": {
-      "id": 1,
-      "name": "Minute",
-      "abbrev": "MIN"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 115,
-      "name": "Arianespace",
-      "abbrev": "ASA",
-      "country": [
-        {
-          "id": 1,
-          "name": "France",
-          "alpha_2_code": "FR",
-          "alpha_3_code": "FRA",
-          "nationality_name": "French",
-          "nationality_name_composed": "Franco"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Ariane 64",
-        "full_name": "Ariane 64 Block 2",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Amazon Leo (LE-04)",
-      "type": "Communications",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Ariane Launch Area 4",
-      "latitude": 5.256319,
-      "longitude": -52.786838,
-      "location": {
-        "name": "Guiana Space Centre, French Guiana",
-        "country": {
-          "id": 50,
-          "name": "French Guiana",
-          "alpha_2_code": "GF",
-          "alpha_3_code": "GUF",
-          "nationality_name": "French Guianan",
-          "nationality_name_composed": "Franco-Guiano"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_20260618063419.jpg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260618063419.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [
-      {
-        "priority": 8,
-        "source": "youtube.com",
-        "publisher": "Arianespace",
-        "title": "Flight VA271 | Amazon Leo LE-04 | Ariane 6 | Arianespace",
-        "description": "The tenth flight of Ariane 6 will place 36 satellites for Amazon Leo into orbit using the launcher's most powerful configuration, Ariane 64, equipped with four advanced P160C solid-propellant boosters.\nDesignated VA271 by Arianespace and LE-04 (Leo Europe 4) by Amazon, the mission will mark the fourth Ariane 6 launch for Amazon Leo in 2026, bringing the total number of satellites deployed by Arianespace for the constellation to 136 upon successful deployment.\nVA271 will mark another milestone in Ariane 6's operational ramp-up, further demonstrating its ability to support large-scale satellite constellation deployments, including future European constellations. The mission is part of a partnership between Arianespace and Amazon, which was recently further strengthened by an order for s...",
-        "feature_image": "https://i.ytimg.com/vi/k2adMyxSoJE/maxresdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=k2adMyxSoJE",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 1,
-          "name": "English",
-          "code": "en"
-        },
-        "start_time": "2026-11-23T10:37:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 9,
-        "source": "youtube.com",
-        "publisher": "Arianespace",
-        "title": "Vol VA271 | Amazon Leo LE-04 | Ariane 6 | Arianespace",
-        "description": "Pour son dixième vol, Ariane 6 placera en orbite 36 satellites Amazon Leo dans sa configuration la plus puissante, Ariane 64, équipée de quatre nouveaux propulseurs d'appoint à propergol solide P160C.\nDésignée VA271 par Arianespace et LE-04 par Amazon, cette mission sera la quatrième d'Ariane 6 au profit d'Amazon Leo en 2026. Une fois réussie, elle portera à 136 le nombre total de satellites déployés par Arianespace à ce jour pour cette constellation.\nVA271 marquera un nouveau jalon dans la montée en cadence opérationnelle d'Ariane 6, en démontrant un peu plus encore son aptitude à soutenir le déploiement de mégaconstellations satellitaires, y compris de futures constellations européennes. Cette mission s'inscrit dans le cadre d'un partenariat entre Arianespace et Amazon, récemment re...",
-        "feature_image": "https://i.ytimg.com/vi/w9Wokj3rBH4/maxresdefault.jpg",
-        "url": "https://www.youtube.com/watch?v=w9Wokj3rBH4",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 4,
-          "name": "French",
-          "code": "fr"
-        },
-        "start_time": "2026-11-23T10:37:00Z",
-        "end_time": null,
-        "live": false
-      },
-      {
-        "priority": 10,
-        "source": "youtube.com",
-        "publisher": "CNES",
-        "title": "Lancement Ariane 6 pour la constellation Amazon LEO (VA271)",
-        "description": "Et de 10 ! Pour ce 10e lancement Ariane 6 depuis le Centre spatial guyanais, le lanceur européen emportera 36 satellites Amazon LEO. Ariane 6 décollera dans sa configuration à quatre boosters et sera équipée des propulseurs d'appoint à propergol solide P160C.\n\n🚀 *Zoom sur le lancement VA271*\n\nLe lancement doit intervenir le 23 novembre 2026 dans une fenêtre de tir située entre 8h09 et 8h38 (heure locale à Kourou), soit 12h09 et 12h38 (heure de Paris).\n\n🛰️ *Zoom sur le passager*\n\nCette mission marque le quatrième lancement pour soutenir le déploiement de la constellation Amazon LEO, avec 36 nouveaux satellites à bord. Amazon LEO est le réseau de satellites en orbite basse d'Amazon, dont la mission est de fournir un accès Internet rapide et fiable aux clients situés hors de portée des r...",
-        "feature_image": "https://i.ytimg.com/vi/F4xjWb4OEs4/maxresdefault.jpg?v=6afb2712",
-        "url": "https://www.youtube.com/watch?v=F4xjWb4OEs4",
-        "type": {
-          "id": 1,
-          "name": "Official Webcast"
-        },
-        "language": {
-          "id": 4,
-          "name": "French",
-          "code": "fr"
-        },
-        "start_time": "2026-11-23T10:00:00Z",
-        "end_time": null,
-        "live": false
-      }
-    ],
-    "mission_patches": [
-      {
-        "id": 1354,
-        "name": "VA271 Patch",
-        "priority": 10,
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/va2712520patch_mission_patch_20261015053511.png",
-        "agency": {
-          "response_mode": "list",
-          "id": 115,
-          "url": "https://ll.thespacedevs.com/2.3.0/agencies/115/",
-          "name": "Arianespace",
-          "abbrev": "ASA",
-          "type": {
-            "id": 3,
-            "name": "Commercial"
-          }
-        },
-        "response_mode": "normal"
-      }
-    ]
-  },
-  {
     "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
     "name": "Soyuz 2.1b | Progress MS-36 (97P)",
     "net": "2026-11-24T10:13:00Z",
@@ -217,6 +66,157 @@
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
+  },
+  {
+    "id": "7bdc412b-c965-4517-a131-f57a01189803",
+    "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+    "net": "2026-11-24T11:09:00Z",
+    "net_precision": {
+      "id": 2,
+      "name": "Hour",
+      "abbrev": "HR"
+    },
+    "status": {
+      "id": 8,
+      "name": "To Be Confirmed",
+      "abbrev": "TBC"
+    },
+    "launch_service_provider": {
+      "id": 115,
+      "name": "Arianespace",
+      "abbrev": "ASA",
+      "country": [
+        {
+          "id": 1,
+          "name": "France",
+          "alpha_2_code": "FR",
+          "alpha_3_code": "FRA",
+          "nationality_name": "French",
+          "nationality_name_composed": "Franco"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Ariane 64",
+        "full_name": "Ariane 64 Block 2",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Amazon Leo (LE-04)",
+      "type": "Communications",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Ariane Launch Area 4",
+      "latitude": 5.256319,
+      "longitude": -52.786838,
+      "location": {
+        "name": "Guiana Space Centre, French Guiana",
+        "country": {
+          "id": 50,
+          "name": "French Guiana",
+          "alpha_2_code": "GF",
+          "alpha_3_code": "GUF",
+          "nationality_name": "French Guianan",
+          "nationality_name_composed": "Franco-Guiano"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_20260618063419.jpg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260618063419.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [
+      {
+        "priority": 8,
+        "source": "youtube.com",
+        "publisher": "Arianespace",
+        "title": "Postponed | Flight VA271 | Amazon Leo LE-04 | Ariane 6 | Arianespace",
+        "description": "Arianespace announces that the launch chronology for Ariane 6, scheduled to place 36 Amazon Leo satellites into orbit on November 23, 2026, was interrupted following a technical event affecting the launcher's ground support systems.\nThe chronology was stopped before the mobile gantry removal and the start of launcher system operations.\nAriane 6 and its passengers, the 36 Amazon Leo satellites, remain in stable and safe conditions.\nTechnical teams are assessing the event and preparing for launch operations to resume, with the next launch opportunity no earlier than November 24. Arianespace will provide further updates as soon as they become available.\n\n---------------------------------------------------- \n\nThe tenth flight of Ariane 6 will place 36 satellites for Amazon Leo into orbit ...",
+        "feature_image": "https://i.ytimg.com/vi/k2adMyxSoJE/maxresdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=k2adMyxSoJE",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-23T10:37:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "Arianespace",
+        "title": "Reporté | Vol VA271 | Amazon Leo LE-04 | Ariane 6 | Arianespace",
+        "description": "Arianespace annonce que la chronologie de lancement d'Ariane 6, qui devait placer en orbite 36 satellites Amazon Leo le 23 novembre 2026, a été interrompue à la suite d'un événement technique survenu sur les moyens sol de mise en œuvre du lanceur.\nLa chronologie a été arrêtée avant le retrait du portique et le début des opérations de mise en œuvre des systèmes du lanceur.\nAriane 6 et ses passagers, les 36 satellites Amazon Leo, sont en configuration stable et en sécurité.\nLes équipes techniques sont mobilisées pour analyser cet événement et préparer la reprise des opérations de lancement à partir du 24 novembre.\nArianespace communiquera de nouvelles informations dès qu'elles seront disponibles.\n\n---------------------------\n\nPour son dixième vol, Ariane 6 placera en orbite 36 satellite...",
+        "feature_image": "https://i.ytimg.com/vi/w9Wokj3rBH4/maxresdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=w9Wokj3rBH4",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 4,
+          "name": "French",
+          "code": "fr"
+        },
+        "start_time": "2026-11-23T10:37:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "CNES",
+        "title": "Lancement Ariane 6 pour la constellation Amazon LEO (VA271)",
+        "description": "Et de 10 ! Pour ce 10e lancement Ariane 6 depuis le Centre spatial guyanais, le lanceur européen emportera 36 satellites Amazon LEO. Ariane 6 décollera dans sa configuration à quatre boosters et sera équipée des propulseurs d'appoint à propergol solide P160C.\n\n🚀 *Zoom sur le lancement VA271*\n\nLe lancement, qui devait intervenir le 23 novembre 2026, a été reporté au 24 novembre « au plus tôt », précise Arianespace dans un communiqué, la chronologie ayant été interrompue. Plus d'informations à venir.\n\n🛰️ *Zoom sur le passager*\n\nCette mission marque le quatrième lancement pour soutenir le déploiement de la constellation Amazon LEO, avec 36 nouveaux satellites à bord. Amazon LEO est le réseau de satellites en orbite basse d'Amazon, dont la mission est de fournir un accès Internet rapide e...",
+        "feature_image": "https://i.ytimg.com/vi/F4xjWb4OEs4/maxresdefault.jpg?v=6afb2712",
+        "url": "https://www.youtube.com/watch?v=F4xjWb4OEs4",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 4,
+          "name": "French",
+          "code": "fr"
+        },
+        "start_time": "2026-11-24T10:00:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
+    "mission_patches": [
+      {
+        "id": 1354,
+        "name": "VA271 Patch",
+        "priority": 10,
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/va2712520patch_mission_patch_20261015053511.png",
+        "agency": {
+          "response_mode": "list",
+          "id": 115,
+          "url": "https://ll.thespacedevs.com/2.3.0/agencies/115/",
+          "name": "Arianespace",
+          "abbrev": "ASA",
+          "type": {
+            "id": 3,
+            "name": "Commercial"
+          }
+        },
+        "response_mode": "normal"
+      }
+    ]
   },
   {
     "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
