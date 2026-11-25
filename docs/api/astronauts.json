@@ -29,7 +29,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190244.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Jessica_Watkins",
     "in_space": true,
-    "time_in_space": "P222DT13H29M33S",
+    "time_in_space": "P224DT13H57M38S",
     "eva_time": "P0D",
     "flights_count": 2,
     "spacewalks_count": 0,
@@ -65,7 +65,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185947.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Joshua_Kutryk",
     "in_space": true,
-    "time_in_space": "P52DT27M58S",
+    "time_in_space": "P54DT56M22S",
     "eva_time": "PT14H10M",
     "flights_count": 1,
     "spacewalks_count": 2,
@@ -101,7 +101,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185904.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Anna_Kikina",
     "in_space": true,
-    "time_in_space": "P288DT10H51M29S",
+    "time_in_space": "P290DT11H19M53S",
     "eva_time": "P0D",
     "flights_count": 2,
     "spacewalks_count": 0,
@@ -137,11 +137,47 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185922.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Pyotr_Dubrov",
     "in_space": true,
-    "time_in_space": "P486DT4H35M45S",
+    "time_in_space": "P488DT5H4M10S",
     "eva_time": "P1DT5H49M",
     "flights_count": 2,
     "spacewalks_count": 4,
     "bio": "Dubrov was selected by Roscosmos as a cosmonaut on 8 October 2012, as one of eight cosmonauts selected as part of Roscosmos's 2012 selection group.\r\nIn 2020 he was assigned to the backup crew of Soyuz MS-17, backing up Russian cosmonaut Sergey Kud-Sverchkov as Flight Engineer on ISS Expedition 63/64"
+  },
+  {
+    "id": 684,
+    "name": "Tang Hongbo",
+    "type": {
+      "id": 2,
+      "name": "Government"
+    },
+    "nationality": [
+      {
+        "id": 6,
+        "name": "China",
+        "alpha_2_code": "CN",
+        "alpha_3_code": "CHN",
+        "nationality_name": "Chinese",
+        "nationality_name_composed": "Sino"
+      }
+    ],
+    "agency": {
+      "id": 17,
+      "name": "China National Space Administration",
+      "abbrev": "CNSA"
+    },
+    "status": "Active",
+    "last_flight": "2026-11-25T00:18:52Z",
+    "first_flight": "2021-06-17T01:22:31Z",
+    "date_of_birth": "1975-10-01",
+    "date_of_death": null,
+    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185459.jpeg",
+    "wiki": "https://en.wikipedia.org/wiki/Tang_Hongbo",
+    "in_space": true,
+    "time_in_space": "P279DT15H12M44S",
+    "eva_time": "PT22H13M",
+    "flights_count": 3,
+    "spacewalks_count": 3,
+    "bio": "Tang Hongbo (Chinese: 汤洪波; pinyin: Tāng Hóngbō) is a Chinese pilot selected as part of the Shenzhou program. He was born in Xiangtan, Hunan. A pilot in the People's Liberation Army Air Force, he was selected to be an astronaut in 2010."
   },
   {
     "id": 710,
@@ -173,7 +209,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190723.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Luke_Delaney_(astronaut)",
     "in_space": true,
-    "time_in_space": "P52DT28M47S",
+    "time_in_space": "P54DT57M31S",
     "eva_time": "P0D",
     "flights_count": 1,
     "spacewalks_count": 0,
@@ -209,7 +245,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190559.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Anil_Menon_(astronaut)",
     "in_space": true,
-    "time_in_space": "P131DT51M11S",
+    "time_in_space": "P133DT1H19M56S",
     "eva_time": "P1DT9H39M",
     "flights_count": 1,
     "spacewalks_count": 5,
@@ -245,7 +281,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185258.jpeg",
     "wiki": "https://en.wikipedia.org/wiki/Zhu_Yangzhu",
     "in_space": true,
-    "time_in_space": "P335DT23H11M40S",
+    "time_in_space": "P338DT12H20M23S",
     "eva_time": "PT13H24M",
     "flights_count": 2,
     "spacewalks_count": 2,
@@ -281,7 +317,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sergey_teteryat_image_thumbnail_20260424073411.jpeg",
     "wiki": null,
     "in_space": true,
-    "time_in_space": "P52DT30M37S",
+    "time_in_space": "P54DT1H13S",
     "eva_time": "P0D",
     "flights_count": 1,
     "spacewalks_count": 0,
@@ -317,7 +353,7 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhang_zhiyuan_o_image_thumbnail_20260524125922.png",
     "wiki": null,
     "in_space": true,
-    "time_in_space": "P182DT32M7S",
+    "time_in_space": "P184DT7H32M41S",
     "eva_time": "PT5H29M",
     "flights_count": 1,
     "spacewalks_count": 1,
@@ -353,10 +389,82 @@
     "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/lai_ka-ying_off_image_thumbnail_20260524130423.png",
     "wiki": null,
     "in_space": true,
-    "time_in_space": "P182DT32M8S",
+    "time_in_space": "P184DT7H32M42S",
     "eva_time": "P0D",
     "flights_count": 1,
     "spacewalks_count": 0,
     "bio": "(Placeholder)"
+  },
+  {
+    "id": 925,
+    "name": "Wu Yi",
+    "type": {
+      "id": 2,
+      "name": "Government"
+    },
+    "nationality": [
+      {
+        "id": 6,
+        "name": "China",
+        "alpha_2_code": "CN",
+        "alpha_3_code": "CHN",
+        "nationality_name": "Chinese",
+        "nationality_name_composed": "Sino"
+      }
+    ],
+    "agency": {
+      "id": 17,
+      "name": "China National Space Administration",
+      "abbrev": "CNSA"
+    },
+    "status": "Active",
+    "last_flight": "2026-11-25T00:18:52Z",
+    "first_flight": "2026-11-25T00:18:52Z",
+    "date_of_birth": "1987-10-19",
+    "date_of_death": null,
+    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/wu_yi_official__image_thumbnail_20261124223451.jpeg",
+    "wiki": null,
+    "in_space": true,
+    "time_in_space": "PT4H29M18S",
+    "eva_time": "P0D",
+    "flights_count": 1,
+    "spacewalks_count": 0,
+    "bio": "Wu Yi is a Chinese astronaut selected as part of the Shenzhou program. He enlisted in the People's Liberation Army (PLA) Ground Force and joined the Chinese Communist Party (CCP) in September 2007. He was a colonel at the People's Liberation Army Ground Force (PLAGF) prior to joining the astronaut corps in September 2020."
+  },
+  {
+    "id": 926,
+    "name": "Muhammad Zeeshan Ali",
+    "type": {
+      "id": 2,
+      "name": "Government"
+    },
+    "nationality": [
+      {
+        "id": 14,
+        "name": "Pakistan",
+        "alpha_2_code": "PK",
+        "alpha_3_code": "PAK",
+        "nationality_name": "Pakistani",
+        "nationality_name_composed": "Pakistani"
+      }
+    ],
+    "agency": {
+      "id": 59,
+      "name": "Pakistan Space and Upper Atmosphere Research Commission",
+      "abbrev": "SUPARCO"
+    },
+    "status": "Active",
+    "last_flight": "2026-11-25T00:18:52Z",
+    "first_flight": "2026-11-25T00:18:52Z",
+    "date_of_birth": "1986-08-01",
+    "date_of_death": null,
+    "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/muhammad_zeesha_image_thumbnail_20261124223937.jpeg",
+    "wiki": null,
+    "in_space": true,
+    "time_in_space": "PT4H29M19S",
+    "eva_time": "P0D",
+    "flights_count": 1,
+    "spacewalks_count": 0,
+    "bio": "Muhammad Zeeshan Ali is the first Pakistani astronaut. A lieutenant colonel at the Pakistan Air Force, he was selected as a foreign payload specialist by CNSA in April 2026 for the Shenzhou 24 mission."
   }
 ]
