@@ -64,7 +64,29 @@
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg"
     },
     "webcast_live": false,
-    "vid_urls": [],
+    "vid_urls": [
+      {
+        "priority": 10,
+        "source": "youtube.com",
+        "publisher": "Rocket Lab",
+        "title": "Rocket Lab Launch - Night Owls Never Sleep",
+        "description": "",
+        "feature_image": "https://i.ytimg.com/vi/p75NOkFoyXs/maxresdefault.jpg?v=6b088a0e",
+        "url": "https://www.youtube.com/watch?v=p75NOkFoyXs",
+        "type": {
+          "id": 1,
+          "name": "Official Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-27T00:00:00Z",
+        "end_time": null,
+        "live": false
+      }
+    ],
     "mission_patches": [
       {
         "id": 1357,
@@ -1044,74 +1066,6 @@
     ]
   },
   {
-    "id": "b565ab64-1642-4cef-a13f-f3dad53518e7",
-    "name": "Spectrum | Cassini",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": {
-      "id": 14,
-      "name": "Year",
-      "abbrev": "Y"
-    },
-    "status": {
-      "id": 2,
-      "name": "To Be Determined",
-      "abbrev": "TBD"
-    },
-    "launch_service_provider": {
-      "id": 1046,
-      "name": "Isar Aerospace",
-      "abbrev": "ISAR",
-      "country": [
-        {
-          "id": 4,
-          "name": "Germany",
-          "alpha_2_code": "DE",
-          "alpha_3_code": "DEU",
-          "nationality_name": "German",
-          "nationality_name_composed": "Germano"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Spectrum",
-        "full_name": "Spectrum",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Cassini",
-      "type": "Technology",
-      "orbit": {
-        "abbrev": "LEO",
-        "name": "Low Earth Orbit"
-      }
-    },
-    "pad": {
-      "name": "Orbital Launch Pad",
-      "latitude": 69.1084,
-      "longitude": 15.5895,
-      "location": {
-        "name": "Andøya Spaceport",
-        "country": {
-          "id": 49,
-          "name": "Norway",
-          "alpha_2_code": "NO",
-          "alpha_3_code": "NOR",
-          "nationality_name": "Norwegian",
-          "nationality_name_composed": "Norwegian"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "b48e32c5-3776-4684-a956-5ea4df032e90",
     "name": "Spectrum | ΣYNDEO-3",
     "net": "2026-12-31T00:00:00Z",
@@ -1149,6 +1103,74 @@
     },
     "mission": {
       "name": "ΣYNDEO-3",
+      "type": "Technology",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      }
+    },
+    "pad": {
+      "name": "Orbital Launch Pad",
+      "latitude": 69.1084,
+      "longitude": 15.5895,
+      "location": {
+        "name": "Andøya Spaceport",
+        "country": {
+          "id": 49,
+          "name": "Norway",
+          "alpha_2_code": "NO",
+          "alpha_3_code": "NOR",
+          "nationality_name": "Norwegian",
+          "nationality_name_composed": "Norwegian"
+        }
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
+      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg"
+    },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "b565ab64-1642-4cef-a13f-f3dad53518e7",
+    "name": "Spectrum | Cassini",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": {
+      "id": 14,
+      "name": "Year",
+      "abbrev": "Y"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 1046,
+      "name": "Isar Aerospace",
+      "abbrev": "ISAR",
+      "country": [
+        {
+          "id": 4,
+          "name": "Germany",
+          "alpha_2_code": "DE",
+          "alpha_3_code": "DEU",
+          "nationality_name": "German",
+          "nationality_name_composed": "Germano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Spectrum",
+        "full_name": "Spectrum",
+        "reusable": false
+      }
+    },
+    "mission": {
+      "name": "Cassini",
       "type": "Technology",
       "orbit": {
         "abbrev": "LEO",
