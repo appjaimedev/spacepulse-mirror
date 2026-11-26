@@ -40603,6 +40603,21 @@
       }
     ]
   },
+  "b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4": {
+    "mission": {
+      "type": "Unknown",
+      "orbit": {
+        "abbrev": "N/A",
+        "name": "Unknown"
+      },
+      "description": "Details TBD."
+    },
+    "rocket_full_name": "Long March 2D",
+    "pad_lat": 28.247059,
+    "pad_lon": 102.029008,
+    "mission_patches": [],
+    "vid_urls": []
+  },
   "__years__": [
     2020,
     2021,
