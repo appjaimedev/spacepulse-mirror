@@ -1,73 +1,5 @@
 [
   {
-    "id": "b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
-    "name": "Long March 2D | Unknown Payload",
-    "net": "2026-11-26T09:35:00Z",
-    "net_precision": {
-      "id": 2,
-      "name": "Hour",
-      "abbrev": "HR"
-    },
-    "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
-    },
-    "launch_service_provider": {
-      "id": 88,
-      "name": "China Aerospace Science and Technology Corporation",
-      "abbrev": "CASC",
-      "country": [
-        {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      ]
-    },
-    "rocket": {
-      "configuration": {
-        "name": "Long March 2D",
-        "full_name": "Long March 2D",
-        "reusable": false
-      }
-    },
-    "mission": {
-      "name": "Unknown Payload",
-      "type": "Unknown",
-      "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
-      }
-    },
-    "pad": {
-      "name": "Launch Complex 3 (LC-3/LA-1)",
-      "latitude": 28.247059,
-      "longitude": 102.029008,
-      "location": {
-        "name": "Xichang Satellite Launch Center, People's Republic of China",
-        "country": {
-          "id": 6,
-          "name": "China",
-          "alpha_2_code": "CN",
-          "alpha_3_code": "CHN",
-          "nationality_name": "Chinese",
-          "nationality_name_composed": "Sino"
-        }
-      }
-    },
-    "image": {
-      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
-      "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg"
-    },
-    "webcast_live": false,
-    "vid_urls": [],
-    "mission_patches": []
-  },
-  {
     "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
     "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
     "net": "2026-11-27T00:05:00Z",
@@ -357,6 +289,48 @@
     "webcast_live": false,
     "vid_urls": [
       {
+        "priority": 7,
+        "source": "youtube.com",
+        "publisher": "SPACE AFFAIRS",
+        "title": "GO! - SpaceX - Falcon 9 - USSF-380 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
+        "description": "Launch Date: November 28, 2026 (PST)\nLaunch Time: 8:39 p.m. PST (November 29, 0439 UTC, 05:39 CET)\nLaunch Window: Open until November 29, 12:39 a.m. PST\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced \n\nMission: USSF-380\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1083 - Turnaround time 32 days)\nFlight for the Booster: 27\nPrevious Flights of the Booster: 26 - USSF-62, OneWeb Launch 20, NROL-145, Transporter-18, and 22 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (Reusable version, without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairin...",
+        "feature_image": "https://i.ytimg.com/vi/xpfmP-4EGIw/maxresdefault.jpg?v=6afebd48",
+        "url": "https://www.youtube.com/watch?v=xpfmP-4EGIw",
+        "type": {
+          "id": 4,
+          "name": "Unofficial Re-stream"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-29T04:26:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 9,
+        "source": "youtube.com",
+        "publisher": "NASASpaceflight",
+        "title": "SpaceX Launches Falcon 9 with USSF-380",
+        "description": "Launch window: 11:39AM to 3:39AM (November 28-29)\n\n⚡ Become a member of NASASpaceflight's channel for exclusive discord access, fast turnaround clips, and other exclusive benefits. Your support helps us continue our 24/7 coverage. ⚡\n\n🔍 If you are interested in using footage captured by this stream, please review our content use policy: https://www.nasaspaceflight.com/content-use-policy/\n\n#SpaceX #Starlink #Falcon9 #Starlink1223 #LEO #SatelliteInternet #SpaceXLaunch #GlobalInternet #HighSpeedInternet #RocketLaunch #StarlinkMission #NextGenSatellites #SpaceTechnology\n\n LDAPAABJRG2UMCU3 🎵 Intro song: New Way Out by Denis. Licensed via PremiumBeat. LDAPAABJRG2UMCU3\n🎵 Music used on streams and in videos is licensed via EpidemicSound: https://share.epidemicsound.com/qvh38e\n\nAll content copy...",
+        "feature_image": "https://i.ytimg.com/vi/CLULlErcxF4/maxresdefault.jpg?v=6b078112",
+        "url": "https://www.youtube.com/watch?v=CLULlErcxF4",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-29T03:39:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
         "priority": 10,
         "source": "x.com",
         "publisher": "X",
@@ -373,7 +347,7 @@
           "name": "English",
           "code": "en"
         },
-        "start_time": "2026-11-28T04:41:00Z",
+        "start_time": "2026-11-29T04:27:00Z",
         "end_time": null,
         "live": false
       }
@@ -447,7 +421,7 @@
     "webcast_live": false,
     "vid_urls": [
       {
-        "priority": 9,
+        "priority": 10,
         "source": "youtube.com",
         "publisher": "NASA",
         "title": "NASA's Northrop Grumman Commercial Resupply Services 25 Launch",
@@ -506,6 +480,27 @@
           "code": "en"
         },
         "start_time": "2026-11-29T15:26:00Z",
+        "end_time": null,
+        "live": false
+      },
+      {
+        "priority": 14,
+        "source": "youtube.com",
+        "publisher": "NASASpaceflight",
+        "title": "SpaceX Launches Falcon 9 with CRS Cygnus NG-25",
+        "description": "Instantanous Launch Window: November 29, 10:47AM Eastern\n\n⚡ Become a member of NASASpaceflight's channel for exclusive discord access, fast turnaround clips, and other exclusive benefits. Your support helps us continue our 24/7 coverage. ⚡\n\n🔍 If you are interested in using footage captured by this stream, please review our content use policy: https://www.nasaspaceflight.com/content-use-policy/\n\n#SpaceX #Starlink #Falcon9 #Starlink1223 #LEO #SatelliteInternet #SpaceXLaunch #GlobalInternet #HighSpeedInternet #RocketLaunch #StarlinkMission #NextGenSatellites #SpaceTechnology\n\n LDAPAABJRG2UMCU3 🎵 Intro song: New Way Out by Denis. Licensed via PremiumBeat. LDAPAABJRG2UMCU3\n🎵 Music used on streams and in videos is licensed via EpidemicSound: https://share.epidemicsound.com/qvh38e\n\nAll conte...",
+        "feature_image": "https://i.ytimg.com/vi/wp27QzrSj1s/maxresdefault.jpg?v=6b07803b",
+        "url": "https://www.youtube.com/watch?v=wp27QzrSj1s",
+        "type": {
+          "id": 3,
+          "name": "Unofficial Webcast"
+        },
+        "language": {
+          "id": 1,
+          "name": "English",
+          "code": "en"
+        },
+        "start_time": "2026-11-29T14:47:00Z",
         "end_time": null,
         "live": false
       }
@@ -7284,6 +7279,71 @@
       "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
       "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20250111100521.jpeg"
     },
+    "webcast_live": false,
+    "vid_urls": [],
+    "mission_patches": []
+  },
+  {
+    "id": "a8c191e1-b231-4b2e-aefd-5e8ad55c7a82",
+    "name": "Miura 5 | Maiden Flight",
+    "net": "2027-06-30T00:00:00Z",
+    "net_precision": {
+      "id": 12,
+      "name": "Year Half 1",
+      "abbrev": "H1"
+    },
+    "status": {
+      "id": 2,
+      "name": "To Be Determined",
+      "abbrev": "TBD"
+    },
+    "launch_service_provider": {
+      "id": 1051,
+      "name": "Payload Aerospace S.L.",
+      "abbrev": "PLD Space",
+      "country": [
+        {
+          "id": 7,
+          "name": "Spain",
+          "alpha_2_code": "ES",
+          "alpha_3_code": "ESP",
+          "nationality_name": "Spanish",
+          "nationality_name_composed": "Hispano"
+        }
+      ]
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Miura 5",
+        "full_name": "Miura 5",
+        "reusable": true
+      }
+    },
+    "mission": {
+      "name": "Maiden Flight",
+      "type": "Test Flight",
+      "orbit": {
+        "abbrev": "SSO",
+        "name": "Sun-Synchronous Orbit"
+      }
+    },
+    "pad": {
+      "name": "Diamant Launch Area",
+      "latitude": 5.2222222,
+      "longitude": -52.7758051,
+      "location": {
+        "name": "Guiana Space Centre, French Guiana",
+        "country": {
+          "id": 50,
+          "name": "French Guiana",
+          "alpha_2_code": "GF",
+          "alpha_3_code": "GUF",
+          "nationality_name": "French Guianan",
+          "nationality_name_composed": "Franco-Guiano"
+        }
+      }
+    },
+    "image": null,
     "webcast_live": false,
     "vid_urls": [],
     "mission_patches": []
