@@ -40644,12 +40644,12 @@
   },
   "a6421db3-7c8a-4cf7-a659-cec195140f7f": {
     "mission": {
-      "type": "Unknown",
+      "type": "Government/Top Secret",
       "orbit": {
-        "abbrev": "N/A",
-        "name": "Unknown"
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
       },
-      "description": "Details TBD."
+      "description": "The Yaogan 50-04 is a Chinese military “remote sensing” satellite of unknown purposes."
     },
     "rocket_full_name": "Long March 6A",
     "pad_lat": 38.8583,

@@ -1,12 +1,12 @@
 [
   {
     "id": "a6421db3-7c8a-4cf7-a659-cec195140f7f",
-    "name": "Long March 6A | Unknown Payload",
-    "net": "2026-11-27T13:00:00Z",
+    "name": "Long March 6A | Yaogan 50-04",
+    "net": "2026-11-27T13:05:00Z",
     "status": {
-      "id": 1,
-      "name": "Go for Launch",
-      "abbrev": "Go"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 88,
