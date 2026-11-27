@@ -1,12 +1,41 @@
 [
   {
+    "id": "a6421db3-7c8a-4cf7-a659-cec195140f7f",
+    "name": "Long March 6A | Unknown Payload",
+    "net": "2026-11-27T13:00:00Z",
+    "status": {
+      "id": 1,
+      "name": "Go for Launch",
+      "abbrev": "Go"
+    },
+    "launch_service_provider": {
+      "id": 88,
+      "name": "China Aerospace Science and Technology Corporation",
+      "country_code": null
+    },
+    "rocket": {
+      "configuration": {
+        "name": "Long March 6A"
+      }
+    },
+    "pad": {
+      "name": "Launch Complex 9A",
+      "location": {
+        "name": "Taiyuan Satellite Launch Center, People's Republic of China"
+      }
+    },
+    "image": {
+      "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_20251209050223.jpeg"
+    }
+  },
+  {
     "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
     "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
     "net": "2026-11-27T00:15:00Z",
     "status": {
-      "id": 9,
-      "name": "Payload Deployed",
-      "abbrev": "Deployed"
+      "id": 3,
+      "name": "Launch Successful",
+      "abbrev": "Success"
     },
     "launch_service_provider": {
       "id": 147,

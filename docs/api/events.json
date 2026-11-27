@@ -1,26 +1,13 @@
 [
   {
-    "id": 1577,
-    "name": "ESA Hera First Images Reveal of Dimorphos",
+    "id": 1579,
+    "name": "Shenzhou 23 Landing",
     "type": {
-      "id": 20,
-      "name": "Press Event"
+      "id": 9,
+      "name": "Spacecraft Landing"
     },
-    "date": "2026-11-25T18:45:00Z",
-    "description": "ESA invites accredited journalists to an exclusive European Media Conference at the Museum für Naturkunde Berlin on Wednesday, 25 November 2026, with participation in person and online. Leading experts will present the first detailed images of Dimorphos after NASA’s DART impact, acquired by ESA’s newly arrived Hera mission, and their initial scientific interpretation.\r\n\r\nWhat happened when DART struck Dimorphos in 2022? Did the impact leave a crater, substantially reshape the asteroid, or both? Hera’s historic new images will provide the first detailed post-impact view of Dimorphos and may begin to answer questions that have remained open for four years.\r\n\r\nThe morning briefing gives journalists advance access to the imagery, the science team and interviews under embargo. Media may publish from 18:30 CET, ahead of ESA’s official public presentation of the images at ~20:00 CET during the evening ESA’s “Double Impact!” event.\r\n\r\nFrom DART’s successful deflection to Hera’s historic post-impact view\r\n\r\nIn September 2022, NASA’s DART spacecraft deliberately struck Dimorphos, shortening its orbital period around Didymos by approximately 33 minutes. Yet the physical consequences of the impact remain uncertain. Hera’s investigation will help reveal how the asteroid responded and improve our ability to predict the effectiveness of kinetic-impact deflection for other asteroids.\r\n\r\nThe November images are only the beginning. Subsequent close-range investigations by Hera and its two CubeSats, Milani and Juventas, will measure the asteroids’ properties in far greater detail, including Dimorphos’ mass, surface and internal structure. Together, these data will help scientists validate models for future planetary-defence missions.\r\n\r\nEuropean Media Conference – 11:00 CET\r\n\r\nDate: Wednesday, 25 November 2026\r\n\r\nTime: 11:00 – 14:00 CET\r\n\r\nVenue: Museum für Naturkunde Berlin, Invalidenstraße 43, 10115 Berlin\r\n\r\nParticipation: In person and online",
-    "video_url": null,
-    "launch": null,
-    "feature_image": null
-  },
-  {
-    "id": 1578,
-    "name": "Progress MS-36 Docking",
-    "type": {
-      "id": 2,
-      "name": "Docking"
-    },
-    "date": "2026-11-26T12:11:00Z",
-    "description": "The Progress MS-36 spacecraft is scheduled to autonomously dock to the Zvezda module of the ISS.",
+    "date": "2026-11-29T21:16:00Z",
+    "description": "The Shenzhou 23 Descent Capsule will land in the desert near Jiuquan Satellite Launch Center, China, bringing Zhang Zhiyuan, Lai Ka-ying and Muhammad Zeeshan Ali back to Earth as part of the eleventh mission to the Chinese Space Station.",
     "video_url": null,
     "launch": null,
     "feature_image": null
