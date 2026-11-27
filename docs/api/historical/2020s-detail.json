@@ -40618,6 +40618,30 @@
     "mission_patches": [],
     "vid_urls": []
   },
+  "2093e4fc-ac8c-4296-a1b5-deececee6a72": {
+    "mission": {
+      "type": "Earth Science",
+      "orbit": {
+        "abbrev": "LEO",
+        "name": "Low Earth Orbit"
+      },
+      "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective."
+    },
+    "rocket_full_name": "Electron",
+    "pad_lat": -39.262833,
+    "pad_lon": 177.864469,
+    "mission_patches": [
+      {
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/night2520owls_mission_patch_20261120001714.png",
+        "priority": 10
+      }
+    ],
+    "vid_urls": [
+      {
+        "url": "https://www.youtube.com/watch?v=p75NOkFoyXs"
+      }
+    ]
+  },
   "__years__": [
     2020,
     2021,
